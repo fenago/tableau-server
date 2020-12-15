@@ -2,15 +2,6 @@
 
 tsm authentication
 ==================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can use the `tsm authentication` commands to enable, disable, and
 configure user authentication options for Tableau Server.
 
@@ -406,8 +397,8 @@ A site configured for SAML might display the following entity ID:
 
 http://tableau-server/samlservice/public/sp/metadata?alias=48957410-9396-430a-967c-75bdb6e002a0
 
-To find a site's entity ID, go to the site's [Settings]{.uicontrol}
-page, and select the [Authentication]{.uicontrol} tab. When SAML is
+To find a site's entity ID, go to the site's [Settings]
+page, and select the [Authentication] tab. When SAML is
 enabled, the entity ID is shown under the first step for configuring
 site-specific SAML, exporting metadata.
 
@@ -617,9 +608,9 @@ Not implemented. Do not use.
 
 Set the server to allow or disallow SAML authentication at the site
 level. Enabling site-specific SAML gives you access to the
-[Settings]{.uicontrol} \> [Authentication]{.uicontrol} tab in the
+[Settings] \> [Authentication] tab in the
 [Tableau Server]{.VariablesProductName} web UI. The
-[Authentication]{.uicontrol} tab contains the site-specific SAML
+[Authentication] tab contains the site-specific SAML
 configuration settings.
 
 Use the `sitesaml enable` command with `saml configure` if you haven't

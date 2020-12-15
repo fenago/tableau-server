@@ -2,15 +2,6 @@
 
 Groups
 ======
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can create and delete user groups, add users to a group, and
 synchronize groups with Active Directory.
 

@@ -2,15 +2,6 @@
 
 Add Users to a Site
 ===================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Everyone who needs to access [Tableau
 Server]{.VariablesProductName}---whether to browse, publish, edit
 content or administer the site---must be added as a user. Administrators
@@ -58,8 +49,8 @@ only site B cannot edit User1's full name or reset the password.
 1.  Sign in to [Tableau Server]{.VariablesProductName} as an
     administrator, and if applicable select the site.
 
-2.  Select [Users]{.uicontrol}. On the Users page, click [Add
-    Users]{.uicontrol}, and then click [New User]{.uicontrol}.
+2.  Select [Users]. On the Users page, click [Add
+    Users], and then click [New User].
 
     ![](./Add%20Users%20to%20a%20Site%20-%20Tableau_files/users1_local.png)
 
@@ -74,14 +65,14 @@ only site B cannot edit User1's full name or reset the password.
 
     Also enter information in the following fields:
 
-    -   [Display Name]{.uicontrol}---Type a display name for the user
+    -   [Display Name]---Type a display name for the user
         (e.g., *Laura Rodriguez*).
 
-    -   [Password]{.uicontrol}---Type a password for the user.
+    -   [Password]---Type a password for the user.
 
-    -   [Confirm password]{.uicontrol}---Retype the password.
+    -   [Confirm password]---Retype the password.
 
-    -   [Email]{.uicontrol}---This is optional and can be added at a
+    -   [Email]---This is optional and can be added at a
         later time in the user profile settings.
 
 4.  Select a site role.
@@ -90,7 +81,7 @@ only site B cannot edit User1's full name or reset the password.
     Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm){.MCXref
     .xref}.
 
-5.  Click [Add User]{.uicontrol}.
+5.  Click [Add User].
 
 <div>
 
@@ -105,9 +96,9 @@ Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm){.MCXr
 .xref} to understand how multiple domains, domain naming, NetBIOS, and
 Active Directory user name format influence Tableau user management.
 
-1.  In a site, click [Users]{.uicontrol}, and then click [Add
-    Users]{.uicontrol}, and then click [Active Directory
-    User]{.uicontrol}.
+1.  In a site, click [Users], and then click [Add
+    Users], and then click [Active Directory
+    User].
 
     ![](./Add%20Users%20to%20a%20Site%20-%20Tableau_files/users_site_add_AD.png)
 
@@ -128,7 +119,7 @@ Active Directory user name format influence Tableau user management.
     Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm){.MCXref
     .xref}.
 
-4.  Click [Import Users]{.uicontrol}.
+4.  Click [Import Users].
 
 <div>
 
@@ -138,11 +129,11 @@ Active Directory user name format influence Tableau user management.
 </div>
 
 1.  Sign in to [Tableau Server]{.VariablesProductName} as an
-    administrator, select the site, and open the [Users]{.uicontrol}
+    administrator, select the site, and open the [Users]
     page.
 
 2.  Select the check boxes next to the users' names, and on the
-    [Actions]{.uicontrol} menu, select [Remove]{.uicontrol}.
+    [Actions] menu, select [Remove].
 
     If a user is a member only of the current site, and they do not own
     any content, the user is removed from the server.
@@ -163,7 +154,7 @@ Active Directory user name format influence Tableau user management.
 
 -   Upgrading [Tableau Server]{.VariablesProductName} to version 2018.1
     or later from a pre-2018.1 version, without activating user-based
-    licenses, affects users who were assigned the [Viewer]{.uicontrol}
+    licenses, affects users who were assigned the [Viewer]
     site role in the pre-2018.1 server version.
 
     To learn more, see the section "User-based licenses" in the

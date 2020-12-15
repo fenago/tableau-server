@@ -2,15 +2,6 @@
 
 Configuring Communication with the Internet
 ===========================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: Current]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 In the [previous
 chapter](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm)
 we discussed how to set up SSL to help secure traffic between clients
@@ -508,9 +499,8 @@ Users](https://help.tableau.com/current/guides/everybody-install/en-us/everybody
 .xref}.
 
 <div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Additional resource {#additional_resources}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Additional resource
+--------------------
 
 </div>
 

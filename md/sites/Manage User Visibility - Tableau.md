@@ -2,15 +2,6 @@
 
 Manage Site User Visibility
 ===========================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 By default, all site users can see aliases, project ownership and
 comments by other users when permissions allow. The User Visibility
 setting lets administrators manage if users with Viewer and Explorer
@@ -37,8 +28,8 @@ still see user information when User Visibility is set to Limited.
 To limit user visibility for Explorers and Viewers (excluding Site
 Administrator Explorers):
 
--   Navigate to the site\'s [Settings]{.uicontrol} page
--   Select [Limited]{.uicontrol} in the [User Visibility]{.uicontrol}
+-   Navigate to the site\'s [Settings] page
+-   Select [Limited] in the [User Visibility]
     setting
 
 The following is a list of site areas impacted when User Visibility is

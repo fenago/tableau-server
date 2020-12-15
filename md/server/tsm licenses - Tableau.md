@@ -1,15 +1,6 @@
 
 tsm licenses
 ============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can use the `tsm licenses` commands to manage server license tasks
 like activating or deactivating a [Tableau
 Server]{.VariablesProductName} product key on- or off-line, and getting

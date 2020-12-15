@@ -1,15 +1,6 @@
 
 tsm logout
 ==========
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can use the `tsm logout` command to log out of Tableau Services
 Manager (TSM).
 

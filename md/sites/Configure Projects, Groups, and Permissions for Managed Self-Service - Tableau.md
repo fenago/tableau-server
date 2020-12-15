@@ -2,15 +2,6 @@
 
 Configure Projects, Groups, and Permissions for Managed Self-Service
 ====================================================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Tableau Online and Tableau Server each provide an environment for easy
 open publishing and collaborative analysis of visualizations created in
 Tableau Desktop or web authoring. With that flexibility comes the
@@ -154,8 +145,8 @@ this article will attempt to show.
 
 </div>
 
-Every site has a [Default]{.uicontrol} project and an [All
-Users]{.uicontrol} group. Any user added to the site becomes a member of
+Every site has a [Default] project and an [All
+Users] group. Any user added to the site becomes a member of
 the All Users group automatically. The Default project works as a
 template for new projects in the site and cannot be deleted, but you can
 change the permissions. Creating groups and setting baseline permissions
@@ -163,20 +154,20 @@ here helps you to know and manage exactly who gets what level of access
 for each new project.
 
 In the managed self-service context, setting baseline permissions means
-*removing* the permissions from the [All Users]{.uicontrol} group, so
+*removing* the permissions from the [All Users] group, so
 that the permissions are enabled only on groups you create and have
 control over.
 
-1.  Select the [Content]{.uicontrol} tab to open the top-level projects
+1.  Select the [Content] tab to open the top-level projects
     on the site.
-2.  On the [Default]{.uicontrol} project's [Action]{.uicontrol}
-    ([...]{.uicontrol}) menu, select [Permissions]{.uicontrol}.
-3.  Next to the [All Users]{.uicontrol} group name, select
-    [...]{.uicontrol}, and then select [Edit]{.uicontrol}.
-4.  For the tabs for [Project]{.uicontrol}, [Workbooks]{.uicontrol}, and
-    [Data Sources]{.uicontrol}, use the template drop down and select
-    [None]{.uicontrol}.
-5.  Select [Delete]{.uicontrol} to apply the changes.
+2.  On the [Default] project's [Action]
+    ([...]) menu, select [Permissions].
+3.  Next to the [All Users] group name, select
+    [...], and then select [Edit].
+4.  For the tabs for [Project], [Workbooks], and
+    [Data Sources], use the template drop down and select
+    [None].
+5.  Select [Delete] to apply the changes.
 
 <div>
 
@@ -199,7 +190,7 @@ follows:
     them. People in this group can be site administrators, or users
     whose job it is to approve or certify data models or reports. To
     grant administrator capabilities at the project level, you can
-    assign the [Project Leader]{.uicontrol} setting to users with the
+    assign the [Project Leader] setting to users with the
     appropriate site roles. For more information, see [Set a project
     leader](https://help.tableau.com/current/server/en-us/permissions.htm#Set){.MCXref
     .xref}.
@@ -267,17 +258,17 @@ projects where you want to allow more open access.
 </div>
 
 1.  While you have the Default project open, on the
-    [Actions]{.uicontrol} menu (\...), select [Permissions]{.uicontrol}.
+    [Actions] menu (\...), select [Permissions].
 2.  Create a permission rule for each group as follows:
-    a.  Click [+ Add Group/User Rule]{.uicontrol} and start typing to
+    a.  Click [+ Add Group/User Rule] and start typing to
         search for a group or user.
     b.  For each tab, choose an existing template from the drop-down or
         create a custom rule by clicking the capabilities.
         i.  Templates are predefined sets of capabilities that make
             setup easier.
-        ii. One click sets the capability to [Allowed]{.uicontrol}, two
-            clicks sets it to [Denied]{.uicontrol}, and a third click
-            clears the selection ([Unspecified]{.uicontrol}).
+        ii. One click sets the capability to [Allowed], two
+            clicks sets it to [Denied], and a third click
+            clears the selection ([Unspecified]).
     c.  When finished, click Save.
 3.  [Lock permissions to the
     project](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#lock-perms).
@@ -330,8 +321,8 @@ View template
 
 Explore template
 
-Set [Web Edit]{.uicontrol} and [Download Full Data]{.uicontrol} to
-[Unspecified]{.uicontrol}\*
+Set [Web Edit] and [Download Full Data] to
+[Unspecified]\*
 
 Explore template
 
@@ -427,11 +418,11 @@ authors a lot of time and keep your reports looking consistent.
     For example, basic structure might be **\<Department\> -
     \<ContentUse\>**; such as **Ops - Production**.
 
--   Use the project's [Description]{.uicontrol} field.
+-   Use the project's [Description] field.
 
     The description you enter when you create a project appears when you
     hover the pointer over the project thumbnail, as well as on the
-    [Project details]{.uicontrol} page.
+    [Project details] page.
 
 ![](./Configure%20Projects,%20Groups,%20and%20Permissions%20for%20Managed%20Self-Service%20-%20Tableau_files/projects_description_thumbnail.png)
 

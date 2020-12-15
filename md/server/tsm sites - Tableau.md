@@ -2,15 +2,6 @@
 
 tsm sites
 =========
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can use the `tsm sites` commands to export an existing site for
 import to a new site (also referred to as site migration), and to import
 the new site. An `unlock `command is available in case an error leaves a

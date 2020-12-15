@@ -1,4 +1,4 @@
-::: {#app .wrapper}
+
 ::: {.container--centered}
 ::: {.header__mobile-menu}
 ::: {.mobile-menu__toggle-btn aria-label="Open mobile menu" role="button" tabindex="0"}
@@ -1473,15 +1473,6 @@ style="display: none;"}
 
 Install Switches and Properties for tabcmd (Windows)
 ====================================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can use the following switches when installing the Tableau Server
 Command Line Utility (tabcmd) version 2019.4.0 or later from the command
 line on Windows.

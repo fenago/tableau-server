@@ -2,15 +2,6 @@
 
 Manage Users and Groups
 =======================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can add users to your Tableau sites and set their site roles, which
 determines each user\'s level of access. In addition, you can create
 groups of users, and enable guest access to your sites.

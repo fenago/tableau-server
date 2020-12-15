@@ -3,18 +3,10 @@
 Language and Locale for Tableau Server
 ======================================
 
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 [Tableau Server]{.VariablesProductName}  is localized into several
 languages. Server language and locale settings impact how this affects
-users. The [Language]{.uicontrol} setting controls user interface (UI)
-items such as menus and messages. The [Locale ]{.uicontrol}setting
+users. The [Language] setting controls user interface (UI)
+items such as menus and messages. The [Locale ]setting
 controls items in views such as number formatting and currency.
 
 Administrators can configure language and locale on a server-wide basis
@@ -65,14 +57,14 @@ default language.
 
 Another influence on which language and locale display when a user
 clicks a view is the user's web browser. If a server user has not
-specified a [Language]{.uicontrol} setting on their User Account page,
+specified a [Language] setting on their User Account page,
 and their web browser is set to a language that [Tableau
 Server]{.VariablesProductName} supports, the browser's language will be
 used---even if [Tableau Server]{.VariablesProductName} itself is set to
 a different language.
 
 Here's an example: Assume that [Tableau Server]{.VariablesProductName}
-has a system-wide setting of English as the [Language]{.uicontrol} for
+has a system-wide setting of English as the [Language] for
 all users. Server user Claude does not have a language specified on his
 [Tableau Server]{.VariablesProductName} User Account page. Claude's
 browser uses German (Germany) for its language/locale.
@@ -80,19 +72,19 @@ browser uses German (Germany) for its language/locale.
 When Claude signs in to [Tableau Server]{.VariablesProductName}, the
 server UI displays in German and when he clicks a view, the view uses
 the Germany locale for numbers and currency. If Claude had set his user
-account [Language]{.uicontrol} and [Locale]{.uicontrol} to French
+account [Language] and [Locale] to French
 (France), the UI and view would have been displayed in French. His user
 account setting supersedes those of his web browser, and both of those
 have precedence over the Tableau Server system-wide setting.
 
-Another setting to be aware of is the [Locale]{.uicontrol} setting in
-Tableau Desktop ([File ]{.uicontrol}\> [Workbook Locale]{.uicontrol}).
+Another setting to be aware of is the [Locale] setting in
+Tableau Desktop ([File ]\> [Workbook Locale]).
 This setting determines the locale of the data in the view, such as
 which currency is listed or how numbers are formatted. By default,
-[Locale]{.uicontrol} in Tableau Desktop is set to
-[Automatic]{.uicontrol}. However, an author can override that by
+[Locale] in Tableau Desktop is set to
+[Automatic]. However, an author can override that by
 selecting a specific locale. Using the above example, if the author of
-View A set [Locale]{.uicontrol} to [Greek (Greece)]{.uicontrol}, certain
+View A set [Locale] to [Greek (Greece)], certain
 aspects of the data in View A would display using the Greek (Greece)
 locale.
 

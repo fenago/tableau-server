@@ -1,4 +1,4 @@
-::: {#app .wrapper}
+
 ::: {.container--centered}
 ::: {.header__mobile-menu}
 ::: {.mobile-menu__toggle-btn aria-label="Open mobile menu" role="button" tabindex="0"}
@@ -1474,15 +1474,6 @@ style="display: none;"}
 
 Help Output for tableau-server-obliterate Script
 ================================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 The following help content is the output when you run the following
 command:
 

@@ -3,14 +3,6 @@
 tsm maintenance
 ===============
 
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 You can use the `tsm maintenance` commands to manage server maintenance
 tasks like creating regular backups or restoring [Tableau
 Server]{.VariablesProductName} from a previously created backup.

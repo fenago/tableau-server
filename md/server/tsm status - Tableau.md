@@ -2,15 +2,6 @@
 
 tsm status
 ==========
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can use the `tsm status` command to display the status of Tableau
 Server and individual services (processes) that run as part of Tableau
 Server.

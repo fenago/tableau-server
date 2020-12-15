@@ -3,14 +3,6 @@
 Structure Content Projects, Groups, and Permissions
 ===================================================
 
-::: {.caption .article__tags .content-only-hidden}
-[Version: Current]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 When your Tableau authors want to share their data sources and
 reports (*content*) on your Tableau Server, they need to know where they
 should publish that content, so that the people they want to share it
@@ -121,19 +113,19 @@ For example, two groups cover three types of user:
 
 -   Ashley and Adam need to publish and manage workbooks. They are
     members of the Content Developers group, and their site role is
-    [Creator]{.uicontrol}
+    [Creator]
 
 -   Henry needs to view and interact with workbooks. He belongs to the
-    Content Viewers group, and his site role is [Explorer]{.uicontrol}
+    Content Viewers group, and his site role is [Explorer]
 
 -   Susan needs to view workbooks online (with no other interaction).
     She also belongs to the Content Viewers group, and her site role is
-    [Viewer]{.uicontrol}
+    [Viewer]
 
 Remember that site roles determine maximum permissions, and you can
 assign a unique site role to each user on each site. In this example,
 you can put Susan and Henry in the same group and grant their group
-[Explorer]{.uicontrol}
+[Explorer]
 
 In the walkthrough, we'll explain further how to set the permissions
 roles to accommodate these three user types.
@@ -185,24 +177,24 @@ Server as an administrator.
 
 </div>
 
-Every site in Tableau Server has a [Default]{.uicontrol} project. The
+Every site in Tableau Server has a [Default] project. The
 default project is designed to be a template for new projects in the
 site, and is useful for creating a default set of permissions.
 
 1.  While you're signed in to Tableau Server as an administrator, select
-    the [Content]{.uicontrol} menu at the top of the page, and then
-    select [Projects]{.uicontrol}.
+    the [Content] menu at the top of the page, and then
+    select [Projects].
 
-2.  Open the permissions for the [Default]{.uicontrol} project. On the
-    [Actions]{.uicontrol} menu (\...), select [Permissions]{.uicontrol}.
+2.  Open the permissions for the [Default] project. On the
+    [Actions] menu (\...), select [Permissions].
 
-3.  Next to [All Users]{.uicontrol} (a default group), select the **. .
-    .** button and then [Edit]{.uicontrol}.
+3.  Next to [All Users] (a default group), select the **. .
+    .** button and then [Edit].
 
-4.  Under [Project]{.uicontrol}, [Workbooks]{.uicontrol}, and [Data
-    Sources]{.uicontrol}, select [None]{.uicontrol}.
+4.  Under [Project], [Workbooks], and [Data
+    Sources], select [None].
 
-5.  Click [Delete]{.uicontrol} to apply the changes.
+5.  Click [Delete] to apply the changes.
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_4.png)
 
@@ -213,13 +205,13 @@ site, and is useful for creating a default set of permissions.
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} Why *removing* some default permissions makes your life easier {#why-remove-all-users-group-permissions}
 :::
 
-The [All Users]{.uicontrol} group deserves special mention because every
-site has an [All Users]{.uicontrol} group. And every user that you add
-to a site becomes a member of the [All Users]{.uicontrol} group. Every
+The [All Users] group deserves special mention because every
+site has an [All Users] group. And every user that you add
+to a site becomes a member of the [All Users] group. Every
 new project you create includes permissions for the [All
-Users]{.uicontrol} group.
+Users] group.
 
-In very simple or specific scenarios, the [All Users]{.uicontrol} group
+In very simple or specific scenarios, the [All Users] group
 can make your life easier. The group has predefined permissions, meaning
 every user on the site already has a set of permissions out of the gate.
 The idea is that even if you don't do anything with permissions, users
@@ -227,12 +219,12 @@ can start publishing and using content on the server.
 
 In our example, though, we want to show how to grant each group only the
 permissions they need. If users of those groups also get permissions
-from the [All Users]{.uicontrol} group, it's hard to tell exactly what
+from the [All Users] group, it's hard to tell exactly what
 they will be able to do, and they might end up with permissions you
 don't intend.
 
 So if you decide to use this process in the future, just remember to
-remove permissions from the [All Users]{.uicontrol} group *before* you
+remove permissions from the [All Users] group *before* you
 set any other permissions.
 :::
 
@@ -245,11 +237,11 @@ set any other permissions.
 For the purpose of this walkthrough, you'll create a project named
 Marketing.
 
-1.  In the menu at the top of the page, click [Projects]{.uicontrol},
-    and then click [New Project]{.uicontrol}.
+1.  In the menu at the top of the page, click [Projects],
+    and then click [New Project].
 
-2.  Name the project [Marketing]{.uicontrol}, and then click
-    [Create]{.uicontrol}.
+2.  Name the project [Marketing], and then click
+    [Create].
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_8.png)
 
@@ -291,10 +283,10 @@ members (Content Developers).
 
 Always use descriptive, meaningful language for your group names.
 
-1.  In the menu at the top of the page, select [Groups]{.uicontrol}.
+1.  In the menu at the top of the page, select [Groups].
 
-2.  Click [New Group]{.uicontrol} and then name the group [Marketing --
-    Content Developers]{.uicontrol}.
+2.  Click [New Group] and then name the group [Marketing --
+    Content Developers].
 
 3.  Repeat these steps to create the other group. When you're done, your
     list of groups look like the list in the following image.
@@ -339,13 +331,13 @@ role\> - \<site role\>*:
 
 -   Susan - Content Viewer - Viewer
 
-1.  In the menu at the top of the page, select [Users]{.uicontrol}.
+1.  In the menu at the top of the page, select [Users].
 
-2.  Click [Add Users]{.uicontrol}.
+2.  Click [Add Users].
 
-3.  Click [Local User]{.uicontrol}, and then enter the user details for
-    Ashley. For [Display name]{.uicontrol}, use the verbose name, for
-    [Username]{.uicontrol}, enter **Ashley**. Skip [Email]{.uicontrol},
+3.  Click [Local User], and then enter the user details for
+    Ashley. For [Display name], use the verbose name, for
+    [Username], enter **Ashley**. Skip [Email],
     and set Ashley's site role as described above step 1.
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_9.png)
@@ -367,18 +359,18 @@ role\> - \<site role\>*:
 With your groups set up and users added to the server, you can add users
 to them.
 
-1.  In the menu at the top of the page, click [Users]{.uicontrol}.
+1.  In the menu at the top of the page, click [Users].
 
-2.  Select Adam and Ashley, and then in the [Actions]{.uicontrol} menu
-    (\...), click [Group Membership]{.uicontrol}.
+2.  Select Adam and Ashley, and then in the [Actions] menu
+    (\...), click [Group Membership].
 
-3.  Select [Marketing -- Content Developers]{.uicontrol}, and then click
-    [Save]{.uicontrol}.
+3.  Select [Marketing -- Content Developers], and then click
+    [Save].
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_13.png)
 
 4.  Follow the same steps to assign Henry and Susan to the [Marketing --
-    Content Viewers]{.uicontrol} group.
+    Content Viewers] group.
 
 <div>
 
@@ -392,24 +384,24 @@ At the risk of repeating ourselves, we're *not* assigning permissions to
 individual users---users will get their permissions from the groups
 they're in.
 
-1.  In Tableau Server, go to [Content]{.uicontrol}\>
-    [Projects]{.uicontrol}.
+1.  In Tableau Server, go to [Content]\>
+    [Projects].
 
-2.  On the [Marketing]{.uicontrol} project, open the
-    [Actions]{.uicontrol} menu (\...), and select
-    [Permissions]{.uicontrol}.
+2.  On the [Marketing] project, open the
+    [Actions] menu (\...), and select
+    [Permissions].
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_14.png)
 
-    The [Permissions]{.uicontrol} pane shows the groups and users that
+    The [Permissions] pane shows the groups and users that
     you've assigned permissions to. When you first set up a site, [All
-    Users]{.uicontrol} is the only group listed, and it remains listed
+    Users] is the only group listed, and it remains listed
     here even if you remove all permissions from it, as you did earlier.
 
-3.  Click [Add a user or group rule]{.uicontrol}, and then select the
-    [Marketing -- Content Developers]{.uicontrol} group.
+3.  Click [Add a user or group rule], and then select the
+    [Marketing -- Content Developers] group.
 
-    If you don't see the group names, make sure [Group]{.uicontrol} is
+    If you don't see the group names, make sure [Group] is
     selected in the drop-down to the right.
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_15.png)
@@ -418,8 +410,8 @@ they're in.
     with this project and its workbooks and data sources.
 
     The page updates so that you can select permission roles under
-    [Project]{.uicontrol}, [Workbooks]{.uicontrol}, and [Data
-    Sources]{.uicontrol}.
+    [Project], [Workbooks], and [Data
+    Sources].
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_15a.png)
 
@@ -428,21 +420,21 @@ they're in.
 
     If you select a role, and then assign capabilities to adjust what
     you want users to be able to do, the role will show as
-    [Custom]{.uicontrol}. So if you can, try to avoid setting
+    [Custom]. So if you can, try to avoid setting
     capabilities explicitly.
 
-4.  Under [Project]{.uicontrol}, select the [Publisher]{.uicontrol}
+4.  Under [Project], select the [Publisher]
     permission role.
 
     To see what capabilities are included for the role, click the expand
-    icon next to [Project]{.uicontrol}.
+    icon next to [Project].
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_16a.png)
 
-    Selecting the [Publisher]{.uicontrol} role sets the project's
-    [View]{.uicontrol} and [Save]{.uicontrol} capabilities to
-    [Allowed]{.uicontrol}, but the [Project Leader]{.uicontrol}
-    capability is left [Unspecified]{.uicontrol}.
+    Selecting the [Publisher] role sets the project's
+    [View] and [Save] capabilities to
+    [Allowed], but the [Project Leader]
+    capability is left [Unspecified].
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_16.png)
 
@@ -452,39 +444,39 @@ they're in.
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_18.png)
 
-5.  Under [Workbooks]{.uicontrol}, select the [Editor]{.uicontrol}
+5.  Under [Workbooks], select the [Editor]
     permissions role.
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_19.png)
 
-6.  Under [Data Sources]{.uicontrol}, select [Connector]{.uicontrol}.
+6.  Under [Data Sources], select [Connector].
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_20.png)
 
-7.  Click [Save]{.uicontrol} to save the permissions settings.
+7.  Click [Save] to save the permissions settings.
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_20a.png)
 
     The combination of permissions for this set of permissions roles
-    lets members of the [Marketing -- Content Developers]{.uicontrol}
+    lets members of the [Marketing -- Content Developers]
     group create and manage workbooks in the site.
 
 8.  Starting with step 3 of this procedure, repeat the steps to add the
-    [Marketing -- Content Viewers]{.uicontrol} group and set its
+    [Marketing -- Content Viewers] group and set its
     permissions. This time, use the following permission roles:
 
-    -   Project: [Viewer]{.uicontrol}
+    -   Project: [Viewer]
 
-    -   Workbooks: [Interactor]{.uicontrol}
+    -   Workbooks: [Interactor]
 
-    -   Data Sources: [None]{.uicontrol}
+    -   Data Sources: [None]
 
     The combination of permissions that are granted by this set of
     permissions roles lets members of the [Marketing -- Content
-    Viewers]{.uicontrol} group view and interact with content in the
+    Viewers] group view and interact with content in the
     site, subject to the limitations of their site roles.
 
-    Leave the [Permissions]{.uicontrol} pane open for the next section.
+    Leave the [Permissions] pane open for the next section.
 
 <div>
 
@@ -500,16 +492,16 @@ clean server. So we are going to lock the permissions to the project,
 making the option to set permissions inaccessible to publishers, even
 though they are still the content owners.
 
-1.  With the [Permissions]{.uicontrol} pane still open, above the matrix
-    on the right side, click [Edit Content Permissions]{.uicontrol} next
+1.  With the [Permissions] pane still open, above the matrix
+    on the right side, click [Edit Content Permissions] next
     to the text that refers to unlocked permissions.
 
     ![Image: Edit Content Permissions button on the Permissions
     page](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough-lock-proj.png)
 
-2.  In the [Content Permissions in Project]{.uicontrol} dialog box,
-    select [Locked to the project]{.uicontrol}, and then click
-    [Save]{.uicontrol}.
+2.  In the [Content Permissions in Project] dialog box,
+    select [Locked to the project], and then click
+    [Save].
 
     ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough-lock-proj2.png)
 
@@ -553,18 +545,18 @@ it?
 </div>
 
 Let's check your work. The following images show what you'll see in the
-[Permissions]{.uicontrol} pane when you're done setting permissions for
+[Permissions] pane when you're done setting permissions for
 your groups.
 
-When you expand [Project]{.uicontrol}, you see this:
+When you expand [Project], you see this:
 
 ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_21.png)
 
-When you expand [Workbooks]{.uicontrol}, you see this:
+When you expand [Workbooks], you see this:
 
 ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_22.png)
 
-When you expand [Data Sources]{.uicontrol}, you see this:
+When you expand [Data Sources], you see this:
 
 ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_23.png)
 
@@ -574,7 +566,7 @@ When you expand [Data Sources]{.uicontrol}, you see this:
 
 </div>
 
-If everything looks good in the [Permissions]{.uicontrol} pane, the next
+If everything looks good in the [Permissions] pane, the next
 test is to go through the tasks that users need to do. You want to be
 sure that users can perform the tasks that they need to, and not tasks
 that you have not granted them access to.
@@ -613,7 +605,7 @@ significantly:
     opens in a new
     window)]{.sr-only}](https://help.tableau.com/current/server/en-us/permissions.htm#data-access-for-published-tableau-data-sources "Opens topic in a new browser tab")
 
--   The [Project Leader]{.uicontrol} permissions role can help you
+-   The [Project Leader] permissions role can help you
     delegate content administration to the owners who know it best.
 
     Learn about [Project-level administration[(Link opens in a new

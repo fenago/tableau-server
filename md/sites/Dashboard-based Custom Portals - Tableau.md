@@ -2,15 +2,6 @@
 
 Dashboard-based Custom Portals
 ==============================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 **Note:** This overview was inspired by the work of Tableau Zen Master
 Mark Jackson. For more details about the process, [check out Mark\'s
 blog](http://ugamarkj.blogspot.sg/2013/12/customizing-tableau-server-experience.html).

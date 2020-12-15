@@ -1,15 +1,6 @@
 
 tsm security
 ============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Use the `tsm security` commands to configure [Tableau
 Server]{.VariablesProductName} support for external (gateway) SSL or
 repository (Postgres) SSL. Repository SSL configuration includes the

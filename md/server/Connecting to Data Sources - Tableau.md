@@ -1,15 +1,6 @@
 
 Connecting to Data Sources
 ==========================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: Current]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 One of the primary reasons Tableau champions advocate for Tableau Server
 is the collaboration that it enables. As your organization transitions
 to using Tableau Server, an important conceptual shift for you and your
@@ -216,11 +207,11 @@ they can see the data without having to provide credentials.
 
 To enable or disable embedded credentials, sign in to Tableau Server.
 
-In the site menu, click [Manage All Sites]{.uicontrol}, and then click
-[Settings]{.uicontrol}, and then click the [General]{.uicontrol} tab.
+In the site menu, click [Manage All Sites], and then click
+[Settings], and then click the [General] tab.
 
 Select or clear the [Allow publishers to embed credentials in a workbook
-or data source]{.uicontrol} option.
+or data source] option.
 
 ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_embedded_creds.png)
 
@@ -256,8 +247,8 @@ connections.
 
 As the administrator, you determine which users have the right to
 publish data sources. These users must have a site role of at least
-[Publisher]{.uicontrol} for the site. In addition, non-administrator
-users must have [View]{.uicontrol} and [Save]{.uicontrol} permissions
+[Publisher] for the site. In addition, non-administrator
+users must have [View] and [Save] permissions
 for the project that they want to publish to. (For a review of user
 permissions, see the [Structure Content Projects, Groups, and
 Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm){.MCXref
@@ -268,11 +259,11 @@ permissions to determine who can connect to data sources and who can
 edit them. You can configure access by setting the following permission
 roles for the project or for individual data sources:
 
--   [Connector]{.uicontrol}. This permissions role sets permissions that
+-   [Connector]. This permissions role sets permissions that
     allow the user or group to connect to the data source from a
     workbook on the server (web authoring) or in Tableau Desktop.
 
--   [Editor]{.uicontrol}. This permissions role sets permissions that
+-   [Editor]. This permissions role sets permissions that
     allow the user or group to connect to the data source on the server
     and also to publish, edit, download, delete, set permissions, and
     schedule refreshes for the data source.
@@ -291,20 +282,20 @@ To set permissions on data sources in a project, follow these steps:
 2.  Click site menu at the top of the page, and then select the site to
     work with.
 
-3.  Click the [Content]{.uicontrol} tab, click [Projects]{.uicontrol},
+3.  Click the [Content] tab, click [Projects],
     and then select the project on which you want to set permissions.
 
-4.  Under [Actions]{.uicontrol}, click [Permissions]{.uicontrol}.
+4.  Under [Actions], click [Permissions].
 
 5.  Select or add the user or group that you want to assign data source
     permissions to.
 
-    Under [Data Sources]{.uicontrol}, select the permissions role that
+    Under [Data Sources], select the permissions role that
     you want to set.
 
     ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_source_perms.png)
 
-6.  Click [Save]{.uicontrol}.
+6.  Click [Save].
 
 <div>
 
@@ -361,7 +352,7 @@ UNC name.
 When you run the Windows File Sharing wizard, you enter the user account
 or accounts for people who want to share the content. For this
 procedure, enter the Run As User account, and then set the [Permission
-Level]{.uicontrol} to [Read]{.uicontrol}. This means that any process
+Level] to [Read]. This means that any process
 that runs as the Run As User can read the shared location. In our case,
 of course, that process is Tableau Server.
 
@@ -395,31 +386,31 @@ Excel file. Users can also refresh the data from the Excel file while
 working in the Tableau workbook.
 
 1.  Open Tableau Desktop. On the start page, under
-    [Connect]{.uicontrol}, click [Excel]{.uicontrol}.
+    [Connect], click [Excel].
 
-2.  In the [Open]{.uicontrol} dialog box, enter the UNC path in the file
+2.  In the [Open] dialog box, enter the UNC path in the file
     field at the top, using the format
     `\\computer-name\share-location-name`.
 
     ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_open_unc.png)
 
 3.  Select the Excel workbook you want to connect to, and then click
-    [Open]{.uicontrol}.
+    [Open].
 
 4.  Create a Tableau workbook as you normally would, but do not extract
     the data from Excel.
 
-5.  To publish, click [Server]{.uicontrol} \> [Publish]{.uicontrol}.
+5.  To publish, click [Server] \> [Publish].
     When you\'re prompted, enter the Tableau Server address, and the
     credentials for a Tableau user that has permissions to publish.
 
-6.  On the [Publish Workbook to Tableau Server]{.uicontrol} page, clear
-    the [Include External Files]{.uicontrol} check box. Click
-    [OK]{.uicontrol}.
+6.  On the [Publish Workbook to Tableau Server] page, clear
+    the [Include External Files] check box. Click
+    [OK].
 
     ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_exclude_external_files.png)
 
-7.  Set permissions if required, and then click [Publish]{.uicontrol}.
+7.  Set permissions if required, and then click [Publish].
 
 <div>
 
@@ -458,12 +449,12 @@ As an administrator you can also refresh extracts immediately:
 
 1.  Sign in to Tableau Server.
 
-2.  At the top of the page, click [Tasks]{.uicontrol}.
+2.  At the top of the page, click [Tasks].
 
-3.  Under [Extract Refreshes]{.uicontrol}, select the workbook or data
+3.  Under [Extract Refreshes], select the workbook or data
     source that you want to refresh.
 
-4.  On the [Actions]{.uicontrol} menu, click [Run Now]{.uicontrol}.
+4.  On the [Actions] menu, click [Run Now].
 
 <div>
 
@@ -473,7 +464,7 @@ As an administrator you can also refresh extracts immediately:
 
 When a user publishes a workbook that includes an extract, the user can
 set up a refresh schedule. This setting is available from the [Publish
-Workbook]{.uicontrol} dialog box in Tableau Desktop.
+Workbook] dialog box in Tableau Desktop.
 
 ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_scheduling.png)
 
@@ -484,14 +475,14 @@ steps:
 
 1.  Sign in to Tableau Server.
 
-2.  At the top of the page, click [Schedules]{.uicontrol}.
+2.  At the top of the page, click [Schedules].
 
     -   Disable, delete, or edit any existing schedules that you don\'t
         want by selecting the schedule, and then clicking the
-        appropriate action on the [Actions]{.uicontrol} menu.
+        appropriate action on the [Actions] menu.
 
-    -   Create a new schedule by clicking [New Schedule]{.uicontrol} and
-        then setting a schedule in the [New Schedule]{.uicontrol} dialog
+    -   Create a new schedule by clicking [New Schedule] and
+        then setting a schedule in the [New Schedule] dialog
         box:
 
     ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_new_schedule_ux.png)

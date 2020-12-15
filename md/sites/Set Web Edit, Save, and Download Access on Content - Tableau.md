@@ -2,20 +2,11 @@
 
 Set Web Edit, Save, and Download Access on Content
 ==================================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 If you're enabling web authoring functionality on your site, you can
 configure more precisely which users on the site have access to this
 functionality. Using site roles and permissions rules at the content
-level, you can grant or deny [Web edit]{.uicontrol}, [Save]{.uicontrol},
-or [Download]{.uicontrol} capabilities on projects, workbooks, and data
+level, you can grant or deny [Web edit], [Save],
+or [Download] capabilities on projects, workbooks, and data
 sources.
 
 **Note:** This document strives to use the phrase *Web edit* only to
@@ -124,9 +115,9 @@ permissions rules---that grant or deny editing-related access.
 </div>
 
 -   When the appropriate permissions are set at the content level, the
-    [[Creator]{.Variablessiterole-author}]{.uicontrol} or [Explorer (can
-    publish)]{.uicontrol} site role allows both [Save]{.uicontrol}
-    (overwrite) and [Save As/Download]{.uicontrol}.
+    [[Creator]{.Variablessiterole-author}] or [Explorer (can
+    publish)] site role allows both [Save]
+    (overwrite) and [Save As/Download].
 
     Note that **File \> Save** is only available to the workbook owner.
     When the **Save** permission capability has been granted at the
@@ -136,7 +127,7 @@ permissions rules---that grant or deny editing-related access.
     content and they become the owner and gain full access to the
     content.
 
--   The [Explorer]{.uicontrol} site role can be granted the **Web Edit**
+-   The [Explorer] site role can be granted the **Web Edit**
     and **Save As/Download** capabilities, but they will not be able to
     save (neither overwriting existing nor saving changes to a new
     workbook).

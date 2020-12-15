@@ -3,14 +3,6 @@
 Add Users to a Group
 ====================
 
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 You can organize [Tableau Server]{.VariablesProductName} users into
 groups to make it easier to manage multiple users. You can create groups
 on the server or import groups from Active Directory.
@@ -44,7 +36,7 @@ To add a user to a group, the group must already exist.
 1.  In a site, click **Users**.
 
 2.  Select the users you want to add to a group, and then click
-    **Actions** \> [Group Membership]{.uicontrol}.
+    **Actions** \> [Group Membership].
 
     ![](./Add%20Users%20to%20a%20Group%20-%20Tableau_files/users7.png)
 

@@ -2,15 +2,6 @@
 
 Server Crash Reporter
 =====================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 The Tableau Server administrator can enable an option to allow logs and
 related files to be sent to Tableau when the server has an issue that
 results in a crash. These files are used by Tableau to identify and

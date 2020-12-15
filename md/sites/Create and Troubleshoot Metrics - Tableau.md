@@ -10,8 +10,7 @@ Server]{.article__tags--applies-to}\
 []{.article__tags--role}
 :::
 
-::: {#content-body}
-::: {#mc-main-content role="main"}
+
 Metrics help you track changes to your data. You can quickly monitor key
 numbers, because metrics update automatically and display their current
 value on the grid and list view for your content. This means that you
@@ -80,7 +79,7 @@ desktop devices.
 
 1.  Navigate to the view that you want to create a metric from.
 
-2.  On the view toolbar, click the [Metrics]{.uicontrol} button.
+2.  On the view toolbar, click the [Metrics] button.
 
     ![View toolbar with metrics button
     highlighted](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metrics_toolbar.png)
@@ -107,25 +106,25 @@ desktop devices.
     ![Preview of metric
     value](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metrics_preview.png)
 
-4.  The [Name]{.uicontrol} field is pre-populated based on your
+4.  The [Name] field is pre-populated based on your
     selection. You can give the metric a different name. A metric must
     have a unique name within the project it belongs to.
 
-5.  Under [Description]{.uicontrol}, enter an optional message to help
+5.  Under [Description], enter an optional message to help
     others understand your metric. For example, describe filters applied
     to the metric or indicate the data source used by the metric.
 
-6.  Under [Definition]{.uicontrol} \> [Measure]{.uicontrol}, select the
+6.  Under [Definition] \> [Measure], select the
     measure to use for your definition from the drop-down. This option
     appears only if the mark you selected has more than one measure
     associated with it.
 
-7.  []{#choose-project}Under [Project]{.uicontrol}, click [Change
-    Location]{.uicontrol} to choose a different project for the metric.
+7.  []{#choose-project}Under [Project], click [Change
+    Location] to choose a different project for the metric.
     By default, your metric will be added to the same project that the
     view belongs to.
 
-8.  Click the [Create]{.uicontrol} button.
+8.  Click the [Create] button.
 
     A message appears with a link to the metric in the project you added
     it to.
@@ -151,7 +150,7 @@ Items](https://help.tableau.com/current/pro/desktop/en-us/qs_content_page.htm).
 
     The Overwrite Metric dialog appears.
 
-2.  Click the [Overwrite]{.uicontrol} button.
+2.  Click the [Overwrite] button.
 
 When you overwrite a metric, the metric continues to appear for those
 who have added it to their favorites, and any changes made to
@@ -277,7 +276,7 @@ Metric refreshes may fail for one of the following reasons.
 -   There was a temporary connectivity issue, which will resolve itself.
 
 To identify the cause of the failure, inspect the [Connected
-View]{.uicontrol} under Metric Details.
+View] under Metric Details.
 
 ![Metric connected view highlighted under Metric
 Details](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metric_details.png)
@@ -323,7 +322,7 @@ present historical data.
 If the cause of the failure is fixed, you can resume the refresh.
 
 1.  Open the affected metric.
-2.  On the warning message, click [Resume refresh]{.uicontrol}.
+2.  On the warning message, click [Resume refresh].
 
 Tableau attempts to perform the refresh. If this attempt succeeds,
 you'll receive a notification, and the refresh will resume on schedule.

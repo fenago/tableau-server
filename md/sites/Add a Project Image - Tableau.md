@@ -2,15 +2,6 @@
 
 Add a Project Image
 ===================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 To help distinguish projects you manage on [Tableau
 Server]{.VariablesProductName} (and help your users find them), you can
 add an image that appears in the thumbnail. Your image must meet the
@@ -34,20 +25,20 @@ following requirements:
 </div>
 
 1.  Sign in to a site on [Tableau Server]{.VariablesProductName}. In the
-    list of [Top-level Projects]{.uicontrol} you have access to, select
+    list of [Top-level Projects] you have access to, select
     or navigate to the project you want to update. In this example,
     we\'ll add an image to the Statistics project folder.
 
     If you\'re not sure where to find a child project, use the
-    [Explore]{.uicontrol} drop-down list and select [All
-    Projects]{.uicontrol}.
+    [Explore] drop-down list and select [All
+    Projects].
 
-2.  Click the [Details]{.uicontrol} icon (i), to open the [Project
-    details]{.uicontrol} dialog box, and then click [Edit]{.uicontrol}.
+2.  Click the [Details] icon (i), to open the [Project
+    details] dialog box, and then click [Edit].
 
     ![](./Add%20a%20Project%20Image%20-%20Tableau_files/custom_projectimage_2.png)
 
-3.  In the [About]{.uicontrol} field, you can enter a description for
+3.  In the [About] field, you can enter a description for
     your project (optional), for example \"Global and US statistics.\"
     At the end of the project description, add the URL for your image
     using the following syntax:
@@ -56,7 +47,7 @@ following requirements:
 
     ![](./Add%20a%20Project%20Image%20-%20Tableau_files/custom_projectimage_3.png)
 
-    Select [Show formatting hints]{.uicontrol} to see how you can format
+    Select [Show formatting hints] to see how you can format
     description text.
 
     **Note:** Images embedded in project descriptions cannot be resized
@@ -66,6 +57,6 @@ following requirements:
     end of the project description and be enclosed in **!** (exclamation
     marks), otherwise they will not be displayed as the thumbnail.
 
-4.  Click [Save]{.uicontrol}.
+4.  Click [Save].
 
     ![](./Add%20a%20Project%20Image%20-%20Tableau_files/custom_projectimage_4.png)

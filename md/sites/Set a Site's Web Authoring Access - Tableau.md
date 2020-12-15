@@ -9,15 +9,12 @@ Set a Site's Web Authoring Access and Functions
 Server]{.article__tags--applies-to}\
 []{.article__tags--role}
 :::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 Tableau Server administrators can specify at the site level whether to
 allow users to edit published views in the web environment and configure
 other web authoring functionality.
 
 By default web authoring functionality is enabled for all sites. Users
-with the [Web Edit]{.uicontrol} capability can create and edit workbooks
+with the [Web Edit] capability can create and edit workbooks
 directly on the server. Turn off web authoring if you want users to be
 able to view and interact with published workbooks but not make any
 changes to the core information.
@@ -38,9 +35,9 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/web_author_who
 
 1.  In a web browser, sign in to the server as an administrator and go
     to the site in which you want web authoring to be enabled. In that
-    site, click [Settings]{.uicontrol}.
+    site, click [Settings].
 
-2.  Select [Allow users to use web authoring]{.uicontrol} to enable the
+2.  Select [Allow users to use web authoring] to enable the
     functionality.
 
     Clear the check box to turn off web authoring for that site.
@@ -77,8 +74,8 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/web_author_who
 </div>
 
 To confirm which sites allow web authoring, on the site-selection menu
-at the top, select [Manage All Sites]{.uicontrol}, and then go to the
-[Sites]{.uicontrol} page.
+at the top, select [Manage All Sites], and then go to the
+[Sites] page.
 
 ![](./Set%20a%20Site's%20Web%20Authoring%20Access%20-%20Tableau_files/web_author_disable3.png)
 
@@ -100,21 +97,21 @@ with web authoring permissions.
 
 1.  In a web browser, sign in to the server as an administrator and go
     to the site in which you want web authoring to be enabled. In that
-    site, click [Settings]{.uicontrol}.
-2.  In the [Cross-Database Joins]{.uicontrol} setting, select one of the
+    site, click [Settings].
+2.  In the [Cross-Database Joins] setting, select one of the
     following options:
-    -   [Use Tableau or existing databases]{.uicontrol} - Select this
+    -   [Use Tableau or existing databases] - Select this
         option if you want to allow users to choose whether they want to
         allow Tableau to use the live database to perform cross database
         joins. Published data sources with this option enabled will
         continue to use the user\'s database for cross-database joins.
 
-    -   [Use Tableau only]{.uicontrol} - Select this option to restrict
+    -   [Use Tableau only] - Select this option to restrict
         users to use only Hyper to perform cross data-base joins.
 
         ![](./Set%20a%20Site's%20Web%20Authoring%20Access%20-%20Tableau_files/cross_database_join_web_setting.png)
 
-        If you select [Use Tableau only]{.uicontrol}, the option to
+        If you select [Use Tableau only], the option to
         choose how Tableau performs the cross-database join won\'t
         display in the canvas when the user connects to a supported data
         source and supported database. For more information about this

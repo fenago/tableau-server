@@ -2,15 +2,6 @@
 
 Let Site Users Request Access to Content
 ========================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Permissions determine if a user has viewing access to workbook, view, or
 content inside a project. If an existing site user clicks on content or
 a project they don't have access to, they can select Request Access to
@@ -46,13 +37,13 @@ enable the setting if it\'s been disabled:
 
 1.  Go to the General tab of the Settings page for your site.
     -   If you have a single site, on the side navigation, click
-        [Settings]{.uicontrol} and [General]{.uicontrol}.
+        [Settings] and [General].
     -   If you have multiple sites, select the site you want to
-        configure and click [Settings]{.uicontrol} and
-        [General]{.uicontrol}.
+        configure and click [Settings] and
+        [General].
 2.  On the General tab, scroll down to Request Access and select [Let
-    users request access to projects, workbooks, and views]{.uicontrol}.
-3.  Click [Save]{.uicontrol}.
+    users request access to projects, workbooks, and views].
+3.  Click [Save].
 
 <div>
 
@@ -109,7 +100,7 @@ To set permissions at the project level:
 3.  To modify an existing permission rule, open the Actions menu (\...)
     for that row and click **Edit**.
 4.  To create a new rule,
-    a.  Select [+ Add a user or group rule]{.uicontrol}.
+    a.  Select [+ Add a user or group rule].
     b.  If necessary, use the drop-down box to the right to change
         between groups and users.
     c.  Select a group or user from the drop-down box. This creates a
@@ -156,7 +147,7 @@ in projects where permissions are managed by the owner.
 3.  To modify an existing permission rule, open the Actions menu (\...)
     for that row and click **Edit**.
 4.  To create a new rule,
-    a.  Select [+ Add a user or group rule]{.uicontrol}.
+    a.  Select [+ Add a user or group rule].
     b.  If necessary, use the drop-down box on the right to change
         between groups and users.
     c.  Select a group or user from the drop-down box. This creates a

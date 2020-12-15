@@ -2,15 +2,6 @@
 
 Notifications, Monitoring, and Tuning
 =====================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: Current]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 So you've finished setting up users and extracts and Tableau Server
 seems to be humming along---now you can relax, right? Almost. This
 chapter describes how to monitor the health of Tableau Server. In
@@ -94,21 +85,21 @@ people use addresses like `no-reply@example.com` or
     in to Tableau Services Manager Web UI[(Link opens in a new
     window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
-2.  Click [Notifications]{.uicontrol}on the [Configuration]{.uicontrol}
-    tab and click [Email Server]{.uicontrol}.
+2.  Click [Notifications]on the [Configuration]
+    tab and click [Email Server].
 
 3.  Enter the SMTP configuration information for your organization:
 
     ![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/smtp_tsm.png)
 
-4.  Click [Save Pending Changes]{.uicontrol} after you\'ve entered your
+4.  Click [Save Pending Changes] after you\'ve entered your
     configuration information.
 
-5.  Click [Pending Changes]{.uicontrol} at the top of the page:
+5.  Click [Pending Changes] at the top of the page:
 
     ![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/tsm-ui-pending-changes-btn.png)
 
-6.  Click [Apply Changes and Restart]{.uicontrol}.
+6.  Click [Apply Changes and Restart].
 
 <div>
 
@@ -122,17 +113,17 @@ people use addresses like `no-reply@example.com` or
     in to Tableau Services Manager Web UI[(Link opens in a new
     window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
-2.  Click [Notifications]{.uicontrol}on the [Configuration]{.uicontrol}
-    tab and click [Events]{.uicontrol}.
+2.  Click [Notifications]on the [Configuration]
+    tab and click [Events].
 
 3.  Configure notification settings for your organization:
 
     ![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/tsm-ui-events.png)
 
-4.  Click [Save Pending Changes]{.uicontrol} after you\'ve entered your
+4.  Click [Save Pending Changes] after you\'ve entered your
     configuration information.
 
-5.  Click [Apply Changes and Restart]{.uicontrol}.
+5.  Click [Apply Changes and Restart].
 
 </div>
 
@@ -323,7 +314,7 @@ running when you create the data collector set.
 3.  In the left pane, click **Data Collector Sets**.
 
 4.  In the right pane, right-click **User Defined**, click
-    [New]{.uicontrol}, and then click **Data Collector Set**.
+    [New], and then click **Data Collector Set**.
 
 5.  In the **Create new Data Collector Set** wizard, enter a name for
     the data collector set. For example, you might enter **Tableau
@@ -414,7 +405,7 @@ running when you create the data collector set.
 
     b.  Select the performance counter or counters that you want to use.
 
-    c.  Under [Instances of selected object]{.uicontrol}, if
+    c.  Under [Instances of selected object], if
         appropriate, select the process (or instance) that you want to
         collect information about.
 
@@ -550,13 +541,13 @@ effect with more performance monitoring.
     in to Tableau Services Manager Web UI[(Link opens in a new
     window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
-2.  Click the [Configuration ]{.uicontrol}tab.
+2.  Click the [Configuration ]tab.
 
-3.  Select the [VizQL]{.uicontrol}dropdown menu and increment the number
+3.  Select the [VizQL]dropdown menu and increment the number
     of processes by at least one.
 
-4.  Click [Pending Changes ]{.uicontrol}at the top right, and [Apply
-    Changes and Restart]{.uicontrol} to commit the changes and restart
+4.  Click [Pending Changes ]at the top right, and [Apply
+    Changes and Restart] to commit the changes and restart
     Tableau Server.
 
 <div>
@@ -604,13 +595,13 @@ runs in parallel execution mode.
     in to Tableau Services Manager Web UI[(Link opens in a new
     window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
-2.  Click the [Configuration ]{.uicontrol}tab.
+2.  Click the [Configuration ]tab.
 
-3.  Select the [Backgrounder]{.uicontrol}dropdown menu and increment the
+3.  Select the [Backgrounder]dropdown menu and increment the
     number of processes by at least one.
 
-4.  Click [Pending Changes ]{.uicontrol}at the top right, and [Apply
-    Changes and Restart]{.uicontrol} to commit the changes and restart
+4.  Click [Pending Changes ]at the top right, and [Apply
+    Changes and Restart] to commit the changes and restart
     Tableau Server.
 
 Continue to [Open for

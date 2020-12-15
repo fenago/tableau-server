@@ -3,14 +3,6 @@
 Uninstall Tableau Server
 ========================
 
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 Do not uninstall Tableau before upgrading. For details on upgrading, see
 [Upgrading from 2018.2 and Later
 (Windows)](https://help.tableau.com/current/server/en-us/sug_plan.htm){.MCXref
@@ -90,7 +82,7 @@ is not part of your Tableau Server installation.
 ::: {mc-conditions="Product.serverwindows"}
 To uninstall a version of Tableau Server:
 
-1.  Open Control Panel, click [Uninstall a program]{.uicontrol}, and
+1.  Open Control Panel, click [Uninstall a program], and
     locate the version you want to uninstall.
 
     Be sure you select the correct version to uninstall:
@@ -105,7 +97,7 @@ To uninstall a version of Tableau Server:
         backup of your repository data.
 
 2.  With the Tableau Server version selected, click
-    [Uninstall]{.uicontrol}.
+    [Uninstall].
 :::
 :::
 :::

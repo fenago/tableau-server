@@ -2,15 +2,6 @@
 
 Grant License on Sign In
 ========================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Grant license on sign in (Grant role on sign in) lets unlicensed users
 in specific groups become licensed when they sign into a Tableau site.
 This streamlines license provisioning for administrators and removes the
@@ -25,7 +16,7 @@ For example, imagine an Active Directory group called Marketing with 100
 users, but only 25 users need to access Tableau Server. A site or server
 administrator can import all users in the Marketing Active Directory
 group, set the group\'s minimum site role to Explorer, and select [Grant
-role on sign in]{.uicontrol}. When any of the Tableau users in Marketing
+role on sign in]. When any of the Tableau users in Marketing
 sign into their Tableau site, they\'ll be granted Explorer licenses.
 Users who don\'t need Tableau Server remain unlicensed unless they sign
 in.
@@ -50,8 +41,8 @@ be the case when your company has a lot of eligible users, but limited
 Tableau licenses.
 
 ::: {mc-conditions="Product.serverserver"}
-1.  In a site, click [Groups]{.uicontrol}, and then click [Add
-    Group]{.uicontrol}.
+1.  In a site, click [Groups], and then click [Add
+    Group].
 
     Add new users by importing an Active Directory group. Type the name
     of the group you want to import, and then select the group name in
@@ -60,7 +51,7 @@ Tableau licenses.
     ![](./Grant%20Role%20on%20Sign%20In%20(Grant%20License%20on%20Sign%20In)%20-%20Tableau_files/import_AD_group1.png)
 
 2.  Select the minimum site role for the users, and select [Grant role
-    on sign in]{.uicontrol}.
+    on sign in].
 
     All users in the selected Active Directory group will be imported as
     unlicensed users. The minimum site role set for the group will only
@@ -68,7 +59,7 @@ Tableau licenses.
 
     ![](./Grant%20Role%20on%20Sign%20In%20(Grant%20License%20on%20Sign%20In)%20-%20Tableau_files/import_AD_group2.png)
 
-3.  Click [Import]{.uicontrol}.
+3.  Click [Import].
 
 **Note:** Grant Site Role on Sign In can also be activated in local
 groups to provision minimum site roles to group members when they sign

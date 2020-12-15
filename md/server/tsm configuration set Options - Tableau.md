@@ -3,14 +3,6 @@
 tsm configuration set Options
 =============================
 
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 Below is a list of configuration options or keys that you can set with
 the `tsm configuration set` command. In many cases you can find out the
 current value of a configuration key with the `tsm configuration get`
@@ -2818,7 +2810,7 @@ in the REST API help.
 
 Default value: `true`
 
-Controls the display of the [Tableau Workbook]{.uicontrol} option of the
+Controls the display of the [Tableau Workbook] option of the
 Download menu in views. When set to `false`, the Tableau Workbook option
 is unavailable.
 

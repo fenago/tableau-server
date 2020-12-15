@@ -3,14 +3,6 @@
 Add Projects and Move Content Into Them
 =======================================
 
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 A content resource (workbooks and data sources) can live in only
 project. Server and site administrators can add or remove top-level
 projects on a site, and move published content from one project to
@@ -43,21 +35,21 @@ recommend becoming familiar with the following related content as well:
 </div>
 
 1.  While you're signed in to [Tableau Server]{.VariablesProductName} as
-    an administrator or project leader, select the [Content]{.uicontrol}
+    an administrator or project leader, select the [Content]
     tab, and then do one of the following:
 
-    -   Select [Create]{.uicontrol} \> [Project]{.uicontrol} to create a
+    -   Select [Create] \> [Project] to create a
         new top-level project (only administrators can do this).
 
     -   Navigate to and open the project in which you want to create a
         sub-project, and then select
-        [Create]{.uicontrol} \> [Project]{.uicontrol}.
+        [Create] \> [Project].
 
         If you're not sure where to find a child project, display
-        filters, and select [Show all projects]{.uicontrol}.
+        filters, and select [Show all projects].
 
 2.  Enter a name and description for the project, and then click
-    [Create]{.uicontrol}.
+    [Create].
 
     ![](./Add%20Projects%20and%20Move%20Content%20Into%20Them%20-%20Tableau_files/projects_new1.png)
 
@@ -78,21 +70,21 @@ recommend becoming familiar with the following related content as well:
 
 </div>
 
-1.  On the [Content]{.uicontrol} tab, find the content resource you want
+1.  On the [Content] tab, find the content resource you want
     to move.
 
     If you're not sure where to find a child project, display filters,
-    and select [Show all projects]{.uicontrol}.
+    and select [Show all projects].
 
     For other content types, you can navigate through its project
     hierarchy, or by selecting the content type on the
-    [Explore]{.uicontrol} menu.
+    [Explore] menu.
 
-2.  On the workbook's [Actions]{.uicontrol}([...]{.uicontrol}) menu,
-    select [Move]{.uicontrol}.
+2.  On the workbook's [Actions]([...]) menu,
+    select [Move].
 
 3.  Select the new project for the workbook, and then click [Move
-    Content]{.uicontrol}.
+    Content].
 
     ![](./Add%20Projects%20and%20Move%20Content%20Into%20Them%20-%20Tableau_files/projects_move_project.png)
 
@@ -143,18 +135,18 @@ delete the project.
 -   Deleting a project deletes all content in it, including child
     projects and their content.
 
--   You cannot delete the [Default]{.uicontrol} project.
+-   You cannot delete the [Default] project.
 
 To delete a project:
 
-1.  On the [Content]{.uicontrol} tab, find the project you want to
+1.  On the [Content] tab, find the project you want to
     remove.
 
     If you're not sure where to find a child project, display filters,
-    and select [Show all projects]{.uicontrol}.
+    and select [Show all projects].
 
-2.  On the project's **Actions** ([...]{.uicontrol}) menu, select
-    [Delete]{.uicontrol}.
+2.  On the project's **Actions** ([...]) menu, select
+    [Delete].
 
 3.  Confirm that you want to delete the project.
 
@@ -193,7 +185,7 @@ need any additional capabilities.
 
 </div>
 
-Non-administrators must have the [Publish]{.uicontrol} permission
+Non-administrators must have the [Publish] permission
 capability for the project that is the move destination.
 
 <div>
@@ -208,7 +200,7 @@ Non-administrator users must
 
     OR
 
--   Have the [Move]{.uicontrol} permission capability for the content
+-   Have the [Move] permission capability for the content
     (or, for data sources, be the data source owner).
 
 For more information, see [Move

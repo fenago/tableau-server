@@ -2,15 +2,6 @@
 
 tsm stop
 ========
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can use the `tsm stop` command to stop Tableau Server. If Tableau
 Server is already stopped, this command does nothing.
 

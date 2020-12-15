@@ -3,14 +3,6 @@
 tabcmd Commands
 ===============
 
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 Looking for Tableau Server on Linux? See [tabcmd Commands[(Link opens in
 a new
 window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/tabcmd_cmd.htm "Opens topic in a new browser tab").
@@ -3078,7 +3070,7 @@ for a view.
 Note the following when you use this command:
 
 -   **Permissions**: To export, you must have the [Export
-    Image]{.uicontrol} permission. By default, this permission is
+    Image] permission. By default, this permission is
     Allowed or Inherited for all roles, although permissions can be set
     per workbook or view.
 
@@ -3113,7 +3105,7 @@ Note the following when you use this command:
         string `Regional/GlobalTemperatures`.
 
     -   To export a workbook, it must have been published with [Show
-        Sheets as Tabs]{.uicontrol} selected in the Tableau Desktop
+        Sheets as Tabs] selected in the Tableau Desktop
         Publish dialog box.
 
         **Note:** The Tableau workbook that contains the [administrative
@@ -3121,7 +3113,7 @@ Note the following when you use this command:
         window)]{.sr-only}](https://help.tableau.com/current/server/en-us/adminview.htm)
         cannot be exported.
 
--   [The saved file\'s format]{.uicontrol}: Your format options depend
+-   [The saved file\'s format]: Your format options depend
     on what\'s being exported. A workbook can only be exported as a PDF
     using the `--fullpdf` argument. A view can be exported as a PDF
     (`--pdf`) or a PNG (`--png`).
@@ -3205,7 +3197,7 @@ View only. Export as an image in `.png` format.
 `--fullpdf`
 
 Workbook only. Export as a PDF. The workbook must have been published
-with [Show Sheets as Tabs]{.uicontrol} enabled.
+with [Show Sheets as Tabs] enabled.
 
 `--pagelayout`
 
@@ -3359,7 +3351,7 @@ file.
 Note the following when you use this command:
 
 -   **Permissions**: To get a file, you must have the [Download/Web Save
-    As]{.uicontrol} permission. By default, this permission is allowed
+    As] permission. By default, this permission is allowed
     or inherited for all roles, although permissions can be set per
     workbook or view.
 

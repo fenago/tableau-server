@@ -2,15 +2,6 @@
 
 Migrate from Tabadmin to the TSM CLI
 ====================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 The Tableau Services Manager (TSM) command-line interface (CLI) replaces
 the tabadmin CLI in Tableau Server on Linux, and in Tableau Server on
 Windows version 2018.2. This page maps tabadmin commands to TSM commands

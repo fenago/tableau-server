@@ -2,15 +2,6 @@
 
 tsm reset
 =========
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Use the `tsm reset` command to clear the initial admin user so that you
 can enter a new one. After you run `tsm reset` you must rerun the
 `tabcmd initialuser` command to create a new initial admin. The new name

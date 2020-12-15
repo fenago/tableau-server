@@ -2,15 +2,6 @@
 
 tsm email
 =========
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Use the `tsm email` command to view and test your SMTP configuration.
 
 For more information about configuring SMTP, see [Configure SMTP

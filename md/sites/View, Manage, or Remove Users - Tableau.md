@@ -2,19 +2,10 @@
 
 View, Manage, or Remove Users
 =============================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Administrators can manage a site's users such as adding and removing
 users, setting the groups they're members of, setting their site roles,
 and so on. On Tableau Server, server administrators can manage users on
-multiple sites at a time on the [All Sites]{.uicontrol} page.
+multiple sites at a time on the [All Sites] page.
 
 <div>
 
@@ -29,7 +20,7 @@ users on a site
 <div>
 
 Sign in to a site as an administrator, and then select
-[Users]{.uicontrol}. On this page you can do any of the following to
+[Users]. On this page you can do any of the following to
 manage users:
 
 -   Set group membership, set site role, or remove the user from the
@@ -41,7 +32,7 @@ manage users:
 -   Select a user name to see details about them, such as content they
     own, views they subscribe to, and their account settings.
 
-    The user [Settings]{.uicontrol} page is available when the following
+    The user [Settings] page is available when the following
     conditions are true:
 
     -   The user is a member only of sites that the site administrator
@@ -56,7 +47,7 @@ manage users:
 
     If the server is configured to use the internal user management
     system (Local Authentication), you can edit the **Display Name**,
-    [Email]{.uicontrol}, and **Password** for users after they have been
+    [Email], and **Password** for users after they have been
     added. If you are making many changes, you may find it easier to
     import the changes from a CSV file. For details, see [Import
     Users](https://help.tableau.com/current/server/en-us/users_import.htm){.MCXref
@@ -82,8 +73,8 @@ server users
 <div>
 
 Sign in to [Tableau Server]{.VariablesProductName} as a server
-administrator. On the site menu, select [Manage All Sites]{.uicontrol},
-and then select [Users]{.uicontrol}.
+administrator. On the site menu, select [Manage All Sites],
+and then select [Users].
 
 ![](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/user_srvr_view_settings1.png)
 
@@ -105,17 +96,17 @@ site membership
 By default, server and site administrators can manage users at the
 individual site level. Server administrators can also manage users and
 their site roles on multiple sites. You do this at the [All
-Sites]{.uicontrol} level (at the server level).
+Sites] level (at the server level).
 
 1.  In the site menu, select **Manage All Sites**, and then select
-    [Users]{.uicontrol}.
+    [Users].
 
 2.  On the Server Users page, select the check boxes next to the users,
-    and then select [Actions]{.uicontrol} \> [Site
-    Membership]{.uicontrol}.
+    and then select [Actions] \> [Site
+    Membership].
 
 3.  Select one or more sites, and a site role for each site, and then
-    click [Save]{.uicontrol}.
+    click [Save].
 
 </div>
 :::
@@ -184,8 +175,8 @@ site (and the user belongs only to that one site), the user is also
 deleted from the server.
 
 1.  Sign in to a site as an administrator, and go to the
-    [Users]{.uicontrol} area. Select one or more users to remove, and
-    then select [Actions]{.uicontrol} \> [Remove]{.uicontrol}.
+    [Users] area. Select one or more users to remove, and
+    then select [Actions] \> [Remove].
 
     ![](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/user_site_remove.png)
 
@@ -218,12 +209,12 @@ those sites, they are removed from the sites on which they don't own
 content. The user remains a member on sites where they own content, but
 demoted to the Unlicensed site role.
 
-1.  In the site menu, click [Manage All Sites]{.uicontrol}, and then
-    click [Users]{.uicontrol}. In a single-site environment, click
-    [Users]{.uicontrol}.
+1.  In the site menu, click [Manage All Sites], and then
+    click [Users]. In a single-site environment, click
+    [Users].
 
     Select one or more users to delete, and then click
-    [Actions]{.uicontrol} \> [Delete]{.uicontrol}.
+    [Actions] \> [Delete].
 
     ![](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/user_srvr_delete.png)
 
@@ -251,14 +242,14 @@ a server administrator.
 
 1.  Ensure that the correct site is selected in the menu.
 
-2.  Click [Users]{.uicontrol}.
+2.  Click [Users].
 
 3.  Click the display name of a user.
 
-4.  Click [Settings]{.uicontrol}.
+4.  Click [Settings].
 
-5.  Click the [Change Password]{.uicontrol} link, edit the password, and
-    then click [Save Password]{.uicontrol}.
+5.  Click the [Change Password] link, edit the password, and
+    then click [Save Password].
 
     ![Click the Change Password link in the User
     Settings.](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/users_change_password.png)

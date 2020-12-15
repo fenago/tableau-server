@@ -2,15 +2,6 @@
 
 tsm register
 ============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can use the `tsm register` command to register [Tableau
 Server]{.VariablesProductName}. This command lets you either display the
 registration file template (using the `--template` option) or provide

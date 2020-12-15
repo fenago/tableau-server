@@ -2,15 +2,6 @@
 
 What is a site
 ==============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You might be used to using the term *site* to mean "a collection of
 connected computers," or perhaps as the short form of "website." In
 Tableau-speak, we use site to mean a collection of users, groups, and

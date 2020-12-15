@@ -2,15 +2,6 @@
 
 Set Users' Site Roles
 =====================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 <div>
 
 When you add users to a site on Tableau Server or Tableau Online,
@@ -81,20 +72,20 @@ For more information, see
 </div>
 
 1.  Sign in to the site as a server or site administrator, and go to the
-    [Users]{.uicontrol} area.
+    [Users] area.
 
     If you are a site administrator and do not see the
-    [Users]{.uicontrol} area, check with your server administrator on
+    [Users] area, check with your server administrator on
     whether they have denied user management capabilities to site
     administrators.
 
-2.  Select the users, and then select [Actions]{.uicontrol} \> [Site
-    Role]{.uicontrol}.
+2.  Select the users, and then select [Actions] \> [Site
+    Role].
 
     ![](./Set%20Users’%20Site%20Roles%20-%20Tableau_files/users_siterole_change.png)
 
 3.  Select the new site role, and then click [Change Site
-    Role]{.uicontrol}.
+    Role].
 
     ![Select the new site
     role.](./Set%20Users’%20Site%20Roles%20-%20Tableau_files/users_siterole_change_select_new.png)
@@ -340,9 +331,9 @@ Users are assigned the Unlicensed role in the following circumstances:
 
 The following site roles allow the specified level of publishing access.
 
--   [Server Administrator]{.uicontrol} (Tableau Server only); [Site
-    Administrator Creator]{.uicontrol}; and
-    [[Creator]{.Variablessiterole-author}]{.uicontrol} allow full
+-   [Server Administrator] (Tableau Server only); [Site
+    Administrator Creator]; and
+    [[Creator]{.Variablessiterole-author}] allow full
     connecting and publishing access.
 
     This includes connecting to data and publishing new flows, new
@@ -351,14 +342,14 @@ The following site roles allow the specified level of publishing access.
     existing published workbooks, or publishing updates to existing data
     sources.
 
--   [Explorer (Can Publish)]{.uicontrol} and [Site Administrator
-    Explorer]{.uicontrol} have limited publishing capabilities, as
+-   [Explorer (Can Publish)] and [Site Administrator
+    Explorer] have limited publishing capabilities, as
     described in [General capabilities allowed with each site
     role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-role-capabilities-summary){.MCXref
     .xref}.
 
--   [Explorer]{.uicontrol}, [Viewer]{.uicontrol}, [Read
-    Only]{.uicontrol}, and [Unlicensed]{.uicontrol} do not allow
+-   [Explorer], [Viewer], [Read
+    Only], and [Unlicensed] do not allow
     publishing.
 
 ::: {mc-conditions="Product.serverserver"}
@@ -373,8 +364,8 @@ When you import users from an external directory like Active Directory,
 you can specify the site role. If a user is not yet a member of any site
 on the server, the user is added to the site with the assigned role.
 When you synchronize groups from an external directory, the site role is
-applied through the [Minimum Site Role]{.uicontrol} setting on the
-[Groups - Details]{.uicontrol} page.
+applied through the [Minimum Site Role] setting on the
+[Groups - Details] page.
 
 **Note**: In the context of user and group synchronization, Tableau
 Server configured with LDAP identity store is equivalent to Active

@@ -2,15 +2,6 @@
 
 Import Users
 ============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 To automate the process of adding users to a site, you can create a
 CSV file that contains user information, and then import the file.
 
@@ -37,21 +28,21 @@ server. The images reflect adding users at the site level.
 
 1.  Do one of the following:
 
-    -   To add users at the site level, select [Users]{.uicontrol}, and
-        then [Add Users]{.uicontrol}.
+    -   To add users at the site level, select [Users], and
+        then [Add Users].
 
         ![](./Import%20Users%20-%20Tableau_files/import_users_csv.png)
 
     -   To add users at the server level on a **single-site** server,
-        select [Users]{.uicontrol}, and then [Add Users]{.uicontrol}.
+        select [Users], and then [Add Users].
 
     -   To add users at the server level on a **multi-site** server,
         open the list of sites, and select [Manage All
-        Sites]{.uicontrol}. Select [Users]{.uicontrol}, and then [Add
-        Users]{.uicontrol}.
+        Sites]. Select [Users], and then [Add
+        Users].
 
-2.  Click [Import From File]{.uicontrol}, click [Browse]{.uicontrol} and
-    navigate to the file, and then click [Import Users]{.uicontrol}.
+2.  Click [Import From File], click [Browse] and
+    navigate to the file, and then click [Import Users].
 
     ![](./Import%20Users%20-%20Tableau_files/users_import_local.png)
 
@@ -60,7 +51,7 @@ server. The images reflect adding users at the site level.
 
     ![](./Import%20Users%20-%20Tableau_files/users_import_local2.png)
 
-3.  Click [Done]{.uicontrol}.
+3.  Click [Done].
 
 <div>
 
@@ -79,8 +70,8 @@ exception is that you cannot affect a server administrator's site role.
 For a multi-site server, when you import users in the Server Users page,
 you create server users with no site affiliation. Because these users do
 not belong to a site, they cannot have a site role. The only site role a
-user can have at the server level is [Unlicensed]{.uicontrol} or [Server
-Administrator]{.uicontrol}.
+user can have at the server level is [Unlicensed] or [Server
+Administrator].
 
 You can also specify the user's site role when you assign site
 membership to a user. For information, see [Manage users' site
@@ -97,7 +88,7 @@ administrator, you can import a CSV file from two locations. Where
 existing user accounts are concerned, each location has different
 capabilities.
 
--   The [Server Users]{.uicontrol} page appears in a multi-site
+-   The [Server Users] page appears in a multi-site
     environment. Only server administrators can access this page.
 
     ![](./Import%20Users%20-%20Tableau_files/usersimport_srvrusers.png)
@@ -107,13 +98,13 @@ capabilities.
     import a file that has a new password for each existing user, their
     passwords will be reset.
 
--   The [Site Users]{.uicontrol} page.
+-   The [Site Users] page.
 
     ![](./Import%20Users%20-%20Tableau_files/usersimport_siteusers.png)
 
     Server administrators can add new user accounts with CSV imports. If
-    the CSV file includes existing users, the [Password]{.uicontrol} and
-    [Display Name]{.uicontrol} fields must either match the existing or
+    the CSV file includes existing users, the [Password] and
+    [Display Name] fields must either match the existing or
     be left blank. If new passwords or full names are used, the import
     will fail.
 
@@ -125,7 +116,7 @@ capabilities.
 </div>
 
 Server and site administrators on a single-site server perform CSV user
-imports from the [Users]{.uicontrol} page in a site.
+imports from the [Users] page in a site.
 
 ![](./Import%20Users%20-%20Tableau_files/userimport_ss_users.png)
 

@@ -2,15 +2,6 @@
 
 Permissions
 ===========
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Permissions determine how users can interact with content such as
 workbooks and data sources. Permissions are set in the permission dialog
 or via the [REST API[(Link opens in a new
@@ -106,7 +97,7 @@ configured in the permission dialog for a project. This is in contrast
 to "content-level" permission rules that can be set on a specific
 workbook, data source, etc.
 
-::: {.tabs__wrapper .tab-list}
+
 -   [Project-level
     permissions](https://help.tableau.com/current/server/en-us/permissions.htm#projectlevel-permissions){#projectlevel-permissions
     .tabs__tab-link .is-active}
@@ -117,8 +108,7 @@ workbook, data source, etc.
     publish](https://help.tableau.com/current/server/en-us/permissions.htm#set-permissions-at-publish){#set-permissions-at-publish
     .tabs__tab-link}
 
-::: {.tabs__tab-content role="tabpanel"}
-::: {.tab-item .tab-item style=""}
+
 *For administrators, project owners, and project leaders*
 
 To set permissions at the project level:
@@ -128,7 +118,7 @@ To set permissions at the project level:
     permissions dialog opens.
 3.  To modify an existing permission rule, select the appropriate tab
     for that content type and click a capability.
-4.  To create a new rule, click [+ Add Group/User Rule]{.uicontrol} and
+4.  To create a new rule, click [+ Add Group/User Rule] and
     start typing to search for a group or user. For each tab, choose an
     existing template from the drop-down box or create a custom rule by
     clicking the capabilities.
@@ -137,9 +127,9 @@ To set permissions at the project level:
 **Tip**: Permission rules set at the project level act as a default for
 content saved in that project and any nested projects it contains.
 Whether those project-level default rules are enforced or only
-preliminary depends on the [content permission]{.uicontrol} setting.
-This setting can be configured in two ways, either [Locked]{.uicontrol}
-or [Customizable]{.uicontrol}. For more information, see [Lock content
+preliminary depends on the [content permission] setting.
+This setting can be configured in two ways, either [Locked]
+or [Customizable]. For more information, see [Lock content
 permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject){.MCXref
 .xref}.
 :::
@@ -164,7 +154,7 @@ project level.
 2.  Open the Actions menu (\...) and click **Permissions**. The
     permissions dialog opens.
 3.  To modify an existing permission rule, click a capability.
-4.  To create a new rule, click [+ Add Group/User Rule]{.uicontrol} and
+4.  To create a new rule, click [+ Add Group/User Rule] and
     start typing to search for a group or user. Choose an existing
     template from the drop-down or create a custom rule by clicking the
     capabilities.
@@ -215,8 +205,8 @@ level.
     leader, or an administrator.\
 
 2.  The Add/Edit Permissions dialog shows any existing permission rules.
-    Click [Add]{.uicontrol} to add a new permission rule or
-    [Edit]{.uicontrol} to modify an existing permission rule
+    Click [Add] to add a new permission rule or
+    [Edit] to modify an existing permission rule
 
     a.  Select the group or user from the left pane. You can expand a
         group to see which users it contains.
@@ -280,11 +270,11 @@ rules only apply to that piece of content.
 </div>
 
 Templates group sets of capabilities that are often assigned together
-based on common user scenarios, [View]{.uicontrol},
-[Explore]{.uicontrol}, [Publish]{.uicontrol}, and
-[Administer]{.uicontrol}. Assigning a template sets its included
-capabilities to [Allowed]{.uicontrol}, with the rest left as
-[Unspecified]{.uicontrol}. The templates are cumulative, so the Explore
+based on common user scenarios, [View],
+[Explore], [Publish], and
+[Administer]. Assigning a template sets its included
+capabilities to [Allowed], with the rest left as
+[Unspecified]. The templates are cumulative, so the Explore
 template includes everything from the View template plus additional
 capabilities. All content also has a template for **None** (which sets
 all capabilities to unspecified) and **Denied** (which sets all
@@ -293,7 +283,7 @@ capabilities to denied).
 Templates are meant to be a starting point and can be adjusted after
 they are applied. Capabilities can also be granted or denied without
 using a template at all. In both cases, the template column will then
-show [Custom]{.uicontrol}.
+show [Custom].
 
 <div>
 
@@ -307,13 +297,13 @@ can't copy from or paste onto a rule that involves Project Leader
 status.
 
 1.  Open the action menu (\...) for the existing rule you want to copy
-    from and select [Copy Permissions]{.uicontrol}. This will only be
+    from and select [Copy Permissions]. This will only be
     available when the rule is not in edit mode.
 2.  Select an existing rule you want to paste over. You can also create
-    a new rule by clicking [+ Add Group/User Rule]{.uicontrol} and
+    a new rule by clicking [+ Add Group/User Rule] and
     selecting a group or user.
 3.  Open the action menu (\...) and select [Paste
-    Permissions]{.uicontrol}.
+    Permissions].
 
 <div>
 
@@ -324,7 +314,7 @@ status.
 Explore the tabs below for details on the capabilities for each content
 type:
 
-::: {.tabs__wrapper .tab-list}
+
 -   [Projects](https://help.tableau.com/current/server/en-us/permissions.htm#projects){#projects
     .tabs__tab-link .is-active}
 -   [Workbooks](https://help.tableau.com/current/server/en-us/permissions.htm#workbooks){#workbooks
@@ -336,8 +326,7 @@ type:
     types](https://help.tableau.com/current/server/en-us/permissions.htm#other-content-types){#other-content-types
     .tabs__tab-link}
 
-::: {.tabs__tab-content role="tabpanel"}
-::: {.tab-item .tab-item style=""}
+
 Projects only have two capabilities and two templates. Prior to 2020.1,
 Project Leader was treated as a permission capability rather than a
 setting. For more information about project leaders and how to assign
@@ -624,7 +613,7 @@ By giving non-administrators privileges to manage projects, certain
 content administration tasks can be handled at the project level.
 
 **Project Leaders**: Projects can have project leaders, users who have
-been set as a [project leader]{.uicontrol}. This setting automatically
+been set as a [project leader]. This setting automatically
 grants a user their maximum capabilities---depending on their site
 role---for that project and all content in that project. Project leaders
 with site role of Explorer (can publish) and above will therefore have
@@ -672,7 +661,7 @@ Them](https://help.tableau.com/current/server/en-us/projects_add.htm){.MCXref
 
 Project leaders are users who have administrator-like access for a
 specific project or project hierarchy. Prior to 2020.1, [Project
-Leader]{.uicontrol} was a capability that could be set to allowed,
+Leader] was a capability that could be set to allowed,
 denied, or unspecified like any other capability. Starting in 2020.1,
 project leaders are now assigned through the action menu and function as
 a setting rather than a capability.
@@ -681,12 +670,12 @@ To assign project leader status to a group or user
 
 1.  Open the permission dialog for the appropriate project.
 2.  Select an existing permission rule, or click [+ Add Group/User
-    Rule]{.uicontrol} and chose the desired group or user.
+    Rule] and chose the desired group or user.
 3.  Open the action menu (\...) for that permission rule and select [Set
-    Project Leader\...]{.uicontrol}.
+    Project Leader\...].
 
 **Note**: If the action menu includes an option for [Enable "Set Project
-Leader"]{.uicontrol}, this will need to be selected before the group or
+Leader"], this will need to be selected before the group or
 user can be set as a project leader. This option only appears when that
 group or user was denied the Project Leader capability (prior to
 2020.1). That denied capability needs to be removed before they can be
@@ -702,7 +691,7 @@ their content.
 Project leader status is always applied downward through the entire
 project hierarchy and can only be removed from the level where it was
 set. To remove project leader status, follow the same steps as above but
-select [Remove as Project Leader]{.uicontrol} from the action menu. Once
+select [Remove as Project Leader] from the action menu. Once
 a group or user has been removed as project leader, that permission rule
 will have all capabilities set to Unspecified. This may mean their
 access to and capabilities for that project will be removed if there is
@@ -719,15 +708,15 @@ capabilities set like any other group or user.
 Permission rules set at the project level act as a default for content
 saved in that project and any nested projects it contains. Whether those
 project-level default rules are enforced or only preliminary depends on
-the [content permission]{.uicontrol} setting. This setting can be
-configured in two ways, either [Locked]{.uicontrol} (recommended) or
-[Customizable]{.uicontrol}. Locking a project removes the ability for
+the [content permission] setting. This setting can be
+configured in two ways, either [Locked] (recommended) or
+[Customizable]. Locking a project removes the ability for
 content owners to modify the permission rules on their content. Locking
 permissions can be applied to nested projects or just to the parent
 project itself.
 
 -   When the content permissions are [locked (including nested
-    projects)]{.uicontrol}, permission rules set at the project level
+    projects)], permission rules set at the project level
     are enforced for all content in the project and all nested projects.
     (This was the default behavior for locking projects prior to 2020.1)
 -   When the content permissions are **locked** (not including nested
@@ -736,7 +725,7 @@ project itself.
     independently with their own permission rules and as locked or
     customizable. (This is new behavior for locking projects as of
     2020.1)
--   When the content permissions are [customizable]{.uicontrol},
+-   When the content permissions are [customizable],
     permission rules set at the project level are applied to all content
     in the project by default. However, permission rules can be modified
     for individual pieces of content during or after publishing. (This
@@ -775,15 +764,15 @@ In a customizable project:
 
 New top-level projects inherit all initial permission rules from the
 Default project but not the content permissions setting, which is set to
-[Customizable]{.uicontrol}. This can be changed to [Locked]{.uicontrol}
+[Customizable]. This can be changed to [Locked]
 if desired.
 
-To configure the [Content Permissions]{.uicontrol}:
+To configure the [Content Permissions]:
 
 1.  You must be logged into the site as an administrator, project owner,
     or project leader
 2.  Open the permissions dialog for a project
-3.  Click the Content Permissions [Edit]{.uicontrol} link in the upper
+3.  Click the Content Permissions [Edit] link in the upper
     left and select the desired option in the Content Permissions dialog
 
 ![](./Permissions%20-%20Tableau_files/perms_lockproject.png)
@@ -1111,7 +1100,7 @@ their maximum capabilities
 These tables indicates what capabilities are available to each site
 role. There may be other ways for a user with a site role to perform an
 action. For example, although Viewers can't be given the [Share
-Customized]{.uicontrol} capability, they can share views by copying the
+Customized] capability, they can share views by copying the
 URL. See [General capabilities allowed with each site
 role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-role-capabilities-summary){.MCXref
 .xref} for more information on what each site role can do.
@@ -1284,7 +1273,7 @@ necessary permission configurations
 </div>
 
 In the context of permissions, saving is essentially publishing. As
-such, the [Overwrite]{.uicontrol} and [Save a Copy]{.uicontrol}
+such, the [Overwrite] and [Save a Copy]
 capabilities can only be given to users with a site role that allows
 publishing: Administrator, Creator, or Explorer (can publish). Explorer
 or Viewer site roles can't publish, overwrite, or save a copy.
@@ -1293,27 +1282,27 @@ or Viewer site roles can't publish, overwrite, or save a copy.
 were called *Save*, and the *Download Workbook/Save a Copy* capability
 was called *Download Workbook/Save As*.)
 
--   The [Publish]{.uicontrol} capability for a project allows a user to
+-   The [Publish] capability for a project allows a user to
     publish content into that project.
--   The [Overwrite]{.uicontrol} capability allows a user to save over an
+-   The [Overwrite] capability allows a user to save over an
     existing piece of content; they become the owner.
--   The [Save a Copy]{.uicontrol} capability allows a user to save a new
+-   The [Save a Copy] capability allows a user to save a new
     copy of the content. This is usually done in conjunction with web
     authoring and means the user can save their modifications.
 
 It's important to note that users aren't able to Save or Save As a piece
-of content unless they have the [Publish]{.uicontrol} capability for at
+of content unless they have the [Publish] capability for at
 least one project, because all content must be published into a project.
-Without the [Publish]{.uicontrol} capability at the project level, the
+Without the [Publish] capability at the project level, the
 content can't be published.
 
 In web editing, the **Save** option in the File menu only appears to the
 content owner. If a user who is not the owner has the
-[Overwrite]{.uicontrol} capability (allowing them to save the content),
+[Overwrite] capability (allowing them to save the content),
 they must use **File \> Save As** and name the workbook the exact same
 name. This prompts a warning that they are about to overwrite the
 existing content, which they can do. Conversely, a user with only the
-[Save a Copy]{.uicontrol} capability trying to use the same name gets an
+[Save a Copy] capability trying to use the same name gets an
 error stating they don't have permission to overwrite the existing
 content.
 
@@ -1322,7 +1311,7 @@ the owner, with all the permissions that entails. The original owner's
 access to the content is then determined by their permissions as a user
 rather than the owner.
 
-**Note**: [Download Workbook/Save a Copy]{.uicontrol} is a joint
+**Note**: [Download Workbook/Save a Copy] is a joint
 capability for workbooks. Explorers can be given this capability but
 they are only able to download the workbook, not save a copy. Giving the
 capability to Explorer (can publish), Creator, or Administrator site
@@ -1418,16 +1407,16 @@ Data Source[(Link opens in a new
 window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/publish_datasources.htm#publishing-steps).
 
 There are also data source capabilities that allow or deny users the
-ability to see ([View]{.uicontrol}) and connect to the published data
-source ([Connect]{.uicontrol}) in the context of Tableau. These
+ability to see ([View]) and connect to the published data
+source ([Connect]) in the context of Tableau. These
 capabilities are set like any other permissions in Tableau.
 
 When a workbook is published that uses a published data source, the
 author can control how the Tableau authentication will behave for
 someone consuming the workbook. The author sets the workbook's access to
-the published data source, either as [Embed password]{.uicontrol} (using
+the published data source, either as [Embed password] (using
 the author's Connect access to the data source) or [Prompt
-users]{.uicontrol} (using the Connect access of the person viewing the
+users] (using the Connect access of the person viewing the
 workbook), which may require data source authentication as well.
 
 -   When the workbook is set to **Embed password**, anyone who looks at
@@ -1458,8 +1447,8 @@ edit, the user must have their own Connect capability.
 </div>
 
 To move an item, open its Action menu (\...) and click
-[Move]{.uicontrol}. Select the new project for the item, then click
-[Move Content]{.uicontrol}. If Move is unavailable or there are no
+[Move]. Select the new project for the item, then click
+[Move Content]. If Move is unavailable or there are no
 available destination projects, verify the appropriate conditions are
 met:
 
@@ -1471,10 +1460,10 @@ met:
 -   Other users can move content only if all three of the following
     requirements are met:
     -   Creator or Explorer (Can Publish) site role.
-    -   Publishing rights ([View]{.uicontrol} and [Publish]{.uicontrol}
+    -   Publishing rights ([View] and [Publish]
         capabilities) for the destination project
     -   Owner of the content, or---for workbooks and flows---having the
-        [Move]{.uicontrol} capability.
+        [Move] capability.
 
 When a project is moved, the permissions for its content might change.
 
@@ -1586,8 +1575,8 @@ Remember, in an unlocked project, any modifications to the
 workbook-level permissions will not be applied if navigational sheet
 tabs are hidden.
 
-It is possible to have the [View]{.uicontrol} capability for a view
-without the [View]{.uicontrol} capability for the workbook or project
+It is possible to have the [View] capability for a view
+without the [View] capability for the workbook or project
 that contain it. In these instances, a user may be able to see the
 project and workbook name when looking at the view, such as in the
 navigational breadcrumb. This is expected and accepted behavior.

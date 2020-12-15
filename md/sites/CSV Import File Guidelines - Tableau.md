@@ -2,15 +2,6 @@
 
 CSV Import File Guidelines
 ==========================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can automate adding users by creating a comma-separated values (CSV)
 file with user information and then importing the file. You can include
 attributes in the CSV file, such as license level and the publishing
@@ -48,7 +39,7 @@ file meets the following formatting requirements:
 
 -   Character encodings such as BIG-5 have been converted to UTF-8. You
     can do this by opening the file in a text editor and using the [Save
-    As]{.uicontrol} command.
+    As] command.
 
 -   If a user name includes an @ character that represents anything
     other than a domain separator, you need to refer to the symbol using
@@ -98,19 +89,19 @@ The CSV file can contain the following fields, in the order shown here:
     the settings in the CSV file. If the server is configured using
     Active Directory, this value is not used.
 
--   License level. This can be [Creator]{.uicontrol},
-    [Explorer]{.uicontrol}, [Viewer]{.uicontrol}, or
-    [Unlicensed]{.uicontrol}.
+-   License level. This can be [Creator],
+    [Explorer], [Viewer], or
+    [Unlicensed].
 
--   Administrator level ([System]{.uicontrol}, [Site]{.uicontrol}, or
-    [None]{.uicontrol}). This setting determines whether the user is
+-   Administrator level ([System], [Site], or
+    [None]). This setting determines whether the user is
     imported as an administrator.
 
     If you are using the web UI to import users, you can set the
-    administrator site role to [System]{.uicontrol} only if you import
+    administrator site role to [System] only if you import
     the file at the server (All Sites) level. If you are signed in to a
     specific site, and if the administrator column for a user in the CSV
-    file is set to [System]{.uicontrol}, Tableau Server imports the user
+    file is set to [System], Tableau Server imports the user
     as a site administrator.
 
 -   Publishing capability (**yes/true/1** or **no/false/0**). If you are

@@ -2,19 +2,10 @@
 
 Use Projects to Manage Content Access
 =====================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 When Tableau Desktop users publish a workbook or data source to a site
 on [Tableau Server]{.VariablesProductName}, they can select a *project*
 to publish it to. If they don't specify a project, their content is
-published to the [Default]{.uicontrol} project.
+published to the [Default] project.
 
 As an administrator, you can create projects to hold and organize
 related *content*, or to delegate content management. Content on
@@ -139,14 +130,14 @@ user who creates a project is its owner. The project owner has
 administrative access to the project and content in it---including
 making someone else the owner and assigning Project Leader permissions.
 
-The [project leader]{.uicontrol} setting provides a way to allow
+The [project leader] setting provides a way to allow
 multiple users administrative access to a project, its child projects,
 and all workbooks and data sources in those projects.
 
 A project leader does not have to be a project owner or administrator.
 In addition to server and site administrators, the full scope of Project
-Leader permissions is available to users with a [Creator]{.uicontrol} or
-[Explorer (can publish)]{.uicontrol} site role.
+Leader permissions is available to users with a [Creator] or
+[Explorer (can publish)] site role.
 
 <div>
 

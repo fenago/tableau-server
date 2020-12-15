@@ -2,15 +2,6 @@
 
 Securing Traffic Between Clients and Your Server
 ================================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: Current]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 This chapter describes how Tableau Server communicates with other
 computers, and what you can do to make that traffic more secure.
 
@@ -380,11 +371,11 @@ might have.)
     in to Tableau Services Manager Web UI[(Link opens in a new
     window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
-2.  On the [Configuration]{.uicontrol} tab, select
-    [Security]{.uicontrol} \> [External SSL]{.uicontrol}.
+2.  On the [Configuration] tab, select
+    [Security] \> [External SSL].
 
-3.  Under [External web server SSL]{.uicontrol}, select [Enable SSL for
-    server communication]{.uicontrol}.
+3.  Under [External web server SSL], select [Enable SSL for
+    server communication].
 
 4.  Upload the certificate and key files, and if required for your
     environment, upload the chain file and enter the passphrase key:
@@ -392,13 +383,13 @@ might have.)
     ![Configure SSL
     screenshot](./Securing%20Traffic%20Between%20Clients%20and%20Your%20Server%20-%20Tableau_files/tsm-ui-ssl.png)
 
-5.  Click [Save Pending Changes]{.uicontrol}.
+5.  Click [Save Pending Changes].
 
-6.  Click [Pending Changes]{.uicontrol} at the top of the page:
+6.  Click [Pending Changes] at the top of the page:
 
     ![](./Securing%20Traffic%20Between%20Clients%20and%20Your%20Server%20-%20Tableau_files/tsm-ui-pending-changes-btn.png)
 
-7.  Click [Apply Changes and Restart]{.uicontrol}.
+7.  Click [Apply Changes and Restart].
 
 </div>
 
@@ -418,7 +409,7 @@ show you how this works.
 
     ![](./Securing%20Traffic%20Between%20Clients%20and%20Your%20Server%20-%20Tableau_files/everybody-ssl-view-cert1.png)
 
-3.  Click the [Details]{.uicontrol} link. The site\'s security overview
+3.  Click the [Details] link. The site\'s security overview
     appears.
 
     ![](./Securing%20Traffic%20Between%20Clients%20and%20Your%20Server%20-%20Tableau_files/everybody-ssl-view-cert2.png)
@@ -426,7 +417,7 @@ show you how this works.
     The display shows that Chrome has determined that the site uses a
     valid, trusted certificate. As you click around in the security
     overview, you can also see the CA that issued the certificate and
-    the chain of trust. Click [View certificate]{.uicontrol} here to see
+    the chain of trust. Click [View certificate] here to see
     more specific information (although don\'t worry that it doesn\'t
     mean much here).
 

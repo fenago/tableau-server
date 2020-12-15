@@ -2,15 +2,6 @@
 
 Planning a Site
 ===============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Before you add users and content to a site, we recommend that you plan
 the following aspects of the site.
 

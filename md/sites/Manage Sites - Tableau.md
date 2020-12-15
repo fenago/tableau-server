@@ -2,15 +2,6 @@
 
 Manage Sites
 ============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 In addition to planning your sites in Tableau, you can manage users and
 groups, manage projects and control content access, manage your site
 data, and interact with views on the web.

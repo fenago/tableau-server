@@ -2,15 +2,6 @@
 
 Running Setup
 =============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: Current]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 This chapter describes how to install Tableau Server
 [2020.3]{.VariablesVersion} on Windows and perform essential
 configuration steps to get the server up and running. Installing the
@@ -223,19 +214,19 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/runas_confirm_
 ![Image from setup that allows you to change the file
 path](./Running%20Setup%20-%20Tableau_files/install-path.png)
 
-Click [Next]{.uicontrol}.
+Click [Next].
 
-The [Installation Type]{.uicontrol} page will display:
+The [Installation Type] page will display:
 
 ![](./Running%20Setup%20-%20Tableau_files/install-create-new.png)
 
 You\'re installing a new server, so leave the default selection, [Create
-a new Tableau Server installation]{.uicontrol}, and then click
-[Next]{.uicontrol}.
+a new Tableau Server installation], and then click
+[Next].
 
 ![](./Running%20Setup%20-%20Tableau_files/install-ready.png)
 
-The Ready to Install page will display. Click [Install]{.uicontrol}.
+The Ready to Install page will display. Click [Install].
 
 After installation completes, click **Next** to start Tableau Services
 Manager (TSM). Starting TSM can take a few minutes.
@@ -319,7 +310,7 @@ Under **Identity Store**, set the authentication type.
 :::
 
 Make sure that you\'ve set this appropriately *before* you click
-[Initialize]{.uicontrol}. Clicking [Initialize]{.uicontrol} here sets
+[Initialize]. Clicking [Initialize] here sets
 the authentication type for the life of this server installation. If you
 want to change it after that, you have to reinstall Tableau Server.
 :::
@@ -328,7 +319,7 @@ The default is local authentication (Local), so you only need to change
 this if you\'re going to use Active Directory authentication.
 
 If you\'re going to use Active Directory, select [Active
-Directory]{.uicontrol}. Then in the [Domain]{.uicontrol} field, enter
+Directory]. Then in the [Domain] field, enter
 the fully qualified domain name (FQDN) of your domain, and in the
 **NetBIOS** field, enter the domain\'s NetBIOS name, or nickname.
 
@@ -347,7 +338,7 @@ can use the nickname (`example\jsmith`).
 
 If you have determined that your deployment plan requires updating the
 Run As service account with a domain account, enter that account in the
-[User Account]{.uicontrol} field.
+[User Account] field.
 
 **Important**: Include the domain name with the user name---for example,
 `example\tableaurunas`.

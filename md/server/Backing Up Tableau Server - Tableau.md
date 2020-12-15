@@ -2,15 +2,6 @@
 
 Backing Up Tableau Server
 =========================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: Current]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Backing up your server should be part of your regularly scheduled server
 maintenance. Backups provide peace of mind because they allow you to
 restore the server configuration and content to a previous state if
@@ -21,14 +12,8 @@ create backups at several key points to save yourself extra work if
 something goes wrong. We will point out the places when you should
 create a backup throughout this guide.
 
-<div>
-
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_backup.htm#){.heading-item__link .print-hidden} Back up Tableau data {#backing-up-tableau-data}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
+Back up Tableau data
+---------------------
 
 A proper backup of your Tableau Server installation saves all your
 configuration information, user information, and content.
@@ -43,11 +28,8 @@ same computer you are backing up, in this case the computer that is
 running Tableau Server. Copy them to a separate location so that it is
 available if something happens to your Tableau Server computer.
 
-<div>
+**Creating backup files**
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_backup.htm#){.heading-item__link .print-hidden} Creating backup files
-
-</div>
 
 To back up Tableau Server, you must generate two backup files:
 

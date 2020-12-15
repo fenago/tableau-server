@@ -2,15 +2,6 @@
 
 Configure SMTP Setup
 ====================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 [Tableau Server]{.VariablesProductName} can email server administrators
 about system failures, and email server users about subscribed views and
 data-driven alerts. First, however, you need to configure the SMTP
@@ -24,12 +15,8 @@ correctly.
 
 Configuring SMTP requires that you restart Tableau Server services.
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/config_smtp.htm#){.heading-item__link .print-hidden} []{#Secure}Secure SMTP
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
+Secure SMTP
+------------
 
 To enable and configure TLS for SMTP, you must use the TSM CLI as
 described in this topic.
@@ -45,7 +32,7 @@ You may also configure SMTP TLS for encryption-only by disabling the
 certificate validation process. For more information, see the section,
 *Configuration file reference*,in the *Use the TSM CLI* tab below.
 
-::: {.tabs__wrapper .tab-list}
+
 -   [Use the TSM web
     interface](https://help.tableau.com/current/server/en-us/config_smtp.htm#use-the-tsm-web-interface){#use-the-tsm-web-interface
     .tabs__tab-link .is-active}
@@ -53,8 +40,7 @@ certificate validation process. For more information, see the section,
     CLI](https://help.tableau.com/current/server/en-us/config_smtp.htm#use-the-tsm-cli){#use-the-tsm-cli
     .tabs__tab-link}
 
-::: {.tabs__tab-content role="tabpanel"}
-::: {.tab-item .tab-item style=""}
+
 1.  Open TSM in a browser:
 
     https://\<tsm-computer-name\>:8850. For more information, see [Sign
@@ -62,21 +48,21 @@ certificate validation process. For more information, see the section,
     UI](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm){.MCXref
     .xref}.
 
-2.  Click [Notifications]{.uicontrol}on the [Configuration]{.uicontrol}
-    tab and click [Email Server]{.uicontrol}.
+2.  Click [Notifications]on the [Configuration]
+    tab and click [Email Server].
 
 3.  Enter the SMTP configuration information for your organization:
 
     ![](./Configure%20SMTP%20Setup%20-%20Tableau_files/smtp_tsm.png)
 
-4.  Click [Save Pending Changes]{.uicontrol} after you\'ve entered your
+4.  Click [Save Pending Changes] after you\'ve entered your
     configuration information.
 
-5.  Click [Pending Changes]{.uicontrol} at the top of the page:
+5.  Click [Pending Changes] at the top of the page:
 
     ![](./Configure%20SMTP%20Setup%20-%20Tableau_files/tsm-ui-pending-changes-btn.png)
 
-6.  Click [Apply Changes and Restart]{.uicontrol}.
+6.  Click [Apply Changes and Restart].
 
 7.  Run the `tsm email test-smtp-connection` to view and verify the
     connection configuration. See [tsm email

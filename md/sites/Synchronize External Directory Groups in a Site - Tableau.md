@@ -2,15 +2,6 @@
 
 Synchronize External Directory Groups in a Site
 ===============================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 At any time, you can synchronize an external directory (such as Active
 Directory) group with [Tableau Server]{.VariablesProductName} to ensure
 new users in the external directory are also added in [Tableau
@@ -22,11 +13,11 @@ Server configured with LDAP identity store is equivalent to Active
 Directory. Active Directory synchronization features in Tableau Server
 function seamlessly with properly configured LDAP directory solutions.
 
-1.  In a site, click [Groups]{.uicontrol}.
+1.  In a site, click [Groups].
 
     On the Groups page, select one or more groups.
 
-2.  Click [Actions]{.uicontrol} \> [Synchronize]{.uicontrol}.
+2.  Click [Actions] \> [Synchronize].
 
     ![](./Synchronize%20External%20Directory%20Groups%20in%20a%20Site%20-%20Tableau_files/synchronize.png)
 
@@ -37,7 +28,7 @@ function seamlessly with properly configured LDAP directory solutions.
 
 </div>
 
-In the[ Groups - Details]{.uicontrol} page, administrators can set the
+In the[ Groups - Details] page, administrators can set the
 minimum site role for group users to apply during synchronization.
 
 This setting does not run synchronization; it sets the minimum site role
@@ -46,7 +37,7 @@ synchronize external directory groups, new users are added to the site
 with the minimum site role. If a user already exists, the minimum site
 role will be applied if it gives the user more access in a site. If you
 don\'t set a minimum site role, new users are added as
-[Unlicensed]{.uicontrol} by default.
+[Unlicensed] by default.
 
 **Note:** A user\'s site role can be promoted but never demoted based on
 the minimum site role setting. If a user already has the ability to
@@ -55,10 +46,10 @@ minimum site role, see [Site roles and Active Directory import and
 synchronization](https://help.tableau.com/current/server/en-us/users_site_roles.htm#MinSiteRoleImport){.MCXref
 .xref}.
 
-1.  In a site, click [Groups]{.uicontrol}.
+1.  In a site, click [Groups].
 
 2.  On the Groups page, select a group, and then select
-    [Actions]{.uicontrol} \> [Minimum Site Role]{.uicontrol}.
+    [Actions] \> [Minimum Site Role].
 
 3.  Select the minimum site role, and then click **Change Site Role**.
 

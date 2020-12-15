@@ -3,14 +3,6 @@
 Creating Users
 ==============
 
-::: {.caption .article__tags .content-only-hidden}
-[Version: Current]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body ns0="http://www.madcapsoftware.com/Schemas/MadCap.xsd"}
-::: {#mc-main-content role="main"}
 The reason you have Tableau Server is to allow users to share their
 Tableau workbooks and data sources! So one of your tasks is to set up
 your server so that your coworkers can sign in, publish their work, and
@@ -92,7 +84,7 @@ Each site has its own URL and its own set of users, and each site has
 completely segregated content, projects, and data sources.
 
 When you install Tableau Server, it comes preconfigured with a site
-whose name is, unsurprisingly, [Default]{.uicontrol}. For the purposes
+whose name is, unsurprisingly, [Default]. For the purposes
 of this guide, where you\'re running a single server and you want to get
 up and running with the least amount of fuss, we recommend using the
 default site.
@@ -104,51 +96,51 @@ default site.
 </div>
 
 When you create a user, that user is in a specific site. For the tasks
-in this guide, you'll be creating users in the [Default]{.uicontrol}
+in this guide, you'll be creating users in the [Default]
 site.
 
 You also have to assign the user a site role, which defines the maximum
 access the user has. In this guide we assume that you, as the person who
 created the administrator user at the end of the Tableau Server
-installation process, have the [Server Administrator]{.uicontrol} site
+installation process, have the [Server Administrator] site
 role. This site role allows access to everything on your server and
 across all sites.
 
 Levels of access that other site roles allow include:
 
--   [Site Administrator Explorer]{.uicontrol}, as you can probably
+-   [Site Administrator Explorer], as you can probably
     guess, can perform administrative functions, such as managing users
     and content, on a given site. The site administrator doesn't have
     permissions to administer the server itself.
 
--   [Explorer (Can Publish)]{.uicontrol} can publish data sources or
+-   [Explorer (Can Publish)] can publish data sources or
     workbooks to the server and edit published content.
 
--   [Explorer]{.uicontrol} can view *and* interact with workbooks.
+-   [Explorer] can view *and* interact with workbooks.
 
--   [Viewer]{.uicontrol} can view workbooks but not change anything in
+-   [Viewer] can view workbooks but not change anything in
     them.
 
 Site roles are the first step in assigning permissions to users. As
 mentioned above, a good way to think about a site role is that it
 determines the maximum capabilities that a user will ever have on a
-given site. For example, if a user's site role is [Viewer]{.uicontrol},
+given site. For example, if a user's site role is [Viewer],
 the user can view content on the site but can't publish to that site,
 regardless of what other permissions the user is granted later. (You
 assign a site role when you create a user, but you can change it later.)
 
 For now, we recommend that you assign the site role of [Explorer (Can
-Publish)]{.uicontrol} for new users who aren't administrators. (In
+Publish)] for new users who aren't administrators. (In
 [Structure Content Projects, Groups, and
 Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm){.MCXref
 .xref}, we'll describe how to implement a content permissions model that
 fits your organization.)
 
-Finally, you can assign the [Unlicensed]{.uicontrol} site role to users
+Finally, you can assign the [Unlicensed] site role to users
 when you want to create a user name and password for the user, but you
 don't want that user to count against your user-based license limit. You
 can create as many users as you want that have the
-[Unlicensed]{.uicontrol} role.
+[Unlicensed] role.
 
 <div>
 
@@ -180,9 +172,9 @@ browser. Before you sign in, you'll need this information:
     don't know the server name or IP address, check with your IT person.
 
     If no IT person is available, sign in to the computer where Tableau
-    is running. Then, on the Windows [Start menu]{.uicontrol},
-    right-click [Computer]{.uicontrol} and then choose
-    [Properties]{.uicontrol}. The [Properties]{.uicontrol} window lists
+    is running. Then, on the Windows [Start menu],
+    right-click [Computer] and then choose
+    [Properties]. The [Properties] window lists
     the computer name for the server computer.
 
 -   You also need to know what port Tableau Server is using. If another
@@ -232,7 +224,7 @@ Here's how to sign in to Tableau Server:
 2.  Enter the credentials for the server administrator that you created
     when you finished the installation.
 
-    You're then taken to the main page of the [Default]{.uicontrol}
+    You're then taken to the main page of the [Default]
     site, and you're ready to create users.
 
 <div>
@@ -253,20 +245,18 @@ Server configured with LDAP identity store is equivalent to Active
 Directory. Active Directory synchronization features in Tableau Server
 function seamlessly with properly configured LDAP directory solutions.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Import users individually
+#### Import users individually
 
-</div>
 
 1.  Sign in to Tableau Server.
 
-2.  At the top of the page, click [Site]{.uicontrol}.
+2.  At the top of the page, click [Site].
 
-3.  Click the [Users]{.uicontrol} tab, click [Add Users]{.uicontrol},
-    and then click [Active Directory Users]{.uicontrol}.
+3.  Click the [Users] tab, click [Add Users],
+    and then click [Active Directory Users].
 
-4.  In the [Import Users from Active Directory]{.uicontrol} dialog box,
+4.  In the [Import Users from Active Directory] dialog box,
     enter the user names for the Active Directory accounts that you want
     to import. The user name is often the same as the left-hand side of
     an email address. For example, John Smith might have a user name of
@@ -278,32 +268,28 @@ function seamlessly with properly configured LDAP directory solutions.
     with the user name. For example, if your domain nickname is
     `exampleco`, enter user names in this format: `exampleco\jsmith`.
 
-    After you enter the user names, set the [Site role]{.uicontrol} to
-    [Explorer (Can Publish)]{.uicontrol} and then click
-    [Import]{.uicontrol}.
+    After you enter the user names, set the [Site role] to
+    [Explorer (Can Publish)] and then click
+    [Import].
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Import an Active Directory group of users
-
-</div>
+#### Import an Active Directory group of users
 
 1.  Sign in to Tableau Server.
 
-2.  At the top of the page, click [Site]{.uicontrol}.
+2.  At the top of the page, click [Site].
 
     ![](./Creating%20Users%20-%20Tableau_files/everybody_admin_users_ad_import.PNG)
 
-3.  Click the [Users]{.uicontrol} tab, click [Add Users]{.uicontrol},
-    and then click [Active Directory Group]{.uicontrol}.
+3.  Click the [Users] tab, click [Add Users],
+    and then click [Active Directory Group].
 
-4.  In [Import a Group from Active Directory]{.uicontrol}, enter the
+4.  In [Import a Group from Active Directory], enter the
     friendly name of the group that you want to import.
 
 5.  Select the group that you want to import.
 
-6.  In [Site role]{.uicontrol}, select [Explorer (Can
-    Publish)]{.uicontrol}, and then click [Import]{.uicontrol}.
+6.  In [Site role], select [Explorer (Can
+    Publish)], and then click [Import].
 
     Tableau Server imports the users. Because the import process is
     designed to handle hundreds or even thousands of users (probably not
@@ -314,7 +300,7 @@ function seamlessly with properly configured LDAP directory solutions.
 If you don\'t want to license every single user in a given Active
 Directory group, you can either delete those users after importing the
 group, or you can set the site role for those users to be
-[Unlicensed]{.uicontrol}.
+[Unlicensed].
 
 <div>
 
@@ -350,13 +336,13 @@ To delete a group, do this:
 
 1.  Sign in to Tableau Server.
 
-2.  At the top of the page, click [Server]{.uicontrol}.
+2.  At the top of the page, click [Server].
 
-3.  Click the [Groups]{.uicontrol} tab and then select the group that
+3.  Click the [Groups] tab and then select the group that
     you want to delete.
 
-4.  Click the [Actions]{.uicontrol} drop-down menu, and then click
-    [Delete]{.uicontrol}.
+4.  Click the [Actions] drop-down menu, and then click
+    [Delete].
 
 <div>
 
@@ -371,14 +357,14 @@ into Tableau Server for each person who can sign in.
 
 1.  Sign in to Tableau Server.
 
-2.  At the top of the page, click [Users]{.uicontrol}.
+2.  At the top of the page, click [Users].
 
-3.  Click [Add Users]{.uicontrol} and then click [Local
-    User]{.uicontrol}.
+3.  Click [Add Users] and then click [Local
+    User].
 
-4.  In the [New Local User]{.uicontrol} dialog box, enter the user name,
+4.  In the [New Local User] dialog box, enter the user name,
     password, and site role. If you don\'t have a specific site role in
-    mind for the user, pick [Interactor]{.uicontrol}. Make a note of the
+    mind for the user, pick [Interactor]. Make a note of the
     user names and passwords, because you'll need to distribute these
     credentials to your users when you [Open for
     Business!](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_open_for_biz.htm){.MCXref
@@ -388,7 +374,7 @@ into Tableau Server for each person who can sign in.
     if you want to enable notifications for users, as we\'ll describe
     later in this guide.
 
-5.  Click [Create]{.uicontrol}.
+5.  Click [Create].
 
 <div>
 

@@ -1,4 +1,4 @@
-::: {#app .wrapper}
+
 ::: {.container--centered}
 ::: {.header__mobile-menu}
 :::
@@ -36,8 +36,7 @@ Help Output for tableau-server-obliterate Script
 [ ]{.article__tags--role}
 :::
 
-::: {#content-body}
-::: {#mc-main-content role="main"}
+
 The following help content is the output when you run the following
 command:
 

@@ -2,15 +2,6 @@
 
 Create Groups via Active Directory
 ==================================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can import Active Directory groups to create matching groups on
 Tableau Server, as well as a user for each member of an Active Directory
 group that is not already on the server.
@@ -32,8 +23,8 @@ Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm){.MCXr
 .xref} to understand how multiple domains, domain naming, NetBIOS, and
 Active Directory user name format influence Tableau user management.
 
-1.  In a site, click [Groups]{.uicontrol}, and then click [Add
-    Groups]{.uicontrol}
+1.  In a site, click [Groups], and then click [Add
+    Groups]
 
 2.  Type the name of the Active Directory group you want to import, and
     then select the group name in the resulting list.
@@ -44,13 +35,13 @@ Active Directory user name format influence Tableau user management.
 
     ![](./Create%20Groups%20via%20Active%20Directory%20-%20Tableau_files/import_AD_group2.png)
 
-4.  Optional: Select [Grant role on sign in]{.uicontrol} to provision
+4.  Optional: Select [Grant role on sign in] to provision
     new site roles and licenses when group users sign in. For more
     information, see [Grant License on Sign
     In](https://help.tableau.com/current/server/en-us/grant_role.htm){.MCXref
     .xref}.
 
-5.  Click [Import]{.uicontrol}.
+5.  Click [Import].
 
 ::: {.note}
 **Note:** You cannot change the name of groups imported from Active

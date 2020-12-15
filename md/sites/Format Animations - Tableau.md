@@ -10,8 +10,7 @@ Server]{.article__tags--applies-to}\
 []{.article__tags--role}
 :::
 
-::: {#content-body}
-::: {#mc-main-content role="main"}
+
 Animate visualizations to better highlight changing patterns in your
 data, reveal spikes and outliers, and see how data points cluster and
 separate.
@@ -63,20 +62,20 @@ presenting them step-by-step.
 
 </div>
 
-1.  Choose [Format]{.uicontrol} \> [Animations]{.uicontrol}.
+1.  Choose [Format] \> [Animations].
 
 2.  If you want to animate every sheet, under [Workbook
-    Default]{.uicontrol}, click [On]{.uicontrol}. Then do the following:
+    Default], click [On]. Then do the following:
 
-    -   For [Duration]{.uicontrol}, choose a preset, or specify a custom
+    -   For [Duration], choose a preset, or specify a custom
         duration of up to 10 seconds.
 
-    -   For [Style]{.uicontrol}, choose [Simultaneous]{.uicontrol} to
-        play all animations at once or [Sequential]{.uicontrol} to fade
+    -   For [Style], choose [Simultaneous] to
+        play all animations at once or [Sequential] to fade
         out marks, move and sort them, and then fade them in.
 
 3.  To override workbook defaults for a particular sheet, change the
-    settings under [Selected Sheet]{.uicontrol}.
+    settings under [Selected Sheet].
 
     **Note:** In the Selected Sheet section, "(Default)" indicates a
     setting that automatically reflects the related Workbook Default
@@ -94,10 +93,10 @@ presenting them step-by-step.
 You can reset animations to return an entire workbook to the default
 animation settings. Be aware that this turns animations off by default.
 
-1.  Choose [Format]{.uicontrol} \> [Animations]{.uicontrol}.
+1.  Choose [Format] \> [Animations].
 
-2.  At the bottom of the [Animations]{.uicontrol} pane, click [Reset
-    All]{.uicontrol}.
+2.  At the bottom of the [Animations] pane, click [Reset
+    All].
 
 <div>
 
@@ -110,18 +109,18 @@ If you find animations distracting while viewing vizzes, you can
 completely disable them so they never play. (This isn\'t a system-wide
 setting; each user needs to apply it separately.)
 
--   In Tableau Desktop, choose [Help]{.uicontrol} \> [Settings and
-    Performance]{.uicontrol}, and deselect [Enable
-    Animations]{.uicontrol}.
+-   In Tableau Desktop, choose [Help] \> [Settings and
+    Performance], and deselect [Enable
+    Animations].
 
 -   In Tableau Online or Tableau Server, click your profile image or
     initials in the top right corner of the browser, and choose [My
-    Account Settings]{.uicontrol}. Then scroll down to the bottom of the
-    page, deselect [Enable animations]{.uicontrol}, and click [Save
-    Changes]{.uicontrol}.
+    Account Settings]. Then scroll down to the bottom of the
+    page, deselect [Enable animations], and click [Save
+    Changes].
 
 **Note:** When animations are disabled, you can still choose
-[Format]{.uicontrol} \> [Animations]{.uicontrol} in authoring mode and
+[Format] \> [Animations] in authoring mode and
 adjust settings---but they will have no effect.
 
 <div>

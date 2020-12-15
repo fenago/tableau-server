@@ -2,15 +2,6 @@
 
 tsm Command Line Reference
 ==========================
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 The topics in this section include reference content for Tableau
 Services Manager (TSM) command line interface (CLI) to support Tableau
 Server.

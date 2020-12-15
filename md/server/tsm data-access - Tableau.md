@@ -2,15 +2,6 @@
 
 tsm data-access
 ===============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 You can use the `tsm data-access` commands to configure data caching,
 enable or disable data repository access, enable SAML for single
 sign-on, and configure settings for Web Data Connectors (WDCs).

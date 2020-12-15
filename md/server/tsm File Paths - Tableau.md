@@ -2,15 +2,6 @@
 
 tsm File Paths
 ==============
-
-::: {.caption .article__tags .content-only-hidden}
-[Version: 2020.3]{.article__tags--version}\
-[]{.article__tags--applies-to}\
-[]{.article__tags--role}
-:::
-
-::: {#content-body}
-::: {#mc-main-content role="main"}
 Certain tsm commands read files from or write files to default
 locations. These default locations are determined by `basefilepath`
 variables defined for each command. You can use tsm to view the current
