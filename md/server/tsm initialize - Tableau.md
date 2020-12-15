@@ -3,7 +3,7 @@
 tsm initialize
 ==============
 You can use the `tsm initialize` command to initialize [Tableau
-Server]{.VariablesProductName}.
+Server].
 
 **Note:** You must apply or discard pending changes before running
 `tsm initialize` or the initialize will fail. Apply pending changes

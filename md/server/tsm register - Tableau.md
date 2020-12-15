@@ -3,7 +3,7 @@
 tsm register
 ============
 You can use the `tsm register` command to register [Tableau
-Server]{.VariablesProductName}. This command lets you either display the
+Server]. This command lets you either display the
 registration file template (using the `--template` option) or provide
 the path to a completed registration file (using the `--file` option).
 You must use one of these two options when calling the `tsm register`

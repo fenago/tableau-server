@@ -89,7 +89,7 @@ Import server configuration or topology.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#){.heading-item__link .print-hidden} Options {#options1}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 

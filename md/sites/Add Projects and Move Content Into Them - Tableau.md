@@ -34,7 +34,7 @@ recommend becoming familiar with the following related content as well:
 
 </div>
 
-1.  While you're signed in to [Tableau Server]{.VariablesProductName} as
+1.  While you're signed in to [Tableau Server] as
     an administrator or project leader, select the [Content]
     tab, and then do one of the following:
 

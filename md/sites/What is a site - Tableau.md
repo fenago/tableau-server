@@ -7,8 +7,8 @@ connected computers," or perhaps as the short form of "website." In
 Tableau-speak, we use site to mean a collection of users, groups, and
 content (workbooks, data sources) that's walled off from any other
 groups and content on the same instance of [Tableau
-Server]{.VariablesProductName}. Another way to say this is that [Tableau
-Server]{.VariablesProductName} supports multi-tenancy by allowing server
+Server]. Another way to say this is that [Tableau
+Server] supports multi-tenancy by allowing server
 administrators to create sites on the server for multiple sets of users
 and content.
 
@@ -19,14 +19,14 @@ server user can be added to multiple sites). Each site's content
 content on other sites.
 
 If you are a server administrator on your [Tableau
-Server]{.VariablesProductName} deployment, you can learn more about
+Server] deployment, you can learn more about
 sites, when to use them (vs. projects), and more in [Sites
 Overview[(Link opens in a new
 window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sites_intro.htm "Opens topic in a new browser tab"),
 in the **Manage Server** section.
 
 **Note:** This article pertains to configuring sites on [Tableau
-Server]{.VariablesProductName} deployments. For Tableau Online, see
+Server] deployments. For Tableau Online, see
 [Site Administrator Role and Tasks[(Link opens in a new
 window)]{.sr-only}](https://help.tableau.com/current/online/en-us/to_site_startup.htm "Open Tableau Online help in a new browser tab.").
 
@@ -38,7 +38,7 @@ window)]{.sr-only}](https://help.tableau.com/current/online/en-us/to_site_startu
 </div>
 
 Where the Server Administrator site role gives a user unrestricted
-access to the entire [Tableau Server]{.VariablesProductName} deployment,
+access to the entire [Tableau Server] deployment,
 the Site Administrator site roles give a user unrestricted or minimally
 restricted access at the site level. The differences between Site
 Administrator Creator and Site Administrator Explorer are in the level

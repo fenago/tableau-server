@@ -259,11 +259,8 @@ reverse proxy server.
     Server, and has no way to know that the communication was mediated
     by the reverse proxy.
 
-<div>
+**Proxy servers and SSL**
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Proxy servers and SSL
-
-</div>
 
 For better security, you should configure the proxy servers to use SSL
 for any traffic that\'s external to your network. This helps to ensure

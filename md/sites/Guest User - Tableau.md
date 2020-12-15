@@ -2,7 +2,7 @@
 
 Guest User
 ==========
-Core-based licenses of [Tableau Server]{.VariablesProductName} include a
+Core-based licenses of [Tableau Server] include a
 Guest user option, which you can use to let people access Tableau views
 without an account on the server.
 

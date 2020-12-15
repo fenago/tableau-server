@@ -74,7 +74,7 @@ Adds users to the specified group.
 Add the users in the given `.csv` file to the specified group. The file
 should be a simple list with one user name per line. User names are not
 case sensitive. The users should already be created on [Tableau
-Server]{.VariablesProductName}.
+Server].
 
 If you use this command with large `.csv` files on Tableau Server, a
 server administrator can enable settings that help improve performance.
@@ -107,7 +107,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -124,17 +124,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -145,14 +145,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -165,13 +165,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -202,24 +202,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id5a3316ed-45bb-4da4-b557-1111112d4ac8}createextracts
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Creates extracts for a published workbook or data source.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options1}
-
-</div>
+#### Options
 
 `-d`, `--datasource`
 
@@ -278,7 +265,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -295,17 +282,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -316,14 +303,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -336,13 +323,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -411,7 +398,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -428,17 +415,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -449,14 +436,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -469,13 +456,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -525,7 +512,7 @@ Creates a project.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options2}
+#### Options
 
 </div>
 
@@ -563,7 +550,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -580,17 +567,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -601,14 +588,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -621,13 +608,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -692,9 +679,9 @@ Set a storage quota, in MB:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options3}
+#### Options
 
-</div>
+
 
 `-r`, `--url`
 
@@ -750,7 +737,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -767,17 +754,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -788,14 +775,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -808,13 +795,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -878,7 +865,7 @@ add users to a different site, include the global `--site` option and
 specify that site. (You must have permissions to create users on the
 site you specify.)
 
-::: {mc-conditions="Product.serverserver"}
+
 If the server contains multiple sites, you cannot add server
 (system) administrators through the `createsiteusers` command. Use
 `createusers` instead. If you specify the `ServerAdministrator` site
@@ -942,7 +929,7 @@ Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm){.MCXr
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options4}
+#### Options
 
 </div>
 
@@ -1017,7 +1004,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -1034,17 +1021,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -1055,14 +1042,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -1075,13 +1062,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -1182,7 +1169,7 @@ Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm){.MCXr
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options5}
+#### Options
 
 </div>
 
@@ -1258,7 +1245,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -1275,17 +1262,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -1296,14 +1283,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -1316,13 +1303,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -1399,7 +1386,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -1416,17 +1403,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -1437,14 +1424,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -1457,13 +1444,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -1517,7 +1504,7 @@ the server, not the file name when it was published.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options6}
+#### Options
 
 </div>
 
@@ -1560,7 +1547,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -1577,17 +1564,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -1598,14 +1585,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -1618,13 +1605,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -1670,7 +1657,7 @@ Deletes extracts for a published workbook or data source.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options7}
+#### Options
 
 </div>
 
@@ -1730,7 +1717,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -1747,17 +1734,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -1768,14 +1755,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -1788,13 +1775,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -1861,7 +1848,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -1878,17 +1865,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -1899,14 +1886,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -1919,13 +1906,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -2012,7 +1999,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -2029,17 +2016,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -2050,14 +2037,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -2070,13 +2057,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -2142,7 +2129,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -2159,17 +2146,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -2180,14 +2167,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -2200,13 +2187,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -2304,7 +2291,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -2321,17 +2308,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -2342,14 +2329,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -2362,13 +2349,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -2403,7 +2390,7 @@ required value for the `export` command.
 :::
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id6a8ef3d6-d17b-4c31-be47-7b09437eeec0}deleteusers *filename.csv* {#deleteusers-filenamecsv}
@@ -2422,7 +2409,7 @@ The `.csv` file should contain a simple list of one user name per line.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options8}
+#### Options
 
 </div>
 
@@ -2450,7 +2437,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -2467,17 +2454,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -2488,14 +2475,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -2508,13 +2495,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -2589,7 +2576,7 @@ To see a list of domains, use
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options9}
+#### Options
 
 </div>
 
@@ -2625,7 +2612,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -2642,17 +2629,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -2663,14 +2650,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -2683,13 +2670,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -2749,7 +2736,7 @@ many users they can add to a site.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options10}
+#### Options
 
 </div>
 
@@ -2815,7 +2802,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -2832,17 +2819,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -2853,14 +2840,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -2873,13 +2860,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -2956,7 +2943,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -2973,17 +2960,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -2994,14 +2981,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -3014,13 +3001,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -3051,19 +3038,8 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id7cb8d032-a4ff-43da-9990-15bdfe64bcd0}export
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
-
-Exports a view or workbook from [Tableau Server]{.VariablesProductName}
+Exports a view or workbook from [Tableau Server]
 and saves it to a file. This command can also export just the data used
 for a view.
 
@@ -3174,7 +3150,7 @@ of on an entire workbook.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options11}
+#### Options
 
 </div>
 
@@ -3238,7 +3214,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -3255,17 +3231,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -3276,14 +3252,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -3296,13 +3272,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -3344,7 +3320,7 @@ required value for the `export` command.
 
 </div>
 
-Gets the resource from [Tableau Server]{.VariablesProductName} that\'s
+Gets the resource from [Tableau Server] that\'s
 represented by the specified (partial) URL. The result is returned as a
 file.
 
@@ -3446,7 +3422,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -3463,17 +3439,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -3484,14 +3460,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -3504,13 +3480,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -3571,7 +3547,7 @@ parameter in the command. For example:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options12}
+#### Options
 
 </div>
 
@@ -3598,7 +3574,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -3615,17 +3591,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -3636,14 +3612,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -3656,13 +3632,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -3732,7 +3708,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -3749,17 +3725,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -3770,14 +3746,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -3790,13 +3766,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -3846,7 +3822,7 @@ Returns a list of sites to which the logged in user belongs.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options13}
+#### Options
 
 </div>
 
@@ -3877,7 +3853,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -3894,17 +3870,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -3915,14 +3891,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -3935,13 +3911,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -3984,7 +3960,7 @@ required value for the `export` command.
 
 </div>
 
-Logs in a [Tableau Server]{.VariablesProductName} user.
+Logs in a [Tableau Server] user.
 
 Use the `--server`, `--site`, `--username`, `--password` global options
 to create a session.
@@ -4018,8 +3994,8 @@ server or the `logout` command is run.
 
 **Example**
 
-::: {mc-conditions="Product.serverserver"}
-Logs user jsmith in to the [Tableau Server]{.VariablesProductName}
+
+Logs user jsmith in to the [Tableau Server]
 running on their local machine:
 
 `tabcmd login -s http://localhost -u jsmith -p password`
@@ -4046,7 +4022,7 @@ Logs user jsmith in to the reverse proxy using SSL:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options14}
+#### Options
 
 </div>
 
@@ -4096,7 +4072,7 @@ request.
 Do not prompt for a password. If no password is specified, the `login`
 command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 Do not use an HTTP proxy server.
@@ -4136,7 +4112,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -4153,17 +4129,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -4174,14 +4150,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -4194,13 +4170,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -4256,7 +4232,7 @@ Logs out of the server.
 </div>
 
 Publishes the specified workbook (.twb(x)), data source (.tds(x)), or
-extract (.hyper) to [Tableau Server]{.VariablesProductName}.
+extract (.hyper) to [Tableau Server].
 
 If you are publishing a workbook, by default, all sheets in the workbook
 are published without database user names or passwords.
@@ -4286,7 +4262,7 @@ path to the file.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options15}
+#### Options
 
 </div>
 
@@ -4410,7 +4386,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -4427,17 +4403,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -4448,14 +4424,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -4468,13 +4444,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -4543,7 +4519,7 @@ jsmith.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options16}
+#### Options
 
 </div>
 
@@ -4578,7 +4554,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -4595,17 +4571,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -4616,14 +4592,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -4636,13 +4612,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -4721,7 +4697,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -4738,17 +4714,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -4759,14 +4735,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -4779,13 +4755,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -4857,7 +4833,7 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/maintenance_se
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options17}
+#### Options
 
 </div>
 
@@ -4943,7 +4919,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -4960,17 +4936,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -4981,14 +4957,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -5001,13 +4977,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -5042,7 +5018,7 @@ required value for the `export` command.
 :::
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#reset_sub}reset\_openid\_sub {#resetopenidsub}
@@ -5062,7 +5038,7 @@ Connect](https://help.tableau.com/current/server/en-us/openid_auth_changing_idp.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options18}
+#### Options
 
 </div>
 
@@ -5093,7 +5069,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -5110,17 +5086,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -5131,14 +5107,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -5151,13 +5127,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -5208,7 +5184,7 @@ Removes users from the specified group.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options19}
+#### Options
 
 </div>
 
@@ -5248,7 +5224,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -5265,17 +5241,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -5286,14 +5262,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -5306,13 +5282,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -5388,7 +5364,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -5405,17 +5381,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -5426,14 +5402,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -5446,13 +5422,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -5528,7 +5504,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -5545,17 +5521,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -5566,14 +5542,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -5586,13 +5562,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -5656,7 +5632,7 @@ the command finishes.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options {#options20}
+#### Options
 
 </div>
 
@@ -5713,7 +5689,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -5730,17 +5706,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -5751,14 +5727,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -5771,13 +5747,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
@@ -5846,7 +5822,7 @@ minutes after the last command that used it.
 
 Displays the help for the command.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-c`, `--use-certificate`
 
 Use client certificate to sign in. Required when mutual SSL is enabled.
@@ -5863,17 +5839,17 @@ following topic appropriate for your Tableau Server OS:
 
 `-s`, `--server`
 
-The [Tableau Server]{.VariablesProductName} URL, which is required at
+The [Tableau Server] URL, which is required at
 least once to begin session.
 
 `-u`, `--user`
 
-The [Tableau Server]{.VariablesProductName} username, which is required
+The [Tableau Server] username, which is required
 at least once to begin session.
 
 `-p`, `--password`
 
-The [Tableau Server]{.VariablesProductName} password, which is required
+The [Tableau Server] password, which is required
 at least once to begin session.
 
 `--password-file`
@@ -5884,14 +5860,14 @@ the command line for increased security.
 `-t`, `--site`
 
 Indicates that the command applies to the site specified by the [Tableau
-Server]{.VariablesProductName} site ID, surrounded by single quotes or
+Server] site ID, surrounded by single quotes or
 double quotes. To specify the Default site, use either an empty string
 with single or double quotes (\'\' or \"\") or use Default in double
 quotes (\"Default\"). Site ID is case-sensitive when using a cached
 authentication token. If you do not match case you may be prompted for a
 password even if the token is still valid.
 
-::: {mc-conditions="Product.serverserver"}
+
 `-x`, `--proxy`
 
 Host:Port
@@ -5904,13 +5880,13 @@ Uses the specified HTTP proxy.
 When specified, the command will not prompt for a password. If no valid
 password is provided the command will fail.
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL

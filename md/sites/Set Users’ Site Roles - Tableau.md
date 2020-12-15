@@ -109,7 +109,7 @@ highest level of site role allowed with each, how each site role maps to
 its pre-2018.1 equivalent; and summarizes the maximum capabilities each
 site role allows.
 
-::: {mc-conditions="Product.serverserver"}
+
 <div>
 
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_site_roles.htm#){.heading-item__link .print-hidden} What this article covers and where to find what's not covered here {#what-this-article-covers-and-where-to-find-what’s-not-covered-here}
@@ -156,7 +156,7 @@ Previous site role name
 
 Maximum capabilities this site role allows
 
-**Site roles that use a [Creator]{.Variablessku-creator} license**
+**Site roles that use a [Creator] license**
 
 ---Users with these site roles have access to Tableau clients such as
 Tableau Prep, Tableau Desktop, Tableau Bridge, and Tableau Mobile.
@@ -352,7 +352,7 @@ The following site roles allow the specified level of publishing access.
     Only], and [Unlicensed] do not allow
     publishing.
 
-::: {mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_site_roles.htm#){.heading-item__link .print-hidden} []{#MinSiteRoleImport}Site roles and Active Directory import and synchronization
@@ -372,7 +372,7 @@ Server configured with LDAP identity store is equivalent to Active
 Directory. Active Directory synchronization features in Tableau Server
 function seamlessly with properly configured LDAP directory solutions.
 
-If a user already exists in a [Tableau Server]{.VariablesProductName}
+If a user already exists in a [Tableau Server]
 site, the site role assigned during the import or sync process will be
 applied if it gives the user more access in a site. Importing or
 synchronizing AD users and groups can promote a user\'s site role, but

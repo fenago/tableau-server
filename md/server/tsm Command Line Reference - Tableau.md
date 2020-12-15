@@ -17,7 +17,7 @@ the TSM CLI using the TSM API. To learn more about the prerelease
 API](https://help.tableau.com/v0.0/api/tsm_api/en-us/index.html).
 
 Looking for tabadmin commands for [Tableau
-Server]{.VariablesProductName} on Windows? See [tabadmin Commands[(Link
+Server] on Windows? See [tabadmin Commands[(Link
 opens in a new
 window)]{.sr-only}](https://help.tableau.com/v2018.1/server/en-us/tabadmin_cmd.htm "Opens topic in a new browser tab")
 in the 2018.1 Server help. Version 2018.1 is the last version of Tableau

@@ -5,7 +5,7 @@ tsm maintenance
 
 You can use the `tsm maintenance` commands to manage server maintenance
 tasks like creating regular backups or restoring [Tableau
-Server]{.VariablesProductName} from a previously created backup.
+Server] from a previously created backup.
 
 ::: {.miniToc}
 -   [tsm maintenance
@@ -69,7 +69,7 @@ Server]{.VariablesProductName} from a previously created backup.
 </div>
 
 Creates a backup of the data managed by [Tableau
-Server]{.VariablesProductName}. This data includes the Tableau
+Server]. This data includes the Tableau
 PostgreSQL database (the repository) which contains workbook and user
 metadata, and extract (.tde or .hyper) files. This data does not include
 configuration data. See [Perform a Full Backup and Restore of Tableau
@@ -123,7 +123,7 @@ backup file.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options 
 
 </div>
 
@@ -237,7 +237,7 @@ is on the initial node in the cluster.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Options {#options1}
+#### Options
 
 </div>
 
@@ -366,7 +366,7 @@ associated with that content, and disables the ability to both query the
 Metadata API and access [Tableau Catalog]{.VariablesDM_catalog}.
 
 Running this command stops and starts some services used by [Tableau
-Server]{.VariablesProductName}, which causes certain functionality, such
+Server], which causes certain functionality, such
 as Recommendations, to be temporarily unavailable to your users.
 
 <div>
@@ -413,17 +413,17 @@ Add-on]{.VariablesDM_sku}, enabling the Metadata API enables Tableau
 Catalog.
 
 When enabling the Metadata API, information about the content on
-[Tableau Server]{.VariablesProductName} is ingested and then indexed to
+[Tableau Server] is ingested and then indexed to
 the Metadata API Store. The Metadata API can be used to query schema,
 lineage, and user managed metadata about the content published to
-[Tableau Server]{.VariablesProductName}. After the Metadata API is
+[Tableau Server]. After the Metadata API is
 enabled, metadata is continuously ingested and indexed until the
 Metadata API is disabled.
 
 When running this command, keep the following in mind:
 
 -   This command stops and starts some services used by [Tableau
-    Server]{.VariablesProductName}, which causes certain functionality,
+    Server], which causes certain functionality,
     such as Recommendations, to be temporarily unavailable to your
     users.
 -   A new index of metadata is created and replaces the previous index
@@ -715,7 +715,7 @@ Wait the specified amount of time for the command to finish.
 
 </div>
 
-Restore [Tableau Server]{.VariablesProductName} using the specified
+Restore [Tableau Server] using the specified
 backup file. Restoring a backup file does not restore any configuration
 data. See [Perform a Full Backup and Restore of Tableau
 Server](https://help.tableau.com/current/server/en-us/backup_restore.htm){.MCXref
@@ -738,7 +738,7 @@ local authentication.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Options {#options2}
+#### Options
 
 </div>
 
@@ -822,7 +822,7 @@ be able to communicate with the send-logs server at
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Options {#options3}
+#### Options
 
 </div>
 
@@ -883,7 +883,7 @@ Store](https://help.tableau.com/current/server/en-us/server_external_filestore_s
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Options {#options4}
+#### Options
 
 </div>
 
@@ -928,7 +928,7 @@ Store](https://help.tableau.com/current/server/en-us/server_external_filestore_s
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Options {#options5}
+#### Options
 
 </div>
 
@@ -969,7 +969,7 @@ Store](https://help.tableau.com/current/server/en-us/server_external_filestore_s
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Options {#options6}
+#### Options
 
 </div>
 
@@ -1002,11 +1002,7 @@ problems might require assistance from Tableau Support.
 
 `tsm maintenance validate-resources --site-id <site ID> [global options]`
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Options {#options7}
-
-</div>
+#### Options
 
 -id,\--site-id \<site ID\>
 
@@ -1037,7 +1033,7 @@ Wait the specified amount of time for the command to finish.
 </div>
 
 Use the `ziplogs `command to create an archive of [Tableau
-Server]{.VariablesProductName} log files.
+Server] log files.
 
 <div>
 
@@ -1049,7 +1045,7 @@ Server]{.VariablesProductName} log files.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Options {#options8}
+#### Options
 
 </div>
 
@@ -1066,8 +1062,8 @@ data.
 Optional.
 
 Include the PostgreSQL data folder if [Tableau
-Server]{.VariablesProductName} is stopped or PostgreSQL dump files if
-[Tableau Server]{.VariablesProductName} is running.
+Server] is stopped or PostgreSQL dump files if
+[Tableau Server] is running.
 
 \--description \<string\>
 

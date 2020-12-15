@@ -33,7 +33,7 @@ Server Client File Service, and Tableau Server Coordination Service.
 
 During the `tsm maintenance backup`, `restore`, `send-logs`, and
 `ziplogs `processes, and the `tsm sites export` and
-`sites import `processes, [Tableau Server]{.VariablesProductName} uses
+`sites import `processes, [Tableau Server] uses
 default locations for the files created or used by these commands.
 
 For details on disk space requirements for backing up Tableau Server,

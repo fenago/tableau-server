@@ -3,17 +3,17 @@
 View Server Licenses
 ====================
 Server administrators can view the license and product key information
-for [Tableau Server]{.VariablesProductName}.
+for [Tableau Server].
 
 <div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/view_licenses.htm#){.heading-item__link .print-hidden} Viewing licenses from the [Tableau Server]{.VariablesProductName} web UI
+[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/view_licenses.htm#){.heading-item__link .print-hidden} Viewing licenses from the [Tableau Server] web UI
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 </div>
 
 How you navigate to the Licenses page in [Tableau
-Server]{.VariablesProductName} depends on whether you have a single
+Server] depends on whether you have a single
 site, or multiple sites.
 
 -   On a server with a single site, click [Settings] and

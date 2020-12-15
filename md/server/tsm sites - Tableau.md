@@ -51,7 +51,7 @@ the `tsm sites unlock` command.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -59,7 +59,7 @@ the `tsm sites unlock` command.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -68,7 +68,7 @@ the `tsm sites unlock` command.
 Required.
 
 Specify the name of the file to which [Tableau
-Server]{.VariablesProductName} saves all of the site's information.
+Server] saves all of the site's information.
 
 This file is generated to the directory defined in the TSM
 `basefilepath.site_export.exports` variable. By default:
@@ -138,7 +138,7 @@ the `tsm sites unlock` command.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis {#synopsis1}
 
 </div>
 
@@ -146,7 +146,7 @@ the `tsm sites unlock` command.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} Options {#options1}
+#### Options
 
 </div>
 
@@ -209,7 +209,7 @@ migration process.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis {#synopsis2}
 
 </div>
 
@@ -217,7 +217,7 @@ migration process.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} Options {#options2}
+#### Options
 
 </div>
 
@@ -259,7 +259,7 @@ Use this command to unlock a site.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} Options {#options3}
+#### Options
 
 </div>
 

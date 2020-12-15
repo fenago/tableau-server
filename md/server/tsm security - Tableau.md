@@ -2,7 +2,7 @@
 tsm security
 ============
 Use the `tsm security` commands to configure [Tableau
-Server]{.VariablesProductName} support for external (gateway) SSL or
+Server] support for external (gateway) SSL or
 repository (Postgres) SSL. Repository SSL configuration includes the
 option to enable SSL over direct connections from Tableau
 clients---including Tableau Desktop, Tableau Mobile, and web
@@ -85,7 +85,7 @@ browsers---to the repository.
 
 Before you configure SSL, you must acquire certificates, and then copy
 them to the computer that runs the [Tableau
-Server]{.VariablesProductName} gateway process. Additional preparation
+Server] gateway process. Additional preparation
 is required for enabling direct connections from clients. To learn more,
 see the following articles:
 
@@ -241,7 +241,7 @@ communication.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options {#options1}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -290,11 +290,11 @@ protocol version with a minus (-) character.
 Default setting: `"all, -SSLv2, -SSLv3"`
 
 This default explicitly does not allow clients to use SSL v2 or SSL v3
-protocols to connect to [Tableau Server]{.VariablesProductName}.
+protocols to connect to [Tableau Server].
 However, we recommend that you also disallow TLS v1 and TLS v1.1.
 
 Before you deny a specific version of TLS, verify that the browsers from
-which your users connect to [Tableau Server]{.VariablesProductName}
+which your users connect to [Tableau Server]
 support TLS v1.2. You might need to preserve support for TLSv1.1 until
 browsers are updated.
 
@@ -354,7 +354,7 @@ System](https://help.tableau.com/current/server/en-us/security_kms.htm){.MCXref
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options {#options2}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -481,7 +481,7 @@ flow](https://help.tableau.com/current/prep/en-us/prep_scripts._R.htm#configure-
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options {#options3}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -548,7 +548,7 @@ flow](https://help.tableau.com/current/prep/en-us/prep_scripts_TabPy.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options {#options4}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -638,7 +638,7 @@ Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.h
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options {#options5}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -696,18 +696,18 @@ direct connections from Tableau clients to the server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options {#options6}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
 -i, \--internal-only
 
 Optional. When set to `--internal-only`, [Tableau
-Server]{.VariablesProductName} uses SSL between the repository and other
+Server] uses SSL between the repository and other
 server components, and it supports but does not require SSL for direct
 connections through **tableau** or **readonly** users.
 
-If this option is not set, [Tableau Server]{.VariablesProductName}
+If this option is not set, [Tableau Server]
 requires SSL for traffic between the repository and other server
 components, as well as for direct connections from Tableau clients (for
 connections through the **tableau** or **readonly** users).
@@ -744,7 +744,7 @@ client.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options {#options7}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 

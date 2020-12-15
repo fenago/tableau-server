@@ -13,7 +13,7 @@ function seamlessly with properly configured LDAP directory solutions.
 
 Each user is assigned a site role as part of the import process. If any
 of the users to be imported exist in [Tableau
-Server]{.VariablesProductName}, the site role assigned during the import
+Server], the site role assigned during the import
 process is applied only if it gives the user more access to the server.
 Importing users does not demote site roles.
 

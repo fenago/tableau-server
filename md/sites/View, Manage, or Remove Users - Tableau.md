@@ -61,7 +61,7 @@ manage users:
 
 </div>
 
-::: {mc-conditions="Product.serverserver"}
+
 ::: {.accordion}
 ::: {.accordion__title}
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
@@ -72,7 +72,7 @@ server users
 ::: {.accordion__content .print-visible style="display: none;"}
 <div>
 
-Sign in to [Tableau Server]{.VariablesProductName} as a server
+Sign in to [Tableau Server] as a server
 administrator. On the site menu, select [Manage All Sites],
 and then select [Users].
 
@@ -188,7 +188,7 @@ deleted from the server.
 
 </div>
 
-::: {mc-conditions="Product.serverserver"}
+
 ::: {.accordion}
 ::: {.accordion__title}
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
@@ -225,7 +225,7 @@ demoted to the Unlicensed site role.
 :::
 :::
 
-::: {mc-conditions="Product.serverserver"}
+
 ::: {.accordion}
 ::: {.accordion__title}
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
@@ -237,7 +237,7 @@ for users of a single site
 <div>
 
 To change the password for a user with membership to a single site, sign
-in to [Tableau Server]{.VariablesProductName} as a site administrator or
+in to [Tableau Server] as a site administrator or
 a server administrator.
 
 1.  Ensure that the correct site is selected in the menu.

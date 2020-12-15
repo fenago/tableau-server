@@ -25,7 +25,7 @@ TSM](https://help.tableau.com/current/server/en-us/tabadmin-to-tsm.htm){.MCXref
 .xref}.
 
 Looking for tabadmin commands for [Tableau
-Server]{.VariablesProductName} on Windows version 2018.1 and earlier?
+Server] on Windows version 2018.1 and earlier?
 See [tabadmin Commands[(Link opens in a new
 window)]{.sr-only}](https://help.tableau.com/current/server/en-us/tabadmin_cmd.htm "Opens topic in a new browser tab").
 

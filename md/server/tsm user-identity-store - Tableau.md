@@ -121,7 +121,7 @@ tsm user-identity-store set-connection --kerbkeytab <kerbkeytab> [options] [glob
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options {#options1}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -211,7 +211,7 @@ tsm user-identity-store set-group-mappings [options] [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options {#options2}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -275,7 +275,7 @@ tsm user-identity-store set-user-mappings --certificate <certificate> [options] 
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options {#options3}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -356,7 +356,7 @@ tsm user-identity-store verify-group-mappings --verify <group_name> [global opt
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options {#options4}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -387,7 +387,7 @@ tsm user-identity-store verify-user-mappings --verify <user_name> [global optio
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options {#options5}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 

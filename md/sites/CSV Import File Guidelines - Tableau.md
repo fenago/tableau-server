@@ -7,7 +7,7 @@ file with user information and then importing the file. You can include
 attributes in the CSV file, such as license level and the publishing
 access, to apply to the users at the same time you import them.
 
-::: {mc-conditions="Product.serverserver"}
+
 To import users, you can use the server or site administration pages or
 the `tabcmd` utility. Using `tabcmd` provides an option for assigning a
 site role to all users in the CSV file. For information, see [Import
@@ -32,7 +32,7 @@ When you create the CSV file for importing users, make sure that the
 file meets the following formatting requirements:
 
 -   The file does not include column headings. [Tableau
-    Server]{.VariablesProductName} assumes that every line in the file
+    Server] assumes that every line in the file
     represents a user.
 
 -   The file is in UTF-8 format, and includes the byte-order mark (BOM).
@@ -64,7 +64,7 @@ The following values are required for each user:
     itself should be empty. If the server is using local authentication,
     you must provide passwords for new users.
 
-::: {mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/csvguidelines.htm#){.heading-item__link .print-hidden} Additional import file options
@@ -236,7 +236,7 @@ The following table shows how the settings are converted to site roles.
 | Publisher=false           |                                          |
 +---------------------------+------------------------------------------+
 
-::: {mc-conditions="Product.serverserver"}
+
 <div>
 
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/csvguidelines.htm#){.heading-item__link .print-hidden} CSV import example for Tableau Server

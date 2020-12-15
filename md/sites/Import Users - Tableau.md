@@ -15,7 +15,7 @@ see [CSV Import File
 Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm){.MCXref
 .xref} for a list of file format requirements and import options.
 
-::: {mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_import.htm#){.heading-item__link .print-hidden} Add users from a CSV file
@@ -62,7 +62,7 @@ server. The images reflect adding users at the site level.
 
 When you import at the site level or on a single-site server using
 `tabcmd`, you can specify the site role for all users in the CSV file.
-If a user already exists in the [Tableau Server]{.VariablesProductName}
+If a user already exists in the [Tableau Server]
 site, the site role assigned during the import process will be applied,
 even if it is more restrictive than users' existing site role. The
 exception is that you cannot affect a server administrator's site role.

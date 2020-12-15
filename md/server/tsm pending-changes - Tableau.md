@@ -4,7 +4,7 @@ tsm pending-changes
 ===================
 Use the `tsm pending-changes` commands to apply, discard, or view
 pending configuration and topology changes to [Tableau
-Server]{.VariablesProductName}.
+Server].
 
 Passwords and secrets that you enter during TSM configuration are
 encrypted after you save them. Secrets remain encrypted until, during,
@@ -34,7 +34,7 @@ Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.h
 
 Use the `tsm pending-changes apply` command to apply pending
 configuration and topology changes to [Tableau
-Server]{.VariablesProductName}.
+Server].
 
 If the pending changes require a server restart, the
 `pending-changes apply` command will display a prompt to let you know a
@@ -87,7 +87,7 @@ value is 1800 (30 minutes).
 
 Use the `tsm pending-changes discard` command to discard pending
 configuration and topology changes to [Tableau
-Server]{.VariablesProductName}.
+Server].
 
 <div>
 
@@ -99,7 +99,7 @@ Server]{.VariablesProductName}.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Options {#options1}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -123,7 +123,7 @@ Discard only pending topology changes.
 </div>
 
 Lists pending configuration and topology changes to [Tableau
-Server]{.VariablesProductName}. Any changes that do not require a server
+Server]. Any changes that do not require a server
 restart will be listed as not requiring a restart. If none of the
 pending changes require a restart, a message displays saying the changes
 do not require a server restart. If any change in the list requires a
@@ -145,7 +145,7 @@ Changes](https://help.tableau.com/current/server/en-us/server_process_hot_topo.h
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Options {#options2}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 

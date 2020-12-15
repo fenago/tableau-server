@@ -3,7 +3,7 @@
 Language and Locale for Tableau Server
 ======================================
 
-[Tableau Server]{.VariablesProductName}  is localized into several
+[Tableau Server]  is localized into several
 languages. Server language and locale settings impact how this affects
 users. The [Language] setting controls user interface (UI)
 items such as menus and messages. The [Locale ]setting
@@ -20,56 +20,45 @@ window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#
 . If a user configures their own language and locale, their settings
 override the server settings.
 
-<div>
+Supported Languages
+--------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/lang_intro.htm#){.heading-item__link .print-hidden} Supported Languages
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
-
-[Tableau Server]{.VariablesProductName} is localized into several
+[Tableau Server] is localized into several
 languages. See the \"Internationalization\" section of the [Tableau
 Server Technical Specification[(Link opens in a new
 window)]{.sr-only}](https://www.tableau.com/products/techspecs#server)
 page for more information.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/lang_intro.htm#){.heading-item__link .print-hidden} Default Settings
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Default Settings
+-----------------
 
-</div>
-
-The default language for [Tableau Server]{.VariablesProductName} is
+The default language for [Tableau Server] is
 determined during Setup. If the host computer is configured for a
-language [Tableau Server]{.VariablesProductName} supports, [Tableau
-Server]{.VariablesProductName} installs with that language as its
+language [Tableau Server] supports, [Tableau
+Server] installs with that language as its
 default. If computer is configured for a language that is not supported,
-[Tableau Server]{.VariablesProductName} installs with English as its
+[Tableau Server] installs with English as its
 default language.
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/lang_intro.htm#){.heading-item__link .print-hidden} How Language and Locale are Determined
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
+How Language and Locale are Determined
+---------------------------------------
 
 Another influence on which language and locale display when a user
 clicks a view is the user's web browser. If a server user has not
 specified a [Language] setting on their User Account page,
 and their web browser is set to a language that [Tableau
-Server]{.VariablesProductName} supports, the browser's language will be
-used---even if [Tableau Server]{.VariablesProductName} itself is set to
+Server] supports, the browser's language will be
+used---even if [Tableau Server] itself is set to
 a different language.
 
-Here's an example: Assume that [Tableau Server]{.VariablesProductName}
+Here's an example: Assume that [Tableau Server]
 has a system-wide setting of English as the [Language] for
 all users. Server user Claude does not have a language specified on his
-[Tableau Server]{.VariablesProductName} User Account page. Claude's
+[Tableau Server] User Account page. Claude's
 browser uses German (Germany) for its language/locale.
 
-When Claude signs in to [Tableau Server]{.VariablesProductName}, the
+When Claude signs in to [Tableau Server], the
 server UI displays in German and when he clicks a view, the view uses
 the Germany locale for numbers and currency. If Claude had set his user
 account [Language] and [Locale] to French
@@ -88,7 +77,7 @@ View A set [Locale] to [Greek (Greece)], certain
 aspects of the data in View A would display using the Greek (Greece)
 locale.
 
-[Tableau Server]{.VariablesProductName} uses these settings, in this
+[Tableau Server] uses these settings, in this
 order of precedence, to determine language and locale:
 
 1.  Workbook locale (set in Tableau Desktop)

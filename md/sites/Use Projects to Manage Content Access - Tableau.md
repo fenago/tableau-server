@@ -3,13 +3,13 @@
 Use Projects to Manage Content Access
 =====================================
 When Tableau Desktop users publish a workbook or data source to a site
-on [Tableau Server]{.VariablesProductName}, they can select a *project*
+on [Tableau Server], they can select a *project*
 to publish it to. If they don't specify a project, their content is
 published to the [Default] project.
 
 As an administrator, you can create projects to hold and organize
 related *content*, or to delegate content management. Content on
-[Tableau Server]{.VariablesProductName} are workbooks, views, and data
+[Tableau Server] are workbooks, views, and data
 sources, and the projects that hold them. If the Data Management Add-on
 is present, content types also include Flows and Data Roles.
 
@@ -29,7 +29,7 @@ flows.
 </div>
 
 Projects help you to create a scalable process for managing access to
-the content published to [Tableau Server]{.VariablesProductName}.
+the content published to [Tableau Server].
 Advantages they have include:
 
 -   They enable administrators to delegate content management to project
@@ -41,7 +41,7 @@ Advantages they have include:
     -   **Note:** Project owners can delete top-level projects they own.
         Project leaders cannot delete top-level projects.
 -   They can make the site easier to navigate for self-service users.
-    -   They segment the [Tableau Server]{.VariablesProductName} site
+    -   They segment the [Tableau Server] site
         into areas that give users access based on how they use the data
         published to those areas, or on the Tableau user group they work
         with.
@@ -87,12 +87,9 @@ the best practices for working with Tableau and data can manage these
 things for their teams, without having to submit IT requests to change
 permissions or add projects.
 
-::: {mc-conditions="Product.serverserver"}
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects.htm#){.heading-item__link .print-hidden} Why not use sites?
+**Why not use sites?**
 
-</div>
 
 If you manage your own Tableau Server deployment, you can create as many
 sites as you want. However, for managing data and reports across your

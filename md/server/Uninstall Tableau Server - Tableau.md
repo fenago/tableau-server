@@ -29,7 +29,7 @@ There are two primary \"uninstall\" scenarios that Tableau Server on
 Windows supports:
 
 -   **Uninstall Tableau Server:** *After you upgrade* to a new version
-    of [Tableau Server]{.VariablesProductName} you can uninstall your
+    of [Tableau Server] you can uninstall your
     previous version to free up disk space. Continue reading for
     information about uninstalling Tableau.
 

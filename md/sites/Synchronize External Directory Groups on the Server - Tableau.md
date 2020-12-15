@@ -57,10 +57,10 @@ Directory](https://help.tableau.com/current/server/en-us/groups_create_ad.htm){.
 </div>
 
 At any time, you can synchronize external directory (such as Active
-Directory) groups with [Tableau Server]{.VariablesProductName} to ensure
+Directory) groups with [Tableau Server] to ensure
 that new users and changes in the external directory are reflected in
 all external directory groups on [Tableau
-Server]{.VariablesProductName}.
+Server].
 
 1.  **Single-site**: Click [Settings]\>
     [General].

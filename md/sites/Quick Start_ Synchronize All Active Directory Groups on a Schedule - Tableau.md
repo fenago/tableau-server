@@ -3,8 +3,8 @@
 Quick Start: Synchronize All Active Directory Groups on a Schedule
 ==================================================================
 After you import Active Directory groups in [Tableau
-Server]{.VariablesProductName}, you can make sure they stay synchronized
-in [Tableau Server]{.VariablesProductName} by setting up a schedule. You
+Server], you can make sure they stay synchronized
+in [Tableau Server] by setting up a schedule. You
 can also synchronize all Active Directory groups on the server
 on-demand, at any time. The minimum site role setting for the group is
 applied when users are synchronized.
@@ -58,7 +58,7 @@ the same schedule.
 
 On the [General] tab of the [Settings] page,
 click [Synchronize All Groups] to synchronize all Active
-Directory groups on [Tableau Server]{.VariablesProductName} immediately.
+Directory groups on [Tableau Server] immediately.
 Click this button at any time to ensure new users and changes are
 reflected in all Active Directory groups on the server.
 

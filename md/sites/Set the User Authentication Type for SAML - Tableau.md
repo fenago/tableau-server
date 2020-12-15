@@ -9,9 +9,9 @@ SAML, administrators can specify which users authenticate with
 site-specific SAML and which users authenticate with server-wide SAML.
 
 You can assign authentication type at the time you add users to [Tableau
-Server]{.VariablesProductName}, as well as any time afterward.
+Server], as well as any time afterward.
 
-1.  When you're signed in to the [Tableau Server]{.VariablesProductName}
+1.  When you're signed in to the [Tableau Server]
     site, select **Users**.
 
 2.  On the [Site Users] page, select the check boxes next to

@@ -55,7 +55,7 @@ server restart will take place. To run these commands without input,
 include the `--ignore-prompt` option.
 
 Use the `tsm topology cleanup-coordination-service` command to remove
-the non-production [Tableau Server]{.VariablesProductName} Coordination
+the non-production [Tableau Server] Coordination
 Service ensemble after you deploy a new ensemble. This command removes
 the old Coordination Service instances on all nodes in the
 non-production Coordination Service ensemble and is required after you
@@ -103,7 +103,7 @@ server restart will take place. To run these commands without input,
 include the `--ignore-prompt` option.
 
 You can use the `tsm topology deploy-coordination-service` command to
-deploy the [Tableau Server]{.VariablesProductName} Coordination Service.
+deploy the [Tableau Server] Coordination Service.
 This command deploys a Coordination Service ensemble, which is a set of
 Coordination Service instances that run on specified nodes in your
 server cluster. To learn more about Coordination Service ensembles,
@@ -174,7 +174,7 @@ tsm topology external-services storage disable [options] [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options1}
+#### Options
 
 </div>
 
@@ -216,7 +216,7 @@ tsm topology external-services storage enable [options] [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options2}
+#### Options
 
 </div>
 
@@ -329,7 +329,7 @@ repository after the migration is complete.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options3}
+#### Options
 
 </div>
 
@@ -392,7 +392,7 @@ This command can be used in the following scenarios:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options4}
+#### Options
 
 </div>
 
@@ -461,7 +461,7 @@ failover-repository command to manually fail over the repository.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options5}
+#### Options
 
 </div>
 
@@ -510,7 +510,7 @@ If decommissioning results in a single file store node, you must use the
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options6}
+#### Options
 
 </div>
 
@@ -565,7 +565,7 @@ decommissioned nodes back to read-write mode.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options7}
+#### Options
 
 </div>
 
@@ -598,7 +598,7 @@ tsm topology list-nodes [options] [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options8}
+#### Options
 
 </div>
 
@@ -633,7 +633,7 @@ tsm topology list-ports [options] [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options9}
+#### Options
 
 </div>
 
@@ -682,7 +682,7 @@ operations](https://help.tableau.com/current/server/en-us/security_secret_storag
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options10}
+#### Options
 
 </div>
 
@@ -754,7 +754,7 @@ tsm topology remove-nodes --nodes <nodeID,nodeID,...> [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options11}
+#### Options
 
 </div>
 
@@ -798,7 +798,7 @@ tsm topology set-node-role [options] [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options12}
+#### Options
 
 </div>
 
@@ -870,7 +870,7 @@ tsm topology set-ports --node-name <nodeID> --port-name <port_name> --port-value
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options13}
+#### Options
 
 </div>
 
@@ -908,7 +908,7 @@ The port to set.
 Optional.
 
 Suppress the prompt for restart and restart [Tableau
-Server]{.VariablesProductName} when necessary.
+Server] when necessary.
 
  
 
@@ -952,7 +952,7 @@ tsm topology set-process --count <process_count> --node <nodeID> --process <proc
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options {#options14}
+#### Options
 
 </div>
 

@@ -3,7 +3,7 @@
 Create a Local Group
 ====================
 Local groups are created using the [Tableau
-Server]{.VariablesProductName} internal user management system. After
+Server] internal user management system. After
 you create a group you can add and remove users, as well as set a
 minimum site role to grant to users in the group when they sign in.
 

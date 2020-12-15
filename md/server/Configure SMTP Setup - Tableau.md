@@ -2,10 +2,10 @@
 
 Configure SMTP Setup
 ====================
-[Tableau Server]{.VariablesProductName} can email server administrators
+[Tableau Server] can email server administrators
 about system failures, and email server users about subscribed views and
 data-driven alerts. First, however, you need to configure the SMTP
-server that [Tableau Server]{.VariablesProductName} uses to send email.
+server that [Tableau Server] uses to send email.
 After configuring SMTP, complete the steps to configure notifications
 ([Configure Server Event
 Notification](https://help.tableau.com/current/server/en-us/email.htm){.MCXref

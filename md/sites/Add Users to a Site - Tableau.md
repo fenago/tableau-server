@@ -3,7 +3,7 @@
 Add Users to a Site
 ===================
 Everyone who needs to access [Tableau
-Server]{.VariablesProductName}---whether to browse, publish, edit
+Server]---whether to browse, publish, edit
 content or administer the site---must be added as a user. Administrators
 have the following options for adding users:
 
@@ -21,7 +21,7 @@ have the following options for adding users:
     Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm){.MCXref
     .xref}.
 
-::: {mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/sites_addusers.htm#){.heading-item__link .print-hidden} []{#site-admin-access}Site administrator access to user management
@@ -46,7 +46,7 @@ only site B cannot edit User1's full name or reset the password.
 
 </div>
 
-1.  Sign in to [Tableau Server]{.VariablesProductName} as an
+1.  Sign in to [Tableau Server] as an
     administrator, and if applicable select the site.
 
 2.  Select [Users]. On the Users page, click [Add
@@ -128,7 +128,7 @@ Active Directory user name format influence Tableau user management.
 
 </div>
 
-1.  Sign in to [Tableau Server]{.VariablesProductName} as an
+1.  Sign in to [Tableau Server] as an
     administrator, select the site, and open the [Users]
     page.
 
@@ -152,7 +152,7 @@ Active Directory user name format influence Tableau user management.
     Server](https://help.tableau.com/current/server/en-us/users_add.htm){.MCXref
     .xref}, without site affiliation.
 
--   Upgrading [Tableau Server]{.VariablesProductName} to version 2018.1
+-   Upgrading [Tableau Server] to version 2018.1
     or later from a pre-2018.1 version, without activating user-based
     licenses, affects users who were assigned the [Viewer]
     site role in the pre-2018.1 server version.

@@ -309,11 +309,11 @@ delete when you are finished with this exercise.
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} What if you're using Active Directory? {#create-users-for-ad}
 :::
 
-If you've already configured [Tableau Server]{.VariablesProductName} to
+If you've already configured [Tableau Server] to
 use Active Directory, you could have your Active Directory administrator
 to create these temporary users for you to use in this walkthrough.
 You'll also need to import them to [Tableau
-Server]{.VariablesProductName}. After you have finished the walkthrough
+Server]. After you have finished the walkthrough
 and feel confident that you can configure real users, you can delete the
 temporary users.
 :::

@@ -44,7 +44,7 @@ configure user authentication options for Tableau Server.
 </div>
 
 Enable, disable, and configure Kerberos user authentication on [Tableau
-Server]{.VariablesProductName}. See [Configure
+Server]. See [Configure
 Kerberos](https://help.tableau.com/current/server/en-us/config_kerberos.htm){.MCXref
 .xref}.
 
@@ -110,7 +110,7 @@ Show all configured parameters.
 </div>
 
 Enable, disable, and configure mutual SSL for user authentication on
-[Tableau Server]{.VariablesProductName}. To learn more about mutual SSL,
+[Tableau Server]. To learn more about mutual SSL,
 see [Configure Mutual SSL
 Authentication](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm){.MCXref
 .xref}.
@@ -135,7 +135,7 @@ Server](https://help.tableau.com/current/server/en-us/ssl_config.htm){.MCXref
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options {#options1}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -183,7 +183,7 @@ file. This file can be a .pem or .der file.
 </div>
 
 Enable, disable, and configure OpenID Connect (OIDC) user authentication
-on [Tableau Server]{.VariablesProductName}.
+on [Tableau Server].
 
 <div>
 
@@ -201,11 +201,9 @@ on [Tableau Server]{.VariablesProductName}.
 
 `tsm authentication openid map-claims [options] [global options]`
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#Options}Options for openid configure
+**Options for openid configure**
 
-</div>
 
 -a, \--client-authentication \<string\>
 
@@ -295,11 +293,7 @@ the IdP. See [Requirements for Using OpenID
 Connect](https://help.tableau.com/current/server/en-us/openid_auth_requirements.htm){.MCXref
 .xref}.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#Options2}Options for openid map-claims {#options-for-openid-mapclaims}
-
-</div>
+#### Options for openid map-claims 
 
 Use these options to change the default OIDC claims Tableau Server will
 use when communicating with your IdP. See [Requirements for Using OpenID
@@ -328,10 +322,10 @@ match user names as stored in Tableau Server.
 
 </div>
 
-Configure [Tableau Server]{.VariablesProductName} to support single-sign
+Configure [Tableau Server] to support single-sign
 on using the SAML 2.0 standard, enable or disable SAML for a site, map
 assertion attribute names between [Tableau
-Server]{.VariablesProductName} and the identity provider (IdP).
+Server] and the identity provider (IdP).
 
 <div>
 
@@ -377,7 +371,7 @@ SAML](https://help.tableau.com/current/server/en-us/config_saml.htm){.MCXref
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options {#options2}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -529,7 +523,7 @@ configure the SAML IdP.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options {#options3}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -570,7 +564,7 @@ that the IdP uses for the attribute specified in each argument.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options {#options4}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -609,7 +603,7 @@ Not implemented. Do not use.
 Set the server to allow or disallow SAML authentication at the site
 level. Enabling site-specific SAML gives you access to the
 [Settings] \> [Authentication] tab in the
-[Tableau Server]{.VariablesProductName} web UI. The
+[Tableau Server] web UI. The
 [Authentication] tab contains the site-specific SAML
 configuration settings.
 
@@ -674,7 +668,7 @@ As with all authentication commands, you must run
 </div>
 
 Configure trusted authentication (trusted tickets) for user
-authentication on [Tableau Server]{.VariablesProductName}.
+authentication on [Tableau Server].
 
 <div>
 
@@ -686,7 +680,7 @@ authentication on [Tableau Server]{.VariablesProductName}.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options {#options5}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 

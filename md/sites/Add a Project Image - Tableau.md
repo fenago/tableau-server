@@ -3,7 +3,7 @@
 Add a Project Image
 ===================
 To help distinguish projects you manage on [Tableau
-Server]{.VariablesProductName} (and help your users find them), you can
+Server] (and help your users find them), you can
 add an image that appears in the thumbnail. Your image must meet the
 following requirements:
 
@@ -24,7 +24,7 @@ following requirements:
 
 </div>
 
-1.  Sign in to a site on [Tableau Server]{.VariablesProductName}. In the
+1.  Sign in to a site on [Tableau Server]. In the
     list of [Top-level Projects] you have access to, select
     or navigate to the project you want to update. In this example,
     we\'ll add an image to the Statistics project folder.

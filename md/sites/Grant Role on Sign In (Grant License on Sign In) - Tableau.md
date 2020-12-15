@@ -40,7 +40,7 @@ users that are eligible for a license but may not consume one. This may
 be the case when your company has a lot of eligible users, but limited
 Tableau licenses.
 
-::: {mc-conditions="Product.serverserver"}
+
 1.  In a site, click [Groups], and then click [Add
     Group].
 

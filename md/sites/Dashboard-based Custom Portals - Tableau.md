@@ -16,7 +16,7 @@ roles, and you can even incorporate training that helps people interact
 with data more fully. As the volume of Tableau content grows, a custom
 portal guides your users directly to the data they need, while providing
 ready access to related views and [Tableau
-Server]{.VariablesProductName} search so they can easily explore
+Server] search so they can easily explore
 further.
 
 <div>

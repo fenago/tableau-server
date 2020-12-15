@@ -3,7 +3,7 @@
 Add Users to a Group
 ====================
 
-You can organize [Tableau Server]{.VariablesProductName} users into
+You can organize [Tableau Server] users into
 groups to make it easier to manage multiple users. You can create groups
 on the server or import groups from Active Directory.
 

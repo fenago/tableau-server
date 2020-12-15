@@ -3,7 +3,7 @@ tsm licenses
 ============
 You can use the `tsm licenses` commands to manage server license tasks
 like activating or deactivating a [Tableau
-Server]{.VariablesProductName} product key on- or off-line, and getting
+Server] product key on- or off-line, and getting
 associated files for offline activation or deactivation.
 
 ::: {.miniToc}
@@ -34,7 +34,7 @@ associated files for offline activation or deactivation.
 
 </div>
 
-Activates a [Tableau Server]{.VariablesProductName} product key.
+Activates a [Tableau Server] product key.
 
 If the computer where you are running Tableau Server has been configured
 to connect to the internet through a forward proxy, follow the procedure
@@ -81,7 +81,7 @@ Activate a trial license.
 
 </div>
 
-Deactivates a [Tableau Server]{.VariablesProductName} product key either
+Deactivates a [Tableau Server] product key either
 online or offline.
 
 If the computer where you are running Tableau Server has been configured
@@ -100,7 +100,7 @@ Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm){.MCXref
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Options {#options1}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -124,7 +124,7 @@ Specifies the product key to use for online deactivation.
 </div>
 
 Generate an offline activate file to use for activating [Tableau
-Server]{.VariablesProductName} offline. To learn more, see [Activate
+Server] offline. To learn more, see [Activate
 Tableau Server Offline - Adding a
 License](https://help.tableau.com/current/server/en-us/activate_off.htm){.MCXref
 .xref}.
@@ -137,11 +137,7 @@ License](https://help.tableau.com/current/server/en-us/activate_off.htm){.MCXref
 
 `tsm licenses get-offline-activation-file --license-key <product-key> --output-dir <path> [global options]`
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Options {#options2}
-
-</div>
+#### Options
 
 -k, \--license-key \<product-key\>
 
@@ -164,7 +160,7 @@ location must exist.
 </div>
 
 Generate an offline deactivation file to use for deactivating [Tableau
-Server]{.VariablesProductName} offline. To learn more, see [Deactivate
+Server] offline. To learn more, see [Deactivate
 Tableau Server
 Offline](https://help.tableau.com/current/server/en-us/deactivate_off.htm){.MCXref
 .xref}.
@@ -179,7 +175,7 @@ Offline](https://help.tableau.com/current/server/en-us/deactivate_off.htm){.MCXr
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Options {#options3}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 

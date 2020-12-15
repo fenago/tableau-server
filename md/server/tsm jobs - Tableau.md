@@ -61,7 +61,7 @@ List asynchronous jobs on the server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Options {#options1}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -91,7 +91,7 @@ is specified, it reconnects to the latest job.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Options {#options2}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 

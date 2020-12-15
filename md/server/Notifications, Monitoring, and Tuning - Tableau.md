@@ -19,7 +19,7 @@ provide useful information that you can use to tune server performance.
 </div>
 
 Alerts are email notifications that you receive when something happens
-on [Tableau Server]{.VariablesProductName}. You can set up alerts for
+on [Tableau Server]. You can set up alerts for
 when the server is running out of disk space and for when server
 processes stop or start. These conditions often mean that there is an
 immediate problem.
@@ -30,12 +30,12 @@ users can also make use of alerts. After you set up alerts, your users
 can subscribe to views to periodically receive a snapshot of views they
 are interested in on a recurring basis.
 
-To send alerts, [Tableau Server]{.VariablesProductName} must connect to
+To send alerts, [Tableau Server] must connect to
 a mail server, also known as a Simple Mail Transfer Protocol (SMTP)
 server. An SMTP server is a service that you can send outbound email
 messages to. It then relays the messages to whoever they\'re addressed
 to. (It doesn\'t handle incoming email.) To set up alerts, you must
-configure [Tableau Server]{.VariablesProductName} to communicate with
+configure [Tableau Server] to communicate with
 your SMTP mail server.
 
 <div>
@@ -65,7 +65,7 @@ only meant for internal use.
 
 You\'ll also need to decide on a **from** address for the alerts that
 the server sends. When people receive an alert email from [Tableau
-Server]{.VariablesProductName}, this is the name that\'s on the **from**
+Server], this is the name that\'s on the **from**
 line of the message. Because alerts are simply informational, you
 generally don\'t need to worry about who\'s on the **from** line, so
 people use addresses like `no-reply@example.com` or

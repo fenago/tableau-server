@@ -118,7 +118,7 @@ default remote user. This will not disable access from localhost.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options {#options1}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -141,7 +141,7 @@ value is 1500 (25 minutes).
 Optional.
 
 Suppress the prompt for restart and restart [Tableau
-Server]{.VariablesProductName}.
+Server].
 
 <div>
 
@@ -168,7 +168,7 @@ mapped](https://help.tableau.com/current/server/en-us/ports.htm#PortsNotDynamic)
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options {#options2}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -198,7 +198,7 @@ value is 1500 (25 minutes).
 Optional.
 
 Suppress the prompt for restart and restart [Tableau
-Server]{.VariablesProductName}.
+Server].
 
 <div>
 
@@ -225,7 +225,7 @@ Lists users who have access to the Tableau PostgreSQL database.
 </div>
 
 Setup single sign-on for SAML SAP HANA so that [Tableau
-Server]{.VariablesProductName} functions as an Identity Provider (IdP)
+Server] functions as an Identity Provider (IdP)
 that provides single sign-on for users making SAP HANA data connections.
 
 <div>
@@ -238,7 +238,7 @@ that provides single sign-on for users making SAP HANA data connections.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options {#options3}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -323,7 +323,7 @@ Add a web data connector (WDC) to the WDC safe list.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options {#options4}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -376,7 +376,7 @@ on Tableau Server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options {#options5}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -412,7 +412,7 @@ Delete a specified WDC, or all WDCs, from the Tableau Server safe list.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options {#options6}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 
@@ -447,7 +447,7 @@ List all WDCs currently on the safe list.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options {#options7}
+### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
 
 </div>
 

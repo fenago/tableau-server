@@ -429,7 +429,7 @@ failover is required.
 Default value: `60  `
 
 The frequency, in minutes, at which [Tableau
-Server]{.VariablesProductName} checks to determine if data-alert
+Server] checks to determine if data-alert
 conditions are true.
 
 (The server also checks whenever extracts related to data alerts are
@@ -443,7 +443,7 @@ refreshed.)
 
 Default value: `true   `
 
-Determines how often [Tableau Server]{.VariablesProductName} rechecks
+Determines how often [Tableau Server] rechecks
 failing data alerts. When set to `true`, the server rechecks failing
 alerts at the frequency defined by `dataAlerts.checkIntervalInMinutes`.
 When set to `false`, the server rechecks failing alerts every five
@@ -1294,12 +1294,12 @@ Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm){.M
 
 Default value: `true`
 
-Controls whether [Tableau Server]{.VariablesProductName} can add
+Controls whether [Tableau Server] can add
 firewall rules. When set to `true` (the default), [Tableau
-Server]{.VariablesProductName} will add new firewall rules to allow its
+Server] will add new firewall rules to allow its
 processes to make connections through Windows Firewall. Change this to
 `false` if you want to manage all firewall rules yourself and do not
-want [Tableau Server]{.VariablesProductName} to add new rules.
+want [Tableau Server] to add new rules.
 
 <div>
 
@@ -1627,7 +1627,7 @@ Use the legacy name format for constrained delegation.
 The name format was changed in version 10.1 to allow cross-domain
 protocol transition (S4U). If this causes problems with existing
 configurations and you don\'t need cross-domain protocol transition,
-configure [Tableau Server]{.VariablesProductName} to use the old
+configure [Tableau Server] to use the old
 behavior by setting this to `true`.
 
 <div>

@@ -25,7 +25,7 @@ Server.
 Optional.
 
 Display status for every node in the [Tableau
-Server]{.VariablesProductName} cluster.
+Server] cluster.
 
 `tsm status` will return one of these potential statuses for a Tableau
 Server node:

@@ -3,9 +3,9 @@
 Synchronize External Directory Groups in a Site
 ===============================================
 At any time, you can synchronize an external directory (such as Active
-Directory) group with [Tableau Server]{.VariablesProductName} to ensure
+Directory) group with [Tableau Server] to ensure
 new users in the external directory are also added in [Tableau
-Server]{.VariablesProductName}. You can synchronize individual groups or
+Server]. You can synchronize individual groups or
 multiple groups at once.
 
 **Note**: In the context of user and group synchronization, Tableau
