@@ -81,7 +81,7 @@ For more information, see
 2.  Select the users, and then select [Actions] \> [Site
     Role].
 
-    ![](./Set%20Users’%20Site%20Roles%20-%20Tableau_files/users_siterole_change.png)
+    ![](./images/users_siterole_change.png)
 
 3.  Select the new site role, and then click [Change Site
     Role].

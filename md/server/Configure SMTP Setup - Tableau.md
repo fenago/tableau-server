@@ -51,14 +51,14 @@ certificate validation process. For more information, see the section,
 
 3.  Enter the SMTP configuration information for your organization:
 
-    ![](./Configure%20SMTP%20Setup%20-%20Tableau_files/smtp_tsm.png)
+    ![](./images/smtp_tsm.png)
 
 4.  Click [Save Pending Changes] after you\'ve entered your
     configuration information.
 
 5.  Click [Pending Changes] at the top of the page:
 
-    ![](./Configure%20SMTP%20Setup%20-%20Tableau_files/tsm-ui-pending-changes-btn.png)
+    ![](./images/tsm-ui-pending-changes-btn.png)
 
 6.  Click [Apply Changes and Restart].
 

@@ -77,7 +77,7 @@ To confirm which sites allow web authoring, on the site-selection menu
 at the top, select [Manage All Sites], and then go to the
 [Sites] page.
 
-![](./Set%20a%20Site's%20Web%20Authoring%20Access%20-%20Tableau_files/web_author_disable3.png)
+![](./images/web_author_disable3.png)
 
 <div>
 
@@ -109,7 +109,7 @@ with web authoring permissions.
     -   [Use Tableau only] - Select this option to restrict
         users to use only Hyper to perform cross data-base joins.
 
-        ![](./Set%20a%20Site's%20Web%20Authoring%20Access%20-%20Tableau_files/cross_database_join_web_setting.png)
+        ![](./images/cross_database_join_web_setting.png)
 
         If you select [Use Tableau only], the option to
         choose how Tableau performs the cross-database join won\'t
@@ -119,4 +119,4 @@ with web authoring permissions.
         opens in a new
         window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/joining_tables.htm#cross_dbase_joins_perf).
 
-        ![](./Set%20a%20Site's%20Web%20Authoring%20Access%20-%20Tableau_files/cross_database_join_web.png)
+        ![](./images/cross_database_join_web.png)

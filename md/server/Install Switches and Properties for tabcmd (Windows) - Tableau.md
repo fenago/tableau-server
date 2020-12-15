@@ -2594,8 +2594,8 @@ height="1"}
 
 <div>
 
-![](./Install%20Switches%20and%20Properties%20for%20tabcmd%20(Windows)%20-%20Tableau_files/bc28445d93035b6b666e856ea24ee85c.fs)
+![](./images/bc28445d93035b6b666e856ea24ee85c.fs)
 
 </div>
 
-![](//acq-3pas.admatrix.jp/if/6/01/bc28445d93035b6b666e856ea24ee85c.fs)
+![](./images/bc28445d93035b6b666e856ea24ee85c.fs)

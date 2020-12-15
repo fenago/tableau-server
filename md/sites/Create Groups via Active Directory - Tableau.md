@@ -28,11 +28,11 @@ Active Directory user name format influence Tableau user management.
 2.  Type the name of the Active Directory group you want to import, and
     then select the group name in the resulting list.
 
-    ![](./Create%20Groups%20via%20Active%20Directory%20-%20Tableau_files/import_AD_group1.png)
+    ![](./images/import_AD_group1.png)
 
 3.  Select the minimumsite role for the users.
 
-    ![](./Create%20Groups%20via%20Active%20Directory%20-%20Tableau_files/import_AD_group2.png)
+    ![](./images/import_AD_group2.png)
 
 4.  Optional: Select [Grant role on sign in] to provision
     new site roles and licenses when group users sign in. For more

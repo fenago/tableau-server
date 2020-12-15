@@ -19,7 +19,7 @@ contains a few child projects (highlighted) and published workbooks. A
 project can also contain other content types, such as data sources and
 flows.
 
-![](./Use%20Projects%20to%20Manage%20Content%20Access%20-%20Tableau_files/project_and_content.png)
+![](./images/project_and_content.png)
 
 <div>
 

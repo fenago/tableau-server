@@ -201,7 +201,7 @@ For example, a server with five Creator licenses, five Explorer
 licenses, 100 Viewer licenses, and a Data Management Add-on would
 provide command output similar to the following:
 
-![](./tsm%20licenses%20-%20Tableau_files/license_list.png)
+![](./images/license_list.png)
 
 The following fields are returned:
 

@@ -38,7 +38,7 @@ To add a user to a group, the group must already exist.
 2.  Select the users you want to add to a group, and then click
     **Actions** \> [Group Membership].
 
-    ![](./Add%20Users%20to%20a%20Group%20-%20Tableau_files/users7.png)
+    ![](./images/users7.png)
 
 3.  Select the groups and then click **Save**.
 
@@ -53,6 +53,6 @@ To add a user to a group, the group must already exist.
 
 2.  In the group\'s page, click **Add Users**.
 
-    ![](./Add%20Users%20to%20a%20Group%20-%20Tableau_files/groups_addusers.png)
+    ![](./images/groups_addusers.png)
 
 3.  Select the users to be added, and then click **Add Users**.

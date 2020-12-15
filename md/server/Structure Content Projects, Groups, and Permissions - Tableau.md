@@ -107,7 +107,7 @@ groups.
 The following image shows a couple of groups for users who need
 different types of access to a project called Marketing.
 
-![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_whogetswhat_sm.png)
+![](./images/ea_whogetswhat_sm.png)
 
 For example, two groups cover three types of user:
 
@@ -189,10 +189,10 @@ site, and is useful for creating a default set of permissions.
 
 5.  Click [Delete] to apply the changes.
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_4.png)
+    ![](./images/ea_walkthrough_4.png)
 
 ::: {.roadsign-container}
-![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/road-sign-question.png){.roadsign-img}
+![](./images/road-sign-question.png){.roadsign-img}
 
 ::: {classstring="roadsign-heading"}
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} Why *removing* some default permissions makes your life easier {#why-remove-all-users-group-permissions}
@@ -236,10 +236,10 @@ Marketing.
 2.  Name the project [Marketing], and then click
     [Create].
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_8.png)
+    ![](./images/ea_walkthrough_8.png)
 
 ::: {.roadsign-container}
-![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/Road-sign-alert.png){.roadsign-img}
+![](./images/Road-sign-alert.png){.roadsign-img}
 
 ::: {.roadsign-heading}
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} Plan your groups and permissions {#plan-your-permissions}
@@ -284,7 +284,7 @@ Always use descriptive, meaningful language for your group names.
 3.  Repeat these steps to create the other group. When you're done, your
     list of groups look like the list in the following image.
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_12.png)
+    ![](./images/ea_walkthrough_12.png)
 
 <div>
 
@@ -296,7 +296,7 @@ For this walkthrough, you'll add four local users, all of whom you can
 delete when you are finished with this exercise.
 
 ::: {.roadsign-container mc-conditions="Product.serverwindows"}
-![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/road-sign-question.png){.roadsign-img}
+![](./images/road-sign-question.png){.roadsign-img}
 
 ::: {.roadsign-heading}
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} What if you're using Active Directory? {#create-users-for-ad}
@@ -333,7 +333,7 @@ role\> - \<site role\>*:
     [Username], enter **Ashley**. Skip [Email],
     and set Ashley's site role as described above step 1.
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_9.png)
+    ![](./images/ea_walkthrough_9.png)
 
 4.  Do the same to create the other three users, and assigning them the
     site roles that are suggested in their verbose names.
@@ -341,7 +341,7 @@ role\> - \<site role\>*:
     When you're done, you'll see a list of users like the one in the
     following image.
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough-user-list.png)
+    ![](./images/ea_walkthrough-user-list.png)
 
 <div>
 
@@ -360,7 +360,7 @@ to them.
 3.  Select [Marketing -- Content Developers], and then click
     [Save].
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_13.png)
+    ![](./images/ea_walkthrough_13.png)
 
 4.  Follow the same steps to assign Henry and Susan to the [Marketing --
     Content Viewers] group.
@@ -384,7 +384,7 @@ they're in.
     [Actions] menu (\...), and select
     [Permissions].
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_14.png)
+    ![](./images/ea_walkthrough_14.png)
 
     The [Permissions] pane shows the groups and users that
     you've assigned permissions to. When you first set up a site, [All
@@ -397,7 +397,7 @@ they're in.
     If you don't see the group names, make sure [Group] is
     selected in the drop-down to the right.
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_15.png)
+    ![](./images/ea_walkthrough_15.png)
 
     Here you create a group permissions *rule* that will be associated
     with this project and its workbooks and data sources.
@@ -406,7 +406,7 @@ they're in.
     [Project], [Workbooks], and [Data
     Sources].
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_15a.png)
+    ![](./images/ea_walkthrough_15a.png)
 
     These are the permissions roles we referred to earlier, which are
     predefined sets of capabilities that make setup easier.
@@ -422,33 +422,33 @@ they're in.
     To see what capabilities are included for the role, click the expand
     icon next to [Project].
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_16a.png)
+    ![](./images/ea_walkthrough_16a.png)
 
     Selecting the [Publisher] role sets the project's
     [View] and [Save] capabilities to
     [Allowed], but the [Project Leader]
     capability is left [Unspecified].
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_16.png)
+    ![](./images/ea_walkthrough_16.png)
 
     Notice also that individual project capabilities are shown as icons.
     To see the capability name, hover over the icon. Or click the link
     above the icons to show capabilities captions.
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_18.png)
+    ![](./images/ea_walkthrough_18.png)
 
 5.  Under [Workbooks], select the [Editor]
     permissions role.
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_19.png)
+    ![](./images/ea_walkthrough_19.png)
 
 6.  Under [Data Sources], select [Connector].
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_20.png)
+    ![](./images/ea_walkthrough_20.png)
 
 7.  Click [Save] to save the permissions settings.
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_20a.png)
+    ![](./images/ea_walkthrough_20a.png)
 
     The combination of permissions for this set of permissions roles
     lets members of the [Marketing -- Content Developers]
@@ -496,13 +496,13 @@ though they are still the content owners.
     select [Locked to the project], and then click
     [Save].
 
-    ![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough-lock-proj2.png)
+    ![](./images/ea_walkthrough-lock-proj2.png)
 
 Now when someone wants to publish to the Marketing project, they cannot
 change the default permissions you set on the server.
 
 ::: {.roadsign-container}
-![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/road-sign-question.png){.roadsign-img}
+![](./images/road-sign-question.png){.roadsign-img}
 
 ::: {.roadsign-heading}
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} How does project locking or unlocking affect permissions? {#how-are-default-permissions-used}
@@ -543,15 +543,15 @@ your groups.
 
 When you expand [Project], you see this:
 
-![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_21.png)
+![](./images/ea_walkthrough_21.png)
 
 When you expand [Workbooks], you see this:
 
-![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_22.png)
+![](./images/ea_walkthrough_22.png)
 
 When you expand [Data Sources], you see this:
 
-![](./Structure%20Content%20Projects,%20Groups,%20and%20Permissions%20-%20Tableau_files/ea_walkthrough_23.png)
+![](./images/ea_walkthrough_23.png)
 
 <div>
 

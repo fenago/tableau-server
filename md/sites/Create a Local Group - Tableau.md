@@ -10,7 +10,7 @@ minimum site role to grant to users in the group when they sign in.
 1.  In a site, click **Groups**, and then click [Local
     Group].
 
-    ![](./Create%20a%20Local%20Group%20-%20Tableau_files/grantrole_atgroup.png)
+    ![](./images/grantrole_atgroup.png)
 
 2.  Type a name for the group.
 
@@ -18,6 +18,6 @@ minimum site role to grant to users in the group when they sign in.
     sign in] and select a minimum site role from the
     drop-down list.
 
-    ![](./Create%20a%20Local%20Group%20-%20Tableau_files/grant_localgroup.png)
+    ![](./images/grant_localgroup.png)
 
 4.  Click [Create].

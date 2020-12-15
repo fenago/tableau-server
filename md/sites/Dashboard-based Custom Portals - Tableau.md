@@ -34,7 +34,7 @@ start with a main page that provides navigational links for separate
 groups of users or report types, followed by a second level with related
 dashboards and views?
 
-![](./Dashboard-based%20Custom%20Portals%20-%20Tableau_files/portal_sketch.png)
+![](./images/portal_sketch.png)
 
 After you get buy-in on your design from key stakeholders and data
 consumers, you\'re ready to move on to the next phase.
@@ -52,7 +52,7 @@ create them from scratch in an application like Photoshop or SnagIt.
 PowerPoint can also be a good source if you plan to create navigation
 thumbnails of common chart types.
 
-![](./Dashboard-based%20Custom%20Portals%20-%20Tableau_files/portal_logo.png)
+![](./images/portal_logo.png)
 
 <div>
 
@@ -93,7 +93,7 @@ content in the web-authoring workspace.
 **Tip:** To add hyperlinks to text objects, include the full URL (for
 example, `http://www.tableau.com`).
 
-![](./Dashboard-based%20Custom%20Portals%20-%20Tableau_files/portal_final.png)
+![](./images/portal_final.png)
 
 <div>
 

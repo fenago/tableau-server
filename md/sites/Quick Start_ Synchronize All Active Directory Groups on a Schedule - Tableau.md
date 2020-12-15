@@ -27,7 +27,7 @@ and site administrators can set the minimum site role for group users to
 be applied during Active Directory synchronization. If you don\'t set a
 minimum site role, new users are added as [Unlicensed].
 
-![](./Quick%20Start_%20Synchronize%20All%20Active%20Directory%20Groups%20on%20a%20Schedule%20-%20Tableau_files/qs_adsync_1.png)
+![](./images/qs_adsync_1.png)
 
 Synchronizing can promote a user\'s site role, but will never demote a
 user\'s site role.
@@ -44,7 +44,7 @@ Directory groups on the [General] tab of the
 [Settings] page for the server. Enable synchronization,
 select the frequency settings, and then click [Save].
 
-![](./Quick%20Start_%20Synchronize%20All%20Active%20Directory%20Groups%20on%20a%20Schedule%20-%20Tableau_files/qs_adsync_2.png)
+![](./images/qs_adsync_2.png)
 
 All Active Directory groups on the server are synchronized according to
 the same schedule.
@@ -62,7 +62,7 @@ Directory groups on [Tableau Server] immediately.
 Click this button at any time to ensure new users and changes are
 reflected in all Active Directory groups on the server.
 
-![](./Quick%20Start_%20Synchronize%20All%20Active%20Directory%20Groups%20on%20a%20Schedule%20-%20Tableau_files/qs_adsync_3.png)
+![](./images/qs_adsync_3.png)
 
 Click [Synchronize All Groups] to synchronize all Active
 Directory groups on the server outside of a schedule.
@@ -82,7 +82,7 @@ Tasks for Non Extracts] and filter on the [Queue Active
 Directory Groups Sync] and [Sync Active Directory
 Group] tasks.
 
-![](./Quick%20Start_%20Synchronize%20All%20Active%20Directory%20Groups%20on%20a%20Schedule%20-%20Tableau_files/groups_adsync_viewtasks.png)
+![](./images/groups_adsync_viewtasks.png)
 
 **Queue Active Directory Groups Sync** queues the **Sync Active
 Directory Group** tasks to be run.

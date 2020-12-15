@@ -40,7 +40,7 @@ simultaneous or sequential. Here are examples of each type.
 The default simultaneous animations are faster and work well when
 showing value changes in simpler charts and dashboards.
 
-[![](./Format%20Animations%20-%20Tableau_files/animations.gif){#animations.gif}](javascript:void(0);)\
+[![](./images/animations.gif){#animations.gif}](javascript:void(0);)\
 [Click the image above to replay the animation.]{.caption}
 
 <div>
@@ -52,7 +52,7 @@ showing value changes in simpler charts and dashboards.
 Sequential animations take more time but make complex changes clearer by
 presenting them step-by-step.
 
-[![](./Format%20Animations%20-%20Tableau_files/animations_sequential.gif){#animations_sequential.gif}](javascript:void(0);)\
+[![](./images/animations_sequential.gif){#animations_sequential.gif}](javascript:void(0);)\
 [Click the image above to replay the animation.]{.caption}
 
 <div>
@@ -81,7 +81,7 @@ presenting them step-by-step.
     setting that automatically reflects the related Workbook Default
     setting.
 
-    ![](./Format%20Animations%20-%20Tableau_files/animations_pane.png)
+    ![](./images/animations_pane.png)
 
 <div>
 

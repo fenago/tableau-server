@@ -20,8 +20,7 @@ If you have multiple dashboards you frequently check, create metrics for
 the numbers you want to monitor, then track them in one place by adding
 them to your favorites or creating them in the same project.
 
-![Grid of profit
-metrics](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metrics_grid.png)
+![](./images/metrics_grid.png)
 
 <div>
 
@@ -54,23 +53,17 @@ based on the granularity of the date dimension, for example, daily sales
 or monthly users. Move your mouse along the timeline to see historical
 values.
 
-![Timeline of weekly metric
-values](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metrics_timeline.gif)
+![](./images/metrics_timeline.gif)
 
 If the mark you select doesn\'t have a date dimension associated with
 it, your metric will be a single-number metric. Single-number metrics
 still refresh, and their values update when the data changes, but they
 don\'t show previous values on a timeline.
 
-![A single-number metric and timeline
-metric](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metrics_single_number.png)
+![](./images/metrics_single_number.png)
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} Create a metric
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
+Create a metric
+----------------
 
 If you have a site role of Creator or Explorer (can publish), you can
 create metrics on Tableau Online or Tableau Server. Metrics are
@@ -81,8 +74,7 @@ desktop devices.
 
 2.  On the view toolbar, click the [Metrics] button.
 
-    ![View toolbar with metrics button
-    highlighted](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metrics_toolbar.png)
+    ![](./images/metrics_toolbar.png)
 
     The metrics pane opens.
 
@@ -95,16 +87,14 @@ desktop devices.
     will define your metric. Any filters you apply to this mark will be
     applied to your metric.
 
-    ![Selecting a mark on a multi-chart
-    view](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metrics_mark_selection.png)
+    ![](./images/metrics_mark_selection.png)
 
     The metrics pane shows a preview of your metric. The value in the
     preview is the most recent value for the metric, which may differ
     from the value of the mark you selected in the case of metrics with
     a date dimension.
 
-    ![Preview of metric
-    value](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metrics_preview.png)
+    ![](./images/metrics_preview.png)
 
 4.  The [Name] field is pre-populated based on your
     selection. You can give the metric a different name. A metric must
@@ -129,8 +119,7 @@ desktop devices.
     A message appears with a link to the metric in the project you added
     it to.
 
-    ![Success
-    message](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metrics_success.png)
+    ![](./images/metrics_success.png)
 
 Though metrics are created from a view, they exist independent of that
 view. This means you manage metrics similar to how you manage workbooks.
@@ -278,8 +267,7 @@ Metric refreshes may fail for one of the following reasons.
 To identify the cause of the failure, inspect the [Connected
 View] under Metric Details.
 
-![Metric connected view highlighted under Metric
-Details](./Create%20and%20Troubleshoot%20Metrics%20-%20Tableau_files/metric_details.png)
+![](./images/metric_details.png)
 
 <div>
 

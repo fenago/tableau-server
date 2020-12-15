@@ -417,7 +417,7 @@ authors a lot of time and keep your reports looking consistent.
     hover the pointer over the project thumbnail, as well as on the
     [Project details] page.
 
-![](./Configure%20Projects,%20Groups,%20and%20Permissions%20for%20Managed%20Self-Service%20-%20Tableau_files/projects_description_thumbnail.png)
+![](./images/projects_description_thumbnail.png)
 
 <div>
 

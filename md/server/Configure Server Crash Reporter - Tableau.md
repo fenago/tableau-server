@@ -38,7 +38,7 @@ privacy regulations.
 3.  Under Other Maintenance Tasks, in Server Crash Reporter, select
     [Enable crash reporting]:
 
-    ![](./Configure%20Server%20Crash%20Reporter%20-%20Tableau_files/tsm-ui-crash-reporter.png)
+    ![](./images/tsm-ui-crash-reporter.png)
 
 4.  Specify the scheduled time of day to upload the crash reports to
     Tableau.

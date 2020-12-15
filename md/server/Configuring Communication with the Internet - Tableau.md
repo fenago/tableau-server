@@ -21,7 +21,7 @@ configure proxy servers.
  
 
 ::: {.roadsign-container}
-![](./Configuring%20Communication%20with%20the%20Internet%20-%20Tableau_files/road-sign-curve.png){.roadsign-img}
+![](./images/road-sign-curve.png){.roadsign-img}
 
 <div>
 
@@ -239,7 +239,7 @@ The following diagram illustrates the communication path when a client
 makes a request to Tableau Server that is configured to work with a
 reverse proxy server.
 
-![](./Configuring%20Communication%20with%20the%20Internet%20-%20Tableau_files/everybody_client_access_reverse_proxy.PNG)
+![](./images/everybody_client_access_reverse_proxy.PNG)
 
 1.  An external client initiates a connection to Tableau Server. The
     client uses the public URL that\'s been configured for the reverse
@@ -404,7 +404,7 @@ Enabling client access from the internet through a reverse proxy
 requires that specific message headers are preserved (or added) for
 Tableau Server. The following graphic shows this.
 
-![](./Configuring%20Communication%20with%20the%20Internet%20-%20Tableau_files/everybody_client_access_config.png)
+![](./images/everybody_client_access_config.png)
 
 The headers that Tableau Server require are:
 

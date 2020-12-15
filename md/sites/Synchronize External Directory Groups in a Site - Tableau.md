@@ -19,7 +19,7 @@ function seamlessly with properly configured LDAP directory solutions.
 
 2.  Click [Actions] \> [Synchronize].
 
-    ![](./Synchronize%20External%20Directory%20Groups%20in%20a%20Site%20-%20Tableau_files/synchronize.png)
+    ![](./images/synchronize.png)
 
 Set the minimum site role for users in an external directory group
 -------------------------------------------------------------------
@@ -48,7 +48,7 @@ synchronization](https://help.tableau.com/current/server/en-us/users_site_roles.
 
 3.  Select the minimum site role, and then click **Change Site Role**.
 
-    ![](./Synchronize%20External%20Directory%20Groups%20in%20a%20Site%20-%20Tableau_files/qs_adsync_1.png)
+    ![](./images/qs_adsync_1.png)
 
  What happens when users are removed in the source external directory? 
 ------------------------------------------------------------------------

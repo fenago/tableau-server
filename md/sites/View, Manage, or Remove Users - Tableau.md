@@ -27,7 +27,7 @@ manage users:
     site. If you've configured the site for SAML single sign-on, you can
     set the selected users' authentication type.
 
-    ![](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/user_site_view_settings.png)
+    ![](./images/user_site_view_settings.png)
 
 -   Select a user name to see details about them, such as content they
     own, views they subscribe to, and their account settings.
@@ -43,7 +43,7 @@ manage users:
         Tableau Server administrators can change this access for site
         admins.
 
-    ![](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/user_site_view_settings2.png)
+    ![](./images/user_site_view_settings2.png)
 
     If the server is configured to use the internal user management
     system (Local Authentication), you can edit the **Display Name**,
@@ -76,7 +76,7 @@ Sign in to [Tableau Server] as a server
 administrator. On the site menu, select [Manage All Sites],
 and then select [Users].
 
-![](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/user_srvr_view_settings1.png)
+![](./images/user_srvr_view_settings1.png)
 
 </div>
 :::
@@ -135,7 +135,7 @@ You can use the asterisk (\*) character as a search wildcard. For
 example, searching for `John*` will return all user names that start
 with *John*.
 
-![](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/user_view_search.png)
+![](./images/user_view_search.png)
 
 </div>
 :::
@@ -176,7 +176,7 @@ deleted from the server.
     [Users] area. Select one or more users to remove, and
     then select [Actions] \> [Remove].
 
-    ![](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/user_site_remove.png)
+    ![](./images/user_site_remove.png)
 
 2.  Click **Remove** in the confirmation dialog.
 
@@ -214,7 +214,7 @@ demoted to the Unlicensed site role.
     Select one or more users to delete, and then click
     [Actions] \> [Delete].
 
-    ![](./View,%20Manage,%20or%20Remove%20Users%20-%20Tableau_files/user_srvr_delete.png)
+    ![](./images/user_srvr_delete.png)
 
 2.  Click **Delete** in the confirmation dialog box.
 

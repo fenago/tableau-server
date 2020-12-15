@@ -30,7 +30,7 @@ server. The images reflect adding users at the site level.
     -   To add users at the site level, select [Users], and
         then [Add Users].
 
-        ![](./Import%20Users%20-%20Tableau_files/import_users_csv.png)
+        ![](./images/import_users_csv.png)
 
     -   To add users at the server level on a **single-site** server,
         select [Users], and then [Add Users].
@@ -43,12 +43,12 @@ server. The images reflect adding users at the site level.
 2.  Click [Import From File], click [Browse] and
     navigate to the file, and then click [Import Users].
 
-    ![](./Import%20Users%20-%20Tableau_files/users_import_local.png)
+    ![](./images/users_import_local.png)
 
     Tableau displays the results of the import process (names in this
     image are blurred).
 
-    ![](./Import%20Users%20-%20Tableau_files/users_import_local2.png)
+    ![](./images/users_import_local2.png)
 
 3.  Click [Done].
 
@@ -89,7 +89,7 @@ capabilities.
 -   The [Server Users] page appears in a multi-site
     environment. Only server administrators can access this page.
 
-    ![](./Import%20Users%20-%20Tableau_files/usersimport_srvrusers.png)
+    ![](./images/usersimport_srvrusers.png)
 
     You can import the CSV file from here if you want to update existing
     user accounts in addition to adding new ones. For example, if you
@@ -98,7 +98,7 @@ capabilities.
 
 -   The [Site Users] page.
 
-    ![](./Import%20Users%20-%20Tableau_files/usersimport_siteusers.png)
+    ![](./images/usersimport_siteusers.png)
 
     Server administrators can add new user accounts with CSV imports. If
     the CSV file includes existing users, the [Password] and
@@ -116,7 +116,7 @@ capabilities.
 Server and site administrators on a single-site server perform CSV user
 imports from the [Users] page in a site.
 
-![](./Import%20Users%20-%20Tableau_files/userimport_ss_users.png)
+![](./images/userimport_ss_users.png)
 
 <div>
 

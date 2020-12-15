@@ -8,7 +8,7 @@ a project they don't have access to, they can select Request Access to
 send a request to the owner controlling permissions for that piece of
 content.
 
-![](./Let%20Users%20Request%20Access%20to%20Content%20and%20Projects%20-%20Tableau_files/request_access.png)
+![](./images/request_access.png)
 
 When someone requests access, the owner who controls permissions for
 that content (either at the project or workbook level) receives an email
@@ -104,7 +104,7 @@ To set permissions at the project level:
 5.  In the row for the permission rule, choose an existing permission
     role template from the drop-down box for each section, or create a
     custom rule by expanding a
-    section (![](./Let%20Users%20Request%20Access%20to%20Content%20and%20Projects%20-%20Tableau_files/perms_expand_icon.png))
+    section (![](./images/perms_expand_icon.png))
     and clicking the capabilities.\
     One click sets the capability to **Allowed**, two clicks sets it to
     **Denied**, and a third click clears the selection

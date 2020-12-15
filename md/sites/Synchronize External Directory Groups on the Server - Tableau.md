@@ -6,7 +6,7 @@ As a server administrator, you can synchronize all external directory
 Server) on a regular schedule or on-demand on the [General]
 tab of the [Settings] page for the server.
 
-![](./Synchronize%20External%20Directory%20Groups%20on%20the%20Server%20-%20Tableau_files/groups_adsync_globalsettings.png)
+![](./images/groups_adsync_globalsettings.png)
 
 **Note**: In the context of user and group synchronization, Tableau
 Server configured with LDAP identity store is equivalent to Active
@@ -42,7 +42,7 @@ Directory](https://help.tableau.com/current/server/en-us/groups_create_ad.htm).
     Synchronization], and then select [Synchronize Active
     Directory groups on a regular schedule].
 
-    ![](./Synchronize%20External%20Directory%20Groups%20on%20the%20Server%20-%20Tableau_files/groups_adsync_globalsettings_schedule.png)
+    ![](./images/groups_adsync_globalsettings_schedule.png)
 
 3.  Select the frequency and time of synchronization.
 
@@ -67,7 +67,7 @@ Server].
     **Multisite**: In the site menu, click **Manage All Sites**, and
     then click [Settings]\> [General].
 
-    ![](./Synchronize%20External%20Directory%20Groups%20on%20the%20Server%20-%20Tableau_files/groups_adsync_globalsettings_manual.png)
+    ![](./images/groups_adsync_globalsettings_manual.png)
 
 2.  Under [Active Directory Synchronization], click
     [Synchronize All Groups].
@@ -131,7 +131,7 @@ synchronization](https://help.tableau.com/current/server/en-us/users_site_roles.
 
 3.  Select the minimum site role, and then click **Change Site Role**.
 
-    ![](./Synchronize%20External%20Directory%20Groups%20on%20the%20Server%20-%20Tableau_files/qs_adsync_1.png)
+    ![](./images/qs_adsync_1.png)
 
 <div>
 

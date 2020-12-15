@@ -20,7 +20,7 @@ Server], as well as any time afterward.
 3.  On the [Actions] menu, select
     [Authentication].
 
-    ![](./Set%20the%20User%20Authentication%20Type%20for%20SAML%20-%20Tableau_files/users_set_authentication.png)
+    ![](./images/users_set_authentication.png)
 
 4.  In the Authentication dialog box, select [Site SAML] or
     [Server Default].

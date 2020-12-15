@@ -15,7 +15,7 @@ following requirements:
     \"read-only\" permission on the target image.
 -   The image must be common internet format: .jpg, png, or gif.
 
-![](./Add%20a%20Project%20Image%20-%20Tableau_files/custom_projectimage.png)
+![](./images/custom_projectimage.png)
 
 <div>
 
@@ -36,7 +36,7 @@ following requirements:
 2.  Click the [Details] icon (i), to open the [Project
     details] dialog box, and then click [Edit].
 
-    ![](./Add%20a%20Project%20Image%20-%20Tableau_files/custom_projectimage_2.png)
+    ![](./images/custom_projectimage_2.png)
 
 3.  In the [About] field, you can enter a description for
     your project (optional), for example \"Global and US statistics.\"
@@ -45,7 +45,7 @@ following requirements:
 
     `!http://www.example.com/image.png!`
 
-    ![](./Add%20a%20Project%20Image%20-%20Tableau_files/custom_projectimage_3.png)
+    ![](./images/custom_projectimage_3.png)
 
     Select [Show formatting hints] to see how you can format
     description text.
@@ -59,4 +59,4 @@ following requirements:
 
 4.  Click [Save].
 
-    ![](./Add%20a%20Project%20Image%20-%20Tableau_files/custom_projectimage_4.png)
+    ![](./images/custom_projectimage_4.png)

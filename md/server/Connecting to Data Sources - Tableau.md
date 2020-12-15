@@ -211,7 +211,7 @@ In the site menu, click [Manage All Sites], and then click
 Select or clear the [Allow publishers to embed credentials in a workbook
 or data source] option.
 
-![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_embedded_creds.png)
+![](./images/everybody_admin_data_embedded_creds.png)
 
 This is a server-wide settings---the setting you make here applies to
 all workbooks on all sites.
@@ -289,7 +289,7 @@ To set permissions on data sources in a project, follow these steps:
     Under [Data Sources], select the permissions role that
     you want to set.
 
-    ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_source_perms.png)
+    ![](./images/everybody_admin_data_source_perms.png)
 
 6.  Click [Save].
 
@@ -388,7 +388,7 @@ working in the Tableau workbook.
     field at the top, using the format
     `\\computer-name\share-location-name`.
 
-    ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_open_unc.png)
+    ![](./images/everybody_admin_data_open_unc.png)
 
 3.  Select the Excel workbook you want to connect to, and then click
     [Open].
@@ -404,7 +404,7 @@ working in the Tableau workbook.
     the [Include External Files] check box. Click
     [OK].
 
-    ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_exclude_external_files.png)
+    ![](./images/everybody_admin_data_exclude_external_files.png)
 
 7.  Set permissions if required, and then click [Publish].
 
@@ -462,7 +462,7 @@ When a user publishes a workbook that includes an extract, the user can
 set up a refresh schedule. This setting is available from the [Publish
 Workbook] dialog box in Tableau Desktop.
 
-![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_scheduling.png)
+![](./images/everybody_admin_data_scheduling.png)
 
 As the admin, you control the refresh schedule that is presented to
 users when they publish (the highlighted area in the screen shot). To
@@ -481,7 +481,7 @@ steps:
         then setting a schedule in the [New Schedule] dialog
         box:
 
-    ![](./Connecting%20to%20Data%20Sources%20-%20Tableau_files/everybody_admin_data_new_schedule_ux.png)
+    ![](./images/everybody_admin_data_new_schedule_ux.png)
 
 <div>
 

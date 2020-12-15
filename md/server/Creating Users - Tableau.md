@@ -218,7 +218,7 @@ Here's how to sign in to Tableau Server:
     Tableau Server displays a page where you can enter a user name and
     password:
 
-    ![](./Creating%20Users%20-%20Tableau_files/everybody_admin_users_logint.PNG)
+    ![](./images/everybody_admin_users_logint.PNG)
 
 2.  Enter the credentials for the server administrator that you created
     when you finished the installation.
@@ -277,7 +277,7 @@ function seamlessly with properly configured LDAP directory solutions.
 
 2.  At the top of the page, click [Site].
 
-    ![](./Creating%20Users%20-%20Tableau_files/everybody_admin_users_ad_import.PNG)
+    ![](./images/everybody_admin_users_ad_import.PNG)
 
 3.  Click the [Users] tab, click [Add Users],
     and then click [Active Directory Group].

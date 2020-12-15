@@ -217,13 +217,13 @@ Click [Next].
 
 The [Installation Type] page will display:
 
-![](./Running%20Setup%20-%20Tableau_files/install-create-new.png)
+![](./images/install-create-new.png)
 
 You\'re installing a new server, so leave the default selection, [Create
 a new Tableau Server installation], and then click
 [Next].
 
-![](./Running%20Setup%20-%20Tableau_files/install-ready.png)
+![](./images/install-ready.png)
 
 The Ready to Install page will display. Click [Install].
 
@@ -241,7 +241,7 @@ The remainder of the setup process is performed with TSM in a web
 browser. After the first part of installation is complete, the Setup
 program will launch your browser and prompt you for your credentials:
 
-![](./Running%20Setup%20-%20Tableau_files/sign-in-tsm.png)
+![](./images/sign-in-tsm.png)
 
 Sign into TSM with the administrator credentials that you are using to
 run Setup.
@@ -255,7 +255,7 @@ run Setup.
 
 When TSM starts, it will launch the Activate page.
 
-![](./Running%20Setup%20-%20Tableau_files/install_01_activate.png)
+![](./images/install_01_activate.png)
 
 Tableau Server requires at least one product key that is used both to
 activate the server and to set your license type (user-based or
@@ -277,7 +277,7 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/activate_off.h
 After you finish activating and registering, the Tableau Server
 configuration options page appears.
 
-![](./Running%20Setup%20-%20Tableau_files/config_setup_default_win.png)
+![](./images/config_setup_default_win.png)
 
 You must set the authentication type (aka: Identity Store). If your
 deployment plan requires updating that account to an Active Directory
@@ -302,7 +302,7 @@ download the sample workbooks.
 Under **Identity Store**, set the authentication type.
 
 ::: {.roadsign-container}
-![](./Running%20Setup%20-%20Tableau_files/Road-sign-alert.png){.roadsign-img}
+![](./images/Road-sign-alert.png){.roadsign-img}
 
 ::: {.roadsign-heading}
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_install.htm#){.heading-item__link .print-hidden} Make sure you\'ve got the authentication type right {#get-auth-type-right}
@@ -322,7 +322,7 @@ Directory]. Then in the [Domain] field, enter
 the fully qualified domain name (FQDN) of your domain, and in the
 **NetBIOS** field, enter the domain\'s NetBIOS name, or nickname.
 
-![](./Running%20Setup%20-%20Tableau_files/tsm-ui-setup-id-store-ad.png)
+![](./images/tsm-ui-setup-id-store-ad.png)
 
 The NetBIOS name is usually the left-most node of the FQDN. The first
 time your users sign in, they\'ll need to use the fully qualified domain
@@ -344,7 +344,7 @@ Run As service account with a domain account, enter that account in the
 
 Enter the password that you created for this account.
 
-![](./Running%20Setup%20-%20Tableau_files/config_setup_runas.png)
+![](./images/config_setup_runas.png)
 
 <div>
 
@@ -355,7 +355,7 @@ Enter the password that you created for this account.
 If the port number displayed in the **Gateway** section says **80**,
 you\'re golden.
 
-![](./Running%20Setup%20-%20Tableau_files/config_setup_gw.png)
+![](./images/config_setup_gw.png)
 
 If the port number isn\'t 80 (for example, it\'s 8000), you\'ll need to
 figure out what application on the server computer has already claimed
@@ -380,11 +380,11 @@ To continue the configuration, click **Initialize**.
 Tableau Server saves the configuration changes, and will initialize.
 This can take a while.
 
-![](./Running%20Setup%20-%20Tableau_files/tsm-ui-setup-initialize.png)
+![](./images/tsm-ui-setup-initialize.png)
 
 When finished, the following page will be displayed:
 
-![](./Running%20Setup%20-%20Tableau_files/config_setup_initialize_complete.png)
+![](./images/config_setup_initialize_complete.png)
 
 Click **Continue** to launch the final step of setup.
 

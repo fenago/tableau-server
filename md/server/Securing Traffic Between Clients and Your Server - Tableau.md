@@ -8,7 +8,7 @@ computers, and what you can do to make that traffic more secure.
  
 
 ::: {.roadsign-container}
-![](./Securing%20Traffic%20Between%20Clients%20and%20Your%20Server%20-%20Tableau_files/road-sign-curve.png){.roadsign-img}
+![](./images/road-sign-curve.png){.roadsign-img}
 
 <div>
 
@@ -387,7 +387,7 @@ might have.)
 
 6.  Click [Pending Changes] at the top of the page:
 
-    ![](./Securing%20Traffic%20Between%20Clients%20and%20Your%20Server%20-%20Tableau_files/tsm-ui-pending-changes-btn.png)
+    ![](./images/tsm-ui-pending-changes-btn.png)
 
 7.  Click [Apply Changes and Restart].
 
@@ -407,12 +407,12 @@ show you how this works.
 
 2.  Click the green padlock that appears in the address bar.
 
-    ![](./Securing%20Traffic%20Between%20Clients%20and%20Your%20Server%20-%20Tableau_files/everybody-ssl-view-cert1.png)
+    ![](./images/everybody-ssl-view-cert1.png)
 
 3.  Click the [Details] link. The site\'s security overview
     appears.
 
-    ![](./Securing%20Traffic%20Between%20Clients%20and%20Your%20Server%20-%20Tableau_files/everybody-ssl-view-cert2.png)
+    ![](./images/everybody-ssl-view-cert2.png)
 
     The display shows that Chrome has determined that the site uses a
     valid, trusted certificate. As you click around in the security

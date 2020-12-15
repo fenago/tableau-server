@@ -52,13 +52,13 @@ only site B cannot edit User1's full name or reset the password.
 2.  Select [Users]. On the Users page, click [Add
     Users], and then click [New User].
 
-    ![](./Add%20Users%20to%20a%20Site%20-%20Tableau_files/users1_local.png)
+    ![](./images/users1_local.png)
 
 3.  Enter a user name. With local authentication, using an email address
     for the user name is the best way to avoid user name collisions (for
     example, *lrodriguez\@example.com* instead of *lrodriguez*).
 
-    ![](./Add%20Users%20to%20a%20Site%20-%20Tableau_files/users2_local.png)
+    ![](./images/users2_local.png)
 
     User names are not case sensitive. Characters not allowed in user
     names include the semi-colon (;) and colon (,).
@@ -99,7 +99,7 @@ Active Directory user name format influence Tableau user management.
     Users], and then click [Active Directory
     User].
 
-    ![](./Add%20Users%20to%20a%20Site%20-%20Tableau_files/users_site_add_AD.png)
+    ![](./images/users_site_add_AD.png)
 
 2.  Enter one or more user names (separated by semicolons).
 

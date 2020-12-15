@@ -29,7 +29,7 @@ subscriptions are enabled for a site.
 
 When you open a view in Tableau Server or Tableau Online, if you see a
 subscription icon
-(![](./Create%20a%20Subscription%20to%20a%20View%20or%20Workbook%20-%20Tableau_files/subscribe_icon.png))
+(![](./images/subscribe_icon.png))
 in the toolbar, you can subscribe to that view or to the entire
 workbook. You can subscribe other users who have permission to view the
 content if you own a workbook, if you are a project leader with an
@@ -47,7 +47,7 @@ appropriate site role, or if you are an administrator.
 
 3.  In the toolbar above the view, click [Subscribe].
 
-    ![](./Create%20a%20Subscription%20to%20a%20View%20or%20Workbook%20-%20Tableau_files/subscribe_toolbar.png)
+    ![](./images/subscribe_toolbar.png)
 
 4.  Add the Tableau users or groups you want to receive the
     subscription. To receive a subscription, users must have the
@@ -71,7 +71,7 @@ appropriate site role, or if you are an administrator.
     -   If PDFs, choose the paper size and orientation you\'d like to
         receive.
 
-        ![](./Create%20a%20Subscription%20to%20a%20View%20or%20Workbook%20-%20Tableau_files/subscription_paper.png)
+        ![](./images/subscription_paper.png)
 
 7.  When the workbook uses one data extract on a published connection,
     you can pick a frequency:
@@ -91,13 +91,13 @@ appropriate site role, or if you are an administrator.
         window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/schedule_enable_custom.htm),
         click the drop-down arrow to the right of the current settings.
 
-        ![](./Create%20a%20Subscription%20to%20a%20View%20or%20Workbook%20-%20Tableau_files/subscribe_options_online_sched.png)
+        ![](./images/subscribe_options_online_sched.png)
 
         Then specify a custom schedule that sends subscription emails
         whenever you wish. (The precise delivery time may vary if server
         load is high.)
 
-        ![](./Create%20a%20Subscription%20to%20a%20View%20or%20Workbook%20-%20Tableau_files/self_subscribe_topic.png)
+        ![](./images/self_subscribe_topic.png)
 
         To change the time zone, click the Time Zone link it to go to
         your account settings page.
@@ -138,13 +138,13 @@ subscription's format, schedule, subject, or empty view mode.
     -   Click [Manage my subscriptions] at the bottom of a
         subscription email.
 
-        ![](./Create%20a%20Subscription%20to%20a%20View%20or%20Workbook%20-%20Tableau_files/subscribe_remove.png)
+        ![](./images/subscribe_remove.png)
 
     -   Sign in to Tableau Server or Tableau Online. At the top of the
         page, select your user icon, and then select [My
         Content].
 
-        ![](./Create%20a%20Subscription%20to%20a%20View%20or%20Workbook%20-%20Tableau_files/subscribe_remove2.png)
+        ![](./images/subscribe_remove2.png)
 
 2.  Click [Subscriptions].
 

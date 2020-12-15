@@ -12,4 +12,4 @@ group but they are not deleted from the server.
 
 3.  Select [Actions ]\> [Delete].
 
-    ![](./Delete%20Groups%20-%20Tableau_files/groups6.png)
+    ![](./images/groups6.png)

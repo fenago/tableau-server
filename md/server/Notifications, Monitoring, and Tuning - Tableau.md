@@ -90,14 +90,14 @@ people use addresses like `no-reply@example.com` or
 
 3.  Enter the SMTP configuration information for your organization:
 
-    ![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/smtp_tsm.png)
+    ![](./images/smtp_tsm.png)
 
 4.  Click [Save Pending Changes] after you\'ve entered your
     configuration information.
 
 5.  Click [Pending Changes] at the top of the page:
 
-    ![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/tsm-ui-pending-changes-btn.png)
+    ![](./images/tsm-ui-pending-changes-btn.png)
 
 6.  Click [Apply Changes and Restart].
 
@@ -118,7 +118,7 @@ people use addresses like `no-reply@example.com` or
 
 3.  Configure notification settings for your organization:
 
-    ![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/tsm-ui-events.png)
+    ![](./images/tsm-ui-events.png)
 
 4.  Click [Save Pending Changes] after you\'ve entered your
     configuration information.
@@ -190,7 +190,7 @@ tasks like extracts.
 2.  Click **Status**. Tableau Server displays a list of administrative
     views.
 
-    ![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/adminview_online.png)
+    ![](./images/adminview_online.png)
 
 Here are the most important administrative views that you should look at
 when monitoring Tableau Server:
@@ -215,7 +215,7 @@ of business hours. Conclusion: if this were your data, you\'d want to
 set your extract refresh schedule for the period between 11:00 PM and
 6:00 AM.
 
-![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/everybody_admin_traffic_hours.png)
+![](./images/everybody_admin_traffic_hours.png)
 
 <div>
 
@@ -244,7 +244,7 @@ failing, but you can also see that the failed extracts had very short
 runtimes. This might indicate that the data source for those extracts is
 unavailable.
 
-![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/adminview_extract.png)
+![](./images/adminview_extract.png)
 
 <div>
 
@@ -273,7 +273,7 @@ For example, in the administrative view below, you can use the exact
 load times for views to see that the top views load significantly more
 slowly than the rest.
 
-![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/everybody_admin_load_stats.png)
+![](./images/everybody_admin_load_stats.png)
 
 ::: {mc-conditions="Product.serverwindows"}
 <div>
@@ -409,7 +409,7 @@ running when you create the data collector set.
         appropriate, select the process (or instance) that you want to
         collect information about.
 
-        ![](./Notifications,%20Monitoring,%20and%20Tuning%20-%20Tableau_files/everybody_perfmon_add_counters.png)
+        ![](./images/everybody_perfmon_add_counters.png)
 
     d.  Click **Add**.
 

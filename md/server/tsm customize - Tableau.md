@@ -5,7 +5,7 @@ tsm customize
 You can use the `tsm customize` command to customize the look and feel
 of the Tableau Server client browser experience.
 
-![](./tsm%20customize%20-%20Tableau_files/custom_namelogo.png)
+![](./images/custom_namelogo.png)
 
   ------------------------------------------------------------------------
   Logo              Option flag        Minimum           Recommended size,

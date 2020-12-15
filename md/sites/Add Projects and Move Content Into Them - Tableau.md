@@ -51,7 +51,7 @@ recommend becoming familiar with the following related content as well:
 2.  Enter a name and description for the project, and then click
     [Create].
 
-    ![](./Add%20Projects%20and%20Move%20Content%20Into%20Them%20-%20Tableau_files/projects_new1.png)
+    ![](./images/projects_new1.png)
 
     You can include formatting and hyperlinks in the project
     description. Select **Show formatting hints** for syntax. You can
@@ -86,7 +86,7 @@ recommend becoming familiar with the following related content as well:
 3.  Select the new project for the workbook, and then click [Move
     Content].
 
-    ![](./Add%20Projects%20and%20Move%20Content%20Into%20Them%20-%20Tableau_files/projects_move_project.png)
+    ![](./images/projects_move_project.png)
 
     Moving a project includes moving everything in it, including child
     projects and their content.

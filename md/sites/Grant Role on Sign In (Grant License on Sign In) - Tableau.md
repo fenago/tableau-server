@@ -47,7 +47,7 @@ Tableau licenses.
     of the group you want to import, and then select the group name in
     the resulting list.
 
-    ![](./Grant%20Role%20on%20Sign%20In%20(Grant%20License%20on%20Sign%20In)%20-%20Tableau_files/import_AD_group1.png)
+    ![](./images/import_AD_group1.png)
 
 2.  Select the minimum site role for the users, and select [Grant role
     on sign in].
@@ -56,7 +56,7 @@ Tableau licenses.
     unlicensed users. The minimum site role set for the group will only
     be provisioned to group users who sign into Tableau Server.
 
-    ![](./Grant%20Role%20on%20Sign%20In%20(Grant%20License%20on%20Sign%20In)%20-%20Tableau_files/import_AD_group2.png)
+    ![](./images/import_AD_group2.png)
 
 3.  Click [Import].
 
