@@ -245,8 +245,7 @@ After you change a default file location you need to do the following:
     change the restart behavior. If the changes do not require a
     restart, the changes are applied without a prompt. For more
     information, see [tsm pending-changes
-    apply](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-apply){.MCXref
-    .xref}.
+    apply](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-apply)
 
 2.  Stop Tableau Server:
 

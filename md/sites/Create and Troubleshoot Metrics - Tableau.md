@@ -22,12 +22,8 @@ them to your favorites or creating them in the same project.
 
 ![](./images/metrics_grid.png)
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} How metrics are defined
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
+How metrics are defined
+-----------------------
 
 A metric\'s value is defined by an aggregate measure, such as sum of
 sales, and an optional date dimension, such as order date. For
@@ -37,11 +33,7 @@ Green](https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandrol
 Any filters applied to the measure before the metric was created will
 apply to the metric value, for example, filters for segment or region.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} Timeline metrics and single-number metrics {#timeline-metrics-and-singlenumber-metrics}
-
-</div>
+**Timeline metrics and single-number metrics**
 
 A metric that has a date dimension as part of its definition will have a
 timeline. Because metrics are defined based on the mark you select when
@@ -80,8 +72,7 @@ desktop devices.
 
 3.  Select a mark. If you encounter an error, see [When you can't create
     a
-    metric](https://help.tableau.com/current/server/en-us/metrics_create.htm#when-you-cant){.MCXref
-    .xref}.
+    metric](https://help.tableau.com/current/server/en-us/metrics_create.htm#when-you-cant)
 
     The measure, and optional date dimension, associated with this mark
     will define your metric. Any filters you apply to this mark will be

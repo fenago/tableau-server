@@ -15,17 +15,14 @@ recommend becoming familiar with the following related content as well:
 
 -   To learn about projects and when or why to use them, see [Use
     Projects to Manage Content
-    Access](https://help.tableau.com/current/server/en-us/projects.htm){.MCXref
-    .xref}.
+    Access](https://help.tableau.com/current/server/en-us/projects.htm)
 
 -   Before you create project hierarchies, become familiar with [Project
-    administration](https://help.tableau.com/current/server/en-us/permissions.htm#projectpermissions){.MCXref
-    .xref}.
+    administration](https://help.tableau.com/current/server/en-us/permissions.htm#projectpermissions)
 
 -   To see the specific site roles that allow full Project Leader
     access, see [Project-level
-    administration](https://help.tableau.com/current/server/en-us/projects.htm#project-admin){.MCXref
-    .xref}.
+    administration](https://help.tableau.com/current/server/en-us/projects.htm#project-admin)
 
 <div>
 
@@ -56,8 +53,7 @@ recommend becoming familiar with the following related content as well:
     You can include formatting and hyperlinks in the project
     description. Select **Show formatting hints** for syntax. You can
     also [Add a Project
-    Image](https://help.tableau.com/current/server/en-us/custom_projectimage.htm){.MCXref
-    .xref}.
+    Image](https://help.tableau.com/current/server/en-us/custom_projectimage.htm)
 
     **Note:** To edit a project description later, select it to open it,
     select the information icon next to its name, and then click

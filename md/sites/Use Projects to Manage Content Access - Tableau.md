@@ -186,8 +186,7 @@ as can server or site administrators.
 -   Lock permissions to apply the project's default settings to all
     workbooks, data sources, and optionally child projects and their
     content. For information, see [Lock content
-    permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject){.MCXref
-    .xref}.
+    permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject)
     -   Permissions can be modified only from the project they're locked
         on. Only admins, the owner, or project leaders can change
         permissions.

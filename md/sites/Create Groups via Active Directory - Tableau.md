@@ -37,8 +37,7 @@ Active Directory user name format influence Tableau user management.
 4.  Optional: Select [Grant role on sign in] to provision
     new site roles and licenses when group users sign in. For more
     information, see [Grant License on Sign
-    In](https://help.tableau.com/current/server/en-us/grant_role.htm){.MCXref
-    .xref}.
+    In](https://help.tableau.com/current/server/en-us/grant_role.htm)
 
 5.  Click [Import].
 

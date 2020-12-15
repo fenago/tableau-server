@@ -54,7 +54,7 @@ at a technical level like in this article, it's more accurate to say
 *capability*, but you should be aware that you might see *permission* in
 other places.
 
-![](./Permissions%20-%20Tableau_files/perms_permissionrules.png)
+![](./images/perms_permissionrules.png)
 
 The interplay between license level, site role, and potentially multiple
 permission rules factor into the final determination of what a user can
@@ -202,7 +202,7 @@ level.
         existing template, or use the radio buttons to create a custom
         rule.
 
-    ![](./Permissions%20-%20Tableau_files/perms_desktop.png)
+    ![](./images/perms_desktop.png)
 
     Note that effective permissions can't be inspected from the
     publishing dialog.
@@ -323,7 +323,7 @@ administration](https://help.tableau.com/current/server/en-us/permissions.htm#pr
 
 #### View template
 
-![](./Permissions%20-%20Tableau_files/perms_view_icon.png) **View**
+![](./images/perms_view_icon.png) **View**
 allows a user to see the project. If a user hasn't been granted the view
 capability, the project won't be visible to them. Granting the view
 capability for a project does not mean a user can see any content in the
@@ -331,7 +331,7 @@ project, just the existence of the project itself.
 
 #### Publish template
 
-![](./Permissions%20-%20Tableau_files/perms_save_icon.png) **Publish**
+![](./images/perms_save_icon.png) **Publish**
 allows a user to publish content to the project from [Tableau
 Desktop]{.VariablesTabsProductDesktop} or [Tableau Prep
 Builder]{.VariablesTabsProductPrepBuilder}. The publish capability is
@@ -343,34 +343,34 @@ Save.
 ::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
 #### View template
 
-![](./Permissions%20-%20Tableau_files/perms_view_icon.png) **View**
+![](./images/perms_view_icon.png) **View**
 allows a user to see the workbook or view. If a user hasn't been granted
 the view capability, the workbook won't be visible to them.
 
-![](./Permissions%20-%20Tableau_files/perms_filter_icon.png) **Filter**
+![](./images/perms_filter_icon.png) **Filter**
 allows a user to interact with filters in the view, including keep only
 and exclude filters. Users lacking this capability won't see filter
 controls in the view.
 
-![](./Permissions%20-%20Tableau_files/perms_viewcomments_icon.png)
+![](./images/perms_viewcomments_icon.png)
 **View Comments** allows a user to view the comments associated with the
 views in a workbook.
 
-![](./Permissions%20-%20Tableau_files/perms_addcomments_icon.png) **Add
+![](./images/perms_addcomments_icon.png) **Add
 Comments** allows a user to add comments to views in a workbook.
 
-![](./Permissions%20-%20Tableau_files/perms_downloadimage_icon.png)
+![](./images/perms_downloadimage_icon.png)
 **Download Image/PDF** allows a user to download each view as a PNG,
 PDF, or PowerPoint.
 
-![](./Permissions%20-%20Tableau_files/perms_downloadsumdata_icon.png)
+![](./images/perms_downloadsumdata_icon.png)
 **Download Summary Data** allows a user to view the aggregated data in a
 view, or in the marks they've selected, and download that data (as a
 CSV).
 
 #### Explore template
 
-![](./Permissions%20-%20Tableau_files/perms_sharecustomized_icon.png)
+![](./images/perms_sharecustomized_icon.png)
 **Share Customized** allows a user to save customizations made to the
 view (such as filters and selections) as custom views. For users with a
 site role of Explorer or above, they can share these customizations,
@@ -378,20 +378,19 @@ which makes them appear as options for other users. For more
 information, see [Use Custom Views[(Link opens in a new
 window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/customview.htm).
 
-![](./Permissions%20-%20Tableau_files/perms_downloadfulldata_icon.png)
+![](./images/perms_downloadfulldata_icon.png)
 **Download Full Data** allows a user to view the underlying data in a
 view, or in the marks they've selected, and download that data (as a
 CSV).
 
-![](./Permissions%20-%20Tableau_files/perms_webedit_icon.png) **Web
+![](./images/perms_webedit_icon.png) **Web
 Edit** allows a user to edit the view in a browser-based authoring
 environment.
 
 -   Note: Creating new content in the browser or saving views from the
     web edit interface requires a specific combination of capabilities.
     For more information, see [Web Editing and Web
-    Authoring](https://help.tableau.com/current/server/en-us/permissions.htm#webauthor){.MCXref
-    .xref}.
+    Authoring](https://help.tableau.com/current/server/en-us/permissions.htm#webauthor)
 -   The Web Editing feature must also be enabled for the entire site or
     even users with this capability allowed won't be able to web edit.
     For more information, see [Set a Site\'s Web Authoring Access[(Link
@@ -400,13 +399,13 @@ environment.
 
 #### Publish template
 
-![](./Permissions%20-%20Tableau_files/perms_downloadwkbksaveas_icon.png)
+![](./images/perms_downloadwkbksaveas_icon.png)
 **Download Workbook/Save a Copy** allows a user to download a packaged
 workbook (as a TWBX). Allows a user to save (publish) a copy from the
 web edit interface as a new workbook. Prior to 2020.1, this capability
 was called Download Workbook/Save As.
 
-![](./Permissions%20-%20Tableau_files/perms_save_icon.png) **Overwrite**
+![](./images/perms_save_icon.png) **Overwrite**
 allows a user to overwrite (save) the content asset on the server. Prior
 to 2020.1, this capability was called Save.
 
@@ -418,15 +417,15 @@ to 2020.1, this capability was called Save.
 
 #### Administer template
 
-![](./Permissions%20-%20Tableau_files/perms_move_icon.png) **Move**
+![](./images/perms_move_icon.png) **Move**
 allows a user to move workbooks between projects. For more information,
 see [Move
 content](https://help.tableau.com/current/server/en-us/permissions.htm#MoveContent) .
 
-![](./Permissions%20-%20Tableau_files/perms_delete_icon.png) **Delete**
+![](./images/perms_delete_icon.png) **Delete**
 allows a user to delete the workbook.
 
-![](./Permissions%20-%20Tableau_files/perms_setperms_icon.png) **Set
+![](./images/perms_setperms_icon.png) **Set
 Permissions** allows a user to create permission rules for the workbook.
 
 **Note**: In a workbook that is configured to not show navigational
@@ -445,10 +444,10 @@ Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs).
 ::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
 #### View template
 
-![](./Permissions%20-%20Tableau_files/perms_view_icon.png) **View**
+![](./images/perms_view_icon.png) **View**
 allows a user to see the data source on the server
 
-![](./Permissions%20-%20Tableau_files/perms_connect_icon.png)
+![](./images/perms_connect_icon.png)
 **Connect** allows a user to connect to a data source in Tableau
 Desktop, Tableau Prep Builder, Ask Data, or web editing.
 
@@ -460,8 +459,7 @@ Desktop, Tableau Prep Builder, Ask Data, or web editing.
     to the published data source, the user needs their own **Connect**
     capability to the data source in order to consume the workbook. For
     more information, see [Data access for published Tableau data
-    sources](https://help.tableau.com/current/server/en-us/permissions.htm#PublishedData){.MCXref
-    .xref}.
+    sources](https://help.tableau.com/current/server/en-us/permissions.htm#PublishedData)
 -   A user must have the **Connect** capability for a data source in
     order to use Ask Data. For more information, see [Enable Ask Data
     for Sites and Data Sources[(Link opens in a new
@@ -469,7 +467,7 @@ Desktop, Tableau Prep Builder, Ask Data, or web editing.
 
 #### Explore template
 
-![](./Permissions%20-%20Tableau_files/perms_downloaddatasource_icon.png)
+![](./images/perms_downloaddatasource_icon.png)
 **Download Data Source** allows a user to download the data source from
 the server (as a TDSX)
 
@@ -477,21 +475,20 @@ the server (as a TDSX)
     Oracle Essbase connections, must be used locally. To download the
     published data source to Tableau Desktop, the user must have the
     Download capability. For more information, see [Cube Data
-    Sources](https://help.tableau.com/current/server/en-us/datasource_cube.htm){.MCXref
-    .xref}.
+    Sources](https://help.tableau.com/current/server/en-us/datasource_cube.htm)
 
 #### Publish template
 
-![](./Permissions%20-%20Tableau_files/perms_save_icon.png) **Overwrite**
+![](./images/perms_save_icon.png) **Overwrite**
 allows a user to publish data sources to the server and overwrite data
 sources on the server. Prior to 2020.1, this capability was called Save.
 
 #### Administer template
 
-![](./Permissions%20-%20Tableau_files/perms_delete_icon.png) **Delete**
+![](./images/perms_delete_icon.png) **Delete**
 allows a user to delete the data source
 
-![](./Permissions%20-%20Tableau_files/perms_setperms_icon.png) **Set
+![](./images/perms_setperms_icon.png) **Set
 Permissions** allows a user to create and edit permission rules for the
 data source
 :::
@@ -517,51 +514,51 @@ Administer template
 
 Flows
 
-![](./Permissions%20-%20Tableau_files/perms_view_icon.png) **View**
+![](./images/perms_view_icon.png) **View**
 allows a user to view the flow.
 
-![](./Permissions%20-%20Tableau_files/perms_downloaddatasource_icon.png)
+![](./images/perms_downloaddatasource_icon.png)
 **Download flow** allows a user to download the flow (as a TFLX).
 
-![](./Permissions%20-%20Tableau_files/perms_connect_icon.png) **Run**
+![](./images/perms_connect_icon.png) **Run**
 allows a user to run the flow.
 
-![](./Permissions%20-%20Tableau_files/perms_save_icon.png)
+![](./images/perms_save_icon.png)
 **Overwrite**\* allows a user to publish flows and overwrite published
 flows.
 
-![](./Permissions%20-%20Tableau_files/perms_move_icon.png) **Move**
+![](./images/perms_move_icon.png) **Move**
 allows a user to move content between projects. For more information,
 see [Move
 content](https://help.tableau.com/current/server/en-us/permissions.htm#MoveContent) .
 
-![](./Permissions%20-%20Tableau_files/perms_delete_icon.png) **Delete**
+![](./images/perms_delete_icon.png) **Delete**
 allows a user to delete the content.
 
-![](./Permissions%20-%20Tableau_files/perms_setperms_icon.png) **Set
+![](./images/perms_setperms_icon.png) **Set
 Permissions** allows a user to create permission rules for the content.
 
  
 
 Data Roles
 
-![](./Permissions%20-%20Tableau_files/perms_view_icon.png) **View**
+![](./images/perms_view_icon.png) **View**
 allows a user to view data roles.
 
 n/a
 
-![](./Permissions%20-%20Tableau_files/perms_save_icon.png)
+![](./images/perms_save_icon.png)
 **Overwrite**\* allows a user to publish data roles and overwrite
 published data roles.
 
 Metrics
 
-![](./Permissions%20-%20Tableau_files/perms_view_icon.png) **View**
+![](./images/perms_view_icon.png) **View**
 allows a user to view metrics.
 
 n/a
 
-![](./Permissions%20-%20Tableau_files/perms_save_icon.png)
+![](./images/perms_save_icon.png)
 **Overwrite**\* allows a user to publish metrics and overwrite published
 metrics.
 
@@ -757,7 +754,7 @@ To configure the [Content Permissions]:
 3.  Click the Content Permissions [Edit] link in the upper
     left and select the desired option in the Content Permissions dialog
 
-![](./Permissions%20-%20Tableau_files/perms_lockproject.png)
+![](./images/perms_lockproject.png)
 
 **Note**: If the upper left corner doesn't show an **Edit** link in step
 3 above, you may be on the permissions dialog for (a) a nested project
@@ -919,7 +916,7 @@ Permissions in Tableau are restrictive. Unless a capability is granted
 to a user, they are denied permission. The following logic evaluates if
 a capability is allowed or denied for an individual:
 
-![](./Permissions%20-%20Tableau_files/perms_evalflow_basic.png)
+![](./images/perms_evalflow_basic.png)
 
 1.  **Site role:** If a site role doesn't permit a capability, the user
     is denied. If the user\'s site role does permit the capability, then
@@ -1000,10 +997,9 @@ that determine what permissions are applied on the content.
 -   Configuring the workbook to show navigational sheet tabs will
     override existing view-level permissions and sync them with the
     workbook-level permissions. See [Show or Hide Sheet
-    Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs){.MCXref
-    .xref}.
+    Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs)
 
-![](./Permissions%20-%20Tableau_files/perms_evalflow_total.png)
+![](./images/perms_evalflow_total.png)
 
 [This image shows how capabilities are evaluated through multiple levels
 of content. ]{.caption}
@@ -1090,10 +1086,10 @@ role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-ro
   ------------------------------------------------------------ ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
   Capability                                                   Creator                                                             Explorer (can publish)                                              Explorer                                                            Viewer
 
-  ![](./Permissions%20-%20Tableau_files/perms_view_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_view_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
   View                                                                                                                                                                                                                                                                     
 
-  ![](./Permissions%20-%20Tableau_files/perms_save_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_save_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Publish                                                                                                                                                                                                                                                                  
   ------------------------------------------------------------ ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
 
@@ -1102,40 +1098,40 @@ role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-ro
   -------------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
   Capability                                                                 Creator                                                             Explorer (can publish)                                              Explorer                                                            Viewer
 
-  ![](./Permissions%20-%20Tableau_files/perms_view_icon.png) View            ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_view_icon.png) View            ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_filter_icon.png) Filter        ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_filter_icon.png) Filter        ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_viewcomments_icon.png) View    ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_viewcomments_icon.png) View    ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
   Comments                                                                                                                                                                                                                                                                               
 
-  ![](./Permissions%20-%20Tableau_files/perms_addcomments_icon.png) Add      ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_addcomments_icon.png) Add      ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
   Comments                                                                                                                                                                                                                                                                               
 
-  ![](./Permissions%20-%20Tableau_files/perms_downloadimage_icon.png)        ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_downloadimage_icon.png)        ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
   Download Image/PDF                                                                                                                                                                                                                                                                     
 
-  ![](./Permissions%20-%20Tableau_files/perms_downloadsumdata_icon.png)      ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_downloadsumdata_icon.png)      ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
   Download Summary Data                                                                                                                                                                                                                                                                  
 
-  ![](./Permissions%20-%20Tableau_files/perms_sharecustomized_icon.png)      ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_sharecustomized_icon.png)      ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)
   Share Customized                                                                                                                                                                                                                                                                       
 
-  ![](./Permissions%20-%20Tableau_files/perms_downloadfulldata_icon.png)     ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_downloadfulldata_icon.png)     ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)
   Download Full Data                                                                                                                                                                                                                                                                     
 
-  ![](./Permissions%20-%20Tableau_files/perms_webedit_icon.png) Web Edit     ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_webedit_icon.png) Web Edit     ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_downloadwkbksaveas_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_downloadwkbksaveas_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)
   Download Workbook/Save a Copy                                                                                                                                                                                                                                                          
 
-  ![](./Permissions%20-%20Tableau_files/perms_save_icon.png) Overwrite       ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_save_icon.png) Overwrite       ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_move_icon.png) Move            ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   \*                                                                  ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_move_icon.png) Move            ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   \*                                                                  ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_delete_icon.png) Delete        ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_delete_icon.png) Delete        ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_setperms_icon.png) Set         ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_setperms_icon.png) Set         ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Permissions                                                                                                                                                                                                                                                                            
   -------------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
 
@@ -1144,18 +1140,18 @@ role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-ro
   -------------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
   Capability                                                                 Creator                                                             Explorer (can publish)                                              Explorer                                                            Viewer
 
-  ![](./Permissions%20-%20Tableau_files/perms_view_icon.png) View            ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_view_icon.png) View            ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_connect_icon.png) Connect      ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_connect_icon.png) Connect      ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_downloaddatasource_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_downloaddatasource_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)
   Download Data Source                                                                                                                                                                                                                                                                   
 
-  ![](./Permissions%20-%20Tableau_files/perms_save_icon.png) Overwrite       ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_save_icon.png) Overwrite       ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_delete_icon.png) Delete        ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_delete_icon.png) Delete        ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_setperms_icon.png) Set         ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_setperms_icon.png) Set         ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Permissions                                                                                                                                                                                                                                                                            
   -------------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
 
@@ -1164,17 +1160,17 @@ role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-ro
   ---------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
   Capability                                                       Creator                                                             Explorer (can publish)                                              Explorer                                                            Viewer
 
-  ![](./Permissions%20-%20Tableau_files/perms_view_icon.png) View  ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_view_icon.png) View  ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_save_icon.png)       ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_save_icon.png)       ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Overwrite                                                                                                                                                                                                                                                                    
 
-  ![](./Permissions%20-%20Tableau_files/perms_move_icon.png) Move  ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   \*                                                                  ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_move_icon.png) Move  ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   \*                                                                  ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_delete_icon.png)     ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_delete_icon.png)     ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Delete                                                                                                                                                                                                                                                                       
 
-  ![](./Permissions%20-%20Tableau_files/perms_setperms_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_setperms_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Set Permissions                                                                                                                                                                                                                                                              
   ---------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
 
@@ -1186,20 +1182,20 @@ Add-on]{.VariablesDM_sku style="font-style: italic;"} *.*
   -------------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
   Capability                                                                 Creator                                                             Explorer (can publish)                                              Explorer                                                            Viewer
 
-  ![](./Permissions%20-%20Tableau_files/perms_view_icon.png) View            ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_view_icon.png) View            ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_downloaddatasource_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_downloaddatasource_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)
   Download Flow                                                                                                                                                                                                                                                                          
 
-  ![](./Permissions%20-%20Tableau_files/perms_connect_icon.png) Run Flow     ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_connect_icon.png) Run Flow     ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_save_icon.png) Overwrite       ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_save_icon.png) Overwrite       ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_move_icon.png) Move            ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   \*                                                                  ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_move_icon.png) Move            ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   \*                                                                  ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_delete_icon.png) Delete        ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_delete_icon.png) Delete        ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_setperms_icon.png) Set         ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_setperms_icon.png) Set         ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Permissions                                                                                                                                                                                                                                                                            
   -------------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
 
@@ -1208,17 +1204,17 @@ Add-on]{.VariablesDM_sku style="font-style: italic;"} *.*
   ---------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
   Capability                                                       Creator                                                             Explorer (can publish)                                              Explorer                                                            Viewer
 
-  ![](./Permissions%20-%20Tableau_files/perms_view_icon.png) View  ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  ![](./images/perms_view_icon.png) View  ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_save_icon.png)       ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_save_icon.png)       ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Overwrite                                                                                                                                                                                                                                                                    
 
-  ![](./Permissions%20-%20Tableau_files/perms_move_icon.png) Move  ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   \*                                                                  ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_move_icon.png) Move  ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   \*                                                                  ![](./images/permissions_deny_icon.png)
 
-  ![](./Permissions%20-%20Tableau_files/perms_delete_icon.png)     ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_delete_icon.png)     ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Delete                                                                                                                                                                                                                                                                       
 
-  ![](./Permissions%20-%20Tableau_files/perms_setperms_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)
+  ![](./images/perms_setperms_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png)    ![](./images/permissions_deny_icon.png)
   Set Permissions                                                                                                                                                                                                                                                              
   ---------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
 
@@ -1333,29 +1329,28 @@ To enable this functionality, there are several requirements.
 -   **Permission capabilities**: The user must have the necessary
     permission capabilities based on the desired functionality. See [Set
     Web Edit, Save, and Download Access on
-    Content](https://help.tableau.com/current/server/en-us/web_author_who.htm){.MCXref
-    .xref}.
+    Content](https://help.tableau.com/current/server/en-us/web_author_who.htm)
 
 #### Required Permission Capability Settings
 
   --------------- ---------- ------------------------------------------------------------------- -------------------------------------------------------------------------- ------------------------------------------------------------------- ------------------------------------------------------------------- -------------------------------------------------------------------
-  Desired         Minimum    ![](./Permissions%20-%20Tableau_files/perms_webedit_icon.png) Web   ![](./Permissions%20-%20Tableau_files/perms_downloadwkbksaveas_icon.png)   ![](./Permissions%20-%20Tableau_files/perms_save_icon.png)          ![](./Permissions%20-%20Tableau_files/perms_save_icon.png) Publish  ![](./Permissions%20-%20Tableau_files/perms_connect_icon.png)
+  Desired         Minimum    ![](./images/perms_webedit_icon.png) Web   ![](./images/perms_downloadwkbksaveas_icon.png)   ![](./images/perms_save_icon.png)          ![](./images/perms_save_icon.png) Publish  ![](./images/perms_connect_icon.png)
   functionality   Site Role  Edit                                                                Download/ Save a Copy                                                      Overwrite *(workbook)*                                              *(project)*                                                         Connect (data source)
 
-  Web author      Explorer   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png) Deny      ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    Optional                                                            ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  Web author      Explorer   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_deny_icon.png) Deny      ![](./images/permissions_deny_icon.png)    Optional                                                            ![](./images/permissions_allow_icon.png)
   without being              Allow                                                                                                                                          Deny                                                                                                                                    Allow
   able to save                                                                                                                                                                                                                                                                                                      
 
-  Web author and  Explorer   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png) Allow    ![](./Permissions%20-%20Tableau_files/permissions_deny_icon.png)    ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  Web author and  Explorer   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png) Allow    ![](./images/permissions_deny_icon.png)    ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
   save as new     (can       Allow                                                                                                                                          Deny                                                                Allow                                                               Allow
   content         publish)                                                                                                                                                                                                                                                                                          
 
-  Web author and  Explorer   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png) Allow    ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)
+  Web author and  Explorer   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png) Allow    ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)   ![](./images/permissions_allow_icon.png)
   save            (can       Allow                                                                                                                                          Allow                                                               Allow                                                               Allow
   (overwrite)     publish)                                                                                                                                                                                                                                                                                          
   content                                                                                                                                                                                                                                                                                                           
 
-  Web author with Creator    ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   Optional                                                                   Optional                                                            ![](./Permissions%20-%20Tableau_files/permissions_allow_icon.png)   Optional
+  Web author with Creator    ![](./images/permissions_allow_icon.png)   Optional                                                                   Optional                                                            ![](./images/permissions_allow_icon.png)   Optional
   new data and               Allow                                                                                                                                                                                                              Allow                                                               
   save new                                                                                                                                                                                                                                                                                                          
   content                                                                                                                                                                                                                                                                                                           
@@ -1546,8 +1541,7 @@ the workbook and its views.
     as tabs[(Link opens in a new
     window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/publish_workbooks_howto.htm#show-sheets-as-tabs).
 -   To set view-level permissions, see [Set permissions on
-    content](https://help.tableau.com/current/server/en-us/permissions.htm#contentpermissions){.MCXref
-    .xref}.
+    content](https://help.tableau.com/current/server/en-us/permissions.htm#contentpermissions)
 
 Remember, in an unlocked project, any modifications to the
 workbook-level permissions will not be applied if navigational sheet

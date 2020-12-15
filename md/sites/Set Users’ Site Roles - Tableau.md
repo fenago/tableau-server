@@ -93,8 +93,7 @@ For more information, see
     matrix that shows the maximum level of general capabilities each
     site role allows. For more information, continue to [General
     capabilities allowed with each site
-    role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-role-capabilities-summary){.MCXref
-    .xref}.
+    role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-role-capabilities-summary)
 
 <div>
 
@@ -318,8 +317,7 @@ Users are assigned the Unlicensed role in the following circumstances:
 
 -   A product key(s) has expired. See [Refresh Expiration Date for the
     Product
-    Key](https://help.tableau.com/current/server/en-us/license_refresh.htm){.MCXref
-    .xref}.
+    Key](https://help.tableau.com/current/server/en-us/license_refresh.htm)
 
 <div>
 
@@ -344,8 +342,7 @@ The following site roles allow the specified level of publishing access.
 -   [Explorer (Can Publish)] and [Site Administrator
     Explorer] have limited publishing capabilities, as
     described in [General capabilities allowed with each site
-    role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-role-capabilities-summary){.MCXref
-    .xref}.
+    role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-role-capabilities-summary)
 
 -   [Explorer], [Viewer], [Read
     Only], and [Unlicensed] do not allow

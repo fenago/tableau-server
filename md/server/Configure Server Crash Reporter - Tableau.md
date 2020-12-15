@@ -30,8 +30,7 @@ privacy regulations.
 
     https://\<tsm-computer-name\>:8850. For more information, see [Sign
     in to Tableau Services Manager Web
-    UI](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm){.MCXref
-    .xref}.
+    UI](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm)
 
 2.  Click the [Maintenance] tab.
 

@@ -12,14 +12,12 @@ have the following options for adding users:
 
     You can also add users by importing an Active Directory group. See
     [Create Groups via Active
-    Directory](https://help.tableau.com/current/server/en-us/groups_create_ad.htm){.MCXref
-    .xref}.
+    Directory](https://help.tableau.com/current/server/en-us/groups_create_ad.htm)
 
 -   [Import
     Users](https://help.tableau.com/current/server/en-us/users_import.htm){.MCXref
     .xref} via a CSV file that you create using the [CSV Import File
-    Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm){.MCXref
-    .xref}.
+    Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm)
 
 
 <div>
@@ -78,8 +76,7 @@ only site B cannot edit User1's full name or reset the password.
 4.  Select a site role.
 
     For site role definitions, see [Set Users' Site
-    Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm){.MCXref
-    .xref}.
+    Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm)
 
 5.  Click [Add User].
 
@@ -115,8 +112,7 @@ Active Directory user name format influence Tableau user management.
 3.  Select a site role.
 
     For site role definitions, see [Set Users' Site
-    Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm){.MCXref
-    .xref}.
+    Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm)
 
 4.  Click [Import Users].
 
@@ -160,5 +156,4 @@ Active Directory user name format influence Tableau user management.
     [Licensing
     Overview](https://help.tableau.com/current/server/en-us/license_server_overview.htm#User-based){.MCXref
     .xref} and see [Set Users' Site
-    Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm){.MCXref
-    .xref}.
+    Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm)

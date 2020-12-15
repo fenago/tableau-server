@@ -52,8 +52,7 @@ manage users:
     import the changes from a CSV file. For details, see [Import
     Users](https://help.tableau.com/current/server/en-us/users_import.htm){.MCXref
     .xref} and [CSV Import File
-    Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm){.MCXref
-    .xref}.
+    Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm)
 
 </div>
 :::

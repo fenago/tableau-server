@@ -43,8 +43,7 @@ certificate validation process. For more information, see the section,
 
     https://\<tsm-computer-name\>:8850. For more information, see [Sign
     in to Tableau Services Manager Web
-    UI](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm){.MCXref
-    .xref}.
+    UI](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm)
 
 2.  Click [Notifications]on the [Configuration]
     tab and click [Email Server].
@@ -64,5 +63,4 @@ certificate validation process. For more information, see the section,
 
 7.  Run the `tsm email test-smtp-connection` to view and verify the
     connection configuration. See [tsm email
-    test-smtp-connection](https://help.tableau.com/current/server/en-us/cli_email.htm#tsm){.MCXref
-    .xref}.
+    test-smtp-connection](https://help.tableau.com/current/server/en-us/cli_email.htm#tsm)

@@ -226,12 +226,10 @@ The following fields are returned:
     Server deployment.
 -   **DATA MANAGEMENT ADD-ON**:Tableau Server is licensed for the Data
     Management Add-on (`True`/`False`). See [About Data Management
-    Add-on](https://help.tableau.com/current/server/en-us/dm_overview.htm){.MCXref
-    .xref}.
+    Add-on](https://help.tableau.com/current/server/en-us/dm_overview.htm)
 -   **GUEST ACCESS**: Tableau Server is licensed for a Guest User. See
     [Guest
-    User](https://help.tableau.com/current/server/en-us/users_guest.htm){.MCXref
-    .xref}. The ability to leverage a Guest User requires Core
+    User](https://help.tableau.com/current/server/en-us/users_guest.htm) The ability to leverage a Guest User requires Core
     licensing. See TYPE field.
 -   **LIC EXP**: The date that the license expires and Tableau Server
     will stop working. Term licenses expire. See TYPE field. Visit the
@@ -243,8 +241,7 @@ The following fields are returned:
     MAINT EXP displays the date that the maintenance contract for the
     Tableau Server deployment expires. To update the license maintenance
     key see [Refresh Expiration Date for the Product
-    Key](https://help.tableau.com/current/server/en-us/license_refresh.htm){.MCXref
-    .xref}. Visit the Tableau [Customer Portal[(Link opens in a new
+    Key](https://help.tableau.com/current/server/en-us/license_refresh.htm) Visit the Tableau [Customer Portal[(Link opens in a new
     window)]{.sr-only}](https://customer.tableausoftware.com/) to view
     maintenance purchase history and to purchase additional maintenance.
 -   **UPDATABLE**: Specifies whether the license is an updatable
@@ -255,14 +252,12 @@ The following fields are returned:
     their instance of Tableau Desktop or Prep, rather than entering a
     product key. For more information about LBLM, see [Login-based
     License
-    Management](https://help.tableau.com/current/server/en-us/license_lblm.htm){.MCXref
-    .xref}.
+    Management](https://help.tableau.com/current/server/en-us/license_lblm.htm)
 -   **SERVER MANAGEMENT ADD-ON**: Tableau Server is licensed for the
     Server Management Add-on (`True`/`False`). For more information
     about the Server Management Add-on, see [About Tableau Server
     Management
-    Add-on](https://help.tableau.com/current/server/en-us/itm_intro.htm){.MCXref
-    .xref}.
+    Add-on](https://help.tableau.com/current/server/en-us/itm_intro.htm)
 
 <div>
 

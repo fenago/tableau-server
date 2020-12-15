@@ -114,8 +114,7 @@ visible in these ways:
 
 -   Configure permissions to only provide content to appropriate
     parties. For more information, see
-    [Permissions](https://help.tableau.com/current/server/en-us/permissions.htm){.MCXref
-    .xref}.
+    [Permissions](https://help.tableau.com/current/server/en-us/permissions.htm)
     -   Limited User Visibility hides user identification information
         from search, but might return content that the user published,
         including when searching by owner name, if the person searching

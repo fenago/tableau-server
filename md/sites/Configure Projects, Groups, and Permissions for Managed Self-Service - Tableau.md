@@ -190,8 +190,7 @@ follows:
     grant administrator capabilities at the project level, you can
     assign the [Project Leader] setting to users with the
     appropriate site roles. For more information, see [Set a project
-    leader](https://help.tableau.com/current/server/en-us/permissions.htm#Set){.MCXref
-    .xref}.
+    leader](https://help.tableau.com/current/server/en-us/permissions.htm#Set)
 
 -   **Analysts/Publishers.** This group is for users who can publish
     workbooks to production and other open projects, use web editing on

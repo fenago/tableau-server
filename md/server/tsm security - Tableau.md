@@ -72,8 +72,7 @@ browsers---to the repository.
 -   As of the 2020.2 release, to configure Rserve and TabPy analytics
     extensions, use the Tableau Server admin pages. See [Configure
     Connection with Analytics
-    Extensions](https://help.tableau.com/current/server/en-us/config_r_tabpy.htm){.MCXref
-    .xref}.
+    Extensions](https://help.tableau.com/current/server/en-us/config_r_tabpy.htm)
 :::
 
 <div>

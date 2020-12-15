@@ -182,8 +182,7 @@ browser. Before you sign in, you'll need this information:
     the alternate port that Tableau Server will set is 8000.)
 
     To review ports and related information, see [Running
-    Setup](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_install.htm){.MCXref
-    .xref}.
+    Setup](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_install.htm)
 
 If your IT department set up your server, they might have set a custom
 virtual directory or another type of namespace mapping to accommodate

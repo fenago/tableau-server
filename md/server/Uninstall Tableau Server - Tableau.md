@@ -47,8 +47,7 @@ Windows supports:
     version and now want to completely remove Tableau, you can find the
     script to do so in a temporary location. For more details, see
     [Remove Tableau Server from Your
-    Computer](https://help.tableau.com/current/server/en-us/remove_tableau.htm){.MCXref
-    .xref}.
+    Computer](https://help.tableau.com/current/server/en-us/remove_tableau.htm)
 
 ::: {mc-conditions="Product.serverwindows"}
 <div>
