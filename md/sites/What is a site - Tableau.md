@@ -45,8 +45,7 @@ Administrator Creator and Site Administrator Explorer are in the level
 of data connection and publishing access. Both site roles allow
 administering the site itself and managing site users. For more
 information, see [Set Users' Site
-Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm){.MCXref
-.xref}.
+Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm).
 
 Although a server administrator can work at both the server and site
 levels, we make a distinction between the two levels of task. The site
@@ -76,8 +75,7 @@ roles allow this level of access):
 
 For more information about the distinction between server administrator
 and site administrator, see [Administrator-level access to
-sites](https://help.tableau.com/current/server/en-us/sites_intro.htm#admin-access-sites){.MCXref
-.xref}, in the **Manage Server** section.
+sites](https://help.tableau.com/current/server/en-us/sites_intro.htm#admin-access-sites), in the **Manage Server** section.
 
 <div>
 

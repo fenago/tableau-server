@@ -73,13 +73,11 @@ Server]. This data includes the Tableau
 PostgreSQL database (the repository) which contains workbook and user
 metadata, and extract (.tde or .hyper) files. This data does not include
 configuration data. See [Perform a Full Backup and Restore of Tableau
-Server](https://help.tableau.com/current/server/en-us/backup_restore.htm){.MCXref
-.xref}.
+Server](https://help.tableau.com/current/server/en-us/backup_restore.htm).
 
 **Note:** Do not use this command on Tableau Server installations with
 External File Store. See [Backup and Restore with External File
-Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm){.MCXref
-.xref}.
+Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm).
 
 <div>
 
@@ -108,8 +106,7 @@ TSM `basefilepath.backuprestore` variable. By default:
 
 For more information about where backup files are written, and how to
 change that location, see [tsm File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}. **Note:** Even when you change the backup location, the backup
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm). **Note:** Even when you change the backup location, the backup
 process uses a temporary location in the data directory to assemble the
 backup file.
 
@@ -139,8 +136,7 @@ Required.
 
 For more information about backing up the repository data, see [Back up
 Tableau Server
-data](https://help.tableau.com/current/server/en-us/db_backup.htm){.MCXref
-.xref} for more information.
+data](https://help.tableau.com/current/server/en-us/db_backup.htm) for more information.
 
 -i, \--description \<string\>
 
@@ -431,8 +427,7 @@ When running this command, keep the following in mind:
 
 For more information about the [Tableau Catalog]{.VariablesDM_catalog},
 see, [About Tableau
-Catalog](https://help.tableau.com/current/server/en-us/dm_catalog_overview.htm){.MCXref
-.xref}.
+Catalog](https://help.tableau.com/current/server/en-us/dm_catalog_overview.htm).
 
 <div>
 
@@ -718,8 +713,7 @@ Wait the specified amount of time for the command to finish.
 Restore [Tableau Server] using the specified
 backup file. Restoring a backup file does not restore any configuration
 data. See [Perform a Full Backup and Restore of Tableau
-Server](https://help.tableau.com/current/server/en-us/backup_restore.htm){.MCXref
-.xref}.
+Server](https://help.tableau.com/current/server/en-us/backup_restore.htm).
 
 You can only restore from a backup that has the same type of identity
 store as the running server. For example, a backup from a server using
@@ -767,8 +761,7 @@ the TSM `basefilepath.backuprestore` variable. By default:
 
 For more information about file paths and how to change them, see [tsm
 File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}.
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
 -k, \--skip-identity-store-verification
 
@@ -779,8 +772,7 @@ earlier).
 Do not use this key in an attempt to change identity store type from
 Tableau Server that created original backup file. To change the identity
 store, see [Changing the Identity
-Store](https://help.tableau.com/current/server/en-us/reconfig_change_auth.htm){.MCXref
-.xref} .
+Store](https://help.tableau.com/current/server/en-us/reconfig_change_auth.htm) .
 
 -po, \--pg-only
 
@@ -870,8 +862,7 @@ snapshot-backup complete* commands are used to create a backup of
 Tableau Server data for Tableau Server installations that are configured
 with External File Store. For more information, see [Backup and Restore
 with External File
-Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm){.MCXref
-.xref}
+Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm)
 
 <div>
 
@@ -915,8 +906,7 @@ snapshot-backup complete* commands are used to create a backup of
 Tableau Server data for Tableau Server installations that are configured
 with External File Store. For more information, see [Backup and Restore
 with External File
-Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm){.MCXref
-.xref}
+Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm)
 
 <div>
 
@@ -956,8 +946,7 @@ Restores the repository backup from the storage snapshot to Tableau
 Server.
 
 For more information, see [Backup and Restore with External File
-Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm){.MCXref
-.xref}.
+Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm).
 
 <div>
 
@@ -1097,8 +1086,7 @@ defined in the TSM `basefilepath.log_archive` variable. By default:
 
 For more information about file paths and how to change them, see [tsm
 File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}.
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
 -i, \--description \<string\>
 
@@ -1145,8 +1133,7 @@ By default the file is written to:
 
 For more information about file paths and how to change them, see [tsm
 File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}.
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
 <div>
 
@@ -1217,8 +1204,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

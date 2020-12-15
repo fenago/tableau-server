@@ -8,8 +8,7 @@ setting lets administrators manage if users with Viewer and Explorer
 site roles see other users and groups on the site, which can be
 important for sites that are used by multiple clients. To learn more
 about site roles, see [Set Users' Site
-Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm){.MCXref
-.xref}.
+Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm).
 
 <div>
 

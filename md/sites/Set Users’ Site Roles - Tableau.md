@@ -61,8 +61,7 @@ if they do not have the save capability on at least one project, they
 can't publish anything to the site.
 
 For more information, see
-[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm){.MCXref
-.xref}.
+[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm).
 
 <div>
 

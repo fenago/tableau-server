@@ -133,5 +133,4 @@ permissions rules---that grant or deny editing-related access.
     workbook).
 
 For more information, see [Web Editing and Web
-Authoring](https://help.tableau.com/current/server/en-us/permissions.htm#webauthor){.MCXref
-.xref}.
+Authoring](https://help.tableau.com/current/server/en-us/permissions.htm#webauthor).

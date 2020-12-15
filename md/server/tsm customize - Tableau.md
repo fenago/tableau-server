@@ -46,8 +46,7 @@ Server. The image files that you add to Tableau Server will be stored
 and distributed to other nodes by the Client File Service. However, the
 files are not stored in a recoverable format. See [Tableau Server Client
 File
-Service](https://help.tableau.com/current/server/en-us/server_process_cfs.htm){.MCXref
-.xref}.
+Service](https://help.tableau.com/current/server/en-us/server_process_cfs.htm).
 
 <div>
 
@@ -152,8 +151,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

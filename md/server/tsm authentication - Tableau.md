@@ -45,8 +45,7 @@ configure user authentication options for Tableau Server.
 
 Enable, disable, and configure Kerberos user authentication on [Tableau
 Server]. See [Configure
-Kerberos](https://help.tableau.com/current/server/en-us/config_kerberos.htm){.MCXref
-.xref}.
+Kerberos](https://help.tableau.com/current/server/en-us/config_kerberos.htm).
 
 <div>
 
@@ -112,14 +111,12 @@ Show all configured parameters.
 Enable, disable, and configure mutual SSL for user authentication on
 [Tableau Server]. To learn more about mutual SSL,
 see [Configure Mutual SSL
-Authentication](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm){.MCXref
-.xref}.
+Authentication](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm).
 
 Before you enable mutual SSL, you must enable and configure SSL for
 external communication. For information, see [Configure SSL for External
 HTTP Traffic to and from Tableau
-Server](https://help.tableau.com/current/server/en-us/ssl_config.htm){.MCXref
-.xref}.
+Server](https://help.tableau.com/current/server/en-us/ssl_config.htm).
 
 <div>
 
@@ -261,8 +258,7 @@ Before you proceed, review the user names that will be used as a result
 of setting this option to `true`. User name conflicts may occur. In the
 case of a user name conflict, the risk of information disclosure is
 high. See [Requirements for Using OpenID
-Connect](https://help.tableau.com/current/server/en-us/openid_auth_requirements.htm){.MCXref
-.xref}.
+Connect](https://help.tableau.com/current/server/en-us/openid_auth_requirements.htm).
 
 -if, \--iframed-idp-enabled \<true \| false\>
 
@@ -290,15 +286,13 @@ Optional.
 
 Specifies a custom scope user-related value that you can use to query
 the IdP. See [Requirements for Using OpenID
-Connect](https://help.tableau.com/current/server/en-us/openid_auth_requirements.htm){.MCXref
-.xref}.
+Connect](https://help.tableau.com/current/server/en-us/openid_auth_requirements.htm).
 
 #### Options for openid map-claims 
 
 Use these options to change the default OIDC claims Tableau Server will
 use when communicating with your IdP. See [Requirements for Using OpenID
-Connect](https://help.tableau.com/current/server/en-us/openid_auth_requirements.htm){.MCXref
-.xref}.
+Connect](https://help.tableau.com/current/server/en-us/openid_auth_requirements.htm).
 
 -i, \--id \<string\>
 
@@ -358,8 +352,7 @@ If you are configuring SAML for the first time or have previously
 disabled it, you must run this command with
 `tsm authentication saml enable`. For more information, see [Configure
 Server-Wide
-SAML](https://help.tableau.com/current/server/en-us/config_saml.htm){.MCXref
-.xref}.
+SAML](https://help.tableau.com/current/server/en-us/config_saml.htm).
 
 <div>
 
@@ -423,8 +416,7 @@ For example,
 Required for initial SAML configuration; otherwise optional. The
 location and file name for the x509 certificate file for SAML. For
 requirements for the certificate file, see [SAML
-Requirements](https://help.tableau.com/current/server/en-us/saml_requ.htm){.MCXref
-.xref}.
+Requirements](https://help.tableau.com/current/server/en-us/saml_requ.htm).
 
 For example,
 `C:\ProgramData\Tableau\Tableau Server\data\saml\<file.crt>`
@@ -754,8 +746,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

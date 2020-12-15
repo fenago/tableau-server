@@ -12,8 +12,7 @@ level, to later add them to multiple sites.
 **Note:** This topic contains the steps for importing, assuming that you
 have already created the CSV file. If you have not created the file yet,
 see [CSV Import File
-Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm){.MCXref
-.xref} for a list of file format requirements and import options.
+Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm) for a list of file format requirements and import options.
 
 
 <div>
@@ -75,8 +74,7 @@ Administrator].
 
 You can also specify the user's site role when you assign site
 membership to a user. For information, see [Manage users' site
-membership](https://help.tableau.com/current/server/en-us/users_view.htm#manage-site-membership){.MCXref
-.xref}.
+membership](https://help.tableau.com/current/server/en-us/users_view.htm#manage-site-membership).
 
 ::: {.sectiontitle}
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_import.htm#){.heading-item__link .print-hidden} Importing at the server level in multi-site environments {#importing-at-the-server-level-in-multisite-environments}

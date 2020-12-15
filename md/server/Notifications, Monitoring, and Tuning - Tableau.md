@@ -523,8 +523,7 @@ and reuse data as much as possible.
 You can tune caching to increase the amount of time before data is
 cached. We covered cache configuration in the last chapter. See
 [Configure data connection
-caching](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#Configur){.MCXref
-.xref} .
+caching](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#Configur) .
 
 #### Increase the number of VizQL server processes
 
@@ -605,8 +604,7 @@ runs in parallel execution mode.
     Tableau Server.
 
 Continue to [Open for
-Business!](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_open_for_biz.htm){.MCXref
-.xref}
+Business!](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_open_for_biz.htm)
 
 <div>
 

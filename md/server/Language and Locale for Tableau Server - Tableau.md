@@ -13,8 +13,7 @@ Administrators can configure language and locale on a server-wide basis
 (see
 [](https://help.tableau.com/current/server/en-us/maintenance_set.htm)[Server
 Settings (General and
-Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.htm){.MCXref
-.xref}, and individual users can configure their own settings (see [Your
+Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.htm), and individual users can configure their own settings (see [Your
 Account Settings[(Link opens in a new
 window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#useracct.html))
 . If a user configures their own language and locale, their settings

@@ -80,8 +80,7 @@ If you use this command with large `.csv` files on Tableau Server, a
 server administrator can enable settings that help improve performance.
 
 For more information, see [CSV Import File
-Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm){.MCXref
-.xref}.
+Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm).
 
 `--[no-]complete`
 
@@ -706,8 +705,7 @@ stored on the site.
 The extract encryption mode for the site can be **enforced**,
 **enabled** or **disabled**. For more information, see [Extract
 Encryption at
-Rest](https://help.tableau.com/current/server/en-us/security_ear.htm){.MCXref
-.xref}.
+Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
 `--run-now-enabled`
 
@@ -715,8 +713,7 @@ Allow or deny users from running extract refreshes, flows, or schedules
 manually. **true** to allow users to run tasks manually or **false** to
 prevent users from running tasks manually. For more information, see
 [Server Settings (General and
-Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.htm){.MCXref
-.xref}.
+Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.htm).
 
 ::: {.accordion}
 ::: {.accordion__title}
@@ -852,8 +849,7 @@ The CSV file must contain one or more user names and can also include
 (for each user) a password, full name, license type, administrator
 level, publisher (yes/no), and email address. For information about the
 format of the CSV file, see [CSV Import File
-Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm){.MCXref
-.xref}.
+Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm).
 
 As an alternative to including administrator level and publisher
 permissions in the CSV file, you can pass access level information by
@@ -891,8 +887,7 @@ waits for all operations to complete before proceeding). You can use the
 A server administrator can use the `tabadmin set` command to enable
 settings that help to improve performance for large CSV files. For more
 information, see [Improve performance for large CSV files passed through
-tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-performance-large-csv){.MCXref
-.xref} in the CSV Import File Guidelines topic.
+tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-performance-large-csv) in the CSV Import File Guidelines topic.
 
 <div>
 
@@ -919,8 +914,7 @@ domains, you must include the domain as part of the user name. You can
 specify this as either `domain/username` or `username@domain.com`;
 however, we recommend using the `domain/username` format. For more
 information, see [User Management in Deployments with External Identity
-Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm){.MCXref
-.xref}.
+Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm).
 :::
 
 **Example**
@@ -1116,8 +1110,7 @@ The CSV file must contain one or more user names and can also include
 (for each user) a password, full name, license type, administrator
 level, publisher (yes/no), and email address. For information about the
 format of the CSV file, see [CSV Import File
-Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm){.MCXref
-.xref}.
+Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm).
 
 As an alternative to including administrator level and publisher
 permissions in the CSV file, you can pass access level information by
@@ -1158,8 +1151,7 @@ domains, you must include the domain as part of the user name. You can
 specify this as either `domain/username` or `username@domain.com`;
 however, we recommend using the `domain/username` format. For more
 information, see [User Management in Deployments with External Identity
-Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm){.MCXref
-.xref}.
+Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm).
 
 **Example**
 
@@ -1356,8 +1348,7 @@ required value for the `export` command.
 Decrypt all extracts on a site. If no site is specified, extracts on the
 default site will be decrypted. For more information, see [Extract
 Encryption at
-Rest](https://help.tableau.com/current/server/en-us/security_ear.htm){.MCXref
-.xref}.
+Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
 Depending on the number and size of extracts, this operation may consume
 significant server resources. Consider running this command outside of
@@ -2269,8 +2260,7 @@ from Active Directory.
 A server administrator can use the `tabadmin set` command to enable
 settings that help to improve performance for large CSV files. For more
 information, see [Improve performance for large CSV files passed through
-tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-performance-large-csv){.MCXref
-.xref} in the CSV Import File Guidelines topic.
+tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-performance-large-csv) in the CSV Import File Guidelines topic.
 
 ::: {.accordion}
 ::: {.accordion__title}
@@ -2557,12 +2547,10 @@ domains, you must also specify secondary domains that Tableau Server
 connects to by setting the `wgserver.domain.whitelist` option with TSM.
 For more information about secondary domains and configuring the
 connection, see
-[wgserver.domain.whitelist](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#wgserver-domain){.MCXref
-.xref}.
+[wgserver.domain.whitelist](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#wgserver-domain).
 
 Review [User Management in Deployments with External Identity
-Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm){.MCXref
-.xref} to understand how multiple domains, domain name mapping, and user
+Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm) to understand how multiple domains, domain name mapping, and user
 names interact with Tableau Server.
 
 To see a list of domains, use
@@ -2770,8 +2758,7 @@ stored on the site.
 The extract encryption mode for the site can be **enforced**,
 **enabled** or **disabled**. For more information, see [Extract
 Encryption at
-Rest](https://help.tableau.com/current/server/en-us/security_ear.htm){.MCXref
-.xref}. Depending on the number and size of extracts, this operation may
+Rest](https://help.tableau.com/current/server/en-us/security_ear.htm). Depending on the number and size of extracts, this operation may
 consume significant server resources.
 
 `--run-now-enabled`
@@ -2780,8 +2767,7 @@ Allow or deny users from running extract refreshes, flows, or schedules
 manually. **true** to allow users to run tasks manually or **false** to
 prevent users from running tasks manually. For more information, see
 [Server Settings (General and
-Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.htm){.MCXref
-.xref}.
+Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.htm).
 
 ::: {.accordion}
 ::: {.accordion__title}
@@ -2913,8 +2899,7 @@ required value for the `export` command.
 Encrypt all extracts on a site. If no site is specified, extracts on the
 default site will be encrypted. For more information, see [Extract
 Encryption at
-Rest](https://help.tableau.com/current/server/en-us/security_ear.htm){.MCXref
-.xref}.
+Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
 Depending on the number and size of extracts, this operation may consume
 significant server resources. Consider running this command outside of
@@ -3831,8 +3816,7 @@ Returns a list of sites to which the logged in user belongs.
 The extract encryption mode for the site can be **enforced**,
 **enabled** or **disabled**. For more information, see [Extract
 Encryption at
-Rest](https://help.tableau.com/current/server/en-us/security_ear.htm){.MCXref
-.xref}.
+Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
 ::: {.accordion}
 ::: {.accordion__title}
@@ -3971,10 +3955,8 @@ log in, you must pass the user name and password of a user who has been
 created on the server. You will have the permissions of the Tableau
 Server user that you\'re signed in as. For more information, see [Set
 Users' Site
-Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm){.MCXref
-.xref} and
-[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm){.MCXref
-.xref}.
+Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm) and
+[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm).
 
 If you want to log in using the same information you\'ve already used to
 create a session, just specify the `--password` option. The server and
@@ -4364,8 +4346,7 @@ Restart the file upload.
 
 Encrypt extracts when you publish a workbook, data source, or extract to
 the server. For more information, see [Extract Encryption at
-Rest](https://help.tableau.com/current/server/en-us/security_ear.htm){.MCXref
-.xref}.
+Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
 ::: {.accordion}
 ::: {.accordion__title}
@@ -4665,8 +4646,7 @@ required value for the `export` command.
 Reencrypt all extracts on a site with new encryption keys. This command
 will regenerate the key encryption key and data encryption key. You must
 specify a site. For more information, see [Extract Encryption at
-Rest](https://help.tableau.com/current/server/en-us/security_ear.htm){.MCXref
-.xref}.
+Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
 Depending on the number and size of extracts, this operation may consume
 significant server resources. Consider running this command outside of
@@ -5029,8 +5009,7 @@ required value for the `export` command.
 Clears OpenID Connect identifiers (sub values) that have already been
 associated with Tableau Server identities. See [Changing IdPs in Tableau
 Server for OpenID
-Connect](https://help.tableau.com/current/server/en-us/openid_auth_changing_idp.htm){.MCXref
-.xref}.
+Connect](https://help.tableau.com/current/server/en-us/openid_auth_changing_idp.htm).
 
 **Example**
 
@@ -5197,8 +5176,7 @@ If you use this command with large `.csv` files on Tableau Server, a
 server administrator can enable settings that help to improve
 performance. For information, see [Improve performance for large
 CSV files passed through
-tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-performance-large-csv){.MCXref
-.xref}
+tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-performance-large-csv)
 
 `--[no-]complete`
 
@@ -5643,8 +5621,7 @@ Specifies whether a role should be granted on sign in. Default is
 specified, `on-sync` is assumed and the default role will be grated when
 the group is synchronized. For more information, see [Modifying user
 roles with Grant role on sign
-in](https://help.tableau.com/current/server/en-us/grant_role.htm#GrantRoleOnSignin){.MCXref
-.xref}.
+in](https://help.tableau.com/current/server/en-us/grant_role.htm#GrantRoleOnSignin).
 
 `--no-publisher`
 

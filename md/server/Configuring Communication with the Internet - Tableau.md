@@ -165,8 +165,7 @@ someone who\'s got experience with proxy servers. But let\'s start with
 an overview of proxy servers.
 
 **Important**: As we discussed in the [Planning Your
-Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm){.MCXref
-.xref} chapter, we do not recommend installing Tableau Server on a
+Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm) chapter, we do not recommend installing Tableau Server on a
 computer that is running IIS. Additionally, if you are running antivirus
 software, you should follow the recommendations in the [Knowledge
 Base[(Link opens in a new
@@ -269,8 +268,7 @@ other security measures to protect traffic between your internet gateway
 and Tableau Server, we also recommend configuring SSL between the
 gateway proxy and Tableau Server. As noted in the previous chapter,
 [Securing Traffic Between Clients and Your
-Server](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm){.MCXref
-.xref}, you can use internal or self-signed certificates to encrypt
+Server](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm), you can use internal or self-signed certificates to encrypt
 traffic between Tableau Servers and other internal computers.
 
 We actually recommend that traffic be secured by SSL along each
@@ -492,8 +490,7 @@ Tableau Server.
     proxy server to prompt users for authentication.
 
 Continue to [Creating
-Users](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm){.MCXref
-.xref}.
+Users](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm).
 
 <div>
 Additional resource

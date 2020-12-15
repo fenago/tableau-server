@@ -113,8 +113,7 @@ project environment.
 
 When you move project and content, permissions may be impacted. For more
 information, see [Move projects and
-content](https://help.tableau.com/current/server/en-us/permissions.htm#moveproject){.MCXref
-.xref}.
+content](https://help.tableau.com/current/server/en-us/permissions.htm#moveproject).
 
 <div>
 
@@ -204,5 +203,4 @@ Non-administrator users must
     (or, for data sources, be the data source owner).
 
 For more information, see [Move
-content](https://help.tableau.com/current/server/en-us/permissions.htm#MoveContent){.MCXref
-.xref} .
+content](https://help.tableau.com/current/server/en-us/permissions.htm#MoveContent) .

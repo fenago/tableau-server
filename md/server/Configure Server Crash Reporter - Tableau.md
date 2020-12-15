@@ -5,8 +5,7 @@ Configure Server Crash Reporter
 Server crash reporting is disabled by default. This topic describes how
 to enable and configure server crash reporting. Crash reports are
 encrypted and sent to Tableau. See [Server Crash
-Reporter](https://help.tableau.com/current/server/en-us/crashdata_server.htm){.MCXref
-.xref} for more information.
+Reporter](https://help.tableau.com/current/server/en-us/crashdata_server.htm) for more information.
 
 If your organization uses a proxy server to connect to the internet then
 you must configure server crash reporter to use the proxy. Even if you

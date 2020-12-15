@@ -132,8 +132,7 @@ assign a site role when you create a user, but you can change it later.)
 For now, we recommend that you assign the site role of [Explorer (Can
 Publish)] for new users who aren't administrators. (In
 [Structure Content Projects, Groups, and
-Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm){.MCXref
-.xref}, we'll describe how to implement a content permissions model that
+Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm), we'll describe how to implement a content permissions model that
 fits your organization.)
 
 Finally, you can assign the [Unlicensed] site role to users
@@ -316,8 +315,7 @@ Server. If that\'s useful to you, you might want to schedule periodic
 window)]{.sr-only}](https://help.tableau.com/current/server/en-us/help.htm#groups_globalsync.htm)
 with Tableau Server. Read the next chapter, [Structure Content Projects,
 Groups, and
-Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm){.MCXref
-.xref}, to understand how groups interact with projects.
+Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm), to understand how groups interact with projects.
 
 We\'ve found that in most cases, Active Directory groups don\'t map to
 the groups that you need in Tableau Server. Instead, Tableau Server
@@ -326,8 +324,7 @@ user access to content and data sources. In that case, you can delete
 the groups that are imported from Active Directory. (Deleting a group
 does not delete the users in it.) Again, the [Structure Content
 Projects, Groups, and
-Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm){.MCXref
-.xref} chapter might help you decide how you want to use groups in
+Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm) chapter might help you decide how you want to use groups in
 Tableau Server. If you decide later that you do want to sync Active
 Directory and Tableau Server groups, you can always re-create the
 groups.
@@ -403,9 +400,7 @@ Our backup process is quick and straightforward. We made it that way so
 that you can easily perform backups as part of a regular server
 maintenance rhythm. For a refresher on how to perform backups, see
 [Backing Up Tableau
-Server](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_backup.htm){.MCXref
-.xref}.
+Server](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_backup.htm).
 
 Continue to [Structure Content Projects, Groups, and
-Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm){.MCXref
-.xref}.
+Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm).

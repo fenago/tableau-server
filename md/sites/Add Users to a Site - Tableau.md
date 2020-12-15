@@ -92,8 +92,7 @@ only site B cannot edit User1's full name or reset the password.
 
 Before adding users to a site, be sure to review [User Management in
 Deployments with External Identity
-Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm){.MCXref
-.xref} to understand how multiple domains, domain naming, NetBIOS, and
+Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm) to understand how multiple domains, domain naming, NetBIOS, and
 Active Directory user name format influence Tableau user management.
 
 1.  In a site, click [Users], and then click [Add

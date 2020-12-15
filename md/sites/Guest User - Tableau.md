@@ -15,8 +15,7 @@ Guest access allows users only to see and interact with Tableau views.
 The Guest user cannot browse the Tableau Server interface or see server
 interface elements in the view, such as user name, account settings,
 comments, and so on. For more information about licenses, see [Manage
-Licenses](https://help.tableau.com/current/server/en-us/license_manage.htm){.MCXref
-.xref}.
+Licenses](https://help.tableau.com/current/server/en-us/license_manage.htm).
 
 **Tip:** To share views with Guest users, either provide URL links or
 embed views into web pages. For more information, [see Tableau User

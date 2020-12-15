@@ -60,14 +60,11 @@ project's content permissions. If content permissions are:
 
 To manage content access using projects, see [Use Projects to Manage
 Content
-Access](https://help.tableau.com/current/server/en-us/projects.htm){.MCXref
-.xref} and
-[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm#lock-project-permissions){.MCXref
-.xref}.
+Access](https://help.tableau.com/current/server/en-us/projects.htm) and
+[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm#lock-project-permissions).
 
 For more information about how permission rules are evaluated, see
-[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm#evaluate-permission-rules){.MCXref
-.xref}: Evaluate permission rules.
+[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm#evaluate-permission-rules): Evaluate permission rules.
 
 <div>
 
@@ -89,8 +86,7 @@ permissions during publishing, or certain users can change the
 permissions on published content. To enforce the permissions established
 at the project level, **Content Permissions** can be locked to the
 project. For more information, see [Let Site Users Request Access to
-Content](https://help.tableau.com/current/server/en-us/Request_access.htm#LockProject){.MCXref
-.xref}.
+Content](https://help.tableau.com/current/server/en-us/Request_access.htm#LockProject).
 
 To set permissions at the project level:
 
@@ -173,5 +169,4 @@ workbook, we strongly recommend managing permissions at the project (or
 workbook) level as much as possible. For views to inherit permissions,
 the project must be locked or the workbook must be published with **Show
 Sheets as Tabs**. See [Let Site Users Request Access to
-Content](https://help.tableau.com/current/server/en-us/Request_access.htm#sheettabs){.MCXref
-.xref} for more information.
+Content](https://help.tableau.com/current/server/en-us/Request_access.htm#sheettabs) for more information.

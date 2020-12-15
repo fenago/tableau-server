@@ -132,8 +132,7 @@ opens in a new
 window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#publish_overview.html)
 in the Tableau Help. To refresh your understanding of how Tableau Server
 uses the Run As User account to access data, review [Planning Your
-Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm){.MCXref
-.xref} earlier in this guide.
+Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm) earlier in this guide.
 
 <div>
 
@@ -189,8 +188,7 @@ by how much access you as administrator have provided to the Run As User
 account.
 
 As discussed in the [Planning Your
-Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm){.MCXref
-.xref} chapter, we recommend that you configure the Run As User for
+Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm) chapter, we recommend that you configure the Run As User for
 \"least privilege\" access. In most cases, this means read-only access
 to the data sources that the account will access.
 
@@ -251,8 +249,7 @@ publish data sources. These users must have a site role of at least
 users must have [View] and [Save] permissions
 for the project that they want to publish to. (For a review of user
 permissions, see the [Structure Content Projects, Groups, and
-Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm){.MCXref
-.xref} chapter.)
+Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm) chapter.)
 
 Aside from determining who can publish data sources, you can set
 permissions to determine who can connect to data sources and who can
@@ -271,8 +268,7 @@ roles for the project or for individual data sources:
 You can set permissions on individual data sources in a project only if
 that project is unlocked. As you read in the [Structure Content
 Projects, Groups, and
-Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm){.MCXref
-.xref} chapter, we recommend setting permissions at the project level
+Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm) chapter, we recommend setting permissions at the project level
 and locking projects after you have configured permissions.
 
 To set permissions on data sources in a project, follow these steps:
@@ -626,8 +622,7 @@ need to make sure that the Tableau Server processes are appropriately
 scaled for heavy use of live connections and your databases are up to
 the task of the query load from Tableau Server. (For information about
 tuning your server, see the [Notifications, Monitoring, and
-Tuning](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm){.MCXref
-.xref} chapter.)
+Tuning](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm) chapter.)
 
 Remember that the results from queries using live connections might be
 cached on the server. Therefore, if you require true real-time data,
@@ -693,5 +688,4 @@ information about how to run and interpret a performance recording:
     window)]{.sr-only}](https://help.tableau.com/current/server/en-us/help.htm#perf_record_interpret_server.htm).
 
 Continue to [Notifications, Monitoring, and
-Tuning](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm){.MCXref
-.xref}.
+Tuning](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm).

@@ -141,32 +141,25 @@ To show you how projects and permissions work, we'll walk you through
 the following processes:
 
 [1. Set permissions defaults in the Default
-project](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step1-set-perms-default-project){.MCXref
-.xref}
+project](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step1-set-perms-default-project)
 
 [2. Create a new project for a hypothetical Marketing
-department](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step2-create-project){.MCXref
-.xref}
+department](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step2-create-project)
 
 [3. Create groups based on users' content
-needs](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step3-create-functional-groups){.MCXref
-.xref}
+needs](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step3-create-functional-groups)
 
 [4. Create the temporary users for this
-exercise](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step4-create-users){.MCXref
-.xref}
+exercise](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step4-create-users)
 
 [5. Add the users to the
-groups](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step5-add-users-groups){.MCXref
-.xref}
+groups](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step5-add-users-groups)
 
 [6. Assign permissions to the groups at the project
-level](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step6-assign-perms-project){.MCXref
-.xref}
+level](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step6-assign-perms-project)
 
 [7. Lock project
-permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step7-lock-project){.MCXref
-.xref}
+permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#step7-lock-project)
 
 To follow along with these steps, you must be signed in to Tableau
 Server as an administrator.
@@ -616,5 +609,4 @@ master, start here: [Manage Content Access[(Link opens in a new
 window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/permissions_section.htm "Opens topic in a new browser tab").
 
 Continue to [Connecting to Data
-Sources](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm){.MCXref
-.xref}.
+Sources](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm).

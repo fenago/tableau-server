@@ -11,10 +11,8 @@ access, to apply to the users at the same time you import them.
 To import users, you can use the server or site administration pages or
 the `tabcmd` utility. Using `tabcmd` provides an option for assigning a
 site role to all users in the CSV file. For information, see [Import
-Users](https://help.tableau.com/current/server/en-us/users_import.htm){.MCXref
-.xref} or [createsiteusers
-filename.csv](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idd1b7729f-dd20-475a-96f6-17fcd2577894){.MCXref
-.xref}.
+Users](https://help.tableau.com/current/server/en-us/users_import.htm) or [createsiteusers
+filename.csv](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idd1b7729f-dd20-475a-96f6-17fcd2577894).
 
 You can import users at the site or server level. If you import users to
 the server (not to a specific site), the users aren't assigned to a site
@@ -146,8 +144,7 @@ process the file. These `tsm configuration set` options apply to the
 `removeusers` commands.
 
 For descriptions for these settings, see [tsm configuration set
-Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm){.MCXref
-.xref}.
+Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm).
 
 </div>
 

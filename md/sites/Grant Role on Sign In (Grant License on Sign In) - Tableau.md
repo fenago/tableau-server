@@ -9,8 +9,7 @@ user's need to request a license before using Tableau.
 
 For more information about site role capabilities and minimum site
 roles, see [Set Users' Site
-Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm){.MCXref
-.xref}.
+Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm).
 
 For example, imagine an Active Directory group called Marketing with 100
 users, but only 25 users need to access Tableau Server. A site or server
@@ -64,8 +63,7 @@ Tableau licenses.
 **Note:** Grant Site Role on Sign In can also be activated in local
 groups to provision minimum site roles to group members when they sign
 in to Tableau Server. For more information, see [Create a Local
-Group](https://help.tableau.com/current/server/en-us/groups_create_local.htm){.MCXref
-.xref}.
+Group](https://help.tableau.com/current/server/en-us/groups_create_local.htm).
 :::
 
 <div>
@@ -106,8 +104,7 @@ not be removed from the site. To remove content owners, remove owners
 from group with Grant site role enabled or reassign content ownership to
 another user. For more information, see Remove users from a site in the
 [View, Manage, or Remove
-Users](https://help.tableau.com/current/server/en-us/users_view.htm){.MCXref
-.xref} help topic.
+Users](https://help.tableau.com/current/server/en-us/users_view.htm) help topic.
 
 If the default All Users group has Grant site role enabled, users who
 own content can\'t be removed from the site or unlicensed. To remove or
@@ -125,5 +122,4 @@ in the REST API documentation.
 
 For more information on changing content ownership in Tableau Server,
 see [Manage Content
-Ownership](https://help.tableau.com/current/server/en-us/owner.htm#change-the-owner-of-a-content-resource){.MCXref
-.xref}.
+Ownership](https://help.tableau.com/current/server/en-us/owner.htm#change-the-owner-of-a-content-resource).

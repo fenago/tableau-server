@@ -50,8 +50,7 @@ recommend that you use the Default project only as a permissions
 template, and not as a container for published content.
 
 For more information, see [Use Projects to Manage Content
-Access](https://help.tableau.com/current/server/en-us/projects.htm){.MCXref
-.xref}.
+Access](https://help.tableau.com/current/server/en-us/projects.htm).
 
 <div>
 

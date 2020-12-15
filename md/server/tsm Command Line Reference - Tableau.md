@@ -8,8 +8,7 @@ Server.
 
 TSM is used to manage installation and configuration of Tableau Server.
 To learn more about TSM, see [Tableau Services Manager
-Overview](https://help.tableau.com/current/server/en-us/tsm_overview.htm){.MCXref
-.xref}.
+Overview](https://help.tableau.com/current/server/en-us/tsm_overview.htm).
 
 You can automate the installation and configuration tasks supported by
 the TSM CLI using the TSM API. To learn more about the prerelease

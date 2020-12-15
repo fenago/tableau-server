@@ -59,8 +59,7 @@ communicate your strategy to other administrators and project leaders.
 
 **Important**: We strongly recommend familiarizing yourself with
 Tableau's
-[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm){.MCXref
-.xref} before proceeding.
+[Permissions](https://help.tableau.com/current/server/en-us/permissions.htm) before proceeding.
 
 <div>
 
@@ -95,8 +94,7 @@ following steps:
 
 If you decide to follow the guidelines described here, you might want to
 [Automate working with groups and
-projects](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#automate-management){.MCXref
-.xref}.
+projects](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#automate-management).
 
 <div>
 
@@ -218,12 +216,10 @@ follows:
 If you have multiple Tableau roles per department, creating
 corresponding groups manually can be labor intensive. For alternatives,
 see [Automate working with groups and
-projects](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#automate-management){.MCXref
-.xref} later in this article.
+projects](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#automate-management) later in this article.
 
 **Learn more:** [Add Users to a
-Group](https://help.tableau.com/current/server/en-us/users_add_group.htm){.MCXref
-.xref}
+Group](https://help.tableau.com/current/server/en-us/users_add_group.htm)
 
 <div>
 
@@ -243,8 +239,7 @@ following ways:
     projects you create.
 
 For more information, see [Permission
-management](https://help.tableau.com/current/server/en-us/permissions.htm#permissionmanagement){.MCXref
-.xref}.
+management](https://help.tableau.com/current/server/en-us/permissions.htm#permissionmanagement).
 
 For the example we're using, it makes more sense to set permissions
 templates in the Default project. You will want to explicitly deny some
@@ -276,8 +271,7 @@ projects where you want to allow more open access.
 Remember, a capability is only granted to a user if they are expressly
 allowed it. Leaving a capability as Unspecified will result in it being
 denied. For more information, see [Effective
-permissions](https://help.tableau.com/current/server/en-us/permissions.htm#EffectivePermissions){.MCXref
-.xref}.
+permissions](https://help.tableau.com/current/server/en-us/permissions.htm#EffectivePermissions).
 
 <div>
 
@@ -304,8 +298,7 @@ Data Sources tab
 Project Leader group
 
 [Set a project
-leader](https://help.tableau.com/current/server/en-us/permissions.htm#Set){.MCXref
-.xref}
+leader](https://help.tableau.com/current/server/en-us/permissions.htm#Set)
 
 Analyst Publisher group
 
@@ -451,8 +444,7 @@ Instead, content inherits permissions set on the project it's published
 to, and only administrators and project leaders can set permissions.
 
 For more information, see [Lock content
-permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject){.MCXref
-.xref}.
+permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject).
 
 <div>
 
@@ -469,8 +461,7 @@ window)]{.sr-only}](https://help.tableau.com/current/api/rest_api/en-us/help.htm
 commands.
 
 You can use
-[tabcmd](https://help.tableau.com/current/server/en-us/tabcmd.htm){.MCXref
-.xref} commands for tasks such as adding or deleting a single project or
+[tabcmd](https://help.tableau.com/current/server/en-us/tabcmd.htm) commands for tasks such as adding or deleting a single project or
 group and adding users, but not for setting permissions.
 
 <div>
@@ -491,8 +482,7 @@ regular training sessions, and so on.
 
 For a common approach to orienting users to the site, see
 [Dashboard-based Custom
-Portals](https://help.tableau.com/current/server/en-us/portal_dashboard.htm){.MCXref
-.xref}.
+Portals](https://help.tableau.com/current/server/en-us/portal_dashboard.htm).
 
 For publishing and data certification tips, see the following topics:
 

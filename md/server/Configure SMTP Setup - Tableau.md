@@ -8,8 +8,7 @@ data-driven alerts. First, however, you need to configure the SMTP
 server that [Tableau Server] uses to send email.
 After configuring SMTP, complete the steps to configure notifications
 ([Configure Server Event
-Notification](https://help.tableau.com/current/server/en-us/email.htm){.MCXref
-.xref}), then when you start or restart the server, it will trigger an
+Notification](https://help.tableau.com/current/server/en-us/email.htm)), then when you start or restart the server, it will trigger an
 email notification, which confirms that you have set up notifications
 correctly.
 
@@ -25,8 +24,7 @@ If your organization does not use public certificates for verifying TLS
 connections, then you can upload a private certificate to Tableau Server
 to verify trusted connections. For more information, see the [tsm
 security custom-cert
-add](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-add){.MCXref
-.xref} command.
+add](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-add) command.
 
 You may also configure SMTP TLS for encryption-only by disabling the
 certificate validation process. For more information, see the section,

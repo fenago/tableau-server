@@ -19,8 +19,7 @@ includes a copy of the master keystore file used for encrypting
 configuration secrets. We strongly recommend that you take additional
 measures to secure the node configuration file, using mechanisms as
 described in [Securing secrets for import and export
-operations](https://help.tableau.com/current/server/en-us/security_secret_storage.htm#Securing){.MCXref
-.xref}.
+operations](https://help.tableau.com/current/server/en-us/security_secret_storage.htm#Securing).
 
 The following files are not exported or imported with this command. You
 must manage these files manually:
@@ -154,8 +153,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

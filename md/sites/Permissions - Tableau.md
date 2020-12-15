@@ -16,15 +16,11 @@ tab](./Permissions%20-%20Tableau_files/perms_projectwrkbkperms.png "Project perm
 If the Data Management Add-on is present, permissions for external
 assets have additional considerations. For more information, see [Manage
 Permissions for External
-Assets](https://help.tableau.com/current/server/en-us/dm_perms_assets.htm){.MCXref
-.xref}.
+Assets](https://help.tableau.com/current/server/en-us/dm_perms_assets.htm).
 
-<div>
+Permissions fundamentals
+-------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#permissionfundamentals}Permissions fundamentals
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 **Projects and groups**
 
@@ -39,10 +35,8 @@ Permissions can only be established for users, groups, projects, or
 content that already exist. For more information about creating users
 and groups, creating projects, and publishing content, see [Manage Users
 and
-Groups](https://help.tableau.com/current/server/en-us/users.htm){.MCXref
-.xref}, [Use Projects to Manage Content
-Access](https://help.tableau.com/current/server/en-us/projects.htm){.MCXref
-.xref} , and [Publish Data Sources and Workbooks[(Link opens in a new
+Groups](https://help.tableau.com/current/server/en-us/users.htm), [Use Projects to Manage Content
+Access](https://help.tableau.com/current/server/en-us/projects.htm) , and [Publish Data Sources and Workbooks[(Link opens in a new
 window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/publish_overview.htm).
 
 **Capabilities and permission rules** 
@@ -66,15 +60,13 @@ The interplay between license level, site role, and potentially multiple
 permission rules factor into the final determination of what a user can
 or can't do. For each user this becomes their *effective permissions*.
 For more information, see [Effective
-permissions](https://help.tableau.com/current/server/en-us/permissions.htm#EffectivePermissions){.MCXref
-.xref}.
+permissions](https://help.tableau.com/current/server/en-us/permissions.htm#EffectivePermissions).
 
 Some tasks such as creating new workbooks from a browser (web authoring)
 or moving content might require specific configurations of several
 capabilities rather than being captured in a single capability. For more
 information, see [Permission settings for specific
-scenarios](https://help.tableau.com/current/server/en-us/permissions.htm#Permissi){.MCXref
-.xref}.
+scenarios](https://help.tableau.com/current/server/en-us/permissions.htm#Permissi).
 
 <div>
 
@@ -130,8 +122,7 @@ Whether those project-level default rules are enforced or only
 preliminary depends on the [content permission] setting.
 This setting can be configured in two ways, either [Locked]
 or [Customizable]. For more information, see [Lock content
-permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject){.MCXref
-.xref}.
+permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject).
 :::
 
 ::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
@@ -141,8 +132,7 @@ If project content permissions are customizable, permissions for
 individual pieces of content can be modified. The information below is
 not relevant to content in locked projects. For more information, see
 [Lock content
-permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject){.MCXref
-.xref}.
+permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject).
 
 **Tip**: While it is possible to set permissions on individual content
 in customizable projects, we recommend managing permissions at the
@@ -179,8 +169,7 @@ modified for the workbook, those changes won't be applied to the
 views---each view's permissions will need to be managed individually.
 
 See [Show or Hide Sheet
-Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs){.MCXref
-.xref} for more information.
+Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs) for more information.
 :::
 
 ::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
@@ -191,8 +180,7 @@ individual content can be set when publishing from [Tableau
 Desktop]{.VariablesTabsProductDesktop}. The information below is not
 relevant for content in locked projects. For more information, see [Lock
 content
-permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject){.MCXref
-.xref}.
+permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject).
 
 **Tip**: While it's possible to set permissions on individual content in
 customizable projects, we recommend managing permissions at the project
@@ -331,8 +319,7 @@ Projects only have two capabilities and two templates. Prior to 2020.1,
 Project Leader was treated as a permission capability rather than a
 setting. For more information about project leaders and how to assign
 them in 2020.1 and later, see [Project
-administration](https://help.tableau.com/current/server/en-us/permissions.htm#projectpermissions){.MCXref
-.xref}.
+administration](https://help.tableau.com/current/server/en-us/permissions.htm#projectpermissions).
 
 #### View template
 
@@ -434,8 +421,7 @@ to 2020.1, this capability was called Save.
 ![](./Permissions%20-%20Tableau_files/perms_move_icon.png) **Move**
 allows a user to move workbooks between projects. For more information,
 see [Move
-content](https://help.tableau.com/current/server/en-us/permissions.htm#MoveContent){.MCXref
-.xref} .
+content](https://help.tableau.com/current/server/en-us/permissions.htm#MoveContent) .
 
 ![](./Permissions%20-%20Tableau_files/perms_delete_icon.png) **Delete**
 allows a user to delete the workbook.
@@ -453,8 +439,7 @@ and **Move** which are only available at the workbook level.\
 We recommend showing navigational sheet tabs whenever possible, so views
 continue to inherit their permissions from the workbook. For more
 information, see [Show or Hide Sheet
-Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs){.MCXref
-.xref}.
+Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs).
 :::
 
 ::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
@@ -548,8 +533,7 @@ flows.
 ![](./Permissions%20-%20Tableau_files/perms_move_icon.png) **Move**
 allows a user to move content between projects. For more information,
 see [Move
-content](https://help.tableau.com/current/server/en-us/permissions.htm#MoveContent){.MCXref
-.xref} .
+content](https://help.tableau.com/current/server/en-us/permissions.htm#MoveContent) .
 
 ![](./Permissions%20-%20Tableau_files/perms_delete_icon.png) **Delete**
 allows a user to delete the content.
@@ -648,10 +632,8 @@ first. Deleting projects can't be undone.
 
 For a deeper dive into project administration, see [Use Projects to
 Manage Content
-Access](https://help.tableau.com/current/server/en-us/projects.htm){.MCXref
-.xref} and [Add Projects and Move Content Into
-Them](https://help.tableau.com/current/server/en-us/projects_add.htm){.MCXref
-.xref}.
+Access](https://help.tableau.com/current/server/en-us/projects.htm) and [Add Projects and Move Content Into
+Them](https://help.tableau.com/current/server/en-us/projects_add.htm).
 
 <div>
 
@@ -785,8 +767,7 @@ customizable project, which won't show anything, or (c) a view, which
 will indicate how the view permissions are tied to the workbook. For
 more information on the interplay of permissions for views and
 workbooks, see [Show or Hide Sheet
-Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs){.MCXref
-.xref}.
+Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs).
 
 #### Change content permissions
 
@@ -1102,8 +1083,7 @@ role. There may be other ways for a user with a site role to perform an
 action. For example, although Viewers can't be given the [Share
 Customized] capability, they can share views by copying the
 URL. See [General capabilities allowed with each site
-role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-role-capabilities-summary){.MCXref
-.xref} for more information on what each site role can do.
+role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-role-capabilities-summary) for more information on what each site role can do.
 
 #### Projects
 
@@ -1496,10 +1476,8 @@ metrics if they:
     workbook
 
 For more information, see [Create and Troubleshoot
-Metrics](https://help.tableau.com/current/server/en-us/metrics_create.htm){.MCXref
-.xref} and [Set Up for
-Metrics](https://help.tableau.com/current/server/en-us/metrics_admin.htm){.MCXref
-.xref}.
+Metrics](https://help.tableau.com/current/server/en-us/metrics_create.htm) and [Set Up for
+Metrics](https://help.tableau.com/current/server/en-us/metrics_admin.htm).
 
 #### Permissions for metrics
 

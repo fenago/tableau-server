@@ -20,8 +20,7 @@ happens, verify that you have the key spelled correctly, including
 proper capitalization. To change the value, use the `--force-keys`
 option on the `tsm configuration set` command. For a list of
 configuration keys you can change, see [tsm configuration set
-Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm){.MCXref
-.xref}.
+Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm).
 
  
 
@@ -114,8 +113,7 @@ pending configuration changes using `tsm pending-changes apply`. Until
 you do, the new value will not be used by Tableau or show up in the
 results of a `tsm configuration get` command. You can view pending
 changes using `tsm pending-changes list`. For more information, see [tsm
-pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm){.MCXref
-.xref}.
+pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm).
 
 <div>
 
@@ -198,8 +196,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

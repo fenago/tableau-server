@@ -199,8 +199,7 @@ as can server or site administrators.
 -   Run, add, or remove extract refresh schedules.
 
 See also [Project
-administration](https://help.tableau.com/current/server/en-us/permissions.htm#projectpermissions){.MCXref
-.xref}.
+administration](https://help.tableau.com/current/server/en-us/permissions.htm#projectpermissions).
 
 <div>
 
@@ -227,8 +226,7 @@ the Default project, to help you to know exactly:
 -   How you might need to modify permissions for each new project.
 
 For more information, see [Steps to coordinate projects and
-groups](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#coord-projects-groups){.MCXref
-.xref} in the topic Configure Projects, Groups, and Permissions for
+groups](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#coord-projects-groups) in the topic Configure Projects, Groups, and Permissions for
 Managed Self-Service.
 
 <div>
@@ -244,8 +242,7 @@ example, you can disable the option to set permissions during the
 publishing process, and prevent publishers and content owners from
 changing them after publishing. To do this, you *lock* content
 permissions to the project. For more information, see [Lock content
-permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject){.MCXref
-.xref}.
+permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject).
 :::
 
 <div>

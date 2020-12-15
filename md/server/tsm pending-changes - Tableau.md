@@ -10,8 +10,7 @@ Passwords and secrets that you enter during TSM configuration are
 encrypted after you save them. Secrets remain encrypted until, during,
 and after you apply pending changes. For more information about secret
 storage, see [Manage Server
-Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.htm#Understa){.MCXref
-.xref}.
+Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.htm#Understa).
 
 ::: {.miniToc}
 -   [tsm pending-changes
@@ -130,10 +129,8 @@ do not require a server restart. If any change in the list requires a
 restart, the entire list of pending changes will result in a restart.
 For more information on dynamic configuration or topology changes, see
 [Dynamic
-Configuration](https://help.tableau.com/current/server/en-us/whatsnew_server.htm#dynamic-config-20-2){.MCXref
-.xref} and [Tableau Server Dynamic Topology
-Changes](https://help.tableau.com/current/server/en-us/server_process_hot_topo.htm){.MCXref
-.xref}.
+Configuration](https://help.tableau.com/current/server/en-us/whatsnew_server.htm#dynamic-config-20-2) and [Tableau Server Dynamic Topology
+Changes](https://help.tableau.com/current/server/en-us/server_process_hot_topo.htm).
 
 <div>
 
@@ -201,8 +198,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

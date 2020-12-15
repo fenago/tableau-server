@@ -164,11 +164,9 @@ If the default All Users group has enabled Grant site role on sign in,
 that user\'s content must be reassigned to another user or removed
 before they can be unlicensed or removed. For more information on Grant
 role on sign in, see [Removing users affected by Grant role on sign
-in](https://help.tableau.com/current/server/en-us/grant_role.htm#remove){.MCXref
-.xref}. For more information on changing content ownership, see [Manage
+in](https://help.tableau.com/current/server/en-us/grant_role.htm#remove). For more information on changing content ownership, see [Manage
 Content
-Ownership](https://help.tableau.com/current/server/en-us/owner.htm){.MCXref
-.xref}
+Ownership](https://help.tableau.com/current/server/en-us/owner.htm)
 
 **Note:** On Tableau Server, when an administrator removes a user from a
 site (and the user belongs only to that one site), the user is also

@@ -38,8 +38,7 @@ default locations for the files created or used by these commands.
 
 For details on disk space requirements for backing up Tableau Server,
 see [Disk Space Usage for
-Backup](https://help.tableau.com/current/server/en-us/db_backup.htm#BackupDiskSpaceReqs){.MCXref
-.xref}.
+Backup](https://help.tableau.com/current/server/en-us/db_backup.htm#BackupDiskSpaceReqs).
 
 By default:
 
@@ -195,8 +194,7 @@ You can see the current file location for a specific command using
 You can change the expected file locations using the
 `tsm configuration set` command to update the `basefilepath` variables.
 For details about specific base file paths, see [tsm configuration set
-Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm){.MCXref
-.xref}.
+Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm).
 
 Changing a `basefilepath `variable does not move existing files from the
 original directory to the new directory. If you want existing backup,

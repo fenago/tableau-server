@@ -9,8 +9,7 @@ If the account you are logged in as is a member of the TSM-authorized
 group, you do not need to provide credentials to run commands when
 running tsm CLI locally. For more information, see [Authenticating with
 tsm
-CLI](https://help.tableau.com/current/server/en-us/tsm.htm#Authenti){.MCXref
-.xref}.
+CLI](https://help.tableau.com/current/server/en-us/tsm.htm#Authenti).
 
 <div>
 
@@ -60,8 +59,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

@@ -8,21 +8,18 @@ Windows version 2018.2. This page maps tabadmin commands to TSM commands
 to help you to migrate to the TSM CLI.
 
 To learn more about the TSM CLI, see [tsm Command Line
-Reference](https://help.tableau.com/current/server/en-us/tsm.htm){.MCXref
-.xref}.
+Reference](https://help.tableau.com/current/server/en-us/tsm.htm).
 
 **Note:** TSM is a batch file. To run tsm commands in another batch
 file, use the `call `command. For example
 \"`call tsm maintenance ziplogs`\". Doing this will return control to
 the batch file. You also need to authenticate to TSM before issuing any
 commands. For more information, see [Authenticating with tsm
-CLI](https://help.tableau.com/current/server/en-us/tsm.htm#Authenti){.MCXref
-.xref}.
+CLI](https://help.tableau.com/current/server/en-us/tsm.htm#Authenti).
 
 To learn more about the differences between tabadmin and TSM , see
 [Comparing Functionality of tabadmin and
-TSM](https://help.tableau.com/current/server/en-us/tabadmin-to-tsm.htm){.MCXref
-.xref}.
+TSM](https://help.tableau.com/current/server/en-us/tabadmin-to-tsm.htm).
 
 Looking for tabadmin commands for [Tableau
 Server] on Windows version 2018.1 and earlier?

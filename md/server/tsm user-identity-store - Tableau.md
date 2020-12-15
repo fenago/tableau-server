@@ -8,17 +8,14 @@ configuration.
 
 The initial configuration of the identity store is part of the
 installation process. See [Configure Initial Node
-Settings](https://help.tableau.com/current/server/en-us/config_general.htm){.MCXref
-.xref}.
+Settings](https://help.tableau.com/current/server/en-us/config_general.htm).
 
 For introduction to identity store concepts, see [Identity
-Store](https://help.tableau.com/current/server/en-us/plan_identity_store.htm){.MCXref
-.xref}.
+Store](https://help.tableau.com/current/server/en-us/plan_identity_store.htm).
 
 For LDAP/Active Directory configuration reference table, see [External
 Identity Store Configuration
-Reference](https://help.tableau.com/current/server/en-us/ldap_config.htm){.MCXref
-.xref}.
+Reference](https://help.tableau.com/current/server/en-us/ldap_config.htm).
 
 ::: {.miniToc}
 -   [get-group-mappings](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#TSMGroupMap)
@@ -437,8 +434,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

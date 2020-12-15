@@ -12,12 +12,10 @@ export and import data. If you are running a multinode Tableau cluster,
 then you must run the `tsm sites` commands on a Tableau Server that is
 running the Data Engine process. For information about the Data Engine
 process and the processes that require it, see [Tableau Server
-Processes](https://help.tableau.com/current/server/en-us/processes.htm){.MCXref
-.xref}.
+Processes](https://help.tableau.com/current/server/en-us/processes.htm).
 
 For comprehensive steps for migrating a site, see [Export or Import a
-Site](https://help.tableau.com/current/server/en-us/sites_exportimport.htm){.MCXref
-.xref}.
+Site](https://help.tableau.com/current/server/en-us/sites_exportimport.htm).
 
 ::: {.miniToc}
 -   [tsm sites
@@ -77,8 +75,7 @@ This file is generated to the directory defined in the TSM
 
 For more information about file paths and how to change them, see [tsm
 File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}.
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
 -id,\--site-id \<source-siteID\>
 
@@ -88,8 +85,7 @@ The site ID for the site you are exporting. You can get the site ID from
 the URL when you\'re signed in to the site from a web browser. For
 information about locating the site ID, see [Prepare the Source and
 Target
-Sites](https://help.tableau.com/current/server/en-us/sites_exportimport.htm#before-you-export){.MCXref
-.xref}.
+Sites](https://help.tableau.com/current/server/en-us/sites_exportimport.htm#before-you-export).
 
 -ow,\--overwrite
 
@@ -129,8 +125,7 @@ import directory is:
 
 For more information about file paths and how to change them, see [tsm
 File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}.
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
 **Note**: The `tsm sites import` and `tsm sites export` commands can
 leave a site in a locked state if an error occurs. To unlock a site, use
@@ -166,8 +161,7 @@ Required.
 The site ID for the new site you are importing to (the target site). For
 information about locating the site ID, see [Prepare the Source and
 Target
-Sites](https://help.tableau.com/current/server/en-us/sites_exportimport.htm#before-you-export){.MCXref
-.xref}.
+Sites](https://help.tableau.com/current/server/en-us/sites_exportimport.htm#before-you-export).
 
 -c,\--continue-on-ignorable-errors
 
@@ -228,8 +222,7 @@ Required.
 The site ID for the new site you are importing to (the target site). For
 information about locating the site ID, see [Prepare the Source and
 Target
-Sites](https://help.tableau.com/current/server/en-us/sites_exportimport.htm#before-you-export){.MCXref
-.xref}.
+Sites](https://help.tableau.com/current/server/en-us/sites_exportimport.htm#before-you-export).
 
 -w, \--import-job-dir \<importjob-directory\>
 
@@ -269,8 +262,7 @@ Required.
 
 The site ID for the site you are unlocking. For information about
 locating the site ID, see [Prepare the Source and Target
-Sites](https://help.tableau.com/current/server/en-us/sites_exportimport.htm#before-you-export){.MCXref
-.xref}.
+Sites](https://help.tableau.com/current/server/en-us/sites_exportimport.htm#before-you-export).
 
 -d, \--desired-state \<state to leave unlocked site in\>
 
@@ -331,8 +323,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

@@ -39,8 +39,7 @@ Activates a [Tableau Server] product key.
 If the computer where you are running Tableau Server has been configured
 to connect to the internet through a forward proxy, follow the procedure
 in the topic, [Configure Product Key Operations with Forward
-Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm){.MCXref
-.xref}, before running this command.
+Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before running this command.
 
 <div>
 
@@ -87,8 +86,7 @@ online or offline.
 If the computer where you are running Tableau Server has been configured
 to connect to the internet through a forward proxy, follow the procedure
 in the topic, [Configure Product Key Operations with Forward
-Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm){.MCXref
-.xref}, before running this command.
+Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before running this command.
 
 <div>
 
@@ -126,8 +124,7 @@ Specifies the product key to use for online deactivation.
 Generate an offline activate file to use for activating [Tableau
 Server] offline. To learn more, see [Activate
 Tableau Server Offline - Adding a
-License](https://help.tableau.com/current/server/en-us/activate_off.htm){.MCXref
-.xref}.
+License](https://help.tableau.com/current/server/en-us/activate_off.htm).
 
 <div>
 
@@ -162,8 +159,7 @@ location must exist.
 Generate an offline deactivation file to use for deactivating [Tableau
 Server] offline. To learn more, see [Deactivate
 Tableau Server
-Offline](https://help.tableau.com/current/server/en-us/deactivate_off.htm){.MCXref
-.xref}.
+Offline](https://help.tableau.com/current/server/en-us/deactivate_off.htm).
 
 <div>
 
@@ -291,8 +287,7 @@ Server.
 If the computer where you are running Tableau Server has been configured
 to connect to the internet through a forward proxy, follow the procedure
 in the topic, [Configure Product Key Operations with Forward
-Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm){.MCXref
-.xref}, before running this command.
+Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before running this command.
 
 <div>
 
@@ -342,8 +337,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

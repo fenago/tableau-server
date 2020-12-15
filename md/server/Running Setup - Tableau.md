@@ -28,8 +28,7 @@ window)]{.sr-only}](https://www.tableau.com/support/help).
 </div>
 
 In the previous chapter ([Planning Your
-Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm){.MCXref
-.xref}) you figured out:
+Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm)) you figured out:
 
 -   How you\'re going to license your server (by users or by cores).
 
@@ -425,8 +424,7 @@ something happens.
 
 You can add or change server admin accounts anytime. We\'ll cover that
 later in the [Creating
-Users](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm){.MCXref
-.xref} chapter.
+Users](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm) chapter.
 
 ::: {.accordion}
 ::: {.accordion__title}
@@ -557,8 +555,7 @@ perform a few more steps. First: back up your server. Even though you
 don\'t have any users or data on your Tableau Server, you should do a
 quick back up. Our back up is quick and straightforward. The next
 chapter, [Backing Up Tableau
-Server](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_backup.htm){.MCXref
-.xref}, provides the essential steps.
+Server](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_backup.htm), provides the essential steps.
 
 After you back up the server, you\'ll probably want to secure access to
 your server by configuring SSL and (optionally) providing secure access

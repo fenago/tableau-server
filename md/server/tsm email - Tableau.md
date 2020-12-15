@@ -5,8 +5,7 @@ tsm email
 Use the `tsm email` command to view and test your SMTP configuration.
 
 For more information about configuring SMTP, see [Configure SMTP
-Setup](https://help.tableau.com/current/server/en-us/config_smtp.htm){.MCXref
-.xref}.
+Setup](https://help.tableau.com/current/server/en-us/config_smtp.htm).
 
 <div>
 
@@ -74,8 +73,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

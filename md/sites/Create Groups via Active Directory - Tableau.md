@@ -19,8 +19,7 @@ Importing users does not demote site roles.
 
 Before importing groups, review [User Management in Deployments with
 External Identity
-Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm){.MCXref
-.xref} to understand how multiple domains, domain naming, NetBIOS, and
+Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm) to understand how multiple domains, domain naming, NetBIOS, and
 Active Directory user name format influence Tableau user management.
 
 1.  In a site, click [Groups], and then click [Add

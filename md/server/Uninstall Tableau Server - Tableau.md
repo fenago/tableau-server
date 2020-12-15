@@ -5,8 +5,7 @@ Uninstall Tableau Server
 
 Do not uninstall Tableau before upgrading. For details on upgrading, see
 [Upgrading from 2018.2 and Later
-(Windows)](https://help.tableau.com/current/server/en-us/sug_plan.htm){.MCXref
-.xref}.
+(Windows)](https://help.tableau.com/current/server/en-us/sug_plan.htm).
 
 Beginning with version 2018.2, you can have multiple versions of Tableau
 Server installed at the same time. This allows you to run most of an

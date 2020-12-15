@@ -442,8 +442,7 @@ Also be nice to someone else who might be doing this work next time, and
 include this information in your system documentation.
 
 Continue to [Configuring Communication with the
-Internet](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm){.MCXref
-.xref}.
+Internet](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm).
 
 <div>
 

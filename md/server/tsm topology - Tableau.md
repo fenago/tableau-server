@@ -9,8 +9,7 @@ remove nodes, configure external repository, and external File Store.
 
 When making changes to topology, you need to also apply those pending
 changes. For more information, see [tsm
-pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm){.MCXref
-.xref}.
+pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm).
 
 ::: {.miniToc}
 -   [cleanup-coordination-service](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMCleanupCoordination)
@@ -61,8 +60,7 @@ the old Coordination Service instances on all nodes in the
 non-production Coordination Service ensemble and is required after you
 deploy a new Coordination Service ensemble. To learn more about
 Coordination Service ensembles, see [Deploy a Coordination Service
-Ensemble](https://help.tableau.com/current/server/en-us/distrib_ha_zk.htm){.MCXref
-.xref} .
+Ensemble](https://help.tableau.com/current/server/en-us/distrib_ha_zk.htm) .
 
 In version 2020.1.0 and later, the
 `tsm topology deploy-coordination-service` command also removes the old
@@ -109,8 +107,7 @@ Coordination Service instances that run on specified nodes in your
 server cluster. To learn more about Coordination Service ensembles,
 including how many nodes in your cluster should have a Coordination
 Service instance, see [Deploy a Coordination Service
-Ensemble](https://help.tableau.com/current/server/en-us/distrib_ha_zk.htm){.MCXref
-.xref} .
+Ensemble](https://help.tableau.com/current/server/en-us/distrib_ha_zk.htm) .
 
 In version 2020.1.0 and later, the
 `tsm topology deploy-coordination-service` command also removes the old
@@ -139,8 +136,7 @@ Node IDs of nodes to include in the new Coordination Service ensemble,
 separated by commas. You can specify 1, 3, or 5 Coordination Service
 nodes, depending on the total number of nodes in your cluster. For more
 information, see [The Coordination Service
-Quorum](https://help.tableau.com/current/server/en-us/distrib_ha_zk.htm#ZKquorum){.MCXref
-.xref}.
+Quorum](https://help.tableau.com/current/server/en-us/distrib_ha_zk.htm#ZKquorum).
 
 \--request-timeout \<timeout in seconds\>
 
@@ -187,8 +183,7 @@ more than one node. The data will be migrated to the first node in the
 list and then replicated to other nodes.
 
 For more information, see [Reconfigure File
-Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_reconfigure.htm){.MCXref
-.xref} .
+Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_reconfigure.htm) .
 
 </div>
 
@@ -228,8 +223,7 @@ Specify the name and path of the network share you want to use for your
 External File Store.
 
 For more information, see [Reconfigure File
-Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_reconfigure.htm){.MCXref
-.xref} .
+Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_reconfigure.htm) .
 
 </div>
 
@@ -339,8 +333,7 @@ Required.
 
 Full path and file name where the configuration file is saved. For more
 information, see [Re-Configure Tableau Server
-Repository](https://help.tableau.com/current/server/en-us/server_external_repo_reconfigure.htm){.MCXref
-.xref}.
+Repository](https://help.tableau.com/current/server/en-us/server_external_repo_reconfigure.htm).
 
 -c \<ssl certificate file\>
 
@@ -402,8 +395,7 @@ Required.
 
 Full path and file name where the configuration file is saved. For more
 information, see [Re-Configure Tableau Server
-Repository](https://help.tableau.com/current/server/en-us/server_external_repo_reconfigure.htm){.MCXref
-.xref}.
+Repository](https://help.tableau.com/current/server/en-us/server_external_repo_reconfigure.htm).
 
 -c \<ssl certificate file\>
 
@@ -446,8 +438,7 @@ automatic failover occurs. If you have a preferred active repository
 configured, use the `--preferred `option to switch back to that
 repository. For more information about configuring a preferred active
 repository, see [Tableau Server
-Repository](https://help.tableau.com/current/server/en-us/server_process_repository.htm){.MCXref
-.xref}. If Tableau Server is configured for high availability, failover
+Repository](https://help.tableau.com/current/server/en-us/server_process_repository.htm). If Tableau Server is configured for high availability, failover
 of the repository is automatic when necessary. Use the
 failover-repository command to manually fail over the repository.
 
@@ -665,12 +656,10 @@ the bootstrap file that is required to add a new node to the cluster.
 file used for encrypting the configuration secrets. The file can also
 embedded credentials which are valid for a predetermined amount of time
 (see
-[tabadmincontroller.auth.expiration.minutes](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#tabadminctrlrauthexpire){.MCXref
-.xref}) and serve as a session cookie. We strongly recommend that you
+[tabadmincontroller.auth.expiration.minutes](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#tabadminctrlrauthexpire)) and serve as a session cookie. We strongly recommend that you
 take additional measures to secure the bootstrap file using mechanisms
 as described in [Securing secrets for import and export
-operations](https://help.tableau.com/current/server/en-us/security_secret_storage.htm#Securing){.MCXref
-.xref}.
+operations](https://help.tableau.com/current/server/en-us/security_secret_storage.htm#Securing).
 
 <div>
 
@@ -708,8 +697,7 @@ default 120 minutes.
 **Note:** You can disable the ability to include embedded credentials at
 the server level, using a configuration option. For more information,
 see
-[features.PasswordlessBootstrapInit](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#pwdlessbootstrap){.MCXref
-.xref}.
+[features.PasswordlessBootstrapInit](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#pwdlessbootstrap).
 
  
 
@@ -725,17 +713,14 @@ Remove nodes from the cluster.
 To complete removal of a node, you also must run the
 `tsm pending-changes apply` command. Some scenarios require that you
 move or redeploy processes before removing nodes. See [Remove a
-Node](https://help.tableau.com/current/server/en-us/distrib_worker_remove.htm#top){.MCXref
-.xref}.
+Node](https://help.tableau.com/current/server/en-us/distrib_worker_remove.htm#top).
 
 If you remove a node and want to re-add it to the cluster, you need to
 first run the obliterate script to clean Tableau off it, then reinstall
 the node using the normal process for adding a new node. For more
 information, see [Remove Tableau Server from Your
-Computer](https://help.tableau.com/current/server/en-us/remove_tableau.htm){.MCXref
-.xref} and [Install and Configure Additional
-Nodes](https://help.tableau.com/current/server/en-us/install_additional_nodes.htm){.MCXref
-.xref}.
+Computer](https://help.tableau.com/current/server/en-us/remove_tableau.htm) and [Install and Configure Additional
+Nodes](https://help.tableau.com/current/server/en-us/install_additional_nodes.htm).
 
 **Note**: To remove a node from a cluster it must have been configured
 with a process at some point in the past. If you are removing a node on
@@ -778,13 +763,11 @@ Set the Backgrounder and Extract Queries node roles. This determines the
 type of tasks that will be performed on the nodes. The following node
 roles are useful if you have a multi-node cluster and requires Add-on
 licenses. For more information, see [Workload Management through Node
-Roles](https://help.tableau.com/current/server/en-us/server_node_roles.htm){.MCXref
-.xref}.
+Roles](https://help.tableau.com/current/server/en-us/server_node_roles.htm).
 
 **Note:** Making configurations to node roles require a restart of the
 server and will require some downtime. For more information, see [tsm
-pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm){.MCXref
-.xref}.
+pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm).
 
 <div>
 
@@ -894,8 +877,7 @@ Required.
 The name of the port to be set, in this format:
 `service_name:port_type`. If no port type is specified, the primary port
 is assumed. For port name syntax, see [Dynamically mapped
-ports](https://help.tableau.com/current/server/en-us/ports.htm#Dynamica){.MCXref
-.xref}.
+ports](https://help.tableau.com/current/server/en-us/ports.htm#Dynamica).
 
 -pv, \--port-value \<port\_value\>
 
@@ -933,12 +915,10 @@ pending changes. In most cases this also requires a server restart (you
 will be prompted), but there are special cases where you can make
 dynamic topology changes without needing to restart the server. For more
 information, see [Tableau Server Dynamic Topology
-Changes](https://help.tableau.com/current/server/en-us/server_process_hot_topo.htm){.MCXref
-.xref}.
+Changes](https://help.tableau.com/current/server/en-us/server_process_hot_topo.htm).
 
 **Note:** For a complete list of process names, see [Tableau Server
-Processes](https://help.tableau.com/current/server/en-us/processes.htm){.MCXref
-.xref}.
+Processes](https://help.tableau.com/current/server/en-us/processes.htm).
 
 <div>
 
@@ -991,8 +971,7 @@ include the `--ignore-prompt` option.
 You can use the `tsm topology toggle-coordination-service` command to
 switch between coordination service ensembles. To learn more about
 Coordination Service ensembles, see [Deploy a Coordination Service
-Ensemble](https://help.tableau.com/current/server/en-us/distrib_ha_zk.htm){.MCXref
-.xref} .
+Ensemble](https://help.tableau.com/current/server/en-us/distrib_ha_zk.htm) .
 
 In version 2020.1.0 and later, the
 `tsm topology deploy-coordination-service` command also switches to the
@@ -1061,8 +1040,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

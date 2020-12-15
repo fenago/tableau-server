@@ -48,8 +48,7 @@ sign-on, and configure settings for Web Data Connectors (WDCs).
 
 Displays data connection caching settings. To learn more about data
 connection caching settings, see [Configure Data
-Cache](https://help.tableau.com/current/server/en-us/config_cache.htm){.MCXref
-.xref}.
+Cache](https://help.tableau.com/current/server/en-us/config_cache.htm).
 
 <div>
 
@@ -70,8 +69,7 @@ Cache](https://help.tableau.com/current/server/en-us/config_cache.htm){.MCXref
 
 Sets data connection caching settings. To learn more about data
 connection caching settings, see [Configure Data
-Cache](https://help.tableau.com/current/server/en-us/config_cache.htm){.MCXref
-.xref}.
+Cache](https://help.tableau.com/current/server/en-us/config_cache.htm).
 
 <div>
 
@@ -155,8 +153,7 @@ Enables access to the Tableau PostgreSQL database.
 By default, PostgreSQL traffic uses port 8060 (TCP). If you are running
 a local firewall, be sure to allow traffic for this port. To change the
 PostgreSQL port, see [Ports that are not dynamically
-mapped](https://help.tableau.com/current/server/en-us/ports.htm#PortsNotDynamic){.MCXref
-.xref}.
+mapped](https://help.tableau.com/current/server/en-us/ports.htm#PortsNotDynamic).
 
 <div>
 
@@ -491,8 +488,7 @@ Optional.
 Use this flag to trust the self-signed certificate on the
 TSM controller. For more information about certificate trust and
 CLI connections, see [Connecting
-TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti){.MCXref
-.xref}.
+TSM clients](https://help.tableau.com/current/server/en-us/tsm_overview.htm#Connecti).
 
 -u, \--username \<user\>
 

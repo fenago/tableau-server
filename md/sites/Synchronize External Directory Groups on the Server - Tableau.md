@@ -23,8 +23,7 @@ function seamlessly with properly configured LDAP directory solutions.
 Before synchronizing groups as described in this topic, you must first
 import the external directory group into Tableau Server. See [Create
 Groups via Active
-Directory](https://help.tableau.com/current/server/en-us/groups_create_ad.htm){.MCXref
-.xref}.
+Directory](https://help.tableau.com/current/server/en-us/groups_create_ad.htm).
 
 <div>
 
@@ -122,8 +121,7 @@ added as [Unlicensed] by default.
 the minimum site role setting. If a user already has the ability to
 publish, that ability will always be maintained. For more information on
 minimum site role, see [Site roles and Active Directory import and
-synchronization](https://help.tableau.com/current/server/en-us/users_site_roles.htm#MinSiteRoleImport){.MCXref
-.xref}.
+synchronization](https://help.tableau.com/current/server/en-us/users_site_roles.htm#MinSiteRoleImport).
 
 1.  In a site, click [Groups].
 
@@ -148,8 +146,7 @@ removed from groups in the external directory remain on Tableau Server
 so that administrators can audit and reassign the user\'s content before
 removing the user\'s account completely. For more information, see [Sync
 behavior when removing users from Active
-Directory](https://help.tableau.com/current/server/en-us/users_manage_ad.htm#Sync){.MCXref
-.xref}.
+Directory](https://help.tableau.com/current/server/en-us/users_manage_ad.htm#Sync).
 
 <div>
 

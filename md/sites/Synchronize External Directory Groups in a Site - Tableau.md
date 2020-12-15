@@ -21,14 +21,10 @@ function seamlessly with properly configured LDAP directory solutions.
 
     ![](./Synchronize%20External%20Directory%20Groups%20in%20a%20Site%20-%20Tableau_files/synchronize.png)
 
-<div>
+Set the minimum site role for users in an external directory group
+-------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_create_adsync.htm#){.heading-item__link .print-hidden} Set the minimum site role for users in an external directory group
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
-
-In the[ Groups - Details] page, administrators can set the
+In the [ Groups - Details] page, administrators can set the
 minimum site role for group users to apply during synchronization.
 
 This setting does not run synchronization; it sets the minimum site role
@@ -43,8 +39,7 @@ don\'t set a minimum site role, new users are added as
 the minimum site role setting. If a user already has the ability to
 publish, that ability will always be maintained. For more information on
 minimum site role, see [Site roles and Active Directory import and
-synchronization](https://help.tableau.com/current/server/en-us/users_site_roles.htm#MinSiteRoleImport){.MCXref
-.xref}.
+synchronization](https://help.tableau.com/current/server/en-us/users_site_roles.htm#MinSiteRoleImport).
 
 1.  In a site, click [Groups].
 
@@ -55,12 +50,8 @@ synchronization](https://help.tableau.com/current/server/en-us/users_site_roles.
 
     ![](./Synchronize%20External%20Directory%20Groups%20in%20a%20Site%20-%20Tableau_files/qs_adsync_1.png)
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_create_adsync.htm#){.heading-item__link .print-hidden} What happens when users are removed in the source external directory? 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
+ What happens when users are removed in the source external directory? 
+------------------------------------------------------------------------
 
 Users cannot be automatically removed from the Tableau Server through an
 external directory sync operation. Users that are disabled, deleted, or
@@ -68,8 +59,7 @@ removed from groups in the external directory remain on Tableau Server
 so that administrators can audit and reassign the user\'s content before
 removing the user\'s account completely. For more information, see [Sync
 behavior when removing users from Active
-Directory](https://help.tableau.com/current/server/en-us/users_manage_ad.htm#Sync){.MCXref
-.xref}.
+Directory](https://help.tableau.com/current/server/en-us/users_manage_ad.htm#Sync).
 
 <div>
 
@@ -108,8 +98,7 @@ but in that case there is no restart. You can suppress the prompt using
 the `--ignore-prompt` option, but this does not change the restart
 behavior. If the changes do not require a restart, the changes are
 applied without a prompt. For more information, see [tsm pending-changes
-apply](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-apply){.MCXref
-.xref}.
+apply](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-apply).
 
 <div>
 

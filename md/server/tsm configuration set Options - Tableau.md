@@ -33,16 +33,14 @@ internally by Tableau Server do not appear in this list.
 In some cases, you must include the `--force-keys` option to set a
 configuration value for a key that has not been set before. For more
 information, see [\"Unknown key\"
-responses](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#configGetNote){.MCXref
-.xref}.
+responses](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#configGetNote).
 
 After setting a configuration key value you must apply the pending
 configuration changes using `tsm pending-changes apply`. Until you do,
 the new value will not be used by Tableau or show up in the results of a
 `tsm configuration get` command. You can view pending changes using
 `tsm pending-changes list`. For more information, see [tsm
-pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm){.MCXref
-.xref}.
+pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm).
 
 <div>
 
@@ -70,8 +68,7 @@ In certain cases you cannot get a configuration value for a key that has
 not been set before. Instead the `tsm configuration get` command will
 return an \"Unknown key\" response. For more information, see [\"Unknown
 key\"
-responses](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#configGetNote){.MCXref
-.xref}.
+responses](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#configGetNote).
 
 <div>
 
@@ -215,8 +212,7 @@ Default value: `info`
 The logging level for the backgrounder process. This is dynamically
 configurable, so if you are only changing this you do not have to
 restart Tableau Server. For more information, see [Change Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
 </div>
 
@@ -329,8 +325,7 @@ backup. This is also the location where the backup file must be when
 restored using the `tsm maintenance restore` command or
 the` tsm maintenance send-logs` command. For more information, see [tsm
 File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}.
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
 </div>
 
@@ -347,8 +342,7 @@ value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\log-archives\`{
 
 The location in which the` tsm maintenance ziplogs` command creates the
 zipped archive. For more information, see [tsm File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}.
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
 </div>
 
@@ -365,8 +359,7 @@ value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\siteexports\`{m
 
 The location in which the` tsm sites export` command creates the export
 file. For more information, see [tsm File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}.
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
 </div>
 
@@ -383,8 +376,7 @@ value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\siteimports\`{m
 
 The location in which the` tsm sites import` command expects the import
 file to be located. For more information, see [tsm File
-Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm){.MCXref
-.xref}.
+Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
 </div>
 
@@ -403,8 +395,7 @@ Default value: `info`
 The logging level for Cluster Controller. This is dynamically
 configurable, so if you are only changing this you do not have to
 restart Tableau Server. For more information, see [Change Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
 </div>
 
@@ -482,8 +473,7 @@ Default value: `info`
 The logging level for Data Server. This is dynamically configurable, so
 if you are only changing this you do not have to restart Tableau Server.
 For more information, see [Change Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
 </div>
 
@@ -661,8 +651,7 @@ the bootstrap file unless you specify that they should not be included.
 Set this to `false` if credentials should never be included in any
 bootstrap file you generate. For more information on generating
 bootstrap files, see [tsm topology nodes
-get-bootstrap-file](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMGetBootstrap){.MCXref
-.xref}.
+get-bootstrap-file](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMGetBootstrap).
 
 This option was added beginning with Tableau Server version 2019.3.
 
@@ -695,8 +684,7 @@ Default value: `info`
 The logging level for File Store. This is dynamically configurable, so
 if you are only changing this you do not have to restart Tableau Server.
 For more information, see [Change Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
 </div>
 
@@ -803,8 +791,7 @@ Default value: `info`
 The logging level for Gateway. This is dynamically configurable, so if
 you are only changing this you do not have to restart Tableau Server.
 For more information, see [Change Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
 </div>
 
@@ -922,8 +909,7 @@ to limit the disk space usage to 100 GB.
 
 For more information about spooling see the Memory and CPU Usage section
 in [Tableau Server Data
-Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm){.MCXref
-.xref}.
+Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm).
 
 <div>
 
@@ -950,8 +936,7 @@ tuning your spooling limits.
 
 For more information about spooling see the Memory and CPU Usage section
 in [Tableau Server Data
-Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm){.MCXref
-.xref}.
+Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm).
 
 <div>
 
@@ -1283,8 +1268,7 @@ substantially longer to finish.
 
 For more information about spooling see the Memory and CPU Usage section
 in [Tableau Server Data
-Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm){.MCXref
-.xref}.
+Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm).
 
 <div>
 
@@ -1373,8 +1357,7 @@ allowed.
 A list of allowed network directories for flow input connections. You
 must enable Tableau Prep Conductor to run flows on your Tableau Server.
 For more information, see [Tableau Prep
-Conductor](https://help.tableau.com/current/server/en-us/prep_publishserver_overview.htm){.MCXref
-.xref}.
+Conductor](https://help.tableau.com/current/server/en-us/prep_publishserver_overview.htm).
 
 The following rules apply and must be considered when configuring this
 setting:
@@ -1427,8 +1410,7 @@ By default, access to any directories will be denied.
 A list of allowed network directories for flow output connections. You
 must enable Tableau Prep Conductor to run flows on your Tableau Server.
 For more information, see [Tableau Prep
-Conductor](https://help.tableau.com/current/server/en-us/prep_publishserver_overview.htm){.MCXref
-.xref}.
+Conductor](https://help.tableau.com/current/server/en-us/prep_publishserver_overview.htm).
 
 The following rules apply and must be considered when configuring this
 setting:
@@ -1483,8 +1465,7 @@ to *no more than* 60 seconds using the following command:
 
 **Important:** This option should be changed only if you see the error
 described here, [Timeout limit and node limit exceeded
-messages](https://help.tableau.com/current/server/en-us/dm_catalog_enable.htm#timeoutnodelimit){.MCXref
-.xref}. Increasing the timeout limit can utilize more CPU for longer,
+messages](https://help.tableau.com/current/server/en-us/dm_catalog_enable.htm#timeoutnodelimit). Increasing the timeout limit can utilize more CPU for longer,
 which can impact the performance of tasks across Tableau Server.
 Increasing the timeout limit can also cause higher memory usage, which
 can cause issues with the interactive microservices container when
@@ -1512,8 +1493,7 @@ command:
 
 **Important:** This option should be changed only if you see the error
 described here, [Timeout limit and node limit exceeded
-messages](https://help.tableau.com/current/server/en-us/dm_catalog_enable.htm#timeoutnodelimit){.MCXref
-.xref}. Increasing the node limit can cause higher memory usage, which
+messages](https://help.tableau.com/current/server/en-us/dm_catalog_enable.htm#timeoutnodelimit). Increasing the node limit can cause higher memory usage, which
 can cause issues with the interactive microservices container when
 queries run in parallel.
 
@@ -1716,8 +1696,7 @@ Default value: `enabled_by_default`
 Use this option to set the initial value of the Ask Data Mode when a
 site is created. For more information see [Enable or disable Ask Data
 for a
-site](https://help.tableau.com/current/server/en-us/ask_data_enable.htm#EnableDisableAskDataForSite){.MCXref
-.xref}.
+site](https://help.tableau.com/current/server/en-us/ask_data_enable.htm#EnableDisableAskDataForSite).
 
 Valid options are `enabled_by_default` (the default),
 `disabled_by_default`, and `disabled_always`.
@@ -1746,8 +1725,7 @@ default to 16 GB:
 `tsm configuration set -k noninteractive.vmopts -v "-XX:+UseConcMarkSweepGC -Xmx16g -Xms64m -XX:+ExitOnOutOfMemoryError"`
 
 For more information, see [Memory for non-interactive microservices
-containers](https://help.tableau.com/current/server/en-us/dm_catalog_enable.htm#Memory){.MCXref
-.xref}.
+containers](https://help.tableau.com/current/server/en-us/dm_catalog_enable.htm#Memory).
 
 </div>
 
@@ -1776,8 +1754,7 @@ Port that PostgreSQL listens on.
 Specifies the computer name of the node with the preferred repository
 installed. This value is used if the `--preferred` or `-r` option is
 specified with the [tsm topology
-failover-repository](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMFailoverRepository){.MCXref
-.xref} command.
+failover-repository](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMFailoverRepository) command.
 
 Example:
 
@@ -1804,8 +1781,7 @@ Default value: `8061`
 
 Port used to verify the integrity of the PostgreSQL database. See [tsm
 maintenance
-backup](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm){.MCXref
-.xref} for more information.
+backup](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm) for more information.
 
 </div>
 
@@ -1864,8 +1840,7 @@ initial sign-in. This configuration key also governs personal access
 token expiry. All refresh and access tokens are a type of OAuth token.
 To remove limits set to `-1`. To disable OAuth tokens, see [Disable
 Automatic Client
-Authentication](https://help.tableau.com/current/server/en-us/devices_connected_credentials.htm){.MCXref
-.xref}.
+Authentication](https://help.tableau.com/current/server/en-us/devices_connected_credentials.htm).
 
 <div>
 
@@ -1954,8 +1929,7 @@ On especially busy Tableau Server computers, or if you see log errors
 value.
 
 For more information, see [Client session
-timeouts](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverClient_session_timeouts){.MCXref
-.xref}.
+timeouts](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverClient_session_timeouts).
 
 </div>
 
@@ -1984,8 +1958,7 @@ change the value for `-Xmx`.
 Valid values for `-Xmx` depend on available memory on the Tableau Server
 computer, but cannot be greater than 24 GB. For more information, see
 [Search & Browse Max Heap
-Memory](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverMaxHeapMem){.MCXref
-.xref}.
+Memory](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverMaxHeapMem).
 
 </div>
 
@@ -2009,8 +1982,7 @@ On especially busy Tableau Server computers, or if you see log errors
 value.
 
 For more information, see [Zookeeper connection health check timeout at
-startup](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverZKhealth_chk_timeout){.MCXref
-.xref}.
+startup](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverZKhealth_chk_timeout).
 
 </div>
 
@@ -2029,8 +2001,7 @@ will wait to establish a connection to the Coordination Service
 (Zookeeper).
 
 For more information, see [Client session
-timeouts](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverClient_session_timeouts){.MCXref
-.xref}.
+timeouts](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverClient_session_timeouts).
 
 </div>
 
@@ -2180,8 +2151,7 @@ notifications for disk space monitoring, set this to `true`.
 
 SMTP must be configured for notifications to be sent. For details, see
 [Configure SMTP
-Setup](https://help.tableau.com/current/server/en-us/config_smtp.htm){.MCXref
-.xref}.
+Setup](https://help.tableau.com/current/server/en-us/config_smtp.htm).
 
 </div>
 
@@ -2258,8 +2228,7 @@ Default value: `false`
 
 Controls whether subscriptions are configurable system-wide. See [Set Up
 a Site for
-Subscriptions](https://help.tableau.com/current/server/en-us/subscribe.htm){.MCXref
-.xref}.
+Subscriptions](https://help.tableau.com/current/server/en-us/subscribe.htm).
 
 <div>
 
@@ -2293,8 +2262,7 @@ over, or restart. To enable server process notifications, set this to
 
 SMTP must be configured for notifications to be sent. For details, see
 [Configure SMTP
-Setup](https://help.tableau.com/current/server/en-us/config_smtp.htm){.MCXref
-.xref}.
+Setup](https://help.tableau.com/current/server/en-us/config_smtp.htm).
 
 </div>
 
@@ -2332,8 +2300,7 @@ Controls how long session cookies are valid. By default this is set to
 120 minutes. This value also determines how long the embedded
 credentials in a node bootstrap file are valid. For more information,
 see [tsm topology nodes
-get-bootstrap-file](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMGetBootstrap){.MCXref
-.xref}.
+get-bootstrap-file](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMGetBootstrap).
 
 </div>
 
@@ -2353,8 +2320,7 @@ The logging level for the Data Source Properties service. This is
 dynamically configurable, so if you are only changing this you do not
 have to restart Tableau Server. For more information, see [Change
 Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
 </div>
 
@@ -2413,8 +2379,7 @@ Default value: `info`
 The logging level for microservices in the Interactive Microservice
 Container and Non-Interactive Microservice Container. For more
 information, see [Change Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
 </div>
 
@@ -2434,10 +2399,8 @@ Administration Controller, Client File Service, Cluster Controller,
 Service Manager, and License Service. This configuration key does not
 change the logging level for Coordination Service or for maintenance
 processes. For more information, see [Change Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm#ChangeLoggingLevel){.MCXref
-.xref} and [Tableau Server
-Processes](https://help.tableau.com/current/server/en-us/processes.htm){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm#ChangeLoggingLevel) and [Tableau Server
+Processes](https://help.tableau.com/current/server/en-us/processes.htm).
 
 </div>
 
@@ -2455,8 +2418,7 @@ Logging level for `control_<app>` services. These logs include
 information that can be useful if you are running into problems starting
 or reconfiguring a TSM or Tableau Server process. For more information,
 see [Change Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm#ChangeLoggingLevel){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm#ChangeLoggingLevel).
 
 </div>
 
@@ -2488,8 +2450,7 @@ a comment if you created it, are the content owner, a project leader
 with an appropriate site role, or are an administrator. To learn which
 site roles are required for full project leader access, see
 [Project-level
-administration](https://help.tableau.com/current/server/en-us/projects.htm#project-admin){.MCXref
-.xref}.
+administration](https://help.tableau.com/current/server/en-us/projects.htm#project-admin).
 
 <div>
 
@@ -2608,8 +2569,7 @@ Default value: `true`
 Views under the threshold set by `vizqlserver.browser.render_threshold`
 or `vizqlserver.browser.render_threshold_mobile` are rendered by the
 client web browser instead of by the server. See [Configure Client-Side
-Rendering](https://help.tableau.com/current/server/en-us/browser_rendering.htm){.MCXref
-.xref} for details.
+Rendering](https://help.tableau.com/current/server/en-us/browser_rendering.htm) for details.
 
 <div>
 
@@ -2703,8 +2663,7 @@ directed to do so by Tableau Support.
 **Note:** Beginning with version 2020.3.0, this is dynamically
 configurable, so if you are only changing this you do not have to
 restart Tableau Server. For more information, see [Change Logging
-Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm){.MCXref
-.xref}.
+Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
 <div>
 
@@ -2972,8 +2931,7 @@ attacker gets the user to click or enter information in the target page
 while the user thinks he or she is interacting with the second page.
 
 For more information, see [Clickjack
-Protection](https://help.tableau.com/current/server/en-us/clickjack_protection.htm){.MCXref
-.xref}.
+Protection](https://help.tableau.com/current/server/en-us/clickjack_protection.htm).
 
 ::: {mc-conditions="Product.serverwindows"}
 <div>
@@ -3062,10 +3020,8 @@ Specifies the name of the attribute in which your SAML IdP stores user
 names. By default, this is set to `username`. If the attribute name that
 your IdP uses contains spaces, enclose it in quotation marks. For more
 information, see [Configure Server-Wide
-SAML](https://help.tableau.com/current/server/en-us/config_saml.htm){.MCXref
-.xref} or [Configure Site-Specific
-SAML](https://help.tableau.com/current/server/en-us/saml_site_specific.htm){.MCXref
-.xref}.
+SAML](https://help.tableau.com/current/server/en-us/config_saml.htm) or [Configure Site-Specific
+SAML](https://help.tableau.com/current/server/en-us/saml_site_specific.htm).
 
 <div>
 
