@@ -7,7 +7,7 @@ You can use the `tsm maintenance` commands to manage server maintenance
 tasks like creating regular backups or restoring [Tableau
 Server] from a previously created backup.
 
-::: {.miniToc}
+
 -   [tsm maintenance
     backup](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm){.MCXref
     .xref}
@@ -482,7 +482,7 @@ initialized or if the Tableau Metadata API is running or not.
 
 </div>
 
-::: {mc-conditions="Product.serverwindows"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsmmaintenance_preflight_perms}tsm maintenance preflight-check permissions {#tsm-maintenance-preflightcheck-permissions}
@@ -546,7 +546,7 @@ The Run As user name to verify permissions for. If not provided, the Run
 As user is determined from the current configuration.
 :::
 
-::: {mc-conditions="Product.serverwindows"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsmmaintenance_preflight_ports}tsm maintenance preflight-check ports {#tsm-maintenance-preflightcheck-ports}

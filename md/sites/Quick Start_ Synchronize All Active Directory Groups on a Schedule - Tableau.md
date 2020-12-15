@@ -14,8 +14,8 @@ Server configured with LDAP identity store is equivalent to Active
 Directory. Active Directory synchronization features in Tableau Server
 function seamlessly with properly configured LDAP directory solutions.
 
-::: {.grid-section .grid-ul}
-::: {classstring="quickstart"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/qs_ad_group_sync.htm#){.heading-item__link .print-hidden} [1]{.step-bg} Set a minimum site role for synchronization {#1-set-a-minimum-site-role-for-synchronization}
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -33,8 +33,8 @@ Synchronizing can promote a user\'s site role, but will never demote a
 user\'s site role.
 :::
 
-::: {.grid-section .grid-ur}
-::: {classstring="quickstart"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/qs_ad_group_sync.htm#){.heading-item__link .print-hidden} [2]{.step-bg} Set the schedule {#2-set-the-schedule}
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -50,8 +50,8 @@ All Active Directory groups on the server are synchronized according to
 the same schedule.
 :::
 
-::: {.grid-section .grid-ll}
-::: {classstring="quickstart"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/qs_ad_group_sync.htm#){.heading-item__link .print-hidden} [3]{.step-bg} Run synchronization on-demand (optional) {#3-run-synchronization-ondemand-optional}
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -68,8 +68,8 @@ Click [Synchronize All Groups] to synchronize all Active
 Directory groups on the server outside of a schedule.
 :::
 
-::: {.grid-section .grid-lr}
-::: {classstring="quickstart"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/qs_ad_group_sync.htm#){.heading-item__link .print-hidden} [4]{.step-bg} View the status of synchronization tasks {#4-view-the-status-of-synchronization-tasks}
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::

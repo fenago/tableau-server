@@ -8,7 +8,7 @@ option to enable SSL over direct connections from Tableau
 clients---including Tableau Desktop, Tableau Mobile, and web
 browsers---to the repository.
 
-::: {.miniToc}
+
 -   tsm security custom-cert
     -   [tsm security custom-cert
         add](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-add){.MCXref

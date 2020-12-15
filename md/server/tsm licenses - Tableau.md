@@ -6,7 +6,7 @@ like activating or deactivating a [Tableau
 Server] product key on- or off-line, and getting
 associated files for offline activation or deactivation.
 
-::: {.miniToc}
+
 -   [tsm licenses
     activate](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMActivate){.MCXref
     .xref}

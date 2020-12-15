@@ -20,7 +20,7 @@ configure proxy servers.
 
  
 
-::: {.roadsign-container}
+
 ![](./images/road-sign-curve.png){.roadsign-img}
 
 <div>
@@ -174,12 +174,8 @@ to exclude the Tableau Server directories. The procedures in this
 chapter assume that you\'ve installed Tableau Server onto a clean
 computer.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Forward proxy server
-
-</div>
-
+### Forward proxy server
 A forward proxy is a server that sits between the computers inside your
 network and the internet. When an application on a network computer
 needs access to the internet, it doesn\'t send the request directly to

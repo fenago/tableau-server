@@ -649,11 +649,8 @@ allow Run As User access, such as SQL Server, Microsoft Analysis
 Services, and Oracle, make sure that you\'ve configured the Run As User
 account with appropriate access to the database resources.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Compare the performance of extracts and live connections {#extract-versus-live-data-connection-compare-performance}
-
-</div>
+####  Compare the performance of extracts and live connections
 
 People often ask which is faster: an extract or a live connection? If
 you\'ve read all the way through this, you understand that the answer is

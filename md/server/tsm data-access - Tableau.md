@@ -6,7 +6,7 @@ You can use the `tsm data-access` commands to configure data caching,
 enable or disable data repository access, enable SAML for single
 sign-on, and configure settings for Web Data Connectors (WDCs).
 
-::: {.miniToc}
+
 -   caching
     -   [data-access caching
         list](https://help.tableau.com/current/server/en-us/cli_data-access.htm#caching-list)

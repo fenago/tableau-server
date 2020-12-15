@@ -7,7 +7,7 @@ computers, and what you can do to make that traffic more secure.
 
  
 
-::: {.roadsign-container}
+
 ![](./images/road-sign-curve.png){.roadsign-img}
 
 <div>

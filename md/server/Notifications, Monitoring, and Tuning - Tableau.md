@@ -275,7 +275,7 @@ slowly than the rest.
 
 ![](./images/everybody_admin_load_stats.png)
 
-::: {mc-conditions="Product.serverwindows"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Windows performance monitoring
@@ -450,7 +450,7 @@ you created and click **Start**. The Windows Performance Monitor tool
 starts monitoring your server and storing information in the location
 that you specified.
 
-::: {mc-conditions="Guides.EverybodyAdmin"}
+
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Step 5: Analyze the data
 :::
 

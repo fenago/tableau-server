@@ -17,7 +17,7 @@ Processes](https://help.tableau.com/current/server/en-us/processes.htm).
 For comprehensive steps for migrating a site, see [Export or Import a
 Site](https://help.tableau.com/current/server/en-us/sites_exportimport.htm).
 
-::: {.miniToc}
+
 -   [tsm sites
     export](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMExport){.MCXref
     .xref}

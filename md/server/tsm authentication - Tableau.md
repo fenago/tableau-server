@@ -5,7 +5,7 @@ tsm authentication
 You can use the `tsm authentication` commands to enable, disable, and
 configure user authentication options for Tableau Server.
 
-::: {.miniToc}
+
 -   [kerberos](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#TSMKerb)
     -   configure
     -   disable

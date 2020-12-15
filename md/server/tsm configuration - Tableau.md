@@ -26,7 +26,7 @@ Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm
 
 </div>
 
-::: {.miniToc}
+
 -   [tsm configuration
     get](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#TSMGet){.MCXref
     .xref}

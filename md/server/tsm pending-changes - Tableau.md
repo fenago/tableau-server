@@ -12,7 +12,7 @@ and after you apply pending changes. For more information about secret
 storage, see [Manage Server
 Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.htm#Understa).
 
-::: {.miniToc}
+
 -   [tsm pending-changes
     apply](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-apply){.MCXref
     .xref}

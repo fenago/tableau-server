@@ -477,7 +477,7 @@ Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
 </div>
 
-::: {mc-conditions="Product.serverwindows"}
+
 <div>
 
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#){.heading-item__link .print-hidden} dataengine.port {#dataengineport}
@@ -489,7 +489,7 @@ Default value: `27042`
 Port that the data engine runs on.
 :::
 
-::: {mc-conditions="Product.serverwindows"}
+
 <div>
 
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#){.heading-item__link .print-hidden} dataserver.port {#dataserverport}
@@ -2933,7 +2933,7 @@ while the user thinks he or she is interacting with the second page.
 For more information, see [Clickjack
 Protection](https://help.tableau.com/current/server/en-us/clickjack_protection.htm).
 
-::: {mc-conditions="Product.serverwindows"}
+
 <div>
 
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#){.heading-item__link .print-hidden} wgserver.domain.fqdn {#wgserverdomainfqdn}

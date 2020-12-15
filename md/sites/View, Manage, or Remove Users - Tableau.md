@@ -9,14 +9,14 @@ multiple sites at a time on the [All Sites] page.
 
 <div>
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} View and manage
 users on a site
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 Sign in to a site as an administrator, and then select
@@ -61,14 +61,14 @@ manage users:
 </div>
 
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} View and edit
 server users
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 Sign in to [Tableau Server] as a server
@@ -82,14 +82,14 @@ and then select [Users].
 :::
 :::
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Manage users'
 site membership
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 By default, server and site administrators can manage users at the
@@ -113,13 +113,13 @@ Sites] level (at the server level).
 
 <div>
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Search for users
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 To search for a specific user
@@ -144,14 +144,14 @@ with *John*.
 
 <div>
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Remove users
 from a site
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 You can remove a user only if the user does not own any content
@@ -186,14 +186,14 @@ deleted from the server.
 </div>
 
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Remove users
 from the server
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 You can remove a user only if the user does not own any content
@@ -223,14 +223,14 @@ demoted to the Unlicensed site role.
 :::
 
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Change passwords
 for users of a single site
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 To change the password for a user with membership to a single site, sign

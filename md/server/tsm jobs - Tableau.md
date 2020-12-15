@@ -5,7 +5,7 @@ tsm jobs
 You can use the `tsm jobs` commands to list, reconnect to, and cancel
 jobs.
 
-::: {.miniToc}
+
 -   [cancel](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#tsm)
 -   [list](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#tsm2)
 -   [reconnect](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#tsm3)

@@ -301,10 +301,10 @@ download the sample workbooks.
 
 Under **Identity Store**, set the authentication type.
 
-::: {.roadsign-container}
+
 ![](./images/Road-sign-alert.png){.roadsign-img}
 
-::: {.roadsign-heading}
+
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_install.htm#){.heading-item__link .print-hidden} Make sure you\'ve got the authentication type right {#get-auth-type-right}
 :::
 
@@ -426,14 +426,14 @@ You can add or change server admin accounts anytime. We\'ll cover that
 later in the [Creating
 Users](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm) chapter.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Wait\... there
 are two different admin tools?
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 Strictly speaking, no, there are five different paths to administrating

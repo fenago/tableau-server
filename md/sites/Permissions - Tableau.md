@@ -125,7 +125,7 @@ or [Customizable]. For more information, see [Lock content
 permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject).
 :::
 
-::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
+
 *For administrators, project leaders, and content owners*
 
 If project content permissions are customizable, permissions for
@@ -172,7 +172,7 @@ See [Show or Hide Sheet
 Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs) for more information.
 :::
 
-::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
+
 *For content publishers*
 
 If project content permissions are customizable, permissions for
@@ -340,7 +340,7 @@ project from web authoring. Prior to 2020.1, this capability was called
 Save.
 :::
 
-::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
+
 #### View template
 
 ![](./images/perms_view_icon.png) **View**
@@ -441,7 +441,7 @@ information, see [Show or Hide Sheet
 Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs).
 :::
 
-::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
+
 #### View template
 
 ![](./images/perms_view_icon.png) **View**
@@ -493,7 +493,7 @@ Permissions** allows a user to create and edit permission rules for the
 data source
 :::
 
-::: {.tab-item .tab-item aria-hidden="true" style="display: none;"}
+
  
 :::
 :::
@@ -1064,14 +1064,14 @@ workbook, view, or flow).
 -   Some actions such as web authoring might require combinations of
     capabilities.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Site Roles and
 their maximum capabilities
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 These tables indicates what capabilities are available to each site

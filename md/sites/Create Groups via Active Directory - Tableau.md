@@ -41,6 +41,6 @@ Active Directory user name format influence Tableau user management.
 
 5.  Click [Import].
 
-::: {.note}
+
 **Note:** You cannot change the name of groups imported from Active
 Directory. The group name can only be changed in Active Directory.

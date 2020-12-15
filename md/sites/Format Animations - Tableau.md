@@ -3,7 +3,7 @@
 Format Animations
 =================
 
-::: {.caption .article__tags .content-only-hidden}
+
 [Version: 2020.3]{.article__tags--version}\
 [Applies to: Tableau Desktop, Tableau Online, Tableau
 Server]{.article__tags--applies-to}\

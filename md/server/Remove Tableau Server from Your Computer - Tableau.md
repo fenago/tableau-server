@@ -1,36 +1,24 @@
 
-::: {.container--centered}
-::: {.header__mobile-menu}
+
+
 :::
 
-::: {.header__logo}
+
 [![Tableau](./Remove%20Tableau%20Server%20from%20Your%20Computer%20-%20Tableau_files/tableau-logo.png){.header__logo__img}](https://www.tableau.com/en-us/)
-:::
 
-::: {.header__search}
-:::
-:::
 
-::: {.container--full-width .subheader .print-hidden .content-only-hidden}
-::: {.container--centered}
-#### Tableau Server on Windows Help {#tableau-server-on-windows-help .heading--subheader}
-:::
-:::
 
-::: {.container--full-width .nav--breadcrumbs}
-::: {.container--centered}
-<div>
 
-</div>
-:::
-:::
+#### Tableau Server on Windows Help 
 
-::: {.section--main .container--full-width}
-::: {.container--centered}
+
+
+
+
 Help Output for tableau-server-obliterate Script
 ================================================
 
-::: {.caption .article__tags .content-only-hidden}
+
 [Version: 2020.3]{.article__tags--version}\
 [ ]{.article__tags--applies-to}\
 [ ]{.article__tags--role}
@@ -40,7 +28,7 @@ Help Output for tableau-server-obliterate Script
 The following help content is the output when you run the following
 command:
 
-::: {mc-conditions="Product.serverwindows"}
+
 `tableau-server-obliterate -h`
 
 The ./tableau-server-obliterate script is installed to By default:
@@ -50,7 +38,7 @@ The ./tableau-server-obliterate script is installed to By default:
 Output {#output level="2" is="heading-item"}
 ------
 
-::: {mc-conditions="Product.serverwindows"}
+
 ``` {space="preserve"}
 Remove Tableau Server from this computer.
 
@@ -85,7 +73,7 @@ This script must be run as the Administrator.
 :::
 :::
 
-::: {.article__footer--back-to-top .text--centered .print-hidden}
+
 [[]{.icon--med .icon--arrow-up} Back to
 top](https://help.tableau.com/current/server/en-us/tableau-server-obliterate-h.htm#){.text--caps}
 :::
@@ -95,13 +83,13 @@ submitting your feedback. Please try again.]{slot="errorMessage"}
 :::
 :::
 
-::: {.container--centered}
-::: {.footer__links .text--caps}
+
+
 -   [Legal](https://www.tableau.com/en-us/legal)
 -   [Privacy](https://www.tableau.com/en-us/privacy)
 :::
 
-::: {.footer__copyright .text--caps}
+
 © 2003-2020 Tableau Software LLC. All rights reserved
 :::
 :::

@@ -3,7 +3,7 @@
 Set a Site's Web Authoring Access and Functions
 ===============================================
 
-::: {.caption .article__tags .content-only-hidden}
+
 [Version: 2020.3]{.article__tags--version}\
 [Applies to: Tableau Online, Tableau
 Server]{.article__tags--applies-to}\

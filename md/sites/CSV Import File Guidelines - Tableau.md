@@ -243,7 +243,7 @@ The following table shows how the settings are converted to site roles.
 The following example shows a CSV file that contains information for
 several users.
 
-::: {style="font-family: monospace; width: 1200px; overflow: scroll;"}
+
 henryw,henrypassword,Henry Wilson,Creator,None,yes,henryw\@example.com\
 freds,fredpassword,Fred Suzuki,Viewer,None,no,freds\@example.com\
 alanw,alanpassword,Alan Wang,Explorer,Site,yes,alanw\@example.com\

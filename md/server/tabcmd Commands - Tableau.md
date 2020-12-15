@@ -9,7 +9,7 @@ window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/tabcmd_c
 
 You can use the following commands with the tabcmd command line tool:
 
-::: {.twocol-list mc-conditions="Product.serverserver" style="width: 80%;"}
+
 [addusers](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id1999d76f-638e-47d4-86ac-fe8e206ed364)
 (to group)\
 [createextracts](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id5a3316ed-45bb-4da4-b557-1111112d4ac8)\
@@ -87,13 +87,13 @@ Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm).
 When set to `complete` this option requires that all rows be valid for
 any change to succeed. If not specified, `--complete` is used.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -245,13 +245,13 @@ The canonical name for the resource as it appears in the URL.
 
 The name of the target workbook for extract creation.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -378,13 +378,13 @@ created.
 
 `tabcmd creategroup "Development"`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -530,13 +530,13 @@ specified with the `-n` option. For example, to specify a project called
 
 Specifies a description for the project.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -648,8 +648,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {classstring="sectiontitle"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id6f434e96-89d1-4aa2-a935-4c22fa1e2506}createsite *site-name* {#createsite}
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -715,13 +715,13 @@ prevent users from running tasks manually. For more information, see
 [Server Settings (General and
 Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.htm).
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -979,13 +979,13 @@ command instead of `createsiteusers`.
 
 Do not display progress messages for the command.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -1097,8 +1097,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {classstring="sectiontitle" mc-conditions="Product.serverserver"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#ide42a948a-cd9c-4b73-9ef2-3a58eda2d095}createusers *filename.csv* {#createusers}
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -1218,13 +1218,13 @@ licenses for your users, the user is added as an unlicensed user.
 
 Do not display progress messages for the command.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -1337,7 +1337,7 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#decryptextracts_tabcmd}decryptextracts
@@ -1358,13 +1358,13 @@ normal business hours.
 
 `tabcmd decryptextracts "West Coast Sales"`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -1519,13 +1519,13 @@ The name of the workbook you want to delete.
 
 The name of the data source you want to delete.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -1689,13 +1689,13 @@ The canonical name for the resource as it appears in the URL.
 
 The name of the target workbook for extract deletion.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -1820,13 +1820,13 @@ Deletes the specified group from the server.
 
 `tabcmd deletegroup "Development"`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -1971,13 +1971,13 @@ specified with the command. For example, to specify a project called
 \"Designs\" that exists in a \"Main\" project, use the following syntax:
 `--parent-project-path "Main" "Designs"`.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -2089,8 +2089,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {classstring="sectiontitle"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id54a7f404-5d1b-452e-8273-0ab8396da641}deletesite *site-name* {#deletesite-sitename}
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -2101,13 +2101,13 @@ Deletes the specified site from the server.
 
 `tabcmd deletesite "Development"`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -2262,13 +2262,13 @@ settings that help to improve performance for large CSV files. For more
 information, see [Improve performance for large CSV files passed through
 tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-performance-large-csv) in the CSV Import File Guidelines topic.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -2408,13 +2408,13 @@ The `.csv` file should contain a simple list of one user name per line.
 When set to `--complete` this option requires that all rows be valid for
 any change to succeed. If not specified, `--complete` is used.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -2527,8 +2527,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {classstring="sectiontitle"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#editdoma}editdomain
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -2581,13 +2581,13 @@ The new name for the domain.
 
 The new nickname for the domain.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -2700,8 +2700,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {classstring="sectiontitle"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id06d8e2e0-d7a1-4733-b0df-d1e02f66919b}editsite *site-name* {#editsite-sitename}
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -2769,13 +2769,13 @@ prevent users from running tasks manually. For more information, see
 [Server Settings (General and
 Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.htm).
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -2888,7 +2888,7 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#encryptextracts_tabcmd}encryptextracts
@@ -2909,13 +2909,13 @@ normal business hours.
 
 `tabcmd encryptextracts "West Coast Sales"`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -3180,13 +3180,13 @@ Sets the width in pixels. Default is 800 px.
 
 Sets the height in pixels. Default is 600 px.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -3388,13 +3388,13 @@ workbook.
 
 `tabcmd get "/workbooks/Sales_Analysis.twb" -f "C:\Tableau_Workbooks\Weekly-Reports.twb"`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -3506,8 +3506,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {classstring="sectiontitle"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#initialu}initialuser
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -3540,13 +3540,13 @@ parameter in the command. For example:
 
 Creates the initial administrative user with the display name.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -3659,8 +3659,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {.sectiontitle}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} listdomains
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -3674,13 +3674,13 @@ to use local authentication, the command returns only the domain name
 
 `tabcmd listdomains`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -3793,8 +3793,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {classstring="sectiontitle"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#idc7467cb6-6cef-49bf-9358-a3e4addd5fa0}listsites
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -3818,13 +3818,13 @@ The extract encryption mode for the site can be **enforced**,
 Encryption at
 Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -4075,13 +4075,13 @@ Subsequent commands will require a login.
 The number of seconds the server should wait before processing the
 `login` command. Default: 30 seconds.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -4348,13 +4348,13 @@ Encrypt extracts when you publish a workbook, data source, or extract to
 the server. For more information, see [Extract Encryption at
 Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -4466,7 +4466,7 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#publishsamples}publishsamples
@@ -4516,13 +4516,13 @@ specified with the `-n` option. For example, to specify a project called
 \"Nested\" that exists in a \"Main\" project, use the following syntax:
 `--parent-project-path "Main" -n "Nested"`.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -4635,7 +4635,7 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#reencryptextracts_tabcmd}reencryptextracts
@@ -4658,13 +4658,13 @@ normal business hours.
 
 `tabcmd reencryptextracts "West Coast Sales"`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -4880,13 +4880,13 @@ Tasks for
 Extracts](https://help.tableau.com/current/online/en-us/adminview_backgrnd.htm)
 administrative view.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -5029,13 +5029,13 @@ Clears sub value for the specified individual user.
 
 Clears sub values for all users.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -5183,13 +5183,13 @@ tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-
 Requires that all rows be valid for any change to succeed. If not
 specified `--complete` is used.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -5323,13 +5323,13 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/maintenance_se
 
 `tabcmd runschedule "5AM Sales Refresh"`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -5441,8 +5441,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {classstring="sectiontitle"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#idfe12acaf-ed64-4f0c-8eb8-b83c9de12382}set *setting*
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -5463,13 +5463,13 @@ setting. You can enable or disable the following settings:
 
 `tabcmd set embedded_credentials`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -5582,8 +5582,8 @@ required value for the `export` command.
 :::
 :::
 
-::: {.section mc-conditions="Product.serverserver"}
-::: {classstring="sectiontitle"}
+
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#ide6a39f29-77ff-44f6-b946-c2b56b31a2f9}syncgroup *group-name* {#syncgroup-groupname}
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::
@@ -5647,13 +5647,13 @@ Specifies a site role for users in the group. The default is
 
 Do not display progress messages for the command.
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,
@@ -5780,13 +5780,13 @@ tabcmd utility.
 
 `tabcmd version`
 
-::: {.accordion}
-::: {.accordion__title}
+
+
 []{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
 tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
 :::
 
-::: {.accordion__content .print-visible style="display: none;"}
+
 <div>
 
 The following options are used by all `tabcmd` commands. The `--server`,

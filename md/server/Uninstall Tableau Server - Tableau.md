@@ -49,7 +49,7 @@ Windows supports:
     [Remove Tableau Server from Your
     Computer](https://help.tableau.com/current/server/en-us/remove_tableau.htm)
 
-::: {mc-conditions="Product.serverwindows"}
+
 <div>
 
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/uninstall_server.htm#){.heading-item__link .print-hidden} Uninstall a Tableau Server version
@@ -77,7 +77,7 @@ This ensures you can reinstall and restore the data if you decide you
 want to do this. Save the backup to a safe location on a computer that
 is not part of your Tableau Server installation.
 
-::: {mc-conditions="Product.serverwindows"}
+
 To uninstall a version of Tableau Server:
 
 1.  Open Control Panel, click [Uninstall a program], and

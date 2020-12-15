@@ -5,7 +5,7 @@ tsm settings
 You can use the `tsm settings` commands to export (get) and import (set)
 configuration values.
 
-::: {.miniToc}
+
 -   [tsm settings
     export](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#TSMExport){.MCXref
     .xref}

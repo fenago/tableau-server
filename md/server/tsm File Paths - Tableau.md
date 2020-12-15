@@ -7,7 +7,7 @@ locations. These default locations are determined by `basefilepath`
 variables defined for each command. You can use tsm to view the current
 value of the variables, and to change the locations.
 
-::: {mc-conditions="Product.serverwindows"}
+
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm#){.heading-item__link .print-hidden} NetworkService system account
 :::
 
@@ -48,7 +48,7 @@ By default:
         location in the data directory on the initial node and then
         saved in:
 
-        ::: {mc-conditions="Product.serverwindows"}
+        
         `<install drive>:<install\path>\data\tabsvc\files\backups`
 
         By default this is:
@@ -71,7 +71,7 @@ By default:
 
     -   restore---The restore process restores a backup file from:
 
-        ::: {mc-conditions="Product.serverwindows"}
+        
         `<install drive>:<install\path>\data\tabsvc\files\backups`
 
         By default this is:
@@ -87,7 +87,7 @@ By default:
 
     -   send-logs---The send-logs sends the logs file from:
 
-        ::: {mc-conditions="Product.serverwindows"}
+        
         `<install drive>:<install\path>\data\tabsvc\files\backups`
 
         By default this is:
@@ -104,7 +104,7 @@ By default:
 
     -   ziplogs---The ziplogs file is generated in:
 
-        ::: {mc-conditions="Product.serverwindows"}
+        
         `<install drive>:<install\path>\data\tabsvc\files\log-archives`
 
         By default this is:
@@ -123,7 +123,7 @@ By default:
     -   export---The export .zip file is generated to the following
         directory:
 
-        ::: {mc-conditions="Product.serverwindows"}
+        
         `<install drive>:<install\path>\data\tabsvc\files\siteexports`
 
         By default this is:
@@ -140,7 +140,7 @@ By default:
     -   import---During the import process, Tableau Server looks for
         files in:
 
-        ::: {mc-conditions="Product.serverwindows"}
+        
         `<install drive>:<install\path>\data\tabsvc\files\siteimports`
 
         By default this is:

@@ -76,7 +76,7 @@ You can also specify the user's site role when you assign site
 membership to a user. For information, see [Manage users' site
 membership](https://help.tableau.com/current/server/en-us/users_view.htm#manage-site-membership).
 
-::: {.sectiontitle}
+
 [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_import.htm#){.heading-item__link .print-hidden} Importing at the server level in multi-site environments {#importing-at-the-server-level-in-multisite-environments}
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 :::

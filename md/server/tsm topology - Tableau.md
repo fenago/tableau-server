@@ -11,7 +11,7 @@ When making changes to topology, you need to also apply those pending
 changes. For more information, see [tsm
 pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm).
 
-::: {.miniToc}
+
 -   [cleanup-coordination-service](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMCleanupCoordination)
 -   [deploy-coordination-service](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMDeployCoordination)
 -   external-services

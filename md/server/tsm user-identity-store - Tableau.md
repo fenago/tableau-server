@@ -17,7 +17,7 @@ For LDAP/Active Directory configuration reference table, see [External
 Identity Store Configuration
 Reference](https://help.tableau.com/current/server/en-us/ldap_config.htm).
 
-::: {.miniToc}
+
 -   [get-group-mappings](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#TSMGroupMap)
 -   [get-user-mappings](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#TSMUserMap)
 -   [list](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#TSMUIList)

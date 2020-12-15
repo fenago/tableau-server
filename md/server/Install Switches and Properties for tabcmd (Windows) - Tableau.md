@@ -1,38 +1,28 @@
 
-::: {.container--centered}
-::: {.header__mobile-menu}
-::: {.mobile-menu__toggle-btn aria-label="Open mobile menu" role="button" tabindex="0"}
-::: {.mobile-menu__icon-wrapper tabindex="-1"}
+
+
+
+
 []{.mobile-menu__icon}
 :::
 :::
 :::
 
-::: {.header__logo}
+
 [![Tableau](./Install%20Switches%20and%20Properties%20for%20tabcmd%20(Windows)%20-%20Tableau_files/tableau-logo.png){.header__logo__img}](https://www.tableau.com/en-us/)
 :::
 
-::: {.header__search}
-::: {.search-header}
-::: {.search-form__btn-wrapper aria-label="Open search" role="button" tabindex="0"}
-[]{.icon--med .icon--search tabindex="-1"}
-:::
 
-[]{.search-form__close-btn .icon--med .icon--close-window
-aria-label="Close search" role="button" tabindex="-1"
-style="display: none;"}
-:::
-:::
-:::
 
-::: {.container--full-width .subheader .print-hidden .content-only-hidden}
-::: {.container--centered}
-#### Tableau Server on Windows Help {#tableau-server-on-windows-help .heading--subheader}
-:::
-:::
 
-::: {.container--full-width .nav--breadcrumbs}
-::: {.container--centered}
+
+
+
+
+#### Tableau Server on Windows Help 
+
+
+
 <div>
 
 1.  [[]{.icon--med .icon--arrow-left} Tableau
@@ -48,10 +38,10 @@ style="display: none;"}
 :::
 :::
 
-::: {.section--main .container--full-width}
-::: {.container--centered}
-::: {.menu-tree__container}
-::: {.menu-tree}
+
+
+
+
 [ Contents ]{.heading--nav}
 
 -   [Get Started with Tableau
@@ -2549,18 +2539,18 @@ tabcmd installer.
 :::
 :::
 
-::: {.article__footer--back-to-top .text--centered .print-hidden}
+
 [[]{.icon--med .icon--arrow-up} Back to
 top](https://help.tableau.com/current/server/en-us/tabcmd_install_flags.htm#){.text--caps}
 :::
 
-::: {.feedback-form-container .print-hidden .content-only-hidden}
-::: {.loading-overlay}
-::: {.feedback-form__contents--collapsed}
+
+
+
 [ Was this article helpful? ]{#feedback-form__title
 .feedback-form__title}
 
-::: {.feedback-form__button-group}
+
 Yes
 
 No
@@ -2571,19 +2561,19 @@ No
 :::
 :::
 
-::: {.feedback-button-floating .feedback-button-floating--small-screen-hidden aria-hidden="true" style="display: none;"}
-::: {.feedback-button-floating__icon-wrapper}
+
+
 []{.icon--xxl .icon--feedback .feedback-button-floating__icon}
 :::
 :::
 
-::: {.container--centered}
-::: {.footer__links .text--caps}
+
+
 -   [Legal](https://www.tableau.com/en-us/legal)
 -   [Privacy](https://www.tableau.com/en-us/privacy)
 :::
 
-::: {.footer__copyright .text--caps}
+
 © 2003-2020 Tableau Software LLC. All rights reserved
 :::
 :::

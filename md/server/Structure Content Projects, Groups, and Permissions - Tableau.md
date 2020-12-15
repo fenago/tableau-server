@@ -191,10 +191,10 @@ site, and is useful for creating a default set of permissions.
 
     ![](./images/ea_walkthrough_4.png)
 
-::: {.roadsign-container}
+
 ![](./images/road-sign-question.png){.roadsign-img}
 
-::: {classstring="roadsign-heading"}
+
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} Why *removing* some default permissions makes your life easier {#why-remove-all-users-group-permissions}
 :::
 
@@ -238,10 +238,10 @@ Marketing.
 
     ![](./images/ea_walkthrough_8.png)
 
-::: {.roadsign-container}
+
 ![](./images/Road-sign-alert.png){.roadsign-img}
 
-::: {.roadsign-heading}
+
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} Plan your groups and permissions {#plan-your-permissions}
 :::
 
@@ -295,10 +295,10 @@ Always use descriptive, meaningful language for your group names.
 For this walkthrough, you'll add four local users, all of whom you can
 delete when you are finished with this exercise.
 
-::: {.roadsign-container mc-conditions="Product.serverwindows"}
+
 ![](./images/road-sign-question.png){.roadsign-img}
 
-::: {.roadsign-heading}
+
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} What if you're using Active Directory? {#create-users-for-ad}
 :::
 
@@ -501,10 +501,10 @@ though they are still the content owners.
 Now when someone wants to publish to the Marketing project, they cannot
 change the default permissions you set on the server.
 
-::: {.roadsign-container}
+
 ![](./images/road-sign-question.png){.roadsign-img}
 
-::: {.roadsign-heading}
+
 ### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} How does project locking or unlocking affect permissions? {#how-are-default-permissions-used}
 :::
 

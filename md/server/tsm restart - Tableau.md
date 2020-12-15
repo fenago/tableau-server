@@ -4,19 +4,12 @@ tsm restart
 You can use the `tsm restart` command to restart Tableau Server. The
 command stops the server if necessary, and then starts it.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_restart_tsm.htm#){.heading-item__link .print-hidden} Synopsis
-
-</div>
+#### Synopsis
 
 `tsm restart [global options]`
 
-<div>
+#### Option
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_restart_tsm.htm#){.heading-item__link .print-hidden} Option
-
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -25,12 +18,9 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 1800 (30 minutes).
 
-<div>
+Global options
+---------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_restart_tsm.htm#){.heading-item__link .print-hidden} Global options
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 -h, \--help
 
