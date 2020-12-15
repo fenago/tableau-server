@@ -30,7 +30,7 @@ management offers both you and your users.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/web_author_who.htm#){.heading-item__link .print-hidden} Web authoring pros and cons
+####  Web authoring pros and cons
 
 </div>
 
@@ -110,7 +110,7 @@ permissions rules---that grant or deny editing-related access.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/web_author_who.htm#){.heading-item__link .print-hidden} Site role access
+####  Site role access
 
 </div>
 

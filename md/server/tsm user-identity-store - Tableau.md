@@ -39,7 +39,7 @@ Displays identity store group mappings.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -58,7 +58,7 @@ Displays identity store user mappings.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -77,7 +77,7 @@ Lists user-identity configuration.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -87,7 +87,7 @@ tsm user-identity-store list [options] [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -108,7 +108,7 @@ Sets identity store connection parameters.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis3}
+#### Synopsis
 
 </div>
 
@@ -118,7 +118,7 @@ tsm user-identity-store set-connection --kerbkeytab <kerbkeytab> [options] [glob
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -198,7 +198,7 @@ implement an arbitrary or custom schema.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis4}
+#### Synopsis
 
 </div>
 
@@ -208,7 +208,7 @@ tsm user-identity-store set-group-mappings [options] [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -262,7 +262,7 @@ implement an arbitrary or custom schema.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis5}
+#### Synopsis
 
 </div>
 
@@ -272,7 +272,7 @@ tsm user-identity-store set-user-mappings --certificate <certificate> [options] 
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -343,7 +343,7 @@ Validates configuration for LDAP group mapping.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis6}
+#### Synopsis
 
 </div>
 
@@ -353,7 +353,7 @@ tsm user-identity-store verify-group-mappings --verify <group_name> [global opt
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -374,7 +374,7 @@ Validates configuration for LDAP user mapping.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis7}
+#### Synopsis
 
 </div>
 
@@ -384,7 +384,7 @@ tsm user-identity-store verify-user-mappings --verify <user_name> [global optio
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 

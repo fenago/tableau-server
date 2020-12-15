@@ -52,20 +52,12 @@ Cache](https://help.tableau.com/current/server/en-us/config_cache.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
 `tsm data-access caching list [global options]`
 
-</div>
-
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#caching-set}tsm data-access caching set {#tsm-dataaccess-caching-set}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Sets data connection caching settings. To learn more about data
 connection caching settings, see [Configure Data
@@ -73,7 +65,7 @@ Cache](https://help.tableau.com/current/server/en-us/config_cache.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -81,7 +73,7 @@ Cache](https://help.tableau.com/current/server/en-us/config_cache.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -108,7 +100,7 @@ default remote user. This will not disable access from localhost.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -116,7 +108,7 @@ default remote user. This will not disable access from localhost.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -138,15 +130,9 @@ value is 1500 (25 minutes).
 
 Optional.
 
-Suppress the prompt for restart and restart [Tableau
-Server].
+Suppress the prompt for restart and restart [Tableau Server].
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#repository-access-enable}tsm data-access repository-access enable {#tsm-dataaccess-repositoryaccess-enable}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
+**tsm data-access repository-access enable**
 
 Enables access to the Tableau PostgreSQL database.
 
@@ -157,7 +143,7 @@ mapped](https://help.tableau.com/current/server/en-us/ports.htm#PortsNotDynamic)
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis3}
+#### Synopsis
 
 </div>
 
@@ -165,7 +151,7 @@ mapped](https://help.tableau.com/current/server/en-us/ports.htm#PortsNotDynamic)
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -208,7 +194,7 @@ Lists users who have access to the Tableau PostgreSQL database.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis4}
+#### Synopsis
 
 </div>
 
@@ -227,7 +213,7 @@ that provides single sign-on for users making SAP HANA data connections.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis5}
+#### Synopsis
 
 </div>
 
@@ -235,7 +221,7 @@ that provides single sign-on for users making SAP HANA data connections.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -278,7 +264,7 @@ Disable single sign-on for SAML SAP HANA.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis6}
+#### Synopsis
 
 </div>
 
@@ -295,7 +281,7 @@ Enable single sign-on for SAML SAP HANA.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis7}
+#### Synopsis
 
 </div>
 
@@ -312,7 +298,7 @@ Add a web data connector (WDC) to the WDC safe list.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis8}
+#### Synopsis
 
 </div>
 
@@ -320,7 +306,7 @@ Add a web data connector (WDC) to the WDC safe list.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -365,7 +351,7 @@ on Tableau Server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis9}
+#### Synopsis
 
 </div>
 
@@ -373,7 +359,7 @@ on Tableau Server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -401,7 +387,7 @@ Delete a specified WDC, or all WDCs, from the Tableau Server safe list.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis10}
+#### Synopsis
 
 </div>
 
@@ -409,7 +395,7 @@ Delete a specified WDC, or all WDCs, from the Tableau Server safe list.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -436,7 +422,7 @@ List all WDCs currently on the safe list.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis11}
+#### Synopsis
 
 </div>
 
@@ -444,7 +430,7 @@ List all WDCs currently on the safe list.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 

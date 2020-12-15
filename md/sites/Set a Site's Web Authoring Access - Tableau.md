@@ -53,7 +53,7 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/web_author_who
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/web_author_enable.htm#){.heading-item__link .print-hidden} Notes
+####  Notes
 
 </div>
 

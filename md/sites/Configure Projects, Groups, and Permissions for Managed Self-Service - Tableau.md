@@ -123,7 +123,7 @@ challenging part of setting up a site.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} Use a closed permissions model for managed content
+####  Use a closed permissions model for managed content
 
 </div>
 
@@ -247,7 +247,7 @@ projects where you want to allow more open access.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#perms-templates}Create permission rules
+#### Create permission rules
 
 </div>
 
@@ -274,7 +274,7 @@ permissions](https://help.tableau.com/current/server/en-us/permissions.htm#Effec
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} Example
+####  Example
 
 </div>
 
@@ -335,7 +335,7 @@ For each project, you can adjust the default permissions as appropriate.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} Example project structure
+####  Example project structure
 
 </div>
 
@@ -400,7 +400,7 @@ authors a lot of time and keep your reports looking consistent.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} Help project leaders manage content and users find it
+####  Help project leaders manage content and users find it
 
 </div>
 
@@ -519,14 +519,9 @@ with the ways people can refresh extracts:
 Use administrative views to keep an eye on the site's performance and
 content use.
 
-[Administrative
-Views](https://help.tableau.com/current/server/en-us/adminview.htm)
+[Administrative Views](https://help.tableau.com/current/server/en-us/adminview.htm)
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#customer-stories}Learn how Tableau and some of our customers address governance and self-service {#learn-how-tableau-and-some-of-our-customers-address-governance-and-selfservice}
-
-</div>
+#### Learn how Tableau and some of our customers address governance and self-service 
 
 The following list contains links to data governance and Center of
 Excellence (COE) presentations given at the Tableau Conference over

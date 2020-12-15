@@ -105,7 +105,7 @@ the user is a member of.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/user_visibility.htm#){.heading-item__link .print-hidden} Best practices for limiting user visibility
+####  Best practices for limiting user visibility
 
 </div>
 

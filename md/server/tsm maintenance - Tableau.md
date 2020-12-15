@@ -112,7 +112,7 @@ backup file.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -189,7 +189,7 @@ value is 86400 (1440 minutes).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Examples
+####  Examples
 
 </div>
 
@@ -225,7 +225,7 @@ is on the initial node in the cluster.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -331,7 +331,7 @@ Delete all files and subdirectories in the following directories:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Examples {#examples1}
+#### 
 
 </div>
 
@@ -339,16 +339,6 @@ This example cleans up all log files older than 2 days old:
 
 `tsm maintenance cleanup -l --log-files-retention 2`
 
-</div>
-
-<div>
-
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#cat_disable}tsm maintenance metadata-services disable {#tsm-maintenance-metadataservices-disable}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 **Note:** Command added in version 2019.3.
 
@@ -367,7 +357,7 @@ as Recommendations, to be temporarily unavailable to your users.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -378,7 +368,7 @@ as Recommendations, to be temporarily unavailable to your users.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Option
+#### Option
 
 </div>
 
@@ -429,18 +419,15 @@ For more information about the [Tableau Catalog]{.VariablesDM_catalog},
 see, [About Tableau
 Catalog](https://help.tableau.com/current/server/en-us/dm_catalog_overview.htm).
 
-<div>
+#### Synopsis
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis3}
-
-</div>
 
                             tsm maintenance metadata-services enable
                         
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Option {#option1}
+#### Option
 
 </div>
 
@@ -471,7 +458,7 @@ initialized or if the Tableau Metadata API is running or not.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis4}
+#### Synopsis
 
 </div>
 
@@ -497,7 +484,7 @@ the directory permissions.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis5}
+#### Synopsis
 
 </div>
 
@@ -505,7 +492,7 @@ the directory permissions.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Option {#option2}
+#### Option
 
 </div>
 
@@ -563,7 +550,7 @@ if the service is not currently installed.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis6}
+#### Synopsis
 
 </div>
 
@@ -571,7 +558,7 @@ if the service is not currently installed.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Option {#option3}
+#### Option
 
 </div>
 
@@ -649,7 +636,7 @@ index.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis7}
+#### Synopsis
 
 </div>
 
@@ -657,7 +644,7 @@ index.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Option {#option4}
+#### Option
 
 </div>
 
@@ -683,7 +670,7 @@ and rebuilding the search index.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis8}
+#### Synopsis
 
 </div>
 
@@ -691,7 +678,7 @@ and rebuilding the search index.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Option {#option5}
+#### Option
 
 </div>
 
@@ -724,7 +711,7 @@ local authentication.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis9}
+#### Synopsis
 
 </div>
 
@@ -792,12 +779,8 @@ Optional.
 
 Wait the specified amount of time for the command to finish.
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsmSendLogs}tsm maintenance send-logs {#tsm-maintenance-sendlogs}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
+tsm maintenance send-logs 
+---------------------------
 
 Upload the specified file to Tableau and associate it with a support
 case. To successfully upload files to Tableau, your Tableau Server must
@@ -806,7 +789,7 @@ be able to communicate with the send-logs server at
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis10}
+#### Synopsis
 
 </div>
 
@@ -866,7 +849,7 @@ Store](https://help.tableau.com/current/server/en-us/server_external_filestore_s
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis11}
+#### Synopsis
 
 </div>
 
@@ -910,7 +893,7 @@ Store](https://help.tableau.com/current/server/en-us/server_external_filestore_s
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis12}
+#### Synopsis
 
 </div>
 
@@ -950,7 +933,7 @@ Store](https://help.tableau.com/current/server/en-us/server_external_filestore_s
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis13}
+#### Synopsis
 
 </div>
 
@@ -985,7 +968,7 @@ problems might require assistance from Tableau Support.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis14}
+#### Synopsis
 
 </div>
 
@@ -1026,7 +1009,7 @@ Server] log files.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis15}
+#### Synopsis
 
 </div>
 

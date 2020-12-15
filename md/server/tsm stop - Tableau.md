@@ -7,7 +7,7 @@ Server is already stopped, this command does nothing.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_stop_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -15,7 +15,7 @@ Server is already stopped, this command does nothing.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_stop_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 

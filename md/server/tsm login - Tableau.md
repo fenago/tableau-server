@@ -13,7 +13,7 @@ CLI](https://help.tableau.com/current/server/en-us/tsm.htm#Authenti).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_login.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 

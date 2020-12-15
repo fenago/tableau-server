@@ -133,7 +133,7 @@ in projects where permissions are managed by the owner.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/Request_access.htm#){.heading-item__link .print-hidden} []{#contentpermissions}Set permissions on content
+#### Set permissions on content
 
 </div>
 
@@ -155,7 +155,7 @@ in projects where permissions are managed by the owner.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/Request_access.htm#){.heading-item__link .print-hidden} Set permissions on a view
+####  Set permissions on a view
 
 </div>
 

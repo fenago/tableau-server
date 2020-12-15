@@ -110,7 +110,7 @@ site role allows.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_site_roles.htm#){.heading-item__link .print-hidden} What this article covers and where to find what's not covered here {#what-this-article-covers-and-where-to-find-what’s-not-covered-here}
+####  What this article covers and where to find what's not covered here
 
 </div>
 
@@ -137,7 +137,7 @@ site role allows.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_site_roles.htm#){.heading-item__link .print-hidden} Tableau site roles as of version 2018.1 {#tableau-site-roles-as-of-version-20181}
+####  Tableau site roles as of version 2018.1 
 
 </div>
 

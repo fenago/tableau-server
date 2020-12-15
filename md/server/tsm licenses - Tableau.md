@@ -43,7 +43,7 @@ Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -51,7 +51,7 @@ Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -90,7 +90,7 @@ Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -98,7 +98,7 @@ Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -128,7 +128,7 @@ License](https://help.tableau.com/current/server/en-us/activate_off.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -163,7 +163,7 @@ Offline](https://help.tableau.com/current/server/en-us/deactivate_off.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis3}
+#### Synopsis
 
 </div>
 
@@ -171,7 +171,7 @@ Offline](https://help.tableau.com/current/server/en-us/deactivate_off.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -261,7 +261,7 @@ The following fields are returned:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis4}
+#### Synopsis
 
 </div>
 
@@ -286,7 +286,7 @@ Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis5}
+#### Synopsis
 
 </div>
 

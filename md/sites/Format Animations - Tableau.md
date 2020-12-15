@@ -33,7 +33,7 @@ simultaneous or sequential. Here are examples of each type.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/formatting_animations.htm#){.heading-item__link .print-hidden} Simultaneous animations
+####  Simultaneous animations
 
 </div>
 
@@ -45,7 +45,7 @@ showing value changes in simpler charts and dashboards.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/formatting_animations.htm#){.heading-item__link .print-hidden} Sequential animations
+####  Sequential animations
 
 </div>
 

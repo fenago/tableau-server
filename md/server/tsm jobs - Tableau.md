@@ -24,7 +24,7 @@ when they are already running.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -32,7 +32,7 @@ when they are already running.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -53,7 +53,7 @@ List asynchronous jobs on the server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -61,7 +61,7 @@ List asynchronous jobs on the server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -83,7 +83,7 @@ is specified, it reconnects to the latest job.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -91,7 +91,7 @@ is specified, it reconnects to the latest job.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 

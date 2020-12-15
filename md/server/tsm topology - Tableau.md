@@ -69,7 +69,7 @@ deployment fails.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -77,7 +77,7 @@ deployment fails.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Option
+#### Option
 
 </div>
 
@@ -116,7 +116,7 @@ command separately.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -124,7 +124,7 @@ command separately.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -160,7 +160,7 @@ Server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -201,7 +201,7 @@ uses SAN or NAS to store File Store data.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis3}
+#### Synopsis
 
 </div>
 
@@ -245,7 +245,7 @@ These externally configured services are in use by Tableau Server:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis4}
+#### Synopsis
 
 </div>
 
@@ -253,7 +253,7 @@ These externally configured services are in use by Tableau Server:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Option {#option1}
+#### Option
 
 </div>
 
@@ -273,7 +273,7 @@ and configure Tableau Server to use the local repository.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis5}
+#### Synopsis
 
 </div>
 
@@ -281,7 +281,7 @@ and configure Tableau Server to use the local repository.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Option {#option2}
+#### Option
 
 </div>
 
@@ -315,7 +315,7 @@ repository after the migration is complete.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis6}
+#### Synopsis
 
 </div>
 
@@ -377,7 +377,7 @@ This command can be used in the following scenarios:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis7}
+#### Synopsis
 
 </div>
 
@@ -444,7 +444,7 @@ failover-repository command to manually fail over the repository.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis8}
+#### Synopsis
 
 </div>
 
@@ -493,7 +493,7 @@ If decommissioning results in a single file store node, you must use the
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis9}
+#### Synopsis
 
 </div>
 
@@ -548,7 +548,7 @@ decommissioned nodes back to read-write mode.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis10}
+#### Synopsis
 
 </div>
 
@@ -579,7 +579,7 @@ node.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis11}
+#### Synopsis
 
 </div>
 
@@ -614,7 +614,7 @@ Display the ports in the cluster.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis12}
+#### Synopsis
 
 </div>
 
@@ -663,7 +663,7 @@ operations](https://help.tableau.com/current/server/en-us/security_secret_storag
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis13}
+#### Synopsis
 
 </div>
 
@@ -729,7 +729,7 @@ on it, run `tsm pending-changes apply`, and then remove the node.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis14}
+#### Synopsis
 
 </div>
 
@@ -771,7 +771,7 @@ pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-chang
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis15}
+#### Synopsis
 
 </div>
 
@@ -843,7 +843,7 @@ Set the ports for a service instance.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis16}
+#### Synopsis
 
 </div>
 
@@ -922,7 +922,7 @@ Processes](https://help.tableau.com/current/server/en-us/processes.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis17}
+#### Synopsis
 
 </div>
 
@@ -979,7 +979,7 @@ new ensemble. There is no need to run this command separately.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis18}
+#### Synopsis
 
 </div>
 
@@ -989,7 +989,7 @@ tsm topology toggle-coordination-service [option] [global options]
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Option {#option3}
+#### Option
 
 </div>
 

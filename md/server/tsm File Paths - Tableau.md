@@ -8,7 +8,7 @@ variables defined for each command. You can use tsm to view the current
 value of the variables, and to change the locations.
 
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm#){.heading-item__link .print-hidden} NetworkService system account
+####  NetworkService system account
 :::
 
 In some organizations, security policies are implemented that restrict

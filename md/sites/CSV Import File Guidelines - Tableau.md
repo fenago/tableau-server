@@ -121,7 +121,7 @@ for a field, you must still include the field's comma delimiter.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/csvguidelines.htm#){.heading-item__link .print-hidden} []{#improve-performance-large-csv}Improve performance for large CSV files passed through tabcmd
+#### Improve performance for large CSV files passed through tabcmd
 
 </div>
 
@@ -150,7 +150,7 @@ Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/csvguidelines.htm#){.heading-item__link .print-hidden} Notes
+####  Notes
 
 </div>
 
@@ -236,7 +236,7 @@ The following table shows how the settings are converted to site roles.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/csvguidelines.htm#){.heading-item__link .print-hidden} CSV import example for Tableau Server
+####  CSV import example for Tableau Server
 
 </div>
 

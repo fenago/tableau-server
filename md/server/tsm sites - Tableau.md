@@ -133,7 +133,7 @@ the `tsm sites unlock` command.
 
 <div>
 
-#### Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -203,7 +203,7 @@ migration process.
 
 <div>
 
-#### Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 

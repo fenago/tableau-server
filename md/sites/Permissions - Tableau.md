@@ -253,7 +253,7 @@ rules only apply to that piece of content.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} Templates
+####  Templates
 
 </div>
 
@@ -275,7 +275,7 @@ show [Custom].
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} Copy and paste permissions
+####  Copy and paste permissions
 
 </div>
 
@@ -295,7 +295,7 @@ status.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} Capabilities
+####  Capabilities
 
 </div>
 
@@ -585,7 +585,7 @@ from the parent project.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#projectpermissions}Project administration
+#### Project administration
 
 </div>
 
@@ -634,7 +634,7 @@ Them](https://help.tableau.com/current/server/en-us/projects_add.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#Set}Set a project leader
+#### Set a project leader
 
 </div>
 
@@ -680,7 +680,7 @@ capabilities set like any other group or user.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#LockProject}Lock content permissions
+#### Lock content permissions
 
 </div>
 
@@ -906,11 +906,8 @@ conditions are all met:
 
 Any other situation denies the user the capability.
 
-<div>
+#### Evaluate permission rules
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#EvaluatePermRules}Evaluate permission rules
-
-</div>
 
 Permissions in Tableau are restrictive. Unless a capability is granted
 to a user, they are denied permission. The following logic evaluates if
@@ -976,7 +973,7 @@ circumstances:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} Evaluate permissions set at multiple levels
+####  Evaluate permissions set at multiple levels
 
 </div>
 
@@ -1244,7 +1241,7 @@ necessary permission configurations
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#SaveSaveAs}Saving, publishing, and overwriting
+#### Saving, publishing, and overwriting
 
 </div>
 
@@ -1296,7 +1293,7 @@ copy.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#webauthor}Web Editing and Web Authoring
+#### Web Editing and Web Authoring
 
 </div>
 
@@ -1361,7 +1358,7 @@ functionality]{.caption}
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#PublishedData}Data access for published Tableau data sources
+#### Data access for published Tableau data sources
 
 </div>
 
@@ -1417,7 +1414,7 @@ edit, the user must have their own Connect capability.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#MoveContent}Move content
+#### Move content
 
 </div>
 
@@ -1458,7 +1455,7 @@ When a project is moved, the permissions for its content might change.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#metricperms}Metrics {#metrics}
+#### 
 
 </div>
 
@@ -1503,7 +1500,7 @@ the content permissions for the project.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#sheettabs}Show or Hide Sheet Tabs
+#### Show or Hide Sheet Tabs
 
 </div>
 

@@ -45,7 +45,7 @@ applied without a prompt.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -53,7 +53,7 @@ applied without a prompt.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -90,7 +90,7 @@ Server].
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -98,7 +98,7 @@ Server].
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -134,7 +134,7 @@ Changes](https://help.tableau.com/current/server/en-us/server_process_hot_topo.h
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -142,7 +142,7 @@ Changes](https://help.tableau.com/current/server/en-us/server_process_hot_topo.h
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 

@@ -13,7 +13,7 @@ account in the directory.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_reset_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -21,7 +21,7 @@ account in the directory.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_reset_tsm.htm#){.heading-item__link .print-hidden} Option
+#### Option
 
 </div>
 

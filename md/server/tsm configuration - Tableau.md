@@ -51,7 +51,7 @@ View the current server configuration and topology.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -59,7 +59,7 @@ View the current server configuration and topology.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} Option
+#### Option
 
 </div>
 
@@ -85,7 +85,7 @@ View all the configuration keys that can be configured dynamically
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -117,7 +117,7 @@ pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-chang
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -125,7 +125,7 @@ pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-chang
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 

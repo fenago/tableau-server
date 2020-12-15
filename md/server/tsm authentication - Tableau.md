@@ -49,7 +49,7 @@ Kerberos](https://help.tableau.com/current/server/en-us/config_kerberos.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -61,7 +61,7 @@ Kerberos](https://help.tableau.com/current/server/en-us/config_kerberos.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options for kerberos configure
+#### Options for kerberos configure
 
 </div>
 
@@ -83,7 +83,7 @@ settings.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -91,7 +91,7 @@ settings.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -120,7 +120,7 @@ Server](https://help.tableau.com/current/server/en-us/ssl_config.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -130,11 +130,8 @@ Server](https://help.tableau.com/current/server/en-us/ssl_config.htm).
 
 `tsm authentication mutual-ssl enable [global options]`
 
-<div>
+#### Options
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
-
-</div>
 
 -cf, \--ca-cert \<certificate-file.crt\>
 
@@ -184,7 +181,7 @@ on [Tableau Server].
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis3}
+#### Synopsis
 
 </div>
 
@@ -323,7 +320,7 @@ Server] and the identity provider (IdP).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Available commands
+####  Available commands
 
 </div>
 
@@ -356,7 +353,7 @@ SAML](https://help.tableau.com/current/server/en-us/config_saml.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis4}
+#### Synopsis
 
 </div>
 
@@ -364,7 +361,7 @@ SAML](https://help.tableau.com/current/server/en-us/config_saml.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -468,7 +465,7 @@ specify an absolute or a relative URL.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Example
+####  Example
 
 </div>
 
@@ -487,7 +484,7 @@ provider.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis5}
+#### Synopsis
 
 </div>
 
@@ -507,7 +504,7 @@ configure the SAML IdP.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis6}
+#### Synopsis
 
 </div>
 
@@ -515,7 +512,7 @@ configure the SAML IdP.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -548,7 +545,7 @@ that the IdP uses for the attribute specified in each argument.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis7}
+#### Synopsis
 
 </div>
 
@@ -556,7 +553,7 @@ that the IdP uses for the attribute specified in each argument.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -579,7 +576,7 @@ Not implemented. Do not use.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Example for saml map-assertions {#example-for-saml-mapassertions}
+####  Example for saml map-assertions 
 
 </div>
 
@@ -606,7 +603,7 @@ SAML](https://help.tableau.com/current/server/en-us/saml_site_specific.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis8}
+#### Synopsis
 
 </div>
 
@@ -639,7 +636,7 @@ not supported in these scenarios.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis9}
+#### Synopsis
 
 </div>
 
@@ -664,7 +661,7 @@ authentication on [Tableau Server].
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis10}
+#### Synopsis
 
 </div>
 
@@ -672,7 +669,7 @@ authentication on [Tableau Server].
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 

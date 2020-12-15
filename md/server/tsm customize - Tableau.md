@@ -50,7 +50,7 @@ Service](https://help.tableau.com/current/server/en-us/server_process_cfs.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_customize.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -63,7 +63,7 @@ command to apply changes:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_customize.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 

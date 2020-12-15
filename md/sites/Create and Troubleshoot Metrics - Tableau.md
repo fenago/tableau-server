@@ -121,7 +121,7 @@ Items](https://help.tableau.com/current/pro/desktop/en-us/qs_content_page.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} []{#overwrite}Overwrite a metric
+#### Overwrite a metric
 
 </div>
 
@@ -138,7 +138,7 @@ permissions for the previous metric will apply to the new metric.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} []{#when-you-cant}When you can't create a metric {#when-you-can’t-create-a-metric}
+#### 
 
 </div>
 
@@ -262,7 +262,7 @@ View] under Metric Details.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} If the connected view is still listed
+####  If the connected view is still listed
 
 </div>
 
@@ -276,7 +276,7 @@ Open the view to investigate the cause of the failure.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} If there is no connected view listed
+####  If there is no connected view listed
 
 </div>
 

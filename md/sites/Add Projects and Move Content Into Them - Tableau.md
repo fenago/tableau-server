@@ -87,11 +87,8 @@ recommend becoming familiar with the following related content as well:
     Moving a project includes moving everything in it, including child
     projects and their content.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_add.htm#){.heading-item__link .print-hidden} []{#move-project}How moving projects affect permissions {#how-moving-projects-affect--permissions}
-
-</div>
+#### How moving projects affect permissions
 
 When you move a project, Project Leader permissions adapt to the new
 project environment.
@@ -159,7 +156,7 @@ project.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_add.htm#){.heading-item__link .print-hidden} Required site role
+####  Required site role
 
 </div>
 
@@ -176,7 +173,7 @@ need any additional capabilities.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_add.htm#){.heading-item__link .print-hidden} Required permissions for the project that users move content *to*
+####  Required permissions for the project that users move content *to*
 
 </div>
 
@@ -185,7 +182,7 @@ capability for the project that is the move destination.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_add.htm#){.heading-item__link .print-hidden} Required permissions for the project that users move content *from*
+####  Required permissions for the project that users move content *from*
 
 </div>
 

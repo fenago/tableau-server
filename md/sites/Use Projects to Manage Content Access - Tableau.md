@@ -58,7 +58,7 @@ Advantages they have include:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects.htm#){.heading-item__link .print-hidden} When to create project hierarchies (example)
+####  When to create project hierarchies (example)
 
 </div>
 
@@ -138,7 +138,7 @@ Leader permissions is available to users with a [Creator] or
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects.htm#){.heading-item__link .print-hidden} Project ownership and project leader access in project hierarchies
+####  Project ownership and project leader access in project hierarchies
 
 </div>
 
@@ -161,7 +161,7 @@ permissions are locked.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects.htm#){.heading-item__link .print-hidden} []{#project-actions}Actions project-level administrators can take on projects {#actions-projectlevel-administrators-can-take-on-projects}
+#### Actions project-level administrators can take on projects
 
 </div>
 

@@ -130,7 +130,7 @@ Service](https://help.tableau.com/current/server/en-us/server_process_cfs.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -138,7 +138,7 @@ Service](https://help.tableau.com/current/server/en-us/server_process_cfs.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -163,7 +163,7 @@ to add a new custom certificate.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis1}
+#### Synopsis
 
 </div>
 
@@ -184,7 +184,7 @@ List details of custom certificate.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis2}
+#### Synopsis
 
 </div>
 
@@ -208,7 +208,7 @@ encrypting traffic between external clients and the server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis3}
+#### Synopsis
 
 </div>
 
@@ -228,7 +228,7 @@ communication.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis4}
+#### Synopsis
 
 </div>
 
@@ -236,7 +236,7 @@ communication.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -312,7 +312,7 @@ use, but not their location.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis5}
+#### Synopsis
 
 </div>
 
@@ -340,7 +340,7 @@ System](https://help.tableau.com/current/server/en-us/security_kms.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis6}
+#### Synopsis
 
 </div>
 
@@ -348,7 +348,7 @@ System](https://help.tableau.com/current/server/en-us/security_kms.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -366,7 +366,7 @@ window)]{.sr-only}](https://docs.aws.amazon.com/general/latest/gr/rande.html).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Example
+####  Example
 
 </div>
 
@@ -390,7 +390,7 @@ System](https://help.tableau.com/current/server/en-us/security_kms.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis7}
+#### Synopsis
 
 </div>
 
@@ -429,7 +429,7 @@ The following is returned:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis8}
+#### Synopsis
 
 </div>
 
@@ -466,7 +466,7 @@ flow](https://help.tableau.com/current/prep/en-us/prep_scripts._R.htm#configure-
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis9}
+#### Synopsis
 
 </div>
 
@@ -474,7 +474,7 @@ flow](https://help.tableau.com/current/prep/en-us/prep_scripts._R.htm#configure-
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -533,7 +533,7 @@ flow](https://help.tableau.com/current/prep/en-us/prep_scripts_TabPy.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis10}
+#### Synopsis
 
 </div>
 
@@ -541,7 +541,7 @@ flow](https://help.tableau.com/current/prep/en-us/prep_scripts_TabPy.htm).
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -621,7 +621,7 @@ Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.h
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis11}
+#### Synopsis
 
 </div>
 
@@ -629,7 +629,7 @@ Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.h
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -657,7 +657,7 @@ clients.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis12}
+#### Synopsis
 
 </div>
 
@@ -679,7 +679,7 @@ direct connections from Tableau clients to the server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis13}
+#### Synopsis
 
 </div>
 
@@ -687,7 +687,7 @@ direct connections from Tableau clients to the server.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -726,7 +726,7 @@ client.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis14}
+#### Synopsis
 
 </div>
 
@@ -734,7 +734,7 @@ client.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -758,7 +758,7 @@ Returns the existing repository (Postgres) SSL configuration.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Synopsis {#synopsis15}
+#### Synopsis
 
 </div>
 

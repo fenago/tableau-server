@@ -65,7 +65,7 @@ Adds users to the specified group.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Options
+#### Options
 
 </div>
 
@@ -880,7 +880,7 @@ waits for all operations to complete before proceeding). You can use the
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Improving performance for large CSV files
+####  Improving performance for large CSV files
 
 </div>
 
@@ -891,7 +891,7 @@ tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Local authentication
+####  Local authentication
 
 </div>
 
@@ -900,7 +900,7 @@ in the CSV file is used to create users.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Active Directory authentication
+####  Active Directory authentication
 
 </div>
 
@@ -1128,18 +1128,13 @@ licenses for your users, the user is added as an unlicensed user.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Local authentication {#local-authentication1}
-
-</div>
+####  Local authentication
 
 If the server is configured to use local authentication, the information
 in the CSV file is used to create users.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Active Directory authentication {#active-directory-authentication1}
-
-</div>
+####  Active Directory authentication 
 
 If the server is configured to use Active Directory authentication, user
 information is imported from Active Directory, and password and friendly
@@ -1960,7 +1955,7 @@ call.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Option
+#### Option
 
 </div>
 
@@ -2253,7 +2248,7 @@ from Active Directory.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Improving performance for large CSV files {#improving-performance-for-large-csv-files1}
+####  Improving performance for large CSV files
 
 </div>
 
@@ -4476,7 +4471,7 @@ required value for the `export` command.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Description
+####  Description
 
 </div>
 
@@ -4485,7 +4480,7 @@ existing samples will be overwritten.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} Syntax
+####  Syntax
 
 </div>
 

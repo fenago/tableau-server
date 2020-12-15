@@ -83,7 +83,7 @@ will not require you to enter a password if the following are true:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} Logging into tsm CLI locally
+####  Logging into tsm CLI locally
 
 </div>
 
@@ -95,7 +95,7 @@ specify a password. In this case, just run the command, for example:
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} Logging into tsm CLI remotely
+####  Logging into tsm CLI remotely
 
 </div>
 
@@ -141,7 +141,7 @@ category.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} Synopsis
+#### Synopsis
 
 </div>
 
@@ -149,7 +149,7 @@ category.
 
 <div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} Commands
+####  Commands
 
 </div>
 
