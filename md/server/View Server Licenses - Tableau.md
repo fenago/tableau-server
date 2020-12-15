@@ -1,0 +1,62 @@
+
+
+View Server Licenses
+====================
+
+::: {.caption .article__tags .content-only-hidden}
+[Version: 2020.3]{.article__tags--version}\
+[]{.article__tags--applies-to}\
+[]{.article__tags--role}
+:::
+
+::: {#content-body}
+::: {#mc-main-content role="main"}
+Server administrators can view the license and product key information
+for [Tableau Server]{.VariablesProductName}.
+
+<div>
+
+[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/view_licenses.htm#){.heading-item__link .print-hidden} Viewing licenses from the [Tableau Server]{.VariablesProductName} web UI
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+</div>
+
+How you navigate to the Licenses page in [Tableau
+Server]{.VariablesProductName} depends on whether you have a single
+site, or multiple sites.
+
+-   On a server with a single site, click [Settings]{.uicontrol} and
+    [Licenses]{.uicontrol}:
+
+-   On a multi-site server, click [Manage all sites]{.uicontrol} on the
+    site menu, [Settings]{.uicontrol}, and [Licenses]{.uicontrol}:
+
+    **Note:** The [Manage all sites ]{.uicontrol}option only displays
+    when you are signed in as a server administrator.
+
+This page displays information for any licenses that have been activated
+on your server, including any user-based (term) or core-based licenses.
+
+::: {.tabs__wrapper .tab-list}
+-   [Use the TSM web
+    interface](https://help.tableau.com/current/server/en-us/view_licenses.htm#use-the-tsm-web-interface){#use-the-tsm-web-interface
+    .tabs__tab-link .is-active}
+-   [Use the TSM
+    CLI](https://help.tableau.com/current/server/en-us/view_licenses.htm#use-the-tsm-cli){#use-the-tsm-cli
+    .tabs__tab-link}
+
+::: {.tabs__tab-content role="tabpanel"}
+::: {.tab-item .tab-item style=""}
+1.  Open TSM in a browser:
+
+    http://\<tsm-computer-name\>:8850
+
+2.  Click **Configuration** , and then click [Licensing ]{.uicontrol}:
+
+    The table displays the product key, expiration date, and expiration
+    of maintenance.
+
+    **Note**: The TSM Web UI provides a limited amount of licensing
+    information. Use the TSM CLI or the Tableau Server Web UI to see
+    additional licensing information, including the number of each type
+    of user-based license (Creator, Explorer and Viewer).
