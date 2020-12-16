@@ -11,17 +11,15 @@ configured your server to use Active Directory identity store or local
 identity store.
 
 Unless you are running with a Guest user (someone who can see views but
-can't interact with them, as we mentioned
-[earlier](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm)
-in this guide), anyone who accesses your Tableau Server has to sign
-in---that is, be authenticated. Tableau Server stores information about
+can't interact with them, anyone who accesses your Tableau Server has to sign
+in --- that is, be authenticated. Tableau Server stores information about
 users, and when someone signs in, they have to be identified as one of
 the users who's defined on the server.
 
 
 
 About users, groups, and sign-in
------------------------------------------------------------------------------------------
+---------------------------------
 
 
 There are two ways to create users in Tableau Server. If the server is
@@ -373,17 +371,3 @@ window)]](https://help.tableau.com/current/server/en-us/users_import.htm)
 in the Tableau Server Help.
 
 
-
-Back up your server
-----------------------------------------------------------------------------
-
-
-Now that you have users on your Tableau Server, you should do a backup.
-Our backup process is quick and straightforward. We made it that way so
-that you can easily perform backups as part of a regular server
-maintenance rhythm. For a refresher on how to perform backups, see
-[Backing Up Tableau
-Server](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_backup.htm).
-
-Continue to [Structure Content Projects, Groups, and
-Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm).

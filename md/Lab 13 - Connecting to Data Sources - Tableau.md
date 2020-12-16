@@ -591,16 +591,7 @@ server. At the same time, heavy use of live connections, especially with
 complex workbooks, can stress traditional databases. Therefore, you\'ll
 need to make sure that the Tableau Server processes are appropriately
 scaled for heavy use of live connections and your databases are up to
-the task of the query load from Tableau Server. (For information about
-tuning your server, see the [Notifications, Monitoring, and
-Tuning](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm) chapter.)
-
-Remember that the results from queries using live connections might be
-cached on the server. Therefore, if you require true real-time data,
-make sure that you configure the cache to refresh more often, as we
-discussed earlier under [Configure data connection
-caching](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#about-data-connection-caching).
-
+the task of the query load from Tableau Server.
 
 
 ###  Guiding principle: If a workbook contains sensitive data, use a live connection 
@@ -643,17 +634,3 @@ close, you can use the data to guide you in possible ways to improve
 performance. For example, filtering to use only the subset of data that
 is required by the workbook might give you an obvious winner.
 
-Here are some links to the Tableau Help and the Tableau Server Help for
-information about how to run and interpret a performance recording:
-
--   Tableau Desktop: [Record and Analyze Workbook Performance[(Link
-    opens in a new
-    window)]](https://help.tableau.com/current/pro/desktop/en-us/help.htm#perf_record_create_desktop.html).
-
--   Tableau Server: [Create a Performance Recording[(Link opens in a new
-    window)]](https://help.tableau.com/current/server/en-us/help.htm#perf_record_create_server.htm)
-    and [Interpret a Performance Recording[(Link opens in a new
-    window)]](https://help.tableau.com/current/server/en-us/help.htm#perf_record_interpret_server.htm).
-
-Continue to [Notifications, Monitoring, and
-Tuning](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm).

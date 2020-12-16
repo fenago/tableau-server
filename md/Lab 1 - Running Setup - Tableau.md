@@ -395,97 +395,7 @@ Strictly speaking, no, there are five different paths to administrating
 Tableau Server. The table here should clear it up. (The first two tools
 should be all you need.)
 
-+-----------------+-------------------------+--------------------------+
-| Admin tool      | used for\...            | Account needed? How do I |
-|                 |                         | access it?               |
-+=================+=========================+==========================+
-| Tableau Server  | Tableau-specific tasks  | Use the account that you |
-| Admin Pages     | relating to content.    | just created in the last |
-|                 | Creating and managing:  | step above.              |
-|                 | users, groups,          |                          |
-|                 | projects, sites,        | See [Sign in to Tableau  |
-|                 | permissions, etc.       | Server Admin Pages[(Link |
-|                 |                         | opens in a new           |
-|                 |                         | window)]](     |
-|                 |                         | https://help.tableau.com |
-|                 |                         | /current/server/en-us/si |
-|                 |                         | gn_in_server_admin.htm). |
-+-----------------+-------------------------+--------------------------+
-| TSM Web UI      | This is the tool that   | Any account that has     |
-|                 | you used to setup and   | administrative rights on |
-|                 | configure Tableau       | the local computer where |
-|                 | Server. The kinds of    | Tableau Server is        |
-|                 | configurations that you | running can access       |
-|                 | make with TSM relate to | TSM Web UI.              |
-|                 | server settings. For    |                          |
-|                 | example, if you decide  | See [Sign in to Tableau  |
-|                 | to enable SAML, or      | Services Manager Web     |
-|                 | configure more          | UI[(Link opens in a new  |
-|                 | processes for Tableau   | window)]{.s              |
-|                 | Server components,      | r-only}](https://help.ta |
-|                 | you\'ll be using the    | bleau.com/current/server |
-|                 | TSM Web UI.             | /en-us/sign_in_tsm.htm). |
-|                 |                         |                          |
-|                 | If you\'re familiar     |                          |
-|                 | with older versions of  |                          |
-|                 | Tableau Server, then    |                          |
-|                 | think of TSM Web UI as  |                          |
-|                 | a replacement for the   |                          |
-|                 | Tableau Server          |                          |
-|                 | Configuration Utility.  |                          |
-+-----------------+-------------------------+--------------------------+
-| TSM Command     | This is a shell version | Any account that has     |
-| Line Interface  | of the TSM Web UI. If   | administrative rights on |
-| (CLI)           | you are comfortable in  | the local computer where |
-|                 | the command line, then  | Tableau Server is        |
-|                 | this is the tool for    | running can use TSM CLI  |
-|                 | you. The TSM CLI has    | to manage the server.    |
-|                 | access to all           |                          |
-|                 | configurable components | See [tsm command line    |
-|                 | of Tableau Services     | reference[(Link opens in |
-|                 | Manager, whereas the    | a new                    |
-|                 | TSM Web UI is a subset. | win                      |
-|                 |                         | dow)]](https:/ |
-|                 | If you\'re a CLI user   | /help.tableau.com/curren |
-|                 | and you are familiar    | t/server/en-us/tsm.htm). |
-|                 | with older versions of  |                          |
-|                 | Tableau Server, then    |                          |
-|                 | think of TSM CLI as a   |                          |
-|                 | replacement for         |                          |
-|                 | tabadmin cli tool.      |                          |
-+-----------------+-------------------------+--------------------------+
-| tabcmd          | You can use the tabcmd  | Use the same account for |
-|                 | command-line utility to | tabcmd that you use for  |
-|                 | automate site           | Tableau Server. Using    |
-|                 | administration tasks on | this account, you will   |
-|                 | your Tableau Server     | have the same            |
-|                 | site. For example,      | permissions to sites and |
-|                 | creating or deleting    | content as you do when   |
-|                 | users, projects, and    | you sign in to Tableau.  |
-|                 | groups.                 |                          |
-|                 |                         | See [tabcmd[(Link opens  |
-|                 |                         | in a new                 |
-|                 |                         | window                   |
-|                 |                         | )]](https://he |
-|                 |                         | lp.tableau.com/current/s |
-|                 |                         | erver/en-us/tabcmd.htm). |
-+-----------------+-------------------------+--------------------------+
-| APIs and        | There\'s a REST API,    | Account requirements     |
-| developer tools | there\'s an Extract     | depend on what you\'re   |
-|                 | API, there\'s a Web     | building.                |
-|                 | Data Connector, and     |                          |
-|                 | there are tools and     | Start here: [Tableau     |
-|                 | samples on GitHub.      | Developer Tools[(Link    |
-|                 | These tools and APIs    | opens in a new           |
-|                 | represent a huge        | window)                  |
-|                 | potential for           | ]](https://www |
-|                 | automating, extending,  | .tableau.com/developer). |
-|                 | customizing, and        |                          |
-|                 | optimizing Tableau      |                          |
-|                 | Server for the data     |                          |
-|                 | nerds in your           |                          |
-|                 | organization.           |                          |
-+-----------------+-------------------------+--------------------------+
+![](./images/1.png)
 
 
 Your server is installed!
@@ -502,9 +412,7 @@ to the server from Tableau Desktop.
 But before you roll out Tableau Server to all colleagues, you must
 perform a few more steps. First: back up your server. Even though you
 don\'t have any users or data on your Tableau Server, you should do a
-quick back up. Our back up is quick and straightforward. The next
-chapter, [Backing Up Tableau
-Server](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_backup.htm), provides the essential steps.
+quick back up. Our back up is quick and straightforward.
 
 After you back up the server, you\'ll probably want to secure access to
 your server by configuring SSL and (optionally) providing secure access

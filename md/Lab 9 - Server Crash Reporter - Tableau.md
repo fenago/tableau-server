@@ -45,10 +45,5 @@ The files can contain data that includes:
 -   Tableau information including customer-identifiable information.
 
 
-##### Other articles in this section
---------------------------------------------------------------------------------------------------------------
 
-
--   [Configure Server Crash
-    Reporter](https://help.tableau.com/current/server/en-us/crashdata_server_config_keys.htm)
 

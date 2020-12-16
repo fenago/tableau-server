@@ -18,18 +18,6 @@ server user can be added to multiple sites). Each site's content
 (projects, workbooks, and data sources) is completely segregated from
 content on other sites.
 
-If you are a server administrator on your [Tableau
-Server] deployment, you can learn more about
-sites, when to use them (vs. projects), and more in [Sites
-Overview[(Link opens in a new
-window)]](https://help.tableau.com/current/server/en-us/sites_intro.htm "Opens topic in a new browser tab"),
-in the **Manage Server** section.
-
-**Note:** This article pertains to configuring sites on [Tableau
-Server] deployments. For Tableau Online, see
-[Site Administrator Role and Tasks[(Link opens in a new
-window)]](https://help.tableau.com/current/online/en-us/to_site_startup.htm "Open Tableau Online help in a new browser tab.").
-
 
 
 ##### Site administrator tasks
@@ -72,9 +60,6 @@ roles allow this level of access):
 
 -   Monitoring site activity.
 
-For more information about the distinction between server administrator
-and site administrator, see [Administrator-level access to
-sites](https://help.tableau.com/current/server/en-us/sites_intro.htm#admin-access-sites), in the **Manage Server** section.
 
 
 
