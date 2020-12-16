@@ -24,12 +24,11 @@ a *content management* framework that meets the following goals:
 permissions and projects work the same on Tableau Online, so you can use
 most of these guidelines for your Tableau Online site as well.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#groups-projects-perms-content-core}Groups, projects, and permissions: at the core of content management {#overview-of-tableau-permissions}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+[]{#groups-projects-perms-content-core}Groups, projects, and permissions: at the core of content management
+--------------------------------------------------------------------------
+
 
 To set up a successful Tableau Server content environment, you
 coordinate the following pieces:
@@ -52,22 +51,15 @@ coordinate the following pieces:
     of permissions roles. We'll take advantage of these in the
     walkthrough later.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#groups-for-access-type}Use groups to keep permissions manageable
-
-</div>
+### Use groups to keep permissions manageable
 
 We *strongly recommend* that you organize users into groups. You can
 then set permissions at the group level, to apply a set of capabilities
 to all users in the group. When you get a new Tableau user, just add
 them to the groups that give the access they need.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#projects-for-self-service}Use projects to separate content categories
-
-</div>
+### Use projects to separate content categories
 
 While publishing content, the publisher must select the project on
 Tableau Server in which to put their content. You use projects to keep
@@ -83,14 +75,13 @@ projects they need to work with.
 You can also create project hierarchies to sub-divide content within a
 top-level category. To learn more, see [Use Projects to Manage Content
 Access[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server/en-us/projects.htm "Opens topic in a new browser tab").
+window)]](https://help.tableau.com/current/server/en-us/projects.htm "Opens topic in a new browser tab").
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#permissions-group-example}Project permissions on functional groups (example) {#perms-groups-functional}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+[]{#permissions-group-example}Project permissions on functional groups (example)
+-------------------------------------------------------------------------------------------------------------------------------
+
 
 This example shows how group permissions set at the project level
 coordinate with site roles to determine who (which groups) are allowed
@@ -130,12 +121,11 @@ you can put Susan and Henry in the same group and grant their group
 In the walkthrough, we'll explain further how to set the permissions
 roles to accommodate these three user types.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#content-mgt-walkthrough}Walkthrough of a common content-management approach {#walkthrough-practical-permissions}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+[]{#content-mgt-walkthrough}Walkthrough of a common content-management approach
+------------------------------------------------------------------------------------------------------------------------------
+
 
 To show you how projects and permissions work, we'll walk you through
 the following processes:
@@ -164,11 +154,7 @@ permissions](https://help.tableau.com/current/guides/everybody-install/en-us/eve
 To follow along with these steps, you must be signed in to Tableau
 Server as an administrator.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#step1-set-perms-default-project}1. Set permissions defaults in the Default project {#set-defaults-in-the-default-project}
-
-</div>
+### 1. Set permissions defaults in the Default project 
 
 Every site in Tableau Server has a [Default] project. The
 default project is designed to be a template for new projects in the
@@ -192,11 +178,10 @@ site, and is useful for creating a default set of permissions.
     ![](./images/ea_walkthrough_4.png)
 
 
-![](./images/road-sign-question.png){.roadsign-img}
+![](./images/road-sign-question.png)
 
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} Why *removing* some default permissions makes your life easier {#why-remove-all-users-group-permissions}
-:::
+###  Why *removing* some default permissions makes your life easier 
 
 The [All Users] group deserves special mention because every
 site has an [All Users] group. And every user that you add
@@ -219,13 +204,10 @@ don't intend.
 So if you decide to use this process in the future, just remember to
 remove permissions from the [All Users] group *before* you
 set any other permissions.
-:::
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#step2-create-project}2. Create a new project for a hypothetical Marketing department {#create-a-new-project}
 
-</div>
+### 2. Create a new project for a hypothetical Marketing department 
 
 For the purpose of this walkthrough, you'll create a project named
 Marketing.
@@ -239,24 +221,19 @@ Marketing.
     ![](./images/ea_walkthrough_8.png)
 
 
-![](./images/Road-sign-alert.png){.roadsign-img}
+![](./images/Road-sign-alert.png)
 
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} Plan your groups and permissions {#plan-your-permissions}
-:::
+###  Plan your groups and permissions 
 
 In your real world, before you start creating groups and assigning
 permissions, we recommend that you create a table or spreadsheet that
 lists groups for people who need access to content, and what you expect
 each group to be able to do. You can then refer back to your permissions
 plan later if needed.
-:::
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#step3-create-functional-groups}3. Create groups based on users' content needs {#create-groups}
-
-</div>
+### 3. Create groups based on users' content needs 
 
 Next, you'll create two groups for these users. The groups will let you
 assign permissions to the users, based on what the users need to be able
@@ -286,21 +263,18 @@ Always use descriptive, meaningful language for your group names.
 
     ![](./images/ea_walkthrough_12.png)
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#step4-create-users}4. Create the temporary users for this exercise {#create-users}
+### 4. Create the temporary users for this exercise 
 
-</div>
 
 For this walkthrough, you'll add four local users, all of whom you can
 delete when you are finished with this exercise.
 
 
-![](./images/road-sign-question.png){.roadsign-img}
+![](./images/road-sign-question.png)
 
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} What if you're using Active Directory? {#create-users-for-ad}
-:::
+###  What if you're using Active Directory? 
 
 If you've already configured [Tableau Server] to
 use Active Directory, you could have your Active Directory administrator
@@ -309,7 +283,7 @@ You'll also need to import them to [Tableau
 Server]. After you have finished the walkthrough
 and feel confident that you can configure real users, you can delete the
 temporary users.
-:::
+
 
 Just for the projects in this walkthrough (not for your own projects),
 and to help you easily identify the user's site role and project role,
@@ -343,11 +317,8 @@ role\> - \<site role\>*:
 
     ![](./images/ea_walkthrough-user-list.png)
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#step5-add-users-groups}5. Add the users to the groups {#add-users-to-groups}
-
-</div>
+### 5. Add the users to the groups 
 
 With your groups set up and users added to the server, you can add users
 to them.
@@ -365,11 +336,8 @@ to them.
 4.  Follow the same steps to assign Henry and Susan to the [Marketing --
     Content Viewers] group.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#step6-assign-perms-project}6. Assign permissions to the groups at the project level {#assign-permissions-to-the-groups}
-
-</div>
+### 6. Assign permissions to the groups at the project level 
 
 Now we can establish who can do what.
 
@@ -471,11 +439,8 @@ they're in.
 
     Leave the [Permissions] pane open for the next section.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#step7-lock-project}7. Lock project permissions {#7-lock-project-permissions}
-
-</div>
+### 7. Lock project permissions 
 
 Now, everything might be great if you stopped here. However, there's a
 twist. During the publishing process, publishers have an option to set
@@ -502,11 +467,10 @@ Now when someone wants to publish to the Marketing project, they cannot
 change the default permissions you set on the server.
 
 
-![](./images/road-sign-question.png){.roadsign-img}
+![](./images/road-sign-question.png)
 
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} How does project locking or unlocking affect permissions? {#how-are-default-permissions-used}
-:::
+###  How does project locking or unlocking affect permissions? 
 
 Before we move on, allow us to elaborate on the workings of default
 permissions. In a perfect world---that is, where content publishers do
@@ -528,14 +492,13 @@ it?
     new defaults. However, existing workbooks and data sources will
     retain their initial default permissions--- until you lock the
     project.
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#view-test}View and test your work
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+[]{#view-test}View and test your work
+------------------------------------------------------------------------------------
+
 
 Let's check your work. The following images show what you'll see in the
 [Permissions] pane when you're done setting permissions for
@@ -553,11 +516,8 @@ When you expand [Data Sources], you see this:
 
 ![](./images/ea_walkthrough_23.png)
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} Test permissions by publishing and interacting
-
-</div>
+###  Test permissions by publishing and interacting.
 
 If everything looks good in the [Permissions] pane, the next
 test is to go through the tasks that users need to do. You want to be
@@ -574,12 +534,11 @@ that you have not granted them access to.
     You should be able to set permissions only when you are signed in as
     a server or site administrator.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm#){.heading-item__link .print-hidden} []{#next-level-content}Next-level content management {#nextlevel-content-management}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+[]{#next-level-content}Next-level content management
+---------------------------------------------------------------------------------------------------
+
 
 This is the end of the walkthrough. You stuck it out til the end!
 
@@ -596,17 +555,17 @@ significantly:
 
     Learn about: [Data access for published Tableau data sources[(Link
     opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/permissions.htm#data-access-for-published-tableau-data-sources "Opens topic in a new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/permissions.htm#data-access-for-published-tableau-data-sources "Opens topic in a new browser tab")
 
 -   The [Project Leader] permissions role can help you
     delegate content administration to the owners who know it best.
 
     Learn about [Project-level administration[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/projects.htm#project-admin "Opens topic in a new browser tab").
+    window)]](https://help.tableau.com/current/server-linux/en-us/projects.htm#project-admin "Opens topic in a new browser tab").
 
 Finally, if you're ready to work your way toward content management zen
 master, start here: [Manage Content Access[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/permissions_section.htm "Opens topic in a new browser tab").
+window)]](https://help.tableau.com/current/server-linux/en-us/permissions_section.htm "Opens topic in a new browser tab").
 
 Continue to [Connecting to Data
 Sources](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm).

@@ -25,12 +25,11 @@ owner receives the request.
 Once permission is granted, the owner can email the requester to let
 them know they have view capability to the project or workbook.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/Request_access.htm#){.heading-item__link .print-hidden} Default settings
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Default settings
+----------------------------------------------------------------------------------------------
+
 
 The Request Access setting is enabled by default on a new site. To
 enable the setting if it\'s been disabled:
@@ -45,12 +44,11 @@ enable the setting if it\'s been disabled:
     users request access to projects, workbooks, and views].
 3.  Click [Save].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/Request_access.htm#){.heading-item__link .print-hidden} Configure project permissions
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Configure project permissions
+-----------------------------------------------------------------------------------------------------------
+
 
 You can control who will receive the access request by adjusting the
 project's content permissions. If content permissions are:
@@ -66,14 +64,13 @@ Access](https://help.tableau.com/current/server/en-us/projects.htm) and
 For more information about how permission rules are evaluated, see
 [Permissions](https://help.tableau.com/current/server/en-us/permissions.htm#evaluate-permission-rules): Evaluate permission rules.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/Request_access.htm#){.heading-item__link .print-hidden} Change project permissions
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Change project permissions
+--------------------------------------------------------------------------------------------------------
 
-<div>
+
+
 
 *For administrators and project leaders*
 
@@ -111,16 +108,14 @@ To set permissions at the project level:
     (**Unspecified**).
 6.  When finished, click **Save**.
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/Request_access.htm#){.heading-item__link .print-hidden} Change content permissions
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Change content permissions
+--------------------------------------------------------------------------------------------------------
 
-<div>
+
+
 
 *For administrators, project leaders, and content owners*
 
@@ -131,11 +126,10 @@ of content can be modified.
 level within the Tableau site. These steps are relevant only for content
 in projects where permissions are managed by the owner.
 
-<div>
+
 
 #### Set permissions on content
 
-</div>
 
 1.  Navigate to the content (workbook, data source, flow, data role)
 2.  Open the Actions menu (\...) and click **Permissions**. The
@@ -153,11 +147,10 @@ in projects where permissions are managed by the owner.
     clicking the capabilities.
 6.  When finished, click **Save**.
 
-<div>
+
 
 ####  Set permissions on a view
 
-</div>
 
 In some situations, it may be valuable to specify permissions on a view
 independently from the workbook that contains it. To set permissions on

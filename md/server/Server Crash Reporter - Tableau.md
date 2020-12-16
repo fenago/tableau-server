@@ -43,16 +43,11 @@ The files can contain data that includes:
     worked on in Tableau.
 
 -   Tableau information including customer-identifiable information.
-:::
 
-<div>
 
-<div>
+##### Other articles in this section
+--------------------------------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/crashdata_server.htm#){.heading-item__link .print-hidden} Other articles in this section
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 -   [Configure Server Crash
     Reporter](https://help.tableau.com/current/server/en-us/crashdata_server_config_keys.htm)

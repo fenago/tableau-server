@@ -25,12 +25,11 @@ Server], as well as any time afterward.
 4.  In the Authentication dialog box, select [Site SAML] or
     [Server Default].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_set_auth_type.htm#){.heading-item__link .print-hidden} Notes
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Notes
+----------------------------------------------------------------------------------------
+
 
 -   Users that authenticate with site-specific SAML can only belong to
     one site. If a user needs to belong to multiple sites, set their

@@ -13,24 +13,22 @@ Server configured with LDAP identity store is equivalent to Active
 Directory. Active Directory synchronization features in Tableau Server
 function seamlessly with properly configured LDAP directory solutions.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_globalsync.htm#){.heading-item__link .print-hidden} Before you begin
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Before you begin
+-------------------------------------------------------------------------------------------------
+
 
 Before synchronizing groups as described in this topic, you must first
 import the external directory group into Tableau Server. See [Create
 Groups via Active
 Directory](https://help.tableau.com/current/server/en-us/groups_create_ad.htm).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_globalsync.htm#){.heading-item__link .print-hidden} Synchronize external directory groups on a schedule
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Synchronize external directory groups on a schedule
+----------------------------------------------------------------------
+
 
 1.  **Single-site**: Click [Settings]\>
     [General].
@@ -48,12 +46,11 @@ Directory](https://help.tableau.com/current/server/en-us/groups_create_ad.htm).
 
 4.  Click [Save].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_globalsync.htm#){.heading-item__link .print-hidden} Synchronize all external directory groups on demand
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Synchronize all external directory groups on demand
+----------------------------------------------------------------------
+
 
 At any time, you can synchronize external directory (such as Active
 Directory) groups with [Tableau Server] to ensure
@@ -72,12 +69,11 @@ Server].
 2.  Under [Active Directory Synchronization], click
     [Synchronize All Groups].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_globalsync.htm#){.heading-item__link .print-hidden} View synchronization activity
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### View synchronization activity
+--------------------------------------------------------------------------------------------------------------
+
 
 You can view the results of synchronization jobs in the **Background
 Tasks for Non Extracts** administrative view. **Queue Active Directory
@@ -98,12 +94,11 @@ You can quickly navigate to this administrative view by clicking the
 [View synchronization activity] link in the
 [Settings] page for the server.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_globalsync.htm#){.heading-item__link .print-hidden} Set the minimum site role for users in an external directory group
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Set the minimum site role for users in an external directory group
+-------------------------------------------------------------------------------------
+
 
 In the[ Groups - Details] page, you can set the minimum site
 role for group users to be applied during Active Directory
@@ -133,12 +128,11 @@ synchronization](https://help.tableau.com/current/server/en-us/users_site_roles.
 
     ![](./images/qs_adsync_1.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_globalsync.htm#){.heading-item__link .print-hidden} What happens when users are removed in the source external directory? 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### What happens when users are removed in the source external directory? 
+-----------------------------------------------------------------------------------------
+
 
 Users cannot be automatically removed from the Tableau Server through an
 external directory sync operation. Users that are disabled, deleted, or
@@ -148,12 +142,11 @@ removing the user\'s account completely. For more information, see [Sync
 behavior when removing users from Active
 Directory](https://help.tableau.com/current/server/en-us/users_manage_ad.htm#Sync).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_globalsync.htm#){.heading-item__link .print-hidden} []{#Improvin}Improving group synchronization performance
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Improving group synchronization performance
+---------------------------------------------------------------------------
+
 
 External directory synchronization is performed by the backgrounder
 process. The Backgrounder process is the same process that is used for

@@ -10,30 +10,27 @@ Server].
 using the `tsm pending-changes apply` command. Discard any pending
 changes you do not want to apply using `tsm pending-changes discard`.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm initialize [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -r,\--start-server
 
 Optional. Leave the server running after initialization is complete.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_initialize_tsm.htm#){.heading-item__link .print-hidden} Global options
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+------------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

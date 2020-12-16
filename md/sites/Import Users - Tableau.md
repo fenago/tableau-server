@@ -15,12 +15,11 @@ see [CSV Import File
 Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm) for a list of file format requirements and import options.
 
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_import.htm#){.heading-item__link .print-hidden} Add users from a CSV file
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Add users from a CSV file
+-----------------------------------------------------------------------------------------------------
+
 
 The following steps describe how to add users to a site or to the
 server. The images reflect adding users at the site level.
@@ -52,12 +51,11 @@ server. The images reflect adding users at the site level.
 
 3.  Click [Done].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_import.htm#){.heading-item__link .print-hidden} How users' site roles are assigned or maintained {#how-users’-site-roles-are-assigned-or-maintained}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### How users' site roles are assigned or maintained
+----------------------------------------------------------------------------------------------------------------------------
+
 
 When you import at the site level or on a single-site server using
 `tabcmd`, you can specify the site role for all users in the CSV file.
@@ -77,9 +75,9 @@ membership to a user. For information, see [Manage users' site
 membership](https://help.tableau.com/current/server/en-us/users_view.htm#manage-site-membership).
 
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_import.htm#){.heading-item__link .print-hidden} Importing at the server level in multi-site environments {#importing-at-the-server-level-in-multisite-environments}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
+##### Importing at the server level in multi-site environments
+----------------------------------------------------------------------
+
 
 If the server is running multiple sites and you are a server
 administrator, you can import a CSV file from two locations. Where
@@ -106,24 +104,22 @@ capabilities.
     be left blank. If new passwords or full names are used, the import
     will fail.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_import.htm#){.heading-item__link .print-hidden} Importing to a single-site environment {#importing-to-a-singlesite-environment}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Importing to a single-site environment
+------------------------------------------------------------------------------------------------------------------
+
 
 Server and site administrators on a single-site server perform CSV user
 imports from the [Users] page in a site.
 
 ![](./images/userimport_ss_users.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_import.htm#){.heading-item__link .print-hidden} []{#MultisiteSinglesiteUserImport}Multi-site versus single-site import {#multisite-versus-singlesite-import}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Multi-site versus single-site import
+------------------------------------------------------------------------------------
+
 
 Users can belong to more than one site on the same server, but they must
 use the same credentials for each site. This becomes important when

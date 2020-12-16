@@ -22,14 +22,13 @@ Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.h
 -   [tsm pending-changes
     list](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-view){.MCXref
     .xref}
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} []{#pending-changes-apply}tsm pending-changes apply {#tsm-pendingchanges-apply}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### tsm pending-changes apply
+------------------------------------------------------------------------
+
 
 Use the `tsm pending-changes apply` command to apply pending
 configuration and topology changes to [Tableau
@@ -43,19 +42,17 @@ the `--ignore-prompt` option, but this does not change the restart
 behavior. If the changes do not require a restart, the changes are
 applied without a prompt.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm pending-changes apply [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -iw, \--ignore-warnings
 
@@ -77,30 +74,27 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 1800 (30 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} []{#pending-changes-discard}tsm pending-changes discard {#tsm-pendingchanges-discard}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm pending-changes discard
+----------------------------------------------------------------------------
+
 
 Use the `tsm pending-changes discard` command to discard pending
 configuration and topology changes to [Tableau
 Server].
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm pending-changes discard [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--config-only
 
@@ -114,12 +108,11 @@ Optional.
 
 Discard only pending topology changes.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} []{#pending-changes-view}tsm pending-changes list {#tsm-pendingchanges-list}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm pending-changes list
+----------------------------------------------------------------------
+
 
 Lists pending configuration and topology changes to [Tableau
 Server]. Any changes that do not require a server
@@ -132,19 +125,17 @@ For more information on dynamic configuration or topology changes, see
 Configuration](https://help.tableau.com/current/server/en-us/whatsnew_server.htm#dynamic-config-20-2) and [Tableau Server Dynamic Topology
 Changes](https://help.tableau.com/current/server/en-us/server_process_hot_topo.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm pending-changes list [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--config-only
 
@@ -158,12 +149,11 @@ Optional.
 
 List only pending topology changes.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#){.heading-item__link .print-hidden} Global options
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+-------------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

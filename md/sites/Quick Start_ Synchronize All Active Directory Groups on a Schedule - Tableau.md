@@ -16,9 +16,9 @@ function seamlessly with properly configured LDAP directory solutions.
 
 
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/qs_ad_group_sync.htm#){.heading-item__link .print-hidden} [1]{.step-bg} Set a minimum site role for synchronization {#1-set-a-minimum-site-role-for-synchronization}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
+##### Set a minimum site role for synchronization
+---------------------------------------------------------------------------
+
 
 In a site, click [ Groups]. Select a group, and then click
 [Actions]\> [Minimum Site Role]. Select the
@@ -31,13 +31,13 @@ minimum site role, new users are added as [Unlicensed].
 
 Synchronizing can promote a user\'s site role, but will never demote a
 user\'s site role.
-:::
 
 
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/qs_ad_group_sync.htm#){.heading-item__link .print-hidden} [2]{.step-bg} Set the schedule {#2-set-the-schedule}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
+
+##### Set the schedule
+--------------------------------------------------------------------------------------------------------------
+
 
 Server administrators can enable synchronization for all Active
 Directory groups on the [General] tab of the
@@ -48,13 +48,13 @@ select the frequency settings, and then click [Save].
 
 All Active Directory groups on the server are synchronized according to
 the same schedule.
-:::
 
 
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/qs_ad_group_sync.htm#){.heading-item__link .print-hidden} [3]{.step-bg} Run synchronization on-demand (optional) {#3-run-synchronization-ondemand-optional}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
+
+##### Run synchronization on-demand (optional)
+------------------------------------------------------------------------
+
 
 On the [General] tab of the [Settings] page,
 click [Synchronize All Groups] to synchronize all Active
@@ -66,13 +66,13 @@ reflected in all Active Directory groups on the server.
 
 Click [Synchronize All Groups] to synchronize all Active
 Directory groups on the server outside of a schedule.
-:::
 
 
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/qs_ad_group_sync.htm#){.heading-item__link .print-hidden} [4]{.step-bg} View the status of synchronization tasks {#4-view-the-status-of-synchronization-tasks}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
+
+##### View the status of synchronization tasks
+------------------------------------------------------------------------
+
 
 Server and site administrators can view the results of Active Directory
 synchronization jobs in the **Background Tasks for Non Extracts**

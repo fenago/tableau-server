@@ -5,14 +5,9 @@ Groups
 You can create and delete user groups, add users to a group, and
 synchronize groups with Active Directory.
 
-<div>
+##### Other articles in this section
+----------------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups.htm#){.heading-item__link .print-hidden} Other articles in this section
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 -   [Add Users to a
     Group](https://help.tableau.com/current/server/en-us/users_add_group.htm)

@@ -22,16 +22,15 @@ in.
 
 **Note**: For more information about benefits and best practices, see
 [Grant Role on Sign In[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/blueprint/en-us/bp_license_management.htm#grant-role-on-sign-in)
+window)]](https://help.tableau.com/current/blueprint/en-us/bp_license_management.htm#grant-role-on-sign-in)
 in Tableau Blueprint, Tableau\'s planning tool for data-driven
 organizations.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/grant_role.htm#){.heading-item__link .print-hidden} Activate Grant role on sign in
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Activate Grant role on sign in
+--------------------------------------------------------------------------------------------------------
+
 
 You can enable Grant role on sign in on new or existing groups. The
 following steps walk through how to use Grant role on sign in to add new
@@ -64,14 +63,13 @@ Tableau licenses.
 groups to provision minimum site roles to group members when they sign
 in to Tableau Server. For more information, see [Create a Local
 Group](https://help.tableau.com/current/server/en-us/groups_create_local.htm).
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/grant_role.htm#){.heading-item__link .print-hidden} []{#GrantRoleOnSignin}Modifying user roles with Grant role on sign in
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### Modifying user roles with Grant role on sign in
+---------------------------------------------------------------------------------
+
 
 If a user is part of a group using Grant role on sign in, then that user
 role can\'t be set to unlicensed or downgraded to a role lower than the
@@ -84,18 +82,17 @@ enabled.
 
 In accordance with the terms of the [End User License Agreement[(Link
 opens in a new
-window)]{.sr-only}](https://mkt.tableau.com/legal/tableau_eula.pdf),
+window)]](https://mkt.tableau.com/legal/tableau_eula.pdf),
 licenses granted on an Authorized User basis may be permanently
 reassigned to new users. Users may only be downgraded to a lower site
 role (including Unlicensed) when they will permanently discontinue
 access to Server Software at the higher role.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/grant_role.htm#){.heading-item__link .print-hidden} []{#remove}Removing users affected by Grant role on sign in
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Removing users affected by Grant role on sign in
+-----------------------------------------------------------------------
+
 
 You can remove a user from a site only if the user does not own content.
 If you attempt to remove a user who owns content, the user site role

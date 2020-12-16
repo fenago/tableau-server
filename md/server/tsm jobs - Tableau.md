@@ -9,32 +9,29 @@ jobs.
 -   [cancel](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#tsm)
 -   [list](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#tsm2)
 -   [reconnect](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#tsm3)
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} []{#tsm}tsm jobs cancel
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### tsm jobs cancel
+---------------------------------------------------------------------------------------------------
+
 
 Cancel a job on the server. Any job can be canceled before it starts
 running (when queued), but only backup and cleanup jobs can be canceled
 when they are already running.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm jobs cancel --id <jobID> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -i,\--id \<jobID\>
 
@@ -42,28 +39,25 @@ Required.
 
 Id of the job to cancel.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} []{#tsm2}tsm jobs list
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm jobs list
+--------------------------------------------------------------------------------------------------
+
 
 List asynchronous jobs on the server.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm jobs list [--status <status>] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -t,\--status \<status\>
 
@@ -71,29 +65,26 @@ Optional.
 
 Filter for jobs that match the given status.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} []{#tsm3}tsm jobs reconnect
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm jobs reconnect
+-------------------------------------------------------------------------------------------------------
+
 
 Reconnect to an asynchronous job to display its progress. If no job id
 is specified, it reconnects to the latest job.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm jobs reconnect[--id <jobID>] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -i,\--id \<jobID\>
 
@@ -101,12 +92,11 @@ Optional.
 
 Specifies the id of the job that should be reconnected.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm#){.heading-item__link .print-hidden} Global options
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

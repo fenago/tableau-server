@@ -26,70 +26,63 @@ Reference](https://help.tableau.com/current/server/en-us/ldap_config.htm).
 -   [set-user-mappings](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#TSMSetUserMap)
 -   [verify-group-mappings](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#TSMverify-group-mappings)
 -   [verify-user-mappings](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#TSMIDverify-user-mappings__%5Boptions%5D)
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} []{#TSMGroupMap}tsm user-identity-store get-group-mappings \[options\] {#tsm-useridentitystore-getgroupmappings-options}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### tsm user-identity-store get-group-mappings \[options\]
+---------------------------------------------------------------------------------------------
+
 
 Displays identity store group mappings.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm user-identity-store get-group-mappings [global options]
 ```
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} []{#TSMUserMap}tsm user-identity-store get-user-mappings \[options\] {#tsm-useridentitystore-getusermappings-options}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm user-identity-store get-user-mappings \[options\]
+-------------------------------------------------------------------------------------------
+
 
 Displays identity store user mappings.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm user-identity-store get-user-mappings [global options]
 ```
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} []{#TSMUIList}tsm user-identity-store list \[options\] {#tsm-useridentitystore-list-options}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm user-identity-store list \[options\]
+-----------------------------------------------------------------------------
+
 
 Lists user-identity configuration.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm user-identity-store list [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -v, \--verbose
 
@@ -97,30 +90,27 @@ Optional.
 
 Lists all configuration parameters.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} []{#TSMSetConnection}tsm user-identity-store set-connection \[options\] {#tsm-useridentitystore-setconnection--options}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm user-identity-store set-connection \[options\]
+----------------------------------------------------------------------------------------------
+
 
 Sets identity store connection parameters.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm user-identity-store set-connection --kerbkeytab <kerbkeytab> [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -b,\--bind \<username and password \| Kerberos\>
 
@@ -186,31 +176,28 @@ Optional.
 
 NetBIOS name (nickname).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} []{#TSMSetGroupMap}tsm user-identity-store set-group-mappings \[options\] {#tsm-useridentitystore-setgroupmappings--options}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm user-identity-store set-group-mappings \[options\]
+------------------------------------------------------------------------------------------------
+
 
 Sets identity store group mappings and configures LDAP directories that
 implement an arbitrary or custom schema.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm user-identity-store set-group-mappings [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -b,\--basefilter \<groupbasefilter\>
 
@@ -250,31 +237,28 @@ Optional.
 
 Name of the group.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} []{#TSMSetUserMap}tsm user-identity-store set-user-mappings \[options\] {#tsm-useridentitystore-setusermappings--options}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm user-identity-store set-user-mappings \[options\]
+----------------------------------------------------------------------------------------------
+
 
 Sets identity store user mappings and configures LDAP directories that
 implement an arbitrary or custom schema.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm user-identity-store set-user-mappings --certificate <certificate> [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -c,\--certificate \<certificate\>
 
@@ -332,30 +316,27 @@ Optional.
 
 User name.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} []{#TSMverify-group-mappings}tsm user-identity-store verify-group-mappings \[options\] {#tsm-useridentitystore-verifygroupmappings--options}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm user-identity-store verify-group-mappings \[options\]
+-------------------------------------------------------------------------------------------------------------
+
 
 Validates configuration for LDAP group mapping.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm user-identity-store verify-group-mappings --verify <group_name> [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -v,\--verify \<group\_name\>
 
@@ -363,30 +344,27 @@ Optional.
 
 Name of group to search for.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} []{#TSMIDverify-user-mappings__[options]}tsm user-identity-store verify-user-mappings \[options\] {#tsm-useridentitystore-verifyusermappings--options}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm user-identity-store verify-user-mappings \[options\]
+------------------------------------------------------------------------------------------------------------------------
+
 
 Validates configuration for LDAP user mapping.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm user-identity-store verify-user-mappings --verify <user_name> [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -v,\--verify \<user\_name\>
 
@@ -394,12 +372,11 @@ Optional.
 
 Name of user to search for.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm#){.heading-item__link .print-hidden} Global options
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+---------------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

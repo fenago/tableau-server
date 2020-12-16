@@ -5,20 +5,18 @@ tsm version
 You can use the `tsm version` command to get the versions of TSM and
 Tableau Server.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm version [global options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_version_tsm.htm#){.heading-item__link .print-hidden} Global options
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+---------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

@@ -10,12 +10,11 @@ important for sites that are used by multiple clients. To learn more
 about site roles, see [Set Users' Site
 Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/user_visibility.htm#){.heading-item__link .print-hidden} Limit user visibility
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Limit user visibility
+----------------------------------------------------------------------------------------------------
+
 
 Setting User Visibility to **Limited** impacts certain collaboration
 tools and hides user information in Tableau Online and Tableau Server.
@@ -103,11 +102,10 @@ users who are permitted to see that person\'s name.
 the sign in page for Tableau Online will return the names of all sites
 the user is a member of.
 
-<div>
+
 
 ####  Best practices for limiting user visibility
 
-</div>
 
 Administrators can also check that user and group information is not
 visible in these ways:
@@ -128,12 +126,11 @@ visible in these ways:
 -   Check that calculations accessible to users don\'t contain user
     metadata (e.g., user filters).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/user_visibility.htm#){.heading-item__link .print-hidden} Restore Full User Visibility
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Restore Full User Visibility
+-----------------------------------------------------------------------------------------------------------
+
 
 When administrators set User Visibility back to Full, features disabled
 for all users by Limited User Visibility (such as comments and alerts)

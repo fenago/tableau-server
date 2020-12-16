@@ -5,7 +5,7 @@ Permissions
 Permissions determine how users can interact with content such as
 workbooks and data sources. Permissions are set in the permission dialog
 or via the [REST API[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref_permissions.htm).
+window)]](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref_permissions.htm).
 At the top of the dialog, permission rules configure capabilities for
 groups or users. Below, the permissions grid displays the effective
 permissions for users.
@@ -37,7 +37,7 @@ and groups, creating projects, and publishing content, see [Manage Users
 and
 Groups](https://help.tableau.com/current/server/en-us/users.htm), [Use Projects to Manage Content
 Access](https://help.tableau.com/current/server/en-us/projects.htm) , and [Publish Data Sources and Workbooks[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/publish_overview.htm).
+window)]](https://help.tableau.com/current/pro/desktop/en-us/publish_overview.htm).
 
 **Capabilities and permission rules** 
 
@@ -68,12 +68,11 @@ capabilities rather than being captured in a single capability. For more
 information, see [Permission settings for specific
 scenarios](https://help.tableau.com/current/server/en-us/permissions.htm#Permissi).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#setpermissions}Set permissions
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Set permissions
+-------------------------------------------------------------------------------------------------------------
+
 
 Explore the tabs below for details on how to set permission rules at the
 project level, at the content level, or when publishing content from
@@ -123,7 +122,7 @@ preliminary depends on the [content permission] setting.
 This setting can be configured in two ways, either [Locked]
 or [Customizable]. For more information, see [Lock content
 permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject).
-:::
+
 
 
 *For administrators, project leaders, and content owners*
@@ -170,7 +169,7 @@ views---each view's permissions will need to be managed individually.
 
 See [Show or Hide Sheet
 Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs) for more information.
-:::
+
 
 
 *For content publishers*
@@ -213,9 +212,9 @@ level.
 Prep Builder]{.VariablesTabsProductPrepBuilder}. To set permissions on a
 flow, refer to the steps for Project-level permissions or Content-level
 permissions.
-:::
-:::
-:::
+
+
+
 
 **Tip**: By default, all users are added to an "All Users" group that
 has basic permissions for content. To start with a clean slate when
@@ -226,12 +225,11 @@ ambiguity down the road by reducing the number of rules that applies to
 any given user and therefore making effective permissions easier to
 understand.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#permissioncapabilities}Permission capabilities
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Permission capabilities
+---------------------------------------------------------------
+
 
 Permissions are made up of capabilities, or the ability to perform a
 given action on a piece of content, such as view, filter, download, or
@@ -251,11 +249,10 @@ content type, you must go to each tab in turn. In the permission dialog
 for a specific piece of content, there are no tabs and the permission
 rules only apply to that piece of content.
 
-<div>
+
 
 ####  Templates
 
-</div>
 
 Templates group sets of capabilities that are often assigned together
 based on common user scenarios, [View],
@@ -273,11 +270,10 @@ they are applied. Capabilities can also be granted or denied without
 using a template at all. In both cases, the template column will then
 show [Custom].
 
-<div>
+
 
 ####  Copy and paste permissions
 
-</div>
 
 If there is a permission rule that needs to be assigned to multiple
 groups or users, you can copy and paste from one rule to another. You
@@ -293,11 +289,10 @@ status.
 3.  Open the action menu (\...) and select [Paste
     Permissions].
 
-<div>
+
 
 ####  Capabilities
 
-</div>
 
 Explore the tabs below for details on the capabilities for each content
 type:
@@ -338,7 +333,7 @@ Builder]{.VariablesTabsProductPrepBuilder}. The publish capability is
 also required to move content into the project or save content to the
 project from web authoring. Prior to 2020.1, this capability was called
 Save.
-:::
+
 
 
 #### View template
@@ -376,7 +371,7 @@ view (such as filters and selections) as custom views. For users with a
 site role of Explorer or above, they can share these customizations,
 which makes them appear as options for other users. For more
 information, see [Use Custom Views[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/customview.htm).
+window)]](https://help.tableau.com/current/pro/desktop/en-us/customview.htm).
 
 ![](./images/perms_downloadfulldata_icon.png)
 **Download Full Data** allows a user to view the underlying data in a
@@ -395,7 +390,7 @@ environment.
     even users with this capability allowed won't be able to web edit.
     For more information, see [Set a Site\'s Web Authoring Access[(Link
     opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/web_author_enable.htm).
+    window)]](https://help.tableau.com/current/server/en-us/web_author_enable.htm).
 
 #### Publish template
 
@@ -439,7 +434,7 @@ We recommend showing navigational sheet tabs whenever possible, so views
 continue to inherit their permissions from the workbook. For more
 information, see [Show or Hide Sheet
 Tabs](https://help.tableau.com/current/server/en-us/permissions.htm#sheettabs).
-:::
+
 
 
 #### View template
@@ -463,7 +458,7 @@ Desktop, Tableau Prep Builder, Ask Data, or web editing.
 -   A user must have the **Connect** capability for a data source in
     order to use Ask Data. For more information, see [Enable Ask Data
     for Sites and Data Sources[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/ask_data_enable.htm#ensure-that-users-can-access-a-data-source).
+    window)]](https://help.tableau.com/current/pro/desktop/en-us/ask_data_enable.htm#ensure-that-users-can-access-a-data-source).
 
 #### Explore template
 
@@ -491,18 +486,14 @@ allows a user to delete the data source
 ![](./images/perms_setperms_icon.png) **Set
 Permissions** allows a user to create and edit permission rules for the
 data source
-:::
+
 
 
  
-:::
-:::
-:::
-:::
-:::
-:::
-:::
-:::
+
+
+
+
 
 View template
 
@@ -564,12 +555,11 @@ metrics.
 
 \*Prior to 2020.1, the Overwrite capability was called Save.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#permissionmanagement}Permission management
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Permission management
+-------------------------------------------------------------------------------------------------------------------------
+
 
 Using projects can simplify permission management through the use of
 features such as nested project hierarchies, hiding projects from
@@ -583,11 +573,10 @@ created it inherits its default permission rules (for all content types)
 another project, the child project inherits its default permission rules
 from the parent project.
 
-<div>
+
 
 #### Project administration
 
-</div>
 
 Projects are containers used to organize and manage access to content.
 By giving non-administrators privileges to manage projects, certain
@@ -632,11 +621,10 @@ Manage Content
 Access](https://help.tableau.com/current/server/en-us/projects.htm) and [Add Projects and Move Content Into
 Them](https://help.tableau.com/current/server/en-us/projects_add.htm).
 
-<div>
+
 
 #### Set a project leader
 
-</div>
 
 Project leaders are users who have administrator-like access for a
 specific project or project hierarchy. Prior to 2020.1, [Project
@@ -678,11 +666,10 @@ no other permission rule giving them permissions to the content. To keep
 their access to the project and its content, they will need to have
 capabilities set like any other group or user.
 
-<div>
+
 
 #### Lock content permissions
 
-</div>
 
 Permission rules set at the project level act as a default for content
 saved in that project and any nested projects it contains. Whether those
@@ -846,12 +833,11 @@ is scoped to include nested projects.
         contains. Note: This is the same outcome if a project is moved
         to become a top-level project.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#EffectivePermissions}Effective permissions
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Effective permissions
+-------------------------------------------------------------------------------------------------------------------------
+
 
 A permission rule establishes who is impacted (a group or user) and what
 capabilities they are **Allowed**, **Denied**, or **Unspecified**. While
@@ -971,11 +957,10 @@ circumstances:
 -   Denied by a rule (and not allowed by a rule of higher precedence)
 -   Not granted by any rule
 
-<div>
+
 
 ####  Evaluate permissions set at multiple levels
 
-</div>
 
 If project content permissions are *customizable*, it's possible to
 configure permission rules in multiple places. There are specific rules
@@ -1001,12 +986,11 @@ that determine what permissions are applied on the content.
 [This image shows how capabilities are evaluated through multiple levels
 of content. ]{.caption}
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#permissionsiterolelicense}Permissions, site roles, and licenses
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Permissions, site roles, and licenses
+--------------------------------------------------------------------------------
+
 
 Adding a user to a Tableau Server requires a license (or they can be
 added as unlicensed, but an unlicensed user can't log in or interact
@@ -1063,13 +1047,8 @@ workbook, view, or flow).
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Site Roles and
+#####  Site Roles and
 their maximum capabilities
-:::
-
-
-<div>
 
 These tables indicates what capabilities are available to each site
 role. There may be other ways for a user with a site role to perform an
@@ -1224,26 +1203,19 @@ project and therefore there is no place for them to move content to.
 The* [Move]{.uicontrol style="font-style: italic;"} *capability should
 therefore be considered not possible for Explorer site roles.*
 
-</div>
-:::
-:::
 
-<div>
+##### Permission settings for specific scenarios
+--------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} []{#Permissi}Permission settings for specific scenarios
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Certain actions require combinations of permission capabilities and
 possibly site roles. The following are some common scenarios and their
 necessary permission configurations
 
-<div>
+
 
 #### Saving, publishing, and overwriting
 
-</div>
 
 In the context of permissions, saving is essentially publishing. As
 such, the [Overwrite] and [Save a Copy]
@@ -1291,11 +1263,10 @@ capability to Explorer (can publish), Creator, or Administrator site
 roles gives them both the ability to download workbooks *and* save a
 copy.
 
-<div>
+
 
 #### Web Editing and Web Authoring
 
-</div>
 
 Web editing and web authoring refer to the general ability for users to
 edit or create workbooks directly in the browser. The permission
@@ -1308,7 +1279,7 @@ To enable this functionality, there are several requirements.
 -   **Site setting**: Web authoring must be turned on for the entire
     Tableau site. See [Set a Site\'s Web Authoring Access[(Link opens in
     a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/web_author_enable.htm).
+    window)]](https://help.tableau.com/current/server/en-us/web_author_enable.htm).
     Without this setting enabled, no users can create new workbooks or
     edit existing workbooks from the browser, *even if they have the web
     edit capability*.
@@ -1356,11 +1327,10 @@ To enable this functionality, there are several requirements.
 [Optional indicates this capability is not involved in the desired
 functionality]{.caption}
 
-<div>
+
 
 #### Data access for published Tableau data sources
 
-</div>
 
 Data sources published to a Tableau site can have native authentication
 as well as permissions within the Tableau environment.
@@ -1368,7 +1338,7 @@ as well as permissions within the Tableau environment.
 When the data source is published to the Tableau site, the publisher can
 choose how to [Set Credentials for Accessing Your Published Data[(Link
 opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-gb/publishing_sharing_authentication.htm#workbook-connections-to-tableau-data-sources)
+window)]](https://help.tableau.com/current/pro/desktop/en-gb/publishing_sharing_authentication.htm#workbook-connections-to-tableau-data-sources)
 which addresses how data source credentials are handled (such as
 requiring users to log into a database or enter their credentials for
 Google Sheets). This authentication is controlled by whatever technology
@@ -1376,7 +1346,7 @@ holds the data. This can be embedded when the data source is published,
 or the data source publisher can choose to prompt the user for their
 credentials to the data source. For more information, see [Publish a
 Data Source[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/publish_datasources.htm#publishing-steps).
+window)]](https://help.tableau.com/current/pro/desktop/en-us/publish_datasources.htm#publishing-steps).
 
 There are also data source capabilities that allow or deny users the
 ability to see ([View]) and connect to the published data
@@ -1401,22 +1371,21 @@ workbook), which may require data source authentication as well.
     Prompt user, the viewer must also enter their credentials for the
     data source itself.
 
-  -------------------------------------------- ---------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------
+  -------------------------------------------- ---------------------------------------- ------------------------------------------------------------------------------
   Workbook authentication to the data source   Data source authentication to the data   How data access is evaluated for someone consuming the workbook
   Embed password                               Embed password                           User sees the data as if they were the workbook author
   Embed password                               Prompt user                              User sees the data as if they were the workbook author. (The author is prompted for data source authentication, not the user.)
   Prompt user                                  Embed password                           User must have their own **Connect** capability to the published data source
   Prompt user                                  Prompt user                              User must have their own **Connect** capability to the published data source and are prompted for their credentials to the underlying data
-  -------------------------------------------- ---------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------
+  -------------------------------------------- ---------------------------------------- ------------------------------------------------------------------------------
 
 Note that this applies to consuming a workbook, not web editing. To web
 edit, the user must have their own Connect capability.
 
-<div>
+
 
 #### Move content
 
-</div>
 
 To move an item, open its Action menu (\...) and click
 [Move]. Select the new project for the item, then click
@@ -1453,11 +1422,10 @@ When a project is moved, the permissions for its content might change.
     granted (from a higher-level project), that status is removed,
     though any explicitly set project leader status is retained.
 
-<div>
+
 
 #### 
 
-</div>
 
 Metrics are created from views in published workbooks. A user can create
 metrics if they:
@@ -1498,11 +1466,10 @@ To ensure this capability cannot be changed , deny **Download Full
 Data** at the project level for all workbooks in the project, and lock
 the content permissions for the project.
 
-<div>
+
 
 #### Show or Hide Sheet Tabs
 
-</div>
 
 Although it is not recommended as a general practice, there are times
 when it can be useful to set permissions on views independently of the
@@ -1536,7 +1503,7 @@ the workbook and its views.
     Choose **Show Tabs** or **Hide Tabs** as desired.
 -   To configure sheets as tabs during publishing, refer to [Show sheets
     as tabs[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/publish_workbooks_howto.htm#show-sheets-as-tabs).
+    window)]](https://help.tableau.com/current/pro/desktop/en-us/publish_workbooks_howto.htm#show-sheets-as-tabs).
 -   To set view-level permissions, see [Set permissions on
     content](https://help.tableau.com/current/server/en-us/permissions.htm#contentpermissions)
 
@@ -1550,14 +1517,9 @@ that contain it. In these instances, a user may be able to see the
 project and workbook name when looking at the view, such as in the
 navigational breadcrumb. This is expected and accepted behavior.
 
-<div>
+##### Other articles in this section
+---------------------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions.htm#){.heading-item__link .print-hidden} Other articles in this section
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 -   [Quick Start: Set Up
     Permissions](https://help.tableau.com/current/server/en-us/qs_permissions.htm)

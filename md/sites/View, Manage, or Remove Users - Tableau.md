@@ -7,17 +7,8 @@ users, setting the groups they're members of, setting their site roles,
 and so on. On Tableau Server, server administrators can manage users on
 multiple sites at a time on the [All Sites] page.
 
-<div>
-
-
-
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} View and manage
+#####  View and manage
 users on a site
-:::
-
-
-<div>
 
 Sign in to a site as an administrator, and then select
 [Users]. On this page you can do any of the following to
@@ -54,22 +45,11 @@ manage users:
     .xref} and [CSV Import File
     Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm)
 
-</div>
-:::
-:::
-
-</div>
 
 
 
-
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} View and edit
+#####  View and edit
 server users
-:::
-
-
-<div>
 
 Sign in to [Tableau Server] as a server
 administrator. On the site menu, select [Manage All Sites],
@@ -77,20 +57,10 @@ and then select [Users].
 
 ![](./images/user_srvr_view_settings1.png)
 
-</div>
-:::
-:::
-:::
 
 
-
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Manage users'
+#####  Manage users'
 site membership
-:::
-
-
-<div>
 
 By default, server and site administrators can manage users at the
 individual site level. Server administrators can also manage users and
@@ -107,20 +77,10 @@ Sites] level (at the server level).
 3.  Select one or more sites, and a site role for each site, and then
     click [Save].
 
-</div>
-:::
-:::
-
-<div>
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Search for users
-:::
-
-
-<div>
+#####  Search for users
 
 To search for a specific user
 
@@ -136,23 +96,12 @@ with *John*.
 
 ![](./images/user_view_search.png)
 
-</div>
-:::
-:::
-
-</div>
-
-<div>
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Remove users
+
+#####  Remove users
 from a site
-:::
-
-
-<div>
 
 You can remove a user only if the user does not own any content
 (projects, workbooks, views, or data sources). If you attempt to remove
@@ -179,22 +128,11 @@ deleted from the server.
 
 2.  Click **Remove** in the confirmation dialog.
 
-</div>
-:::
-:::
-
-</div>
 
 
 
-
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Remove users
+#####  Remove users
 from the server
-:::
-
-
-<div>
 
 You can remove a user only if the user does not own any content
 (projects, workbooks, views, or data sources). If you attempt to remove
@@ -217,21 +155,11 @@ demoted to the Unlicensed site role.
 
 2.  Click **Delete** in the confirmation dialog box.
 
-</div>
-:::
-:::
-:::
 
 
 
-
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Change passwords
+#####  Change passwords
 for users of a single site
-:::
-
-
-<div>
 
 To change the password for a user with membership to a single site, sign
 in to [Tableau Server] as a site administrator or

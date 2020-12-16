@@ -25,14 +25,13 @@ associated files for offline activation or deactivation.
 -   [tsm licenses
     refresh](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMLicenseRefresh){.MCXref
     .xref}
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} []{#TSMActivate}tsm licenses activate
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### tsm licenses activate
+---------------------------------------------------------------------------------------------------------------------
+
 
 Activates a [Tableau Server] product key.
 
@@ -41,19 +40,17 @@ to connect to the internet through a forward proxy, follow the procedure
 in the topic, [Configure Product Key Operations with Forward
 Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before running this command.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm licenses activate --license-key <product-key> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f, \--license-file \<file.tlf\>
 
@@ -73,12 +70,11 @@ Required if activating a trial license.
 
 Activate a trial license.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} []{#TSMDeactivate}tsm licenses deactivate
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm licenses deactivate
+-------------------------------------------------------------------------------------------------------------------------
+
 
 Deactivates a [Tableau Server] product key either
 online or offline.
@@ -88,19 +84,17 @@ to connect to the internet through a forward proxy, follow the procedure
 in the topic, [Configure Product Key Operations with Forward
 Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before running this command.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm licenses deactivate --license-key <product-key> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f, \--license-file \<return\_file.tlr\>
 
@@ -114,23 +108,21 @@ Required if deactivating a product key.
 
 Specifies the product key to use for online deactivation.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} []{#TSMActivateFile}tsm licenses get-offline-activation-file {#tsm-licenses-getofflineactivationfile}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm licenses get-offline-activation-file
+------------------------------------------------------------------------------
+
 
 Generate an offline activate file to use for activating [Tableau
 Server] offline. To learn more, see [Activate
 Tableau Server Offline - Adding a
 License](https://help.tableau.com/current/server/en-us/activate_off.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm licenses get-offline-activation-file --license-key <product-key> --output-dir <path> [global options]`
 
@@ -149,31 +141,28 @@ Required.
 The location where the offline activation file should be saved. This
 location must exist.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} []{#TSMDeactivateFile}tsm licenses get-offline-deactivation-file {#tsm-licenses-getofflinedeactivationfile}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm licenses get-offline-deactivation-file
+----------------------------------------------------------------------------------
+
 
 Generate an offline deactivation file to use for deactivating [Tableau
 Server] offline. To learn more, see [Deactivate
 Tableau Server
 Offline](https://help.tableau.com/current/server/en-us/deactivate_off.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm licenses get-offline-deactivation-file --license-key <product-key> --output-dir <path> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -k, \--license-key \<product-key\>
 
@@ -188,12 +177,11 @@ Required.
 The existing location where the offline deactivation file should be
 saved.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} []{#TSMLicenseList}tsm licenses list
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm licenses list
+--------------------------------------------------------------------------------------------------------------------
+
 
 Lists licenses that are activated on the Tableau Server deployment.
 
@@ -234,7 +222,7 @@ The following fields are returned:
 -   **LIC EXP**: The date that the license expires and Tableau Server
     will stop working. Term licenses expire. See TYPE field. Visit the
     Tableau [Customer Portal[(Link opens in a new
-    window)]{.sr-only}](https://customer.tableausoftware.com/) to
+    window)]](https://customer.tableausoftware.com/) to
     refresh licenses.
 -   **MAINT EXP**: Applies only to legacy perpetual licenses (TYPE =
     Perpetual). For Term licenses, this field will output, `N/A`.
@@ -242,7 +230,7 @@ The following fields are returned:
     Tableau Server deployment expires. To update the license maintenance
     key see [Refresh Expiration Date for the Product
     Key](https://help.tableau.com/current/server/en-us/license_refresh.htm) Visit the Tableau [Customer Portal[(Link opens in a new
-    window)]{.sr-only}](https://customer.tableausoftware.com/) to view
+    window)]](https://customer.tableausoftware.com/) to view
     maintenance purchase history and to purchase additional maintenance.
 -   **UPDATABLE**: Specifies whether the license is an updatable
     subscription license (`True`/`False`).
@@ -259,22 +247,20 @@ The following fields are returned:
     Management
     Add-on](https://help.tableau.com/current/server/en-us/itm_intro.htm)
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm licenses list [global options]`
 
  
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} []{#TSMLicenseRefresh}tsm licenses refresh
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm licenses refresh
+--------------------------------------------------------------------------------------------------------------------------
+
 
 Update the maintenance expiration date of all product keys on Tableau
 Server.
@@ -284,20 +270,18 @@ to connect to the internet through a forward proxy, follow the procedure
 in the topic, [Configure Product Key Operations with Forward
 Proxy](https://help.tableau.com/current/server/en-us/activate_proxy.htm), before running this command.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm licenses refresh [global options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#){.heading-item__link .print-hidden} Global options
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+----------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

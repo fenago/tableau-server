@@ -8,17 +8,16 @@ computers, and what you can do to make that traffic more secure.
  
 
 
-![](./images/road-sign-curve.png){.roadsign-img}
+![](./images/road-sign-curve.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} A few curves ahead
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+A few curves ahead
+----------------------------------------------------------------
+
 
 Whereas previous chapters of *[Tableau Server: Everybody\'s Install
-Guide]{.VariablesEAGuideTitle}* might have felt like cruising an empty
+Guide]* might have felt like cruising an empty
 highway on a clear day, this one might be more like heading up a
 mountain pass. Not a one-lane service road exactly, but one that
 requires a little more focus nonetheless.
@@ -39,14 +38,13 @@ you\'ll enjoy learning about, or maybe even want to become pro at
 yourself. So we\'ll do our best here to convey what you need to get set
 up. Beyond that, you can find loads of info online---including in
 Tableau\'s own Help and KnowledgeBase articles.
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} An overview of HTTP and client-server communication {#overview-of-http-and-client-server-communication}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+An overview of HTTP and client-server communication
+-------------------------------------------------------------------------------------------------
+
 
 By default, Tableau Server, like many server applications, communicates
 with clients using the standard web protocol, namely HTTP. In HTTP, when
@@ -62,12 +60,11 @@ sensitive data. If someone can see this traffic (and snooping on HTTP
 isn\'t hard for an experienced IT person), they might see information
 that they shouldn\'t.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Your security goals: privacy and trust
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Your security goals: privacy and trust
+------------------------------------------------------------------------------------
+
 
 When it comes to securing communication between Tableau Server and its
 clients, you\'re after privacy and trust. To achieve privacy, you make
@@ -83,12 +80,11 @@ user name and password to sign in to your computer. Authentication helps
 to prevent a client from being fooled into communicating with a
 malicious site.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Using SSL to encrypt Tableau Server communication
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Using SSL to encrypt Tableau Server communication
+-----------------------------------------------------------------------------------------------
+
 
 SSL (secure sockets layer) is a protocol similar to HTTP, except that it
 that lets computers send encrypted information across a network such as
@@ -115,11 +111,8 @@ resources for additional information. How you enable SSL on your local
 network depends on many factors in your environment. Your friend in IT
 will know how best to handle it for your particular server installation.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} SSL and VPN
-
-</div>
+###  SSL and VPN
 
 Some of your Tableau Server users might access your server from offsite
 using a VPN (virtual private network) connection to your network. In
@@ -128,11 +121,7 @@ provides both privacy and trust. It\'s still a good practice to enable
 SSL, but it\'s not essential if access to Tableau Server for your users
 is across a VPN.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} SSL certificates
-
-</div>
+### SSL certificates
 
 To support SSL, the server requires a *digital certificate*. You can
 obtain a digital certificate from a publicly trusted, third-party entity
@@ -171,11 +160,7 @@ If the client determines that the certificates are valid and trusted,
 the client and server can begin an encrypted session and exchange
 information.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Mutual (two-way) SSL {#mutual-ssl}
-
-</div>
+###  Mutual (two-way) SSL
 
 We\'ll just mention here that it\'s possible to configure *mutual SSL*,
 sometimes called *two-way SSL*, where both the server and the client
@@ -196,11 +181,7 @@ We won\'t say more about mutual SSL in this guide, but later in this
 chapter we\'ll have links to more information in case this seems like a
 feature you want to enable for your Tableau Server installation.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Self-signed certificates
-
-</div>
+###  Self-signed certificates
 
 Your organization can generate its own certificate without going through
 the vetting process that a CA offers. This creates a *self-signed
@@ -223,12 +204,11 @@ trusted\" browser warning, or configuring devices to work with
 self-signed certificates (with potential for unreliable results), you
 get a publicly trusted certificate from a known CA.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} SSL for client-server traffic inside your organization
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+SSL for client-server traffic inside your organization
+----------------------------------------------------------------------------------------------------
+
 
 The certificate that you obtain from the trusted CA helps secure traffic
 between your server and users working on computers outside your
@@ -246,11 +226,7 @@ internal traffic. Our recommendations follow these descriptions. Get
 together with your IT partner to determine which one suits your
 environment best and then help you configure it.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Use your organization\'s existing internal CA and self-signed root certificate {#use-your-organizations-existing-internal-ca-and-selfsigned-root-certificate}
-
-</div>
+###  Use your organization\'s existing internal CA and self-signed root certificate 
 
 If your organization has an IT team, ask them if they have their own
 internal certificate authority. If they do, ask them to create a
@@ -269,11 +245,7 @@ out on the web, they require coordinating many moving parts at the
 system level of your computer. We do not encourage doing this without an
 experienced IT partner.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Create a self-signed certificate for your server, and configure clients to support it {#create-a-selfsigned-certificate-for-your-server-and-configure-clients-to-support-it}
-
-</div>
+###  Create a self-signed certificate for your server, and configure clients to support it 
 
 Yes, we really are saying the exact opposite of what we just said in the
 section about using self-signed certificates for public traffic. But
@@ -289,11 +261,8 @@ when they try to connect. Another caveat is that even if you configure
 clients, you\'ll need to do it again when the certificate expires and
 you need to reissue it.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} How to decide which option to use
-
-</div>
+###  How to decide which option to use
 
 When it comes to enabling SSL for internal traffic to Tableau Server,
 here\'s our order of preference. If the preferred option is impractical
@@ -314,12 +283,11 @@ next option.
     department to help you with the process described for creating an
     internal CA.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Get and install a public certificate for Tableau Server {#getting-and-installing-a-public-certificate-for-tableau-server}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Get and install a public certificate for Tableau Server
+-----------------------------------------------------------------------------------------------------
+
 
 The process for obtaining a certificate is different for each CA, and
 cost varies by CA and level of certificate you get. If your organization
@@ -357,19 +325,14 @@ might have.)
     of Tableau Mobile or Tableau Desktop on the Mac to connect to the
     server.
 
-<div>
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Enable SSL
-
-</div>
+###  Enable SSL
 
 1.  Open TSM in a browser:
 
     https://\<tsm-computer-name\>:8850. For more information, see [Sign
     in to Tableau Services Manager Web UI[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
+    window)]](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
 2.  On the [Configuration] tab, select
     [Security] \> [External SSL].
@@ -391,13 +354,8 @@ might have.)
 
 7.  Click [Apply Changes and Restart].
 
-</div>
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} View the certificate
-
-</div>
+###  View the certificate
 
 After you install the files, you can navigate to your site in a browser
 and view the certificate. We\'ll use Tableau Online on Google Chrome to
@@ -425,12 +383,11 @@ show you how this works.
     certificate information, or different sites that you sign in to,
     such as an online banking account.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Be nice to your future self
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Be nice to your future self
+-------------------------------------------------------------------------
+
 
 When you get the certificate files, make a note of their expiration
 date, and set up a plan now to update the certificate before it expires.
@@ -444,36 +401,35 @@ include this information in your system documentation.
 Continue to [Configuring Communication with the
 Internet](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_config_ssl.htm#){.heading-item__link .print-hidden} Additional resources
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Additional resources
+------------------------------------------------------------------
+
 
 -   [Creating your own CA[(Link opens in a new
-    window)]{.sr-only}](http://datacenteroverlords.com/2012/03/01/CREATING-YOUR-OWN-SSL-CERTIFICATE-AUTHORITY/).
+    window)]](http://datacenteroverlords.com/2012/03/01/CREATING-YOUR-OWN-SSL-CERTIFICATE-AUTHORITY/).
     A third-party article that describes how to set up a self-signed
     certificate for SSL traffic on your local network.
 
 -   [Obtaining an SSL Certificate for Tableau Server[(Link opens in a
     new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_cert_create.htm).
+    window)]](https://help.tableau.com/current/server/en-us/ssl_cert_create.htm).
     A topic in the Tableau Server Help that walks through the process of
     how to get a certificate from a CA.
 
 -   [Using Tableau Mobile with a Server Configured for SSL[(Link opens
     in a new
-    window)]{.sr-only}](http://kb.tableau.com/articles/knowledgebase/mobile-app-connect-ssl).
+    window)]](http://kb.tableau.com/articles/knowledgebase/mobile-app-connect-ssl).
     An article in the Tableau Knowledge Base that discusses how to use
     mobile devices to connect to Tableau Server.
 
 -   [Configure External SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/help.htm#ssl_config.htm).
+    window)]](https://help.tableau.com/current/server/en-us/help.htm#ssl_config.htm).
     A topic in the Tableau Server Help that discusses how to configure
     the server to use a certificate.
 
 -   [Quick Start on Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm).
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm).
     A short article in the Tableau Server Help that discusses how to set
     up mutual (two-way) SSL.

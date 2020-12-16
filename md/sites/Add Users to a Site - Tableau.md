@@ -20,12 +20,11 @@ have the following options for adding users:
     Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm)
 
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/sites_addusers.htm#){.heading-item__link .print-hidden} []{#site-admin-access}Site administrator access to user management
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Site administrator access to user management
+----------------------------------------------------------------------------------
+
 
 By default site administrators can add and remove users on a site. On
 the site's Settings page, server administrators can revoke that
@@ -37,12 +36,11 @@ administrator has access to all of the sites the user is a member of.
 For example, if User1 is a member of sites A and B, an administrator of
 only site B cannot edit User1's full name or reset the password.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/sites_addusers.htm#){.heading-item__link .print-hidden} []{#add-local-users}Add local users to a site
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Add local users to a site
+---------------------------------------------------------------------------------------------------------------------------
+
 
 1.  Sign in to [Tableau Server] as an
     administrator, and if applicable select the site.
@@ -80,12 +78,11 @@ only site B cannot edit User1's full name or reset the password.
 
 5.  Click [Add User].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/sites_addusers.htm#){.heading-item__link .print-hidden} []{#add-ad-users}Add Active Directory users to a site
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Add Active Directory users to a site
+---------------------------------------------------------------------
+
 
 Before adding users to a site, be sure to review [User Management in
 Deployments with External Identity
@@ -116,12 +113,11 @@ Active Directory user name format influence Tableau user management.
 
 4.  Click [Import Users].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/sites_addusers.htm#){.heading-item__link .print-hidden} []{#remove-local-users}Remove local users
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Remove local users
+-----------------------------------------------------------------------------------------------------------------------
+
 
 1.  Sign in to [Tableau Server] as an
     administrator, select the site, and open the [Users]
@@ -136,12 +132,11 @@ Active Directory user name format influence Tableau user management.
     If a user you remove from the current site is a member of other
     sites on the server, their status remains unchanged on those sites.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/sites_addusers.htm#){.heading-item__link .print-hidden} []{#see-also}Related information
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Related information
+--------------------------------------------------------------------------------------------------------------
+
 
 -   You can also [Add Users to Tableau
     Server](https://help.tableau.com/current/server/en-us/users_add.htm){.MCXref

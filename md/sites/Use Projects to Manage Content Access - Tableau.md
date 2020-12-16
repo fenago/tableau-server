@@ -21,12 +21,11 @@ flows.
 
 ![](./images/project_and_content.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects.htm#){.heading-item__link .print-hidden} []{#why-projects}Why use projects
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Why use projects
+---------------------------------------------------------------------------------------------------------
+
 
 Projects help you to create a scalable process for managing access to
 the content published to [Tableau Server].
@@ -56,11 +55,10 @@ Advantages they have include:
         default, and likewise which capabilities all users get when a
         new project is created.
 
-<div>
+
 
 ####  When to create project hierarchies (example)
 
-</div>
 
 Many organizations have several or more distinct groups of Tableau
 users, each with its own priorities and leaders. These groups might
@@ -108,14 +106,13 @@ consultant or vendor. Our own Tableau Online is an example of this on a
 large scale. Another example might be to use a separate site for
 sensitive content that you want only specific Human Resources or medical
 staff to use.
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects.htm#){.heading-item__link .print-hidden} []{#project-admin}Project-level administration {#projectlevel-administration}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### Project-level administration
+----------------------------------------------------------------------------------------------------------------------
+
 
 As a server or site administrator, you can delegate administration of
 projects and their content, without exposing access to your site or
@@ -136,11 +133,10 @@ In addition to server and site administrators, the full scope of Project
 Leader permissions is available to users with a [Creator] or
 [Explorer (can publish)] site role.
 
-<div>
+
 
 ####  Project ownership and project leader access in project hierarchies
 
-</div>
 
 In a multi-level project hierarchy, a user or group that is set as a
 project leader, at any level within the hierarchy, is implicitly given
@@ -159,11 +155,10 @@ Only a project owner or administrator can change ownership of a content
 resource, and this can be done regardless of whether the project
 permissions are locked.
 
-<div>
+
 
 #### Actions project-level administrators can take on projects
 
-</div>
 
 Project leaders and owners can perform the tasks in the following list,
 as can server or site administrators.
@@ -200,12 +195,11 @@ as can server or site administrators.
 See also [Project
 administration](https://help.tableau.com/current/server/en-us/permissions.htm#projectpermissions).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects.htm#){.heading-item__link .print-hidden} []{#default-project-about}How the Default project acts as a permissions template
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### How the Default project acts as a permissions template
+------------------------------------------------------------------------------------------
+
 
 Tableau creates a **Default** project with every site.
 
@@ -228,12 +222,11 @@ For more information, see [Steps to coordinate projects and
 groups](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#coord-projects-groups) in the topic Configure Projects, Groups, and Permissions for
 Managed Self-Service.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects.htm#){.heading-item__link .print-hidden} []{#project-lock-perms}Prevent publishers from changing permissions on content they own {#ProjLock}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Prevent publishers from changing permissions on content they own
+-------------------------------------------------------------------------------------------------
+
 
 Administrators and project leaders can prevent users from changing the
 permissions for workbooks and data sources in a project hierarchy. For
@@ -242,16 +235,11 @@ publishing process, and prevent publishers and content owners from
 changing them after publishing. To do this, you *lock* content
 permissions to the project. For more information, see [Lock content
 permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject).
-:::
 
-<div>
 
-<div>
+##### Other articles in this section
+------------------------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects.htm#){.heading-item__link .print-hidden} Other articles in this section
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 -   [Add Projects and Move Content Into
     Them](https://help.tableau.com/current/server/en-us/projects_add.htm)

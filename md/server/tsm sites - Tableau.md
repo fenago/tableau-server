@@ -30,14 +30,13 @@ Site](https://help.tableau.com/current/server/en-us/sites_exportimport.htm).
 -   [tsm sites
     unlock](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMUnlock){.MCXref
     .xref}
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} []{#TSMExport}tsm sites export
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### tsm sites export
+-----------------------------------------------------------------------------------------------------------
+
 
 Export a specified Tableau Server site to a .zip file. You can export a
 site to archive its settings at a specific point in time, or to complete
@@ -47,19 +46,17 @@ the first step of a site migration process.
 leave a site in a locked state if an error occurs. To unlock a site, use
 the `tsm sites unlock` command.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm sites export --site-id <source-siteID> --file <export-file> [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f,\--file \<export-file\>
 
@@ -100,12 +97,11 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 43200 (720 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} []{#TSMImport}tsm sites import
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm sites import
+-----------------------------------------------------------------------------------------------------------
+
 
 This command uses the .zip file you created using `tsm sites export` to
 generate a set of .csv files that show how the exported source site
@@ -131,19 +127,17 @@ Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.h
 leave a site in a locked state if an error occurs. To unlock a site, use
 the `tsm sites unlock` command.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm sites import --file <export-file.zip> --site-id <target-siteID> [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f,\--file \<export-file.zip\>
 
@@ -190,30 +184,27 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 7200 (120 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} []{#TSMImportVerified}tsm sites import-verified {#tsm-sites-importverified}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm sites import-verified
+----------------------------------------------------------------------------------------------------------------------------
+
 
 Specify the directory that contains an exported site's .csv mapping
 files, to import to a new site. This is the final step of a site
 migration process.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm sites import-verified --import-job-dir <importjob-directory> --site-id <target-siteID> [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -id,\--site-id \<target-siteID\>
 
@@ -241,20 +232,18 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 7200 (120 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} []{#TSMUnlock}tsm sites unlock
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm sites unlock
+-----------------------------------------------------------------------------------------------------------
+
 
 Use this command to unlock a site.
 
-<div>
+
 
 #### Options
 
-</div>
 
 -id,\--site-id \<target-siteID\>
 
@@ -283,12 +272,11 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 300 (5 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#){.heading-item__link .print-hidden} Global options
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+-------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

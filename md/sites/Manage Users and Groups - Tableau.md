@@ -6,14 +6,9 @@ You can add users to your Tableau sites and set their site roles, which
 determines each user\'s level of access. In addition, you can create
 groups of users, and enable guest access to your sites.
 
-<div>
+##### Other articles in this section
+---------------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users.htm#){.heading-item__link .print-hidden} Other articles in this section
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 -   [Add Users to a
     Site](https://help.tableau.com/current/server/en-us/sites_addusers.htm)

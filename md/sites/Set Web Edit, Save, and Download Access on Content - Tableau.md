@@ -15,12 +15,11 @@ authoring* to refer to the general functionality of creating and
 modifying workbooks on the server. However, you might otherwise see
 these two phrases used interchangably.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/web_author_who.htm#){.heading-item__link .print-hidden} Why allow users to work on the site directly
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Why allow users to work on the site directly
+--------------------------------------------------------------------------------------------------------------------------
+
 
 As an administrator, your initial thought about allowing people to
 populate a site with content, seemingly indiscriminately, might be one
@@ -28,11 +27,10 @@ of skepticism. However, with a few controls, you can limit where this is
 done, while providing important benefits that centralized content
 management offers both you and your users.
 
-<div>
+
 
 ####  Web authoring pros and cons
 
-</div>
 
 For publishers and business users, some benefits of web authoring
 include the following:
@@ -69,12 +67,11 @@ Some disadvantages to web editing include the following:
     and data sources, degrade server performance and data quality, and
     potentially affect data security.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/web_author_who.htm#){.heading-item__link .print-hidden} Managing permissions to help users avoid content proliferation {#managing--permissions-to-help-users-avoid-content-proliferation}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Managing permissions to help users avoid content proliferation
+------------------------------------------------------------------------------
+
 
 To help users to avoid content proliferation on the site, many Tableau
 administrators use projects to allow varying levels of access to
@@ -88,31 +85,29 @@ To get a better idea how this works, see the following resources:
     Self-Service](https://help.tableau.com/current/server/en-us/projects_data_gov.htm){.MCXref
     .xref}
 -   [Projects and Content Permissions[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm "See more info about using projects to manage content access.")
+    window)]](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm "See more info about using projects to manage content access.")
     in *Everybody's Install Guide*
 -   [Governed Self-Service at Scale[(Link opens in a new
-    window)]{.sr-only}](https://www.tableau.com/sites/default/files/media/Whitepapers/wp_governedselfservice_0.pdf "View a whitepaper that describes a controlled self-service server environment"),
+    window)]](https://www.tableau.com/sites/default/files/media/Whitepapers/wp_governedselfservice_0.pdf "View a whitepaper that describes a controlled self-service server environment"),
     a Tableau whitepaper by Rupali Jain.\
     To view the PDF, you might need to provide your Tableau website
     credentials. These are the same ones you use for the community
     forums or to submit support cases.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/web_author_who.htm#){.heading-item__link .print-hidden} Coordinate edit and save capabilities with site roles for the appropriate level of access
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Coordinate edit and save capabilities with site roles for the appropriate level of access
+---------------------------------------------------------------------------------------------------------
+
 
 To edit, save, and download workbooks, users must have a site role that
 allows those actions, along with the capabilities---defined in
 permissions rules---that grant or deny editing-related access.
 
-<div>
+
 
 ####  Site role access
 
-</div>
 
 -   When the appropriate permissions are set at the content level, the
     [[Creator]{.Variablessiterole-author}] or [Explorer (can

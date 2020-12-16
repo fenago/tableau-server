@@ -35,12 +35,11 @@ their experiences. Links to their talks are available at the [bottom of
 this
 page](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#customer-stories).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} Create a project team and adopt a permissions strategy
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Create a project team and adopt a permissions strategy
+-------------------------------------------------------------------------
+
 
 Although changing the project structure on your site after your users
 are publishing to it is not impossible, it's difficult and can be
@@ -61,12 +60,11 @@ communicate your strategy to other administrators and project leaders.
 Tableau's
 [Permissions](https://help.tableau.com/current/server/en-us/permissions.htm) before proceeding.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#coord-projects-groups}Steps to coordinate projects and groups
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Steps to coordinate projects and groups
+------------------------------------------------------------------------------------
+
 
 To get projects and permissions (content) to work together with groups
 (people) in a managed self-service environment, you generally take the
@@ -96,12 +94,11 @@ If you decide to follow the guidelines described here, you might want to
 [Automate working with groups and
 projects](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#automate-management).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#plan-perms}1. Plan your permissions {#1-plan-your-permissions}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### 1. Plan your permissions
+------------------------------------------------------------------------------------------------------------------------
+
 
 Before you create groups and start assigning permissions, create a list
 of people who need access to content, and arrange them in groups
@@ -121,11 +118,10 @@ not get the equivalent access to the Marketing content.
 This exercise, done outside of the Tableau environment, can be the most
 challenging part of setting up a site.
 
-<div>
+
 
 ####  Use a closed permissions model for managed content
 
-</div>
 
 General models for setting permissions are *open* or *closed*. In an
 open model, users get a high level of access, and you explicitly deny
@@ -136,12 +132,11 @@ In a closed model, users get only the access they need to do their jobs.
 This is the model security professionals advocate, and the examples in
 this article will attempt to show.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#baseline}2. Remove permissions that will cause ambiguities {#2-remove-permissions-that-will-cause-ambiguities}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### 2. Remove permissions that will cause ambiguities
+---------------------------------------------------------------------------------
+
 
 Every site has a [Default] project and an [All
 Users] group. Any user added to the site becomes a member of
@@ -167,12 +162,11 @@ control over.
     [None].
 5.  Select [Delete] to apply the changes.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#groups-for-content-access}3. Create groups {#3-create-groups}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### 3. Create groups
+-----------------------------------------------------------------
+
 
 You create groups to match what people need to do with a set of content.
 In this case "a set of content" refers to the workbooks and data sources
@@ -220,12 +214,11 @@ projects](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#au
 **Learn more:** [Add Users to a
 Group](https://help.tableau.com/current/server/en-us/users_add_group.htm)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#assign-perms-groups}4. Assign permissions to the groups {#4-assign-permissions-to-the-groups}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### 4. Assign permissions to the groups
+------------------------------------------------------------------------------
+
 
 After you create groups, you can assign permissions in one of the
 following ways:
@@ -245,11 +238,10 @@ templates in the Default project. You will want to explicitly deny some
 capabilities across the board, and then allow them on only a few
 projects where you want to allow more open access.
 
-<div>
+
 
 #### Create permission rules
 
-</div>
 
 1.  While you have the Default project open, on the
     [Actions] menu (\...), select [Permissions].
@@ -272,21 +264,16 @@ allowed it. Leaving a capability as Unspecified will result in it being
 denied. For more information, see [Effective
 permissions](https://help.tableau.com/current/server/en-us/permissions.htm#EffectivePermissions).
 
-<div>
+
 
 ####  Example
 
-</div>
 
 For the groups defined above, here is one way you might set default
 permissions.
 
  
-:::
-:::
-:::
-:::
-:::
+
 
 Project tab
 
@@ -322,22 +309,20 @@ Explore template
 on select projects. You can allow those capabilities on specific
 projects or workbooks.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#project-structure}5. Create projects and adjust permissions {#5-create-projects-and-adjust-permissions}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### 5. Create projects and adjust permissions
+----------------------------------------------------------------------------------
+
 
 After the Default project is set with your custom permissions template,
 you can create projects that allow the content use cases you identified.
 For each project, you can adjust the default permissions as appropriate.
 
-<div>
+
 
 ####  Example project structure
 
-</div>
 
 One way to structure projects could be to reflect the following use
 cases:
@@ -398,11 +383,10 @@ workbooks available. Templates that have your organization's approved
 fonts, colors, images, and even data connections built in can save
 authors a lot of time and keep your reports looking consistent.
 
-<div>
+
 
 ####  Help project leaders manage content and users find it
 
-</div>
 
 -   Devise a scalable project-naming scheme that makes sense in your
     organization.
@@ -418,12 +402,11 @@ authors a lot of time and keep your reports looking consistent.
 
 ![](./images/projects_description_thumbnail.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#lock-perms}6. Lock permissions in each project {#6-lock-permissions-in-each-project}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### 6. Lock permissions in each project
+---------------------------------------------------------------------
+
 
 After you refine the capabilities for each group in a project, you can
 lock the project's permissions, either for the project itself or all
@@ -445,30 +428,28 @@ to, and only administrators and project leaders can set permissions.
 For more information, see [Lock content
 permissions](https://help.tableau.com/current/server/en-us/permissions.htm#LockProject).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} []{#automate-management}Automate working with groups and projects
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Automate working with groups and projects
+------------------------------------------------------------------------------------
+
 
 Creating multiple groups and projects and setting permissions manually
 can get a little tedious. To automate these processes, as well as make
 them repeatable for future updates, you can perform these tasks using
 [REST API[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/api/rest_api/en-us/help.htm#REST/rest_api.htm)
+window)]](https://help.tableau.com/current/api/rest_api/en-us/help.htm#REST/rest_api.htm)
 commands.
 
 You can use
 [tabcmd](https://help.tableau.com/current/server/en-us/tabcmd.htm) commands for tasks such as adding or deleting a single project or
 group and adding users, but not for setting permissions.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_data_gov.htm#){.heading-item__link .print-hidden} Next steps
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Next steps
+-------------------------------------------------------------------------------------------
+
 
 Besides projects, groups, and permissions, other data governance themes
 include:
@@ -490,11 +471,11 @@ For publishing and data certification tips, see the following topics:
     .xref}
 
 -   [Prepare for Publishing a Workbook[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#publish_workbooks_prepare.html "Get tips for workbook publishing")
+    window)]](https://help.tableau.com/current/pro/desktop/en-us/help.htm#publish_workbooks_prepare.html "Get tips for workbook publishing")
     (links to Tableau Help)
 
 -   [Best Practices for Published Data Sources[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#publish_datasources_about.html)
+    window)]](https://help.tableau.com/current/pro/desktop/en-us/help.htm#publish_datasources_about.html)
     (links to Tableau Help)
 
 **Optimize extract refresh and subscription activity**
@@ -530,18 +511,18 @@ remain the same. You can explore the playlists for other videos related
 to COE, managing Tableau at scale.
 
 [Creating a Centre of Excellence in Tableau[(Link opens in a new
-window)]{.sr-only}](https://www.youtube.com/watch?v=bUHhxqbADrs&index=26&list=PL_qx68DwhYA86R-BwD35gkLuozgZnIKXC "Link opens YouTube video in a new browser tab.")
+window)]](https://www.youtube.com/watch?v=bUHhxqbADrs&index=26&list=PL_qx68DwhYA86R-BwD35gkLuozgZnIKXC "Link opens YouTube video in a new browser tab.")
 (TC Europe 2018)
 
 [Server Admins: Don't Fear Web Authoring[(Link opens in a new
-window)]{.sr-only}](https://www.youtube.com/watch?v=hoLd-9PmY_4&list=PL_qx68DwhYA-w4yP-x8k9HXmVTdaa7jsH&index=139 "Link opens YouTube video in a new browser tab")
+window)]](https://www.youtube.com/watch?v=hoLd-9PmY_4&list=PL_qx68DwhYA-w4yP-x8k9HXmVTdaa7jsH&index=139 "Link opens YouTube video in a new browser tab")
 (Sprint, TC16)
 
 [The Past, Present, & Future at Charles Schwab[(Link opens in a new
-window)]{.sr-only}](https://www.youtube.com/watch?v=JdhGRcfZeDA&list=PL_qx68DwhYA8hi22EeVgfxQLmDMDyd049&index=16 "Link opens YouTube video in a new browser tab.")
+window)]](https://www.youtube.com/watch?v=JdhGRcfZeDA&list=PL_qx68DwhYA8hi22EeVgfxQLmDMDyd049&index=16 "Link opens YouTube video in a new browser tab.")
 (TC 17)
 
 [Content Strategies in Tableau[(Link opens in a new
-window)]{.sr-only}](https://www.youtube.com/watch?v=Mds-juUNHx8&list=PL_qx68DwhYA8hi22EeVgfxQLmDMDyd049&index=10 "Link opens YouTube video in a new browser tab.")
+window)]](https://www.youtube.com/watch?v=Mds-juUNHx8&list=PL_qx68DwhYA8hi22EeVgfxQLmDMDyd049&index=10 "Link opens YouTube video in a new browser tab.")
 (TC 17)
 

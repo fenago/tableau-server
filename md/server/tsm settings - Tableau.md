@@ -12,7 +12,7 @@ configuration values.
 -   [tsm settings
     import](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#TSMSet){.MCXref
     .xref}
-:::
+
 
 **Important**: The server configuration file referenced in this topic
 includes a copy of the master keystore file used for encrypting
@@ -40,28 +40,25 @@ must manage these files manually:
 -   Customization sign-in logo file
 -   Customization compact logo file
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#){.heading-item__link .print-hidden} []{#TSMExport}tsm settings export
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm settings export
+-----------------------------------------------------------------------------------------------------------------
+
 
 Export the current server configuration and topology to a file.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm settings export --output-config-file <path/to/output_file.json> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f, \--output-config-file \<file\>
 
@@ -69,28 +66,25 @@ Required.
 
 Specifies the location and name of the file created by this operation.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#){.heading-item__link .print-hidden} []{#TSMSet}tsm settings import
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm settings import
+--------------------------------------------------------------------------------------------------------------
+
 
 Import server configuration or topology.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm settings import --import-config-file <path/to/import_file.json> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f,\--import-config-file \<FILE\>
 
@@ -113,12 +107,11 @@ Optional.
 Force a key to be added to configuration even if it did not previously
 exist.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#){.heading-item__link .print-hidden} Global options
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+----------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

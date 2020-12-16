@@ -2,7 +2,7 @@
 
 Set Users' Site Roles
 =====================
-<div>
+
 
 When you add users to a site on Tableau Server or Tableau Online,
 independent of their license type, you must apply a *site role* to them.
@@ -13,14 +13,13 @@ manage the site's users and administer the site itself.
 
 Looking for Tableau Server on Linux? See [Set Users' Site Roles[(Link
 opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/users_site_roles.htm "Opens topic in a new browser tab").
+window)]](https://help.tableau.com/current/server-linux/en-us/users_site_roles.htm "Opens topic in a new browser tab").
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_site_roles.htm#){.heading-item__link .print-hidden} []{#site-roles-license-perms}How user licenses, site roles, and content permissions work together
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### How user licenses, site roles, and content permissions work together
+-------------------------------------------------------------------------------------------------------------------
+
 
 The intersection of a user's license type, site role, and content
 permissions determines the level of access a user has on the Tableau
@@ -63,12 +62,11 @@ can't publish anything to the site.
 For more information, see
 [Permissions](https://help.tableau.com/current/server/en-us/permissions.htm).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_site_roles.htm#){.heading-item__link .print-hidden} []{#change-role}Change a user's site role {#change-a-user’s-site-role}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Change a user's site role
+-------------------------------------------------------------------------------------------------------------------------
+
 
 1.  Sign in to the site as a server or site administrator, and go to the
     [Users] area.
@@ -95,12 +93,11 @@ For more information, see
     capabilities allowed with each site
     role](https://help.tableau.com/current/server/en-us/users_site_roles.htm#site-role-capabilities-summary)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_site_roles.htm#){.heading-item__link .print-hidden} []{#site-role-capabilities-summary}General capabilities allowed with each site role
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### General capabilities allowed with each site role
+-----------------------------------------------------------------------------------------------------
+
 
 The following table lists the license types as of version 2018.1, the
 highest level of site role allowed with each, how each site role maps to
@@ -108,17 +105,16 @@ its pre-2018.1 equivalent; and summarizes the maximum capabilities each
 site role allows.
 
 
-<div>
+
 
 ####  What this article covers and where to find what's not covered here
 
-</div>
 
 -   This information focuses on *site* roles and is more generalized.
     For a list of common specific tasks available per *license* role,
     see the matrix on the [For Teams & Organizations[(Link opens in a
     new
-    window)]{.sr-only}](https://www.tableau.com/pricing/teams-orgs "Open the Tableau pricing page for subscription-based licensing in a new browser window")
+    window)]](https://www.tableau.com/pricing/teams-orgs "Open the Tableau pricing page for subscription-based licensing in a new browser window")
     tab on the Tableau pricing page.
 
 -   This information describes site roles as of version 2018.1. To learn
@@ -133,22 +129,16 @@ site role allows.
     [Troubleshoot
     Licensing](https://help.tableau.com/current/server/en-us/unlicensed.htm){.MCXref
     .xref}
-:::
 
-<div>
+
+
 
 ####  Tableau site roles as of version 2018.1 
 
-</div>
 
 Site role name as of version 2018.1
 
-</div>
-:::
-:::
-:::
-:::
-:::
+
 
 Previous site role name
 
@@ -292,7 +282,7 @@ alerts.
 
 For a list of specific capabilities, see the **Viewer** column in the
 matrix on the [Tableau pricing page[(Link opens in a new
-window)]{.sr-only}](https://www.tableau.com/pricing/teams-orgs "Link opens the Tableau license pricing page in a new browser tab").
+window)]](https://www.tableau.com/pricing/teams-orgs "Link opens the Tableau license pricing page in a new browser tab").
 
 **Note:** Although the Viewer site role existed in previous versions,
 the new Viewer site role has additional capabilities.
@@ -319,12 +309,11 @@ Users are assigned the Unlicensed role in the following circumstances:
     Product
     Key](https://help.tableau.com/current/server/en-us/license_refresh.htm)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_site_roles.htm#){.heading-item__link .print-hidden} []{#site-roles-allow-publishing}Who can publish content
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Who can publish content
+-------------------------------------------------------------------------
+
 
 The following site roles allow the specified level of publishing access.
 
@@ -349,12 +338,11 @@ The following site roles allow the specified level of publishing access.
     publishing.
 
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_site_roles.htm#){.heading-item__link .print-hidden} []{#MinSiteRoleImport}Site roles and Active Directory import and synchronization
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Site roles and Active Directory import and synchronization
+--------------------------------------------------------------------------------------------------
+
 
 When you import users from an external directory like Active Directory,
 you can specify the site role. If a user is not yet a member of any site
@@ -377,7 +365,7 @@ does not demote a user\'s site role.
 If a user already has the ability to publish, that ability is
 maintained.
 
-<div>
+
 
 The matrix below shows the rules applied for site roles on import.
 
@@ -397,8 +385,7 @@ abbreviated resulting site role.
 
  
 
-</div>
-:::
+
 
 Current Site Role
 

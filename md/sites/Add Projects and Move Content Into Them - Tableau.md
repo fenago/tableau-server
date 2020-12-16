@@ -24,12 +24,11 @@ recommend becoming familiar with the following related content as well:
     access, see [Project-level
     administration](https://help.tableau.com/current/server/en-us/projects.htm#project-admin)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_add.htm#){.heading-item__link .print-hidden} []{#add-project}Add a top-level or child (nested) project {#add-a-toplevel-or-child-nested-project}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Add a top-level or child (nested) project
+-----------------------------------------------------------------------
+
 
 1.  While you're signed in to [Tableau Server] as
     an administrator or project leader, select the [Content]
@@ -59,12 +58,11 @@ recommend becoming familiar with the following related content as well:
     select the information icon next to its name, and then click
     **Edit**.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_add.htm#){.heading-item__link .print-hidden} []{#move-workbook-datasource}Move a content resource to another project
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Move a content resource to another project
+-------------------------------------------------------------------------------------
+
 
 1.  On the [Content] tab, find the content resource you want
     to move.
@@ -108,12 +106,11 @@ When you move project and content, permissions may be impacted. For more
 information, see [Move projects and
 content](https://help.tableau.com/current/server/en-us/permissions.htm#moveproject).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_add.htm#){.heading-item__link .print-hidden} []{#delete-project}Delete a project
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Delete a project
+---------------------------------------------------------------------------------------------------------------
+
 
 When you delete a project, all of the workbooks and data sources in the
 project are also deleted from the site. If you want to delete a project
@@ -142,23 +139,21 @@ To delete a project:
 
 3.  Confirm that you want to delete the project.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/projects_add.htm#){.heading-item__link .print-hidden} []{#move-perms}Required access level for moving content
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Required access level for moving content
+---------------------------------------------------------------------
+
 
 Moving content is effectively like removing it from one project and
 publishing it to another. For non-administrators, the permissions needed
 on the source project are different than those needed on the destination
 project.
 
-<div>
+
 
 ####  Required site role
 
-</div>
 
 To move content, users must have one of the following site roles:
 
@@ -171,20 +166,18 @@ To move content, users must have one of the following site roles:
 Users with a Server Administrator or Site Administrator site role do not
 need any additional capabilities.
 
-<div>
+
 
 ####  Required permissions for the project that users move content *to*
 
-</div>
 
 Non-administrators must have the [Publish] permission
 capability for the project that is the move destination.
 
-<div>
+
 
 ####  Required permissions for the project that users move content *from*
 
-</div>
 
 Non-administrator users must
 

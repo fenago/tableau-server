@@ -5,14 +5,9 @@ tsm configuration
 You can use the `tsm configuration` commands to get, set, and update
 configuration key values.
 
-<div>
+##### \"Unknown key\" responses
+------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} []{#configGetNote}\"Unknown key\" responses
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Certain configuration keys will return an \"Unknown key\" response when
 you attempt to get their current value, or set a new value. If this
@@ -24,7 +19,6 @@ Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm
 
  
 
-</div>
 
 
 -   [tsm configuration
@@ -36,32 +30,25 @@ Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm
 -   [tsm configuration
     set](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#TSMSet){.MCXref
     .xref}
-:::
 
-<div>
 
-<div>
+##### tsm configuration get
+---------------------------------------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} []{#TSMGet}tsm configuration get
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 View the current server configuration and topology.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm configuration get --key <config.key> [global options]`
 
-<div>
+
 
 #### Option
 
-</div>
 
 -k, \--key
 
@@ -69,38 +56,25 @@ Required.
 
 Get the current value of the specified configuration key.
 
-</div>
 
-<div>
+##### tsm configuration list-dynamic-keys
+---------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} []{#TSMListDynamicKeys}tsm configuration list-dynamic-keys {#tsm-configuration-listdynamickeys}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 View all the configuration keys that can be configured dynamically
 (without restarting Tableau Server).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm configuration list-dynamic-keys [global options]`
 
-</div>
 
-<div>
+##### tsm configuration set
+---------------------------------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} []{#TSMSet}tsm configuration set
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Set or import server configuration or topology.
 
@@ -115,19 +89,17 @@ results of a `tsm configuration get` command. You can view pending
 changes using `tsm pending-changes list`. For more information, see [tsm
 pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm configuration set --key <config.key> --value <config_value> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -k,\--key \<config.key\>
 
@@ -154,14 +126,12 @@ Optional.
 Force a key to be added to configuration even if it did not previously
 exist.
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#){.heading-item__link .print-hidden} Global options
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+---------------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

@@ -20,14 +20,13 @@ Licenses](https://help.tableau.com/current/server/en-us/license_manage.htm).
 **Tip:** To share views with Guest users, either provide URL links or
 embed views into web pages. For more information, [see Tableau User
 Help[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#shareworkbooks.html).
+window)]](https://help.tableau.com/current/pro/desktop/en-us/help.htm#shareworkbooks.html).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_guest.htm#){.heading-item__link .print-hidden} Guest user permissions
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Guest user permissions
+-------------------------------------------------------------------------------------------------
+
 
 A Guest user can have the following maximum capabilities:
 
@@ -42,12 +41,11 @@ to a content resource, the Guest user's access does not exceed the
 capabilities listed above. However, the Guest user account will comply
 with more restrictive permissions settings.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_guest.htm#){.heading-item__link .print-hidden} Enable or disable Guest access
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Enable or disable Guest access
+---------------------------------------------------------------------------------------------------------
+
 
 You must be a server administrator to change Guest account settings at
 either the server or the site level.
@@ -83,12 +81,11 @@ one can access data or views without signing in to the server, the Guest
 user still appears in the Site Users list and group lists for groups
 you've added the Guest user to.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_guest.htm#){.heading-item__link .print-hidden} Additional Guest account characteristics
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Additional Guest account characteristics
+-------------------------------------------------------------------------------------------------------------------
+
 
 The Guest user is unique in the following additional ways:
 

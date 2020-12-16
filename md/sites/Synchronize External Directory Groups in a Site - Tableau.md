@@ -61,12 +61,11 @@ removing the user\'s account completely. For more information, see [Sync
 behavior when removing users from Active
 Directory](https://help.tableau.com/current/server/en-us/users_manage_ad.htm#Sync).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_create_adsync.htm#){.heading-item__link .print-hidden} What happens when a user name changes in the source external directory
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### What happens when a user name changes in the source external directory
+--------------------------------------------------------------------------------------------
+
 
 By default, Tableau Server will not synchronize changes to the user
 display name or email address after the initial synchronization when the
@@ -100,12 +99,11 @@ behavior. If the changes do not require a restart, the changes are
 applied without a prompt. For more information, see [tsm pending-changes
 apply](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-apply).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/groups_create_adsync.htm#){.heading-item__link .print-hidden} What happens when an external directory group is removed from Tableau Server?
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### What happens when an external directory group is removed from Tableau Server?
+---------------------------------------------------------------------------------------------------
+
 
 Many Tableau administrators use external directory groups to import and
 create users. After the users are imported into Tableau Server,

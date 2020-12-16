@@ -73,14 +73,13 @@ browsers---to the repository.
     extensions, use the Tableau Server admin pages. See [Configure
     Connection with Analytics
     Extensions](https://help.tableau.com/current/server/en-us/config_r_tabpy.htm)
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Prerequisites
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### Prerequisites
+---------------------------------------------------------------------------------------------
+
 
 Before you configure SSL, you must acquire certificates, and then copy
 them to the computer that runs the [Tableau
@@ -98,16 +97,11 @@ Communication](https://help.tableau.com/current/server/en-us/ssl_config_postgres
 Authentication](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm) and [tsm authentication mutual-ssl
 commands](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#TSMMutualSSL).
 
-<div>
 
-<div>
 
-<div>
+##### tsm security custom-cert add
+------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#custom-cert-add}tsm security custom-cert add {#tsm-security-customcert-add}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Adds a custom CA certificate to [Tableau
 Server]{.VariablesTabsProductServer}. This certificate is optionally
@@ -128,117 +122,89 @@ distributed to other nodes by the Client File Service. However, the file
 is not stored in a recoverable format. See [Tableau Server Client File
 Service](https://help.tableau.com/current/server/en-us/server_process_cfs.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security custom-cert  add --cert-file <file.crt> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -c, \--cert-file \<file.crt\>
 
 Required. Specify the name of a certificate file in valid PEM or DER
 format.
 
-</div>
 
-<div>
+##### tsm security custom-cert delete
+------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#custom-cert-delete}tsm security custom-cert delete {#tsm-security-customcert-delete}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Removes the server's existing custom certificate. Doing this allows you
 to add a new custom certificate.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security custom-cert delete[global options]`
 
-</div>
 
-<div>
+##### tsm security custom-cert list
+--------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#custom-cert-list}tsm security custom-cert list {#tsm-security-customcert-list}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 List details of custom certificate.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security custom-cert list[global options]`
 
-</div>
 
-</div>
 
-<div>
+##### tsm security external-ssl disable
+----------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#external-ssl-disable}tsm security external-ssl disable {#tsm-security-externalssl-disable}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Removes the server's existing SSL configuration settings and stops
 encrypting traffic between external clients and the server.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security external-ssl disable [global options]`
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#external-ssl-enable}tsm security external-ssl enable {#tsm-security-externalssl-enable}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm security external-ssl enable
+--------------------------------------------------------------------------
+
 
 Enable and specify certificate and key files for SSL over external HTTP
 communication.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security external-ssl enable --cert-file <file.crt> --key-file <file.key> [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--cert-file \<file.crt\>
 
@@ -299,33 +265,26 @@ SSL v3, TLS v1, and TLS v1.1.
 
 `tsm security external-ssl enable --cert-file file.crt --key-file file.key --protocols "all -SSLv2 -SSLv3 -TLSv1 -TLSv1.1"`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#external-ssl-list}tsm security external-ssl list {#tsm-security-externalssl-list}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm security external-ssl list
+----------------------------------------------------------------------
+
 
 Displays a list of settings related to the configuration of gateway
 external SSL. The list includes the names of the certificate files in
 use, but not their location.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security external-ssl list [global options]`
 
-<div>
+##### tsm security kms set-mode aws 
+---------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#kms-set-aws}tsm security kms set-mode aws  {#tsm-security-kms-setmode-aws}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Set the KMS mode to AWS.
 
@@ -338,19 +297,17 @@ arn:aws:kms:\<region\>:\<account\>:key/\<CMK\_ID\>, for example,
 For more information, see [Key Management
 System](https://help.tableau.com/current/server/en-us/security_kms.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security kms set-mode aws --key-arn "<arn>" --aws-region "<region>" [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--key-arn
 
@@ -362,13 +319,12 @@ pages.
 
 Required. Specify a region as shown in the Region column in the [Amazon
 API Gateway table[(Link opens in a new
-window)]{.sr-only}](https://docs.aws.amazon.com/general/latest/gr/rande.html).
+window)]](https://docs.aws.amazon.com/general/latest/gr/rande.html).
 
-<div>
+
 
 ####  Example
 
-</div>
 
 For example, if your AWS KMS instance is running in us-west-2 region,
 your account number is 867530990073, and your CMK key is
@@ -377,31 +333,28 @@ follows:
 
 `tsm security kms set-mode aws --aws-region "us-west-2" --key-arn "arn:aws:kms:us-west-2:867530990073:key/1abc23de-fg45-6hij-7k89-1l0mn1234567"`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#kms-set-local}tsm security kms set-mode local  {#tsm-security-kms-setmode-local}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm security kms set-mode local 
+-------------------------------------------------------------------
+
 
 Set the KMS mode to local. Local is the default KMS mode. For more
 information, see [Key Management
 System](https://help.tableau.com/current/server/en-us/security_kms.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security kms set-mode local [global options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#kms-status}tsm security kms status 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm security kms status 
+----------------------------------------------------------------------------------------------------------------------
+
 
 View the status of KMS configuration.
 
@@ -427,36 +380,28 @@ The following is returned:
     -   Transition to decrypt-only: a timestamp indicating when the key
         transitioned to decrypt-only.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security kms status [global options]`
 
-</div>
 
-<div>
+##### tsm security maestro-rserve-ssl disable 
+----------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#maestro-rserve-ssl-disable}tsm security maestro-rserve-ssl disable  {#tsm-security-maestrorservessl-disable}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Disable the Rserve connection.
 
 For more information, see [Use R (Rserve) scripts in your
 flow](https://help.tableau.com/current/prep/en-us/prep_scripts._R.htm#configure-rserve-server-for-tableau-server).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#maestro-rserve-ssl-enable}tsm security maestro-rserve-ssl enable  {#tsm-security-maestrorservessl-enable}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm security maestro-rserve-ssl enable 
+--------------------------------------------------------------------------------------
+
 
 Configure a connection between an Rserve server and Tableau Server
 version 2019.3 or later.
@@ -464,19 +409,17 @@ version 2019.3 or later.
 For more information, see [Use R (Rserve) scripts in your
 flow](https://help.tableau.com/current/prep/en-us/prep_scripts._R.htm#configure-rserve-server-for-tableau-server).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security maestro-rserve-ssl enable --connection-type <maestro-rserve-secure | maestro-rserve> --rserve-host <Rserve IP address or host name> --rserve-port <Rserve port> --rserve-username <Rserve username> --rserve-password <Rserve password> --rserve-connect-timeout-ms <RServe connect timeout>`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--connection-type
 
@@ -506,24 +449,22 @@ Password
 The connect timeout in milliseconds. For example
 `--rserve-connect-timeout-ms 900000`.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#maestro-tabpy-ssl-disable}tsm security maestro-tabpy-ssl disable  {#tsm-security-maestrotabpyssl-disable}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm security maestro-tabpy-ssl disable 
+--------------------------------------------------------------------------------------
+
 
 Disable the TabPy connection.
 
 For more information, see [Use Python scripts in your
 flow](https://help.tableau.com/current/prep/en-us/prep_scripts_TabPy.htm).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#maestro-tabpy-ssl-enable}tsm security maestro-tabpy-ssl enable  {#tsm-security-maestrotabpyssl-enable}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm security maestro-tabpy-ssl enable 
+------------------------------------------------------------------------------------
+
 
 Configure a connection between a TabPy server and Tableau Server version
 2019.3 or later.
@@ -531,19 +472,17 @@ Configure a connection between a TabPy server and Tableau Server version
 For more information, see [Use Python scripts in your
 flow](https://help.tableau.com/current/prep/en-us/prep_scripts_TabPy.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security maestro-tabpy-ssl enable --connection-type <maestro-tabpy-secure | maestro-tabpy> --tabpy-host <TabPy IP address or host name> --tabpy-port <TabPy port> --tabpy-username <TabPy username> --tabpy-password <TabPy password> --tabpy-connect-timeout-ms <TabPy connect timeout>`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--connection-type
 
@@ -573,16 +512,10 @@ Password
 The connect timeout in milliseconds. For example
 `--tabpy-connect-timeout-ms 900000`.
 
-</div>
 
-<div>
+##### tsm security regenerate-internal-tokens 
+-------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#regenerate-tokens}tsm security regenerate-internal-tokens  {#tsm-security-regenerateinternaltokens}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 This command performs the following operations:
 
@@ -619,19 +552,17 @@ Nodes](https://help.tableau.com/current/server/en-us/install_additional_nodes.ht
 For more information about internal passwords see [Manage Server
 Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security regenerate-internal-tokens [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -640,56 +571,45 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 1800 (30 minutes).
 
-</div>
 
-<div>
+##### tsm security repository-ssl disable
+------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#postgres-ssl-disable}tsm security repository-ssl disable {#tsm-security-repositoryssl-disable}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Stop encrypting traffic between the repository and other server
 components, and stop support for direct connections from Tableau
 clients.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security repository-ssl disable [global-options]`
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#postres-ssl-enable}tsm security repository-ssl enable {#tsm-security-repositoryssl-enable}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm security repository-ssl enable
+---------------------------------------------------------------------------
+
 
 Enables SSL and generates the server's .crt and .key files used for
 encrypted traffic between the Postgres repository and other server
 components. Enabling this also gives you the option to enable SSL over
 direct connections from Tableau clients to the server.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security repository-ssl enable [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -i, \--internal-only
 
@@ -707,14 +627,9 @@ When you specify this option, you must also complete the steps described
 in [Configure Postgres SSL to Allow Direct Connections from
 Clients](https://help.tableau.com/current/server/en-us/ssl_config_direct_cx.htm).
 
-<div>
+##### tsm security repository-ssl get-certificate-file
+----------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#postgres-ssl-cert}tsm security repository-ssl get-certificate-file {#tsm-security-repositoryssl-getcertificatefile}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Get the public certificate file used for SSL communication with the
 Tableau repository. SSL must be enabled for repository communication
@@ -724,19 +639,17 @@ Tableau Server cluster. To enable remote clients to connect over SSL to
 the repository, you must copy the public certificate file to each
 client.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security repository-ssl get-certificate-file [global-options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f, \--file
 
@@ -745,31 +658,27 @@ Required.
 Full path and file name (with .cert extension) where the certificate
 file should be saved. If a duplicate file exists it will be overwritten.
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} []{#postgres-ssl-list}tsm security repository-ssl list {#tsm-security-repositoryssl-list}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm security repository-ssl list
+------------------------------------------------------------------------
+
 
 Returns the existing repository (Postgres) SSL configuration.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm security repository-ssl list [global-options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#){.heading-item__link .print-hidden} Global options
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+----------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

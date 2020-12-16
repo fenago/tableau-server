@@ -11,20 +11,18 @@ running tsm CLI locally. For more information, see [Authenticating with
 tsm
 CLI](https://help.tableau.com/current/server/en-us/tsm.htm#Authenti).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm login [global options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_login.htm#){.heading-item__link .print-hidden} Global options
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+---------------------------------------------------------------------------------------
+
 
 -h, \--help
 

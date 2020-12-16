@@ -6,19 +6,17 @@ You can use the `tsm status` command to display the status of Tableau
 Server and individual services (processes) that run as part of Tableau
 Server.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm status [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -v, \--verbose
 
@@ -76,12 +74,11 @@ include:
     is in an error or problem state. Some services only run when needed
     (the Database Maintenance service for example).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_status_tsm.htm#){.heading-item__link .print-hidden} Global options
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+--------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

@@ -7,12 +7,11 @@ to using Tableau Server, an important conceptual shift for you and your
 users is how you think about sharing workbooks ... and the data that
 workbooks help you analyze.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Think about data in Tableau Server terms {#thinking-about-data-in-tableau-server-terms}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Think about data in Tableau Server terms
+--------------------------------------------------------------------------------
+
 
 If you use only Tableau Desktop, you manage all your own connections to
 data. For example, you might open Tableau, connect to SQL Server, and
@@ -43,12 +42,11 @@ several ways:
     Users can then create workbooks that point to this source for their
     data.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Think about optimizing data access and security {#thinking-about-optimizing-data-access-and-security}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Think about optimizing data access and security
+---------------------------------------------------------------------------------------
+
 
 In addition to thinking about ways you can share data access, you and
 your users must learn how to make the most efficient use of data.
@@ -79,12 +77,11 @@ data access for your scenarios, your users will see these benefits:
     source connections and create extract refresh schedules to meet the
     needs of your users and establish stable and consistent data usage.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Before you begin
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Before you begin
+----------------------------------------------------------------------------------------------------------------------
+
 
 We\'ve written this chapter for Tableau Desktop champions who have been
 tasked with managing Tableau Server. Therefore, we assume you understand
@@ -129,20 +126,19 @@ comfortable with the following terms and concepts:
 If you\'re not already familiar with these different data access terms,
 take some time to read through [Publish Data Sources and Workbooks[(Link
 opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#publish_overview.html)
+window)]](https://help.tableau.com/current/pro/desktop/en-us/help.htm#publish_overview.html)
 in the Tableau Help. To refresh your understanding of how Tableau Server
 uses the Run As User account to access data, review [Planning Your
 Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_planning.htm) earlier in this guide.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} What do you need to do?
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+What do you need to do?
+---------------------------------------------------------------
+
 
 This chapter of *[Tableau Server: Everybody\'s Install
-Guide]{.VariablesEAGuideTitle}* discusses the three basic steps that you
+Guide]* discusses the three basic steps that you
 must perform in order to get started in your new role as a data
 administrator on Tableau Server:
 
@@ -154,12 +150,11 @@ administrator on Tableau Server:
 3.  Test the performance differences that might occur between a live
     connection and an extract.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Provide access to data sources
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Provide access to data sources
+----------------------------------------------------------------------
+
 
 Providing access to data sources starts with understanding how various
 data sources handle authentication---that is, sign in. In most cases,
@@ -192,11 +187,8 @@ Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/ever
 \"least privilege\" access. In most cases, this means read-only access
 to the data sources that the account will access.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Let users embed credentials (or not) {#embedding-credentials}
-
-</div>
+### Let users embed credentials
 
 As administrator, you can decide to let users embed passwords (which are
 encrypted) in the workbooks and data sources that they publish to the
@@ -230,11 +222,10 @@ credentials can make business sense---all the Tableau users who need
 access to the database can use the single set of credentials that is
 embedded in workbooks or in data sources.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Set data source permissions
 
-</div>
+###  Set data source permissions
+
 
 Publishing data sources to Tableau Server lets people on your team
 provide centralized access to data. It enables data sharing among users,
@@ -293,12 +284,11 @@ To set permissions on data sources in a project, follow these steps:
 
 6.  Click [Save].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Share CSV, Excel, or Access files via a live connection {#accessing-files-as-a-live-data-connection}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Share CSV, Excel, or Access files via a live connection
+-----------------------------------------------------------------------------------------------
+
 
 Some of your users might analyze data that\'s in CSV (comma-separated
 values), Microsoft Excel, or Microsoft Access files that live as
@@ -321,14 +311,13 @@ In this scenario, the Run As User account that you created and
 configured for Tableau Server is used as the security context to access
 the Excel file on a network location.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Set up the shared network location
 
-</div>
+### Set up the shared network location
+
 
 Go to the [Share files with someone[(Link opens in a new
-window)]{.sr-only}](http://windows.microsoft.com/en-us/windows/share-files-with-someone)
+window)]](http://windows.microsoft.com/en-us/windows/share-files-with-someone)
 page on the Microsoft Windows site and follow the procedure under \"To
 share files and folders on a workgroup or a domain.\" Those steps
 describe how to use the Windows File Sharing wizard to create a shared
@@ -356,20 +345,14 @@ The last page of the File Sharing wizard displays the UNC path. Make a
 note of this path and send it to your users so they know where to
 connect to the shared Excel files.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Add the Excel file to the shared location
-
-</div>
+###  Add the Excel file to the shared location
 
 After you\'ve set up the shared location, copy the Excel file (or files)
 that you want to share to that location.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Create a workbook that connects to the shared Excel file
+### Create a workbook that connects to the shared Excel file
 
-</div>
 
 This procedure describes how to access an Excel file on the shared
 network location and then how to publish that data in a workbook to
@@ -408,12 +391,11 @@ working in the Tableau workbook.
 
 7.  Set permissions if required, and then click [Publish].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Keep data fresh {#keeping-data-fresh}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Keep data fresh
+---------------------------------------------------------------------------------------------------------------------
+
 
 In many cases, the data that\'s displayed in a workbook or view changes
 after the user publishes the workbook. For example, if a user has a
@@ -452,11 +434,9 @@ As an administrator you can also refresh extracts immediately:
 
 4.  On the [Actions] menu, click [Run Now].
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Set refresh schedules that users can choose from {#scheduling-a-refresh}
+###  Set refresh schedules that users can choose from 
 
-</div>
 
 When a user publishes a workbook that includes an extract, the user can
 set up a refresh schedule. This setting is available from the [Publish
@@ -483,11 +463,10 @@ steps:
 
     ![](./images/everybody_admin_data_new_schedule_ux.png)
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Determine the frequency of scheduled refreshes
 
-</div>
+###  Determine the frequency of scheduled refreshes
+
 
 Refreshing an extract can be resource heavy, especially if you\'re
 trying to run multiple extract refreshes at once. Therefore, it\'s
@@ -497,11 +476,9 @@ common approach for large extracts is to run incremental refreshes every
 night during non-business hours, and then run a full refresh over the
 weekend.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} []{#Configur}Configure data connection caching {#about-data-connection-caching}
+### Configure data connection caching 
 
-</div>
 
 As you plan your data source strategy, you should know how Tableau
 Server caches workbook data that\'s hosted on the server. Understanding
@@ -545,12 +522,11 @@ send a new query and retrieve the latest data. Additionally, users
 accessing data through a web browser can append the `:refresh` parameter
 to their URL.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Understand the tradeoffs between using a live connection and an extract {#tradeoffs-live-connection-and-extract}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Understand the tradeoffs between using a live connection and an extract
+---------------------------------------------------------------------------------------------------------------
+
 
 The purpose of this chapter is to guide you through a connection and
 data source management strategy. A strategy like this tries to answer a
@@ -572,11 +548,9 @@ today. So in this section we provide some guiding principles that you
 can use to make sound data access decisions as you roll out your shiny
 new Tableau Server.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Guiding principle: If performance is more important than data freshness, use an extract {#principle-performance-more-important-than-data-freshness}
+### Guiding principle: If performance is more important than data freshness, use an extract 
 
-</div>
 
 Extracts are great for enabling flow for your data analysts. When an
 extract is embedded in a workbook, all of the data is already available
@@ -600,11 +574,8 @@ extracts because performance suffers when they use live connections to
 data, you should consider performance optimizations at the database
 rather than warehousing extracts on Tableau Server.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Guiding principle: If real-time data is required for business decisions, use a live connection {#principle-real-time-data-required-for-business-decisions}
-
-</div>
+### Guiding principle: If real-time data is required for business decisions, use a live connection 
 
 Many data analysis scenarios require real-time data. For example,
 finance operations that model transactions during trading hours usually
@@ -630,11 +601,11 @@ make sure that you configure the cache to refresh more often, as we
 discussed earlier under [Configure data connection
 caching](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#about-data-connection-caching).
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_data.htm#){.heading-item__link .print-hidden} Guiding principle: If a workbook contains sensitive data, use a live connection {#principle-workbook-contains-sensitive-data}
 
-</div>
+###  Guiding principle: If a workbook contains sensitive data, use a live connection 
+
+
 
 As we were saying earlier, you must decide whether you\'ll allow users
 to embed credentials in workbooks and data sources when they publish.
@@ -677,12 +648,12 @@ information about how to run and interpret a performance recording:
 
 -   Tableau Desktop: [Record and Analyze Workbook Performance[(Link
     opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#perf_record_create_desktop.html).
+    window)]](https://help.tableau.com/current/pro/desktop/en-us/help.htm#perf_record_create_desktop.html).
 
 -   Tableau Server: [Create a Performance Recording[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/help.htm#perf_record_create_server.htm)
+    window)]](https://help.tableau.com/current/server/en-us/help.htm#perf_record_create_server.htm)
     and [Interpret a Performance Recording[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/help.htm#perf_record_interpret_server.htm).
+    window)]](https://help.tableau.com/current/server/en-us/help.htm#perf_record_interpret_server.htm).
 
 Continue to [Notifications, Monitoring, and
 Tuning](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm).

@@ -26,12 +26,11 @@ To keep Active Directory group membership up-to-date:
 
 To add a user to a group, the group must already exist.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_add_group.htm#){.heading-item__link .print-hidden} Add users to a group (Users page)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Add users to a group (Users page)
+----------------------------------------------------------------------------------------------------------------
+
 
 1.  In a site, click **Users**.
 
@@ -42,12 +41,11 @@ To add a user to a group, the group must already exist.
 
 3.  Select the groups and then click **Save**.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/users_add_group.htm#){.heading-item__link .print-hidden} Add users to a group (Groups page)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Add users to a group (Groups page)
+-----------------------------------------------------------------------------------------------------------------
+
 
 1.  In a site, click **Groups**, and then click the name of the group.
 

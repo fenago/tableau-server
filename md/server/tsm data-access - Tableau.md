@@ -35,26 +35,20 @@ sign-on, and configure settings for Web Data Connectors (WDCs).
         delete](https://help.tableau.com/current/server/en-us/cli_data-access.htm#web-data-connectors-delete)
     -   [web-data-connectors
         list](https://help.tableau.com/current/server/en-us/cli_data-access.htm#web-data-connectors-list)
-:::
 
-<div>
 
-<div>
+##### tsm data-access caching list
+----------------------------------------------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#caching-list}tsm data-access caching list {#tsm-dataaccess-caching-list}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Displays data connection caching settings. To learn more about data
 connection caching settings, see [Configure Data
 Cache](https://help.tableau.com/current/server/en-us/config_cache.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm data-access caching list [global options]`
 
@@ -63,19 +57,17 @@ Sets data connection caching settings. To learn more about data
 connection caching settings, see [Configure Data
 Cache](https://help.tableau.com/current/server/en-us/config_cache.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm data-access caching set [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -r, \--refresh-frequency
 
@@ -88,29 +80,26 @@ number of minutes that data should be cached. You can also specify
 (equivalent to **0**) to refresh data each time that a page is loaded.
 If this option is not specified, it defaults to **low**.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#repository-access-disable}tsm data-access repository-access disable {#tsm-dataaccess-repositoryaccess-disable}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm data-access repository-access disable
+----------------------------------------------------------------------------------------
+
 
 Disable external access to the Tableau PostgreSQL database for the
 default remote user. This will not disable access from localhost.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm data-access repository-access disable [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--repository-username \<username\>
 
@@ -141,19 +130,17 @@ a local firewall, be sure to allow traffic for this port. To change the
 PostgreSQL port, see [Ports that are not dynamically
 mapped](https://help.tableau.com/current/server/en-us/ports.htm#PortsNotDynamic).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm data-access repository-access enable [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--repository-password \<password\>
 
@@ -183,47 +170,42 @@ Optional.
 Suppress the prompt for restart and restart [Tableau
 Server].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#repository-access-list}tsm data-access repository-access list {#tsm-dataaccess-repositoryaccess-list}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm data-access repository-access list
+----------------------------------------------------------------------------------
+
 
 Lists users who have access to the Tableau PostgreSQL database.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm data-access repository-access list [global options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#set-saml-config}tsm data-access set-saml-delegation configure {#tsm-dataaccess-setsamldelegation-configure}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm data-access set-saml-delegation configure
+----------------------------------------------------------------------------------
+
 
 Setup single sign-on for SAML SAP HANA so that [Tableau
 Server] functions as an Identity Provider (IdP)
 that provides single sign-on for users making SAP HANA data connections.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm  data-access set-saml-delegation configure [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -kf, \--cert-key \<cert-key\>
 
@@ -253,62 +235,55 @@ Username case. Valid case keys are: \'lower\', \'upper\', and
 
 .
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#set-saml-disable}tsm data-access set-saml-delegation disable {#tsm-dataaccess-setsamldelegation-disable}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm data-access set-saml-delegation disable
+---------------------------------------------------------------------------------
+
 
 Disable single sign-on for SAML SAP HANA.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm  data-access set-saml-delegation disable [global options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#set-saml-enable}tsm data-access set-saml-delegation enable {#tsm-dataaccess-setsamldelegation-enable}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm data-access set-saml-delegation enable
+-------------------------------------------------------------------------------
+
 
 Enable single sign-on for SAML SAP HANA.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm  data-access set-saml-delegation enable [global options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#web-data-connectors-add}tsm data-access web-data-connectors add {#tsm-dataaccess-webdataconnectors-add}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm data-access web-data-connectors add
+------------------------------------------------------------------------------------
+
 
 Add a web data connector (WDC) to the WDC safe list.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm data-access web-data-connectors add [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -n, \--name \<name\>
 
@@ -339,29 +314,26 @@ example `https://www.tableau.com:80/example/`). For many WDCs, the
 connector by looking at the data source details on Tableau Server or
 Tableau Online.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#web-data-connectors-allow}tsm data-access web-data-connectors allow {#tsm-dataaccess-webdataconnectors-allow}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm data-access web-data-connectors allow
+----------------------------------------------------------------------------------------
+
 
 Enable or disable WDC refreshes. Also, enable or disable the use of WDCs
 on Tableau Server.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm data-access web-data-connectors allow [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -r, \--refreshes \<refreshes-allowed\>
 
@@ -376,28 +348,25 @@ Optional.
 Set to `none` to disallow the use of WDCs on Tableau Server (and omit
 WDCs from backups). Defaults to `all`, which allows the use of WDCs.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#web-data-connectors-delete}tsm data-access web-data-connectors delete {#tsm-dataaccess-webdataconnectors-delete}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm data-access web-data-connectors delete
+------------------------------------------------------------------------------------------
+
 
 Delete a specified WDC, or all WDCs, from the Tableau Server safe list.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm data-access web-data-connectors delete [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--all
 
@@ -411,35 +380,31 @@ Optional.
 
 The URL for the WDC to delete.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} []{#web-data-connectors-list}tsm data-access web-data-connectors list {#tsm-dataaccess-webdataconnectors-list}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm data-access web-data-connectors list
+--------------------------------------------------------------------------------------
+
 
 List all WDCs currently on the safe list.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm data-access web-data-connectors list [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_data-access.htm#){.heading-item__link .print-hidden} Global options
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+---------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

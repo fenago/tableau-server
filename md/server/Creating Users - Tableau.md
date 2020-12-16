@@ -18,12 +18,11 @@ in---that is, be authenticated. Tableau Server stores information about
 users, and when someone signs in, they have to be identified as one of
 the users who's defined on the server.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} About users, groups, and sign-in
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+About users, groups, and sign-in
+-----------------------------------------------------------------------------------------
+
 
 There are two ways to create users in Tableau Server. If the server is
 configured to use Active Directory, you import the users from your
@@ -41,11 +40,10 @@ We\'ll walk you through the steps for creating users in both
 configurations---Active Directory and local identity store---later in
 this chapter.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} User limits and your license
 
-</div>
+### User limits and your license
+
 
 Your server license determines how many users you can create. If you
 have a user-based license, the license tells you the maximum number of
@@ -53,11 +51,10 @@ registered users you can have, across a range of user-based license
 types. If you have a core-based license, you can create as many users as
 you want.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Sites
 
-</div>
+### Sites
+
 
 Before we talk about users and roles, we must quickly talk about
 *sites*. You might be used to using the term *site* to mean \"a
@@ -89,11 +86,9 @@ of this guide, where you\'re running a single server and you want to get
 up and running with the least amount of fuss, we recommend using the
 default site.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Users and site roles
+### Users and site roles
 
-</div>
 
 When you create a user, that user is in a specific site. For the tasks
 in this guide, you'll be creating users in the [Default]
@@ -141,11 +136,9 @@ don't want that user to count against your user-based license limit. You
 can create as many users as you want that have the
 [Unlicensed] role.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Groups
+### Groups
 
-</div>
 
 Tableau Server lets you organize users into groups, which makes it more
 convenient for certain tasks, such as assigning permissions. For now,
@@ -154,12 +147,11 @@ into detail when we talk about permissions. However, we mention groups
 here because if you're working with Active Directory, you can import
 users from Active Directory groups to Tableau Server groups.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Sign in to Tableau Server
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Sign in to Tableau Server
+----------------------------------------------------------------------------------
+
 
 When you add users to Tableau Server, you create or import them using
 the Tableau Server administrator page, which you access with a web
@@ -225,12 +217,11 @@ Here's how to sign in to Tableau Server:
     You're then taken to the main page of the [Default]
     site, and you're ready to create users.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Create users: Active Directory {#create-users-ad}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Create users: Active Directory
+---------------------------------------------------------------------------------------
+
 
 If you configured Tableau Server to use Active Directory, you import
 users into Tableau Server from your organization\'s Active Directory.
@@ -300,18 +291,15 @@ Directory group, you can either delete those users after importing the
 group, or you can set the site role for those users to be
 [Unlicensed].
 
-<div>
+### Should you delete group containers after importing users from Active Directory?
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Should you delete group containers after importing users from Active Directory?
-
-</div>
 
 When you import users from Active Directory groups, corresponding groups
 are created in Tableau Server. This is helpful if you want to map your
 groups from Active Directory directly to content permissions in Tableau
 Server. If that\'s useful to you, you might want to schedule periodic
 [synchronization of Active Directory groups[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server/en-us/help.htm#groups_globalsync.htm)
+window)]](https://help.tableau.com/current/server/en-us/help.htm#groups_globalsync.htm)
 with Tableau Server. Read the next chapter, [Structure Content Projects,
 Groups, and
 Permissions](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_permissions.htm), to understand how groups interact with projects.
@@ -340,12 +328,11 @@ To delete a group, do this:
 4.  Click the [Actions] drop-down menu, and then click
     [Delete].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Create users: local identity store {#create-users-local}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Create users: local identity store
+-------------------------------------------------------------------------------------------
+
 
 If you configured Tableau Server to use local identity store when you
 installed it, you create users by entering user information directly
@@ -372,11 +359,9 @@ into Tableau Server for each person who can sign in.
 
 5.  Click [Create].
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Import users with CSV file
 
-</div>
+### Import users with CSV file
 
 For bigger batches of users, you can save time by creating a text file
 that lists the user name, password, and site role, and then importing
@@ -384,15 +369,14 @@ the file.
 
 If that seems useful to you, you can read more about it in [CSV
 Import[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server/en-us/users_import.htm)
+window)]](https://help.tableau.com/current/server/en-us/users_import.htm)
 in the Tableau Server Help.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm#){.heading-item__link .print-hidden} Back up your server
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Back up your server
+----------------------------------------------------------------------------
+
 
 Now that you have users on your Tableau Server, you should do a backup.
 Our backup process is quick and straightforward. We made it that way so

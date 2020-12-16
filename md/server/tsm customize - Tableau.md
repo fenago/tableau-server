@@ -48,11 +48,10 @@ files are not stored in a recoverable format. See [Tableau Server Client
 File
 Service](https://help.tableau.com/current/server/en-us/server_process_cfs.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm customize [options] [global options]`
 
@@ -61,11 +60,10 @@ command to apply changes:
 
 `tsm pending-changes apply`
 
-<div>
+
 
 #### Options
 
-</div>
 
 **Note:** Use quotation marks around the path and image file if they
 include any spaces.
@@ -111,12 +109,11 @@ Optional.
 Specify a path to the image file that will be displayed for sign-in
 window only.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_customize.htm#){.heading-item__link .print-hidden} Global options
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+-------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

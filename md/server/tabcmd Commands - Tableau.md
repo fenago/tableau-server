@@ -5,7 +5,7 @@ tabcmd Commands
 
 Looking for Tableau Server on Linux? See [tabcmd Commands[(Link opens in
 a new
-window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/tabcmd_cmd.htm "Opens topic in a new browser tab").
+window)]](https://help.tableau.com/current/server-linux/en-us/tabcmd_cmd.htm "Opens topic in a new browser tab").
 
 You can use the following commands with the tabcmd command line tool:
 
@@ -48,14 +48,12 @@ You can use the following commands with the tabcmd command line tool:
 [set](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idfe12acaf-ed64-4f0c-8eb8-b83c9de12382)\
 [syncgroup](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#ide6a39f29-77ff-44f6-b946-c2b56b31a2f9)\
 [version](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id825f5d18-529c-408a-b876-57693195bbdd)
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id1999d76f-638e-47d4-86ac-fe8e206ed364}addusers *group-name* {#addusers-groupname}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+#### addusers *group-name*
+
 
 Adds users to the specified group.
 
@@ -63,11 +61,10 @@ Adds users to the specified group.
 
 `tabcmd addusers "Development" --users "users.csv"`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--users`
 
@@ -88,13 +85,7 @@ When set to `complete` this option requires that all rows be valid for
 any change to succeed. If not specified, `--complete` is used.
 
 
-
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#### Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -115,11 +106,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -157,7 +148,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -168,14 +159,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -247,12 +238,7 @@ The name of the target workbook for extract creation.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -273,11 +259,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -315,7 +301,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -326,14 +312,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -359,16 +345,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
-<div>
+##### creategroup *group-name*
+-------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#idbfa546df-2be7-444f-8bb8-07978b127783}creategroup *group-name* {#creategroup-groupname}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Creates a group. Use `addusers` (for local groups) and `syncgroup` (for
 Active Directory groups) commands to add users after the group has been
@@ -380,12 +360,7 @@ created.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -406,11 +381,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -448,7 +423,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -459,14 +434,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -492,16 +467,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
-<div>
+##### createproject *project-name*
+-----------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id5a3316ed-45bb-4da4-b557-58492b2d4ac8}createproject *project-name* {#createproject-projectname}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Creates a project.
 
@@ -509,11 +478,10 @@ Creates a project.
 
 `tabcmd createproject -n "Quarterly_Reports" -d "Workbooks showing quarterly sales reports."`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `-n`, `--name`
 
@@ -532,12 +500,7 @@ Specifies a description for the project.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -558,11 +521,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -600,7 +563,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -611,14 +574,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -644,15 +607,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
+##### createsite *site-name*
+-----------------------------------------------------------------------------
 
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id6f434e96-89d1-4aa2-a935-4c22fa1e2506}createsite *site-name* {#createsite}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Creates a site.
 
@@ -676,7 +634,7 @@ Set a storage quota, in MB:
 
 `tabcmd createsite "West Coast Sales" --storage-quota 100`
 
-<div>
+
 
 #### Options
 
@@ -717,12 +675,7 @@ Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.ht
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -743,11 +696,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -785,7 +738,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -796,14 +749,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -829,17 +782,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#idd1b7729f-dd20-475a-96f6-17fcd2577894}createsiteusers *filename.csv* {#createsiteusers}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### createsiteusers *filename.csv*
+-------------------------------------------------------------------------------------
 
-</div>
 
 Adds users to a site, based on information supplied in a comma-separated
 values (CSV) file. If the user is not already created on the server, the
@@ -878,31 +825,28 @@ By default, this command creates users using a synchronous operation (it
 waits for all operations to complete before proceeding). You can use the
 `--no-wait` option to specify an asynchronous operation.
 
-<div>
+
 
 ####  Improving performance for large CSV files
 
-</div>
 
 A server administrator can use the `tabadmin set` command to enable
 settings that help to improve performance for large CSV files. For more
 information, see [Improve performance for large CSV files passed through
 tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-performance-large-csv) in the CSV Import File Guidelines topic.
 
-<div>
+
 
 ####  Local authentication
 
-</div>
 
 If the server is configured to use local authentication, the information
 in the CSV file is used to create users.
 
-<div>
+
 
 ####  Active Directory authentication
 
-</div>
 
 If the server is configured to use Active Directory authentication, user
 information is imported from Active Directory, and password and friendly
@@ -915,17 +859,16 @@ specify this as either `domain/username` or `username@domain.com`;
 however, we recommend using the `domain/username` format. For more
 information, see [User Management in Deployments with External Identity
 Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm).
-:::
+
 
 **Example**
 
 `tabcmd createsiteusers "users.csv" --role "Explorer"`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--admin-type`
 
@@ -981,12 +924,7 @@ Do not display progress messages for the command.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -1007,11 +945,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -1049,7 +987,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -1060,14 +998,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -1093,15 +1031,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
+##### createusers *filename.csv*
+---------------------------------------------------------------------------------
 
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#ide42a948a-cd9c-4b73-9ef2-3a58eda2d095}createusers *filename.csv* {#createusers}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Create users in Tableau Server, based on information supplied in a
 comma-separated values (CSV) file.
@@ -1126,7 +1059,7 @@ If you have a user-based server installation, and if the command creates
 a new user but you have already reached the limit on the number of
 licenses for your users, the user is added as an unlicensed user.
 
-<div>
+
 
 ####  Local authentication
 
@@ -1154,11 +1087,10 @@ Stores](https://help.tableau.com/current/server/en-us/users_manage_ad.htm).
 
 `tabcmd createusers "users.csv"`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--admin-type`
 
@@ -1215,12 +1147,7 @@ Do not display progress messages for the command.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -1241,11 +1168,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -1283,7 +1210,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -1294,14 +1221,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -1327,18 +1254,12 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#decryptextracts_tabcmd}decryptextracts
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### decryptextracts
+--------------------------------------------------------------------------------------------------------------------
 
-</div>
 
 Decrypt all extracts on a site. If no site is specified, extracts on the
 default site will be decrypted. For more information, see [Extract
@@ -1355,12 +1276,7 @@ normal business hours.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -1381,11 +1297,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -1423,7 +1339,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -1434,14 +1350,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -1467,17 +1383,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#idfdf59712-84ed-4590-9471-541d316917a6}delete *workbook-name* or *datasource-name* {#delete-workbookname-or-datasourcename}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### delete *workbook-name* or *datasource-name*
+--------------------------------------------------------------------------------------------------
 
-</div>
 
 Deletes the specified workbook or data source from the server.
 
@@ -1488,11 +1398,10 @@ the server, not the file name when it was published.
 
 `tabcmd delete "Sales_Analysis"`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `-r`, `--project`
 
@@ -1516,12 +1425,7 @@ The name of the data source you want to delete.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -1542,11 +1446,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -1584,7 +1488,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -1595,14 +1499,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -1628,24 +1532,17 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
-<div>
+##### deleteextracts
+---------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id5a3316ed-45bb-4da4-b557-2222222d4ac8}deleteextracts
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Deletes extracts for a published workbook or data source.
 
-<div>
+
 
 #### Options
 
-</div>
 
 `-d`, `--datasource`
 
@@ -1686,12 +1583,7 @@ The name of the target workbook for extract deletion.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -1712,11 +1604,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -1754,7 +1646,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -1765,14 +1657,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -1798,16 +1690,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
-<div>
+##### deletegroup *group-name*
+-------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id0d009916-bee3-4ef0-a6ac-22188c0e7f30}deletegroup *group-name* {#deletegroup-groupname}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Deletes the specified group from the server.
 
@@ -1817,12 +1703,7 @@ Deletes the specified group from the server.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -1843,11 +1724,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -1885,7 +1766,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -1896,14 +1777,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -1929,16 +1810,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
-<div>
+##### deleteproject *project-name*
+-------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#iddeleteproject_project-name}deleteproject *project-name* {#deleteproject}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Deletes the specified project from the server.
 
@@ -1946,18 +1821,17 @@ Using `tabcmd`, you can specify only a top-level project in a project
 hierarchy. To automate tasks you want to perform on a project within a
 parent project, use the equivalent Tableau [REST API[(Link opens in a
 new
-window)]{.sr-only}](https://help.tableau.com/current/api/rest_api/en-us/help.htm#REST/rest_api_ref.htm%23API_Reference "Opens REST API reference in new browser tab")
+window)]](https://help.tableau.com/current/api/rest_api/en-us/help.htm#REST/rest_api_ref.htm%23API_Reference "Opens REST API reference in new browser tab")
 call.
 
 **Example**
 
 `tabcmd deleteproject "Designs"`
 
-<div>
+
 
 #### Option
 
-</div>
 
 `--parent-project-path`
 
@@ -1968,12 +1842,7 @@ specified with the command. For example, to specify a project called
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -1994,11 +1863,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -2036,7 +1905,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -2047,14 +1916,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -2080,15 +1949,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
+##### deletesite *site-name*
+-----------------------------------------------------------------------------
 
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id54a7f404-5d1b-452e-8273-0ab8396da641}deletesite *site-name* {#deletesite-sitename}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Deletes the specified site from the server.
 
@@ -2098,12 +1962,7 @@ Deletes the specified site from the server.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -2124,11 +1983,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -2166,7 +2025,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -2177,14 +2036,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -2210,17 +2069,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#deletesiteusers}deletesiteusers *filename.csv* {#deletesiteusers-filenamecsv}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### deletesiteusers *filename.csv*
+----------------------------------------------------------------------------------------------------------------------------
 
-</div>
 
 Removes users from from the site that you are logged in to. The users to
 be removed are specified in a file that contains a simple list of one
@@ -2246,11 +2099,10 @@ from Active Directory.
 
 `tabcmd deletesiteusers "users.csv"`
 
-<div>
+
 
 ####  Improving performance for large CSV files
 
-</div>
 
 A server administrator can use the `tabadmin set` command to enable
 settings that help to improve performance for large CSV files. For more
@@ -2259,12 +2111,7 @@ tabcmd](https://help.tableau.com/current/server/en-us/csvguidelines.htm#improve-
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -2285,11 +2132,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -2327,7 +2174,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -2338,14 +2185,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -2371,17 +2218,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
 
-<div>
+##### deleteusers *filename.csv*
+---------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id6a8ef3d6-d17b-4c31-be47-7b09437eeec0}deleteusers *filename.csv* {#deleteusers-filenamecsv}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Deletes the users listed in the specified comma-separated values
 (`.csv`) file.
@@ -2392,11 +2233,10 @@ The `.csv` file should contain a simple list of one user name per line.
 
 `tabcmd deleteusers "users.csv"`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--[no-]complete`
 
@@ -2405,12 +2245,7 @@ any change to succeed. If not specified, `--complete` is used.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -2431,11 +2266,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -2473,7 +2308,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -2484,14 +2319,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -2517,16 +2352,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
 
+##### editdomain
+-------------------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#editdoma}editdomain
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Changes the nickname or full domain name of an Active Directory domain
 on the server. A domain "nickname" is the Windows NetBIOS domain name.
@@ -2557,11 +2387,10 @@ To see a list of domains, use
 
 `tabcmd editdomain --id 3 --name "new-name"`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--id`
 
@@ -2578,12 +2407,7 @@ The new nickname for the domain.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -2604,11 +2428,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -2646,7 +2470,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -2657,14 +2481,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -2690,16 +2514,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
 
+##### editsite *site-name*
+---------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id06d8e2e0-d7a1-4733-b0df-d1e02f66919b}editsite *site-name* {#editsite-sitename}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Changes the name of a site or its web folder name. You can also use this
 command to allow or deny site administrators the ability to add and
@@ -2717,11 +2536,10 @@ many users they can add to a site.
 
 `tabcmd editsite wsales --user-quota 50`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--site-name`
 
@@ -2766,12 +2584,7 @@ Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.ht
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -2792,11 +2605,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -2834,7 +2647,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -2845,14 +2658,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -2878,18 +2691,12 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#encryptextracts_tabcmd}encryptextracts
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### encryptextracts
+--------------------------------------------------------------------------------------------------------------------
 
-</div>
 
 Encrypt all extracts on a site. If no site is specified, extracts on the
 default site will be encrypted. For more information, see [Extract
@@ -2906,12 +2713,7 @@ normal business hours.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -2932,11 +2734,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -2974,7 +2776,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -2985,14 +2787,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -3066,7 +2868,7 @@ Note the following when you use this command:
 
         **Note:** The Tableau workbook that contains the [administrative
         views[(Link opens in a new
-        window)]{.sr-only}](https://help.tableau.com/current/server/en-us/adminview.htm)
+        window)]](https://help.tableau.com/current/server/en-us/adminview.htm)
         cannot be exported.
 
 -   [The saved file\'s format]: Your format options depend
@@ -3128,11 +2930,10 @@ of on an entire workbook.
 
 `tabcmd export "Sales/Sales_Analysis" --fullpdf --pagesize tabloid -f "C:\Tableau_Workbooks\Weekly-Reports.pdf"`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `-f`, `--filename`
 
@@ -3177,12 +2978,7 @@ Sets the height in pixels. Default is 600 px.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -3203,11 +2999,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -3245,7 +3041,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -3256,14 +3052,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -3289,16 +3085,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
-<div>
+##### get *url*
+----------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id7e0a0627-ad89-4135-a1c2-85b1d8472568}get *url*
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Gets the resource from [Tableau Server] that\'s
 represented by the specified (partial) URL. The result is returned as a
@@ -3385,12 +3175,7 @@ workbook.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -3411,11 +3196,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -3453,7 +3238,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -3464,14 +3249,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -3497,15 +3282,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
+##### initialuser
+--------------------------------------------------------------------------------------------------
 
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#initialu}initialuser
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Create the initial administrative user on a server that does not have an
 initial administrative user defined.
@@ -3525,11 +3305,10 @@ parameter in the command. For example:
 
 `tabcmd initialuser --username "admin" --server http://localhost`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `-f`, `--friendly`
 
@@ -3537,12 +3316,7 @@ Creates the initial administrative user with the display name.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -3563,11 +3337,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -3605,7 +3379,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -3616,14 +3390,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -3649,16 +3423,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
 
+##### listdomains
+-------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} listdomains
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Displays a list of the Active Directory domains that are in use on the
 server, along with their nicknames and IDs. If the server is configured
@@ -3671,12 +3440,7 @@ to use local authentication, the command returns only the domain name
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -3697,11 +3461,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -3739,7 +3503,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -3750,14 +3514,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -3783,16 +3547,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
 
+##### listsites
+----------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#idc7467cb6-6cef-49bf-9358-a3e4addd5fa0}listsites
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Returns a list of sites to which the logged in user belongs.
 
@@ -3800,11 +3559,10 @@ Returns a list of sites to which the logged in user belongs.
 
 `tabcmd listsites --username adam --password mypassword`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--get-extract-encryption-mode`
 
@@ -3815,12 +3573,7 @@ Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -3841,11 +3594,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -3883,7 +3636,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -3894,14 +3647,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -3927,17 +3680,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id5fba51c9-5608-4520-8ceb-2caf4846a2be} []{#login}login
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### login
+-----------------------------------------------------------------------
 
-</div>
 
 Logs in a [Tableau Server] user.
 
@@ -3995,13 +3742,12 @@ Establishes a forward proxy and port for localhost:
 Logs user jsmith in to the reverse proxy using SSL:
 
 `tabcmd login -s https://myreverseproxy -u jsmith -p password`
-:::
 
-<div>
+
+
 
 #### Options
 
-</div>
 
 `-s`, `--server`
 
@@ -4035,14 +3781,13 @@ a password you will be prompted for one.
 Allows the password to be stored in the given `filename.txt` file rather
 than the command line, for increased security.
 
-<div>
+
 
 `-x`, `--proxy`
 
 Use to specify the HTTP proxy server and port (Host:Port) for the tabcmd
 request.
 
-</div>
 
 `--no-prompt`
 
@@ -4053,7 +3798,7 @@ command will fail.
 `--no-proxy`
 
 Do not use an HTTP proxy server.
-:::
+
 
 `--cookie`
 
@@ -4072,12 +3817,7 @@ The number of seconds the server should wait before processing the
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -4098,11 +3838,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -4140,7 +3880,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -4151,14 +3891,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -4184,16 +3924,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
-<div>
+##### logout
+---------------------------------------------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id8f512aec-57a4-4ed4-94c4-86e91ea9cc9c}logout
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Logs out of the server.
 
@@ -4201,12 +3935,11 @@ Logs out of the server.
 
 `tabcmd logout`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#iddf805b62-18ff-4497-9245-adc6905b2084}publish *filename.twb(x)*, *filename.tds(x)*, or *filename.hyper* {#publish-filenametwbx-filenametdsx-or-filenamehyper}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### publish *filename.twb(x)*, *filename.tds(x)*, or *filename.hyper*
+------------------------------------------------------------------------------------------------------------------------
+
 
 Publishes the specified workbook (.twb(x)), data source (.tds(x)), or
 extract (.hyper) to [Tableau Server].
@@ -4237,11 +3970,10 @@ path to the file.
 
 `tabcmd publish "\\computer\volume\Tableau Workbooks\analysis_sfdc.hyper" -n "Sales Analysis" --oauth-username "username" --save-oauth`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `-n`, `--name`
 
@@ -4345,12 +4077,7 @@ Rest](https://help.tableau.com/current/server/en-us/security_ear.htm).
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -4371,11 +4098,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -4413,7 +4140,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -4424,14 +4151,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -4457,32 +4184,24 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
 
-<div>
+##### publishsamples
+-----------------------------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#publishsamples}publishsamples
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
 
-<div>
 
 ####  Description
 
-</div>
 
 Publishes Tableau Sample workbooks to the specified project. Any
 existing samples will be overwritten.
 
-<div>
+
 
 ####  Syntax
 
-</div>
 
 `tabcmd publishsamples -n [project name] [Global options]`
 
@@ -4493,11 +4212,10 @@ jsmith.
 
 `tabcmd publishsamples -n "Inside Sales" -t "" -s localhost --username "jsmith" --password "secret-password"`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `-n`, `--name`
 
@@ -4513,12 +4231,7 @@ specified with the `-n` option. For example, to specify a project called
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -4539,11 +4252,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -4581,7 +4294,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -4592,14 +4305,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -4625,18 +4338,12 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#reencryptextracts_tabcmd}reencryptextracts
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### reencryptextracts
+------------------------------------------------------------------------------------------------------------------------
 
-</div>
 
 Reencrypt all extracts on a site with new encryption keys. This command
 will regenerate the key encryption key and data encryption key. You must
@@ -4655,12 +4362,7 @@ normal business hours.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -4681,11 +4383,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -4723,7 +4425,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -4734,14 +4436,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -4767,17 +4469,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id4cdb3410-1c41-4dad-b1d2-306542ac9b32}refreshextracts *workbook-name* or *datasource-name* {#refreshextracts-workbookname-or-datasourcename}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### refreshextracts *workbook-name* or *datasource-name*
+-----------------------------------------------------------------------------------------------------------
 
-</div>
 
 Performs a full or incremental refresh of extracts belonging to the
 specified workbook or data source.
@@ -4790,7 +4486,7 @@ perform this operation.
 **Note:** This method will fail and result in an error if your Server
 Administrator has disabled the **RunNow** setting for the site. For more
 information, see [Tableau Server Settings[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server/en-us/maintenance_set.htm).
+window)]](https://help.tableau.com/current/server/en-us/maintenance_set.htm).
 
 **Examples**
 
@@ -4806,11 +4502,10 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/maintenance_se
 
 `tabcmd refreshextracts --datasource sales_ds --removecalculations`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--incremental`
 
@@ -4877,12 +4572,7 @@ administrative view.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -4903,11 +4593,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -4945,7 +4635,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -4956,14 +4646,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -4989,17 +4679,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
 
-<div>
+##### reset\_openid\_sub
+----------------------------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#reset_sub}reset\_openid\_sub {#resetopenidsub}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Clears OpenID Connect identifiers (sub values) that have already been
 associated with Tableau Server identities. See [Changing IdPs in Tableau
@@ -5010,11 +4694,10 @@ Connect](https://help.tableau.com/current/server/en-us/openid_auth_changing_idp.
 
 `tabcmd reset_openid_sub --target-username jsmith`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--target-username`
 
@@ -5026,12 +4709,7 @@ Clears sub values for all users.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -5052,11 +4730,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -5094,7 +4772,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -5105,14 +4783,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -5138,17 +4816,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id5cc30cba-44b8-48b0-93d6-5707938d157a}removeusers *group-name* {#removeusers-groupname}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### removeusers *group-name*
+-------------------------------------------------------------------------------
 
-</div>
 
 Removes users from the specified group.
 
@@ -5156,11 +4828,10 @@ Removes users from the specified group.
 
 `tabcmd removeusers "Development" --users "users.csv"`
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--users`
 
@@ -5180,12 +4851,7 @@ specified `--complete` is used.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -5206,11 +4872,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -5248,7 +4914,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -5259,14 +4925,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -5292,16 +4958,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
-<div>
+##### runschedule *schedule-name*
+----------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#idd9d99c44-c9be-4191-9191-402341775a3d}runschedule *schedule-name* {#runschedule-schedulename}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Runs the specified schedule.
 
@@ -5312,7 +4972,7 @@ This command is not available for Tableau Online.
 **Note:** This method will fail and result in an error if your Server
 Administrator has disabled the **RunNow** setting for the site. For more
 information, see [Tableau Server Settings[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server/en-us/maintenance_set.htm).
+window)]](https://help.tableau.com/current/server/en-us/maintenance_set.htm).
 
 **Example**
 
@@ -5320,12 +4980,7 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/maintenance_se
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -5346,11 +5001,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -5388,7 +5043,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -5399,14 +5054,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -5432,15 +5087,10 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
 
+##### set *setting*
+--------------------------------------------------------------------
 
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#idfe12acaf-ed64-4f0c-8eb8-b83c9de12382}set *setting*
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Enables the specified setting on the server. Details about each setting
 can be seen on the Maintenance page on the server.
@@ -5460,12 +5110,7 @@ setting. You can enable or disable the following settings:
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -5486,11 +5131,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -5528,7 +5173,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -5539,14 +5184,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -5572,16 +5217,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
 
+##### syncgroup *group-name*
+-----------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#ide6a39f29-77ff-44f6-b946-c2b56b31a2f9}syncgroup *group-name* {#syncgroup-groupname}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:::
 
 Synchronizes a Tableau Server group with an Active Directory group. If
 the Tableau Server group does not already exist, it is created and
@@ -5603,11 +5243,10 @@ if you use this command to remove the administrator right from users in
 a group that you are a member of, you are still an administrator when
 the command finishes.
 
-<div>
+
 
 #### Options
 
-</div>
 
 `--grant-license-mode <grant-license-mode>`
 
@@ -5644,12 +5283,7 @@ Do not display progress messages for the command.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -5670,11 +5304,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -5712,7 +5346,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -5723,14 +5357,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 
@@ -5756,17 +5390,11 @@ required value for the `export` command.
 
 `tabcmd export --csv -f "D:\export10.csv" -- -430105/Sheet1`
 
-</div>
-:::
-:::
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#){.heading-item__link .print-hidden} []{#id825f5d18-529c-408a-b876-57693195bbdd}version
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+##### version
+----------------------------------------------------------------------------------------------------------------------------
 
-</div>
 
 Displays the version information for the current installation of the
 tabcmd utility.
@@ -5777,12 +5405,7 @@ tabcmd utility.
 
 
 
-[]{.icon--xl .accordion__icon .icon--chevron-right2 role="button"
-tabindex="0" aria-expanded="false" aria-label="Expand"} Global options
-:::
-
-
-<div>
+#####  Global options
 
 The following options are used by all `tabcmd` commands. The `--server`,
 `--user`, and `--password` options are required at least once to begin a
@@ -5803,11 +5426,11 @@ For information about configuring the certificate, start with the
 following topic appropriate for your Tableau Server OS:
 
 -   **Windows:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+    window)]](https://help.tableau.com/current/server/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
 
 -   **Linux:** [Configure Mutual SSL[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
-:::
+    window)]](https://help.tableau.com/current/server-linux/en-us/ssl_config_mutual.htm "Open topic in new browser tab")
+
 
 `-s`, `--server`
 
@@ -5845,7 +5468,7 @@ password even if the token is still valid.
 Host:Port
 
 Uses the specified HTTP proxy.
-:::
+
 
 `--no-prompt`
 
@@ -5856,14 +5479,14 @@ password is provided the command will fail.
 `--no-proxy`
 
 When specified, an HTTP proxy will not be used.
-:::
+
 
 
 `--no-certcheck`
 
 When specified, tabcmd (the client) does not validate the server\'s SSL
 certificate.
-:::
+
 
 `--[no-]cookie`
 

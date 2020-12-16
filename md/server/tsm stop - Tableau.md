@@ -5,19 +5,17 @@ tsm stop
 You can use the `tsm stop` command to stop Tableau Server. If Tableau
 Server is already stopped, this command does nothing.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm stop [option] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--ignore-node-status \<nodeID\>
 
@@ -36,12 +34,11 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 1800 (30 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_stop_tsm.htm#){.heading-item__link .print-hidden} Global options
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

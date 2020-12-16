@@ -11,12 +11,11 @@ really recommend that you spend the effort to do so, because it will go
 a long way toward ensuring that things keep humming along and will
 provide useful information that you can use to tune server performance.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Alerts: Get notifications for server events {#alerts}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Alerts: Get notifications for server events
+--------------------------------------------------------------------------------------
+
 
 Alerts are email notifications that you receive when something happens
 on [Tableau Server]. You can set up alerts for
@@ -38,11 +37,7 @@ to. (It doesn\'t handle incoming email.) To set up alerts, you must
 configure [Tableau Server] to communicate with
 your SMTP mail server.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} SMTP information you\'ll need
-
-</div>
+### SMTP information you\'ll need
 
 Many organizations already have an SMTP server in-house. Before you
 continue, ask your IT department if there is an SMTP server that you can
@@ -71,19 +66,14 @@ generally don\'t need to worry about who\'s on the **from** line, so
 people use addresses like `no-reply@example.com` or
 `tableau-admin@example.com`.
 
-<div>
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Step 1: Configure SMTP information for Tableau Server
-
-</div>
+###  Step 1: Configure SMTP information for Tableau Server
 
 1.  Open TSM in a browser:
 
     https://\<tsm-computer-name\>:8850. For more information, see [Sign
     in to Tableau Services Manager Web UI[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
+    window)]](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
 2.  Click [Notifications]on the [Configuration]
     tab and click [Email Server].
@@ -101,17 +91,13 @@ people use addresses like `no-reply@example.com` or
 
 6.  Click [Apply Changes and Restart].
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Step 2: Set up notifications
-
-</div>
+###  Step 2: Set up notifications
 
 1.  Open TSM in a browser:
 
     https://\<tsm-computer-name\>:8850. For more information, see [Sign
     in to Tableau Services Manager Web UI[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
+    window)]](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
 2.  Click [Notifications]on the [Configuration]
     tab and click [Events].
@@ -125,7 +111,6 @@ people use addresses like `no-reply@example.com` or
 
 5.  Click [Apply Changes and Restart].
 
-</div>
 
 If you do select all the check boxes, here are the alerts that get
 activated.
@@ -173,12 +158,11 @@ the server may even stop responding.
 The defaults we recommend here set email alerts to send hourly when the
 20% warning threshold is hit, and sets the critical threshold for 10%.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Administrative views
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Administrative views
+---------------------------------------------------------------
+
 
 Administrative views are views that are built into Tableau Server and
 that provide an easy way for you to start understanding activity on
@@ -195,11 +179,8 @@ tasks like extracts.
 Here are the most important administrative views that you should look at
 when monitoring Tableau Server:
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Traffic to views
-
-</div>
+###  Traffic to views
 
 Use this view to identify peak hours for user traffic. (This is easier
 if you use the Time Range filter. For example, in the screenshot below,
@@ -217,11 +198,10 @@ set your extract refresh schedule for the period between 11:00 PM and
 
 ![](./images/everybody_admin_traffic_hours.png)
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Background tasks for extracts
 
-</div>
+###  Background tasks for extracts
+
 
 Use this view to identify times of the day when extract refresh tasks
 take longer than usual and to identify extract refresh tasks that did
@@ -246,11 +226,8 @@ unavailable.
 
 ![](./images/adminview_extract.png)
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Stats for load times
-
-</div>
+### Stats for load times
 
 Use this view to identify which views are loading slowly. This helps you
 pinpoint workbooks that are very processing-intensive for the
@@ -276,12 +253,11 @@ slowly than the rest.
 ![](./images/everybody_admin_load_stats.png)
 
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Windows performance monitoring
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Windows performance monitoring
+-------------------------------------------------------------------------
+
 
 So far the monitoring information that we've looked at has been gathered
 by Tableau Server. However, you can also use the Windows Performance
@@ -298,13 +274,12 @@ The first step in using PerfMon is to set up a data collector set, which
 is how PerfMon stores the data that it collects. To collect information
 about Tableau Server processes with PerfMon, Tableau Server must be
 running when you create the data collector set.
-:::
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Step 1: Create a new data collector set
 
-</div>
+
+###  Step 1: Create a new data collector set
+
 
 1.  Click the Windows Start menu and search for \"performance\".
 
@@ -325,11 +300,9 @@ running when you create the data collector set.
 7.  Under **Create data logs**, select **Performance counter**, and
     click **Next**.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Step 2: Select performance counters
+### Step 2: Select performance counters
 
-</div>
 
 1.  Set the sample interval to 30 seconds.
 
@@ -415,11 +388,8 @@ running when you create the data collector set.
 
     e.  Click **OK** and then click **Next**.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Step 3: Save the data collector set
-
-</div>
+###  Step 3: Save the data collector set
 
 1.  Browse to the directory where you want to store the data, and then
     click **Next**.
@@ -439,20 +409,15 @@ running when you create the data collector set.
 
 5.  Select **Comma separated** as the log format and then click **OK**.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Step 4: Run the data collector set
-
-</div>
+### Step 4: Run the data collector set
 
 In the left pane, right-click the name of the data collector set that
 you created and click **Start**. The Windows Performance Monitor tool
 starts monitoring your server and storing information in the location
 that you specified.
 
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Step 5: Analyze the data
-:::
+###  Step 5: Analyze the data
 
 Finally the moment that you've been waiting for! Open the log file for
 the data collector set in Tableau Desktop and start analyzing.
@@ -460,12 +425,11 @@ the data collector set in Tableau Desktop and start analyzing.
 The following section provides some guidelines and recommendations for
 how to improve server performance based on the data that you collect.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Tuning: Tweaking the server for better performance {#tuning}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Tuning: Tweaking the server for better performance
+---------------------------------------------------------------------------------------------
+
 
 Because no two server environments are identical, we can\'t provide hard
 and fast rules for tuning server performance.
@@ -494,11 +458,8 @@ Rendering views and refreshing extracts generate the most load on the
 server, so you should optimize for the task that your organization is
 most interested in.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Optimize for user traffic
-
-</div>
+###  Optimize for user traffic
 
 Here are some signs that you should optimize for user traffic:
 
@@ -538,7 +499,7 @@ effect with more performance monitoring.
 
     https://\<tsm-computer-name\>:8850. For more information, see [Sign
     in to Tableau Services Manager Web UI[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
+    window)]](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
 2.  Click the [Configuration ]tab.
 
@@ -549,11 +510,7 @@ effect with more performance monitoring.
     Changes and Restart] to commit the changes and restart
     Tableau Server.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Optimize for extract refreshes
-
-</div>
+###  Optimize for extract refreshes
 
 Here are some signs that you should optimize for extract refreshes:
 
@@ -592,7 +549,7 @@ runs in parallel execution mode.
 
     https://\<tsm-computer-name\>:8850. For more information, see [Sign
     in to Tableau Services Manager Web UI[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
+    window)]](https://help.tableau.com/current/server/en-us/sign_in_tsm.htm).
 
 2.  Click the [Configuration ]tab.
 
@@ -606,15 +563,14 @@ runs in parallel execution mode.
 Continue to [Open for
 Business!](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_open_for_biz.htm)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm#){.heading-item__link .print-hidden} Additional resources
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Additional resources
+---------------------------------------------------------------
+
 
 -   [Scheduled Extract Refreshes[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/publish.htm).
+    window)]](https://help.tableau.com/current/server/en-us/publish.htm).
     A section of the Tableau Server Help that covers how to schedule
     refreshes for extracts.
 

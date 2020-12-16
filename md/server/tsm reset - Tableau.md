@@ -11,19 +11,17 @@ If your organization is using Active Directory or LDAP for the Tableau
 identity store, then the account and password you specify must match an
 account in the directory.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm reset[option] [global options]`
 
-<div>
+
 
 #### Option
 
-</div>
 
 -d,\--delete-all-sessions
 
@@ -38,12 +36,11 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 1800 (30 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_reset_tsm.htm#){.heading-item__link .print-hidden} Global options
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+-------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

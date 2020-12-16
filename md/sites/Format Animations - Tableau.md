@@ -8,7 +8,7 @@ Format Animations
 [Applies to: Tableau Desktop, Tableau Online, Tableau
 Server]{.article__tags--applies-to}\
 []{.article__tags--role}
-:::
+
 
 
 Animate visualizations to better highlight changing patterns in your
@@ -21,21 +21,19 @@ visualizations animate in response to these changes, viewers can more
 clearly see how data differs, helping them make better informed
 decisions.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/formatting_animations.htm#){.heading-item__link .print-hidden} Understanding simultaneous and sequential animations
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Understanding simultaneous and sequential animations
+---------------------------------------------------------------------------
+
 
 When you author animations, you can choose between two different styles:
 simultaneous or sequential. Here are examples of each type.
 
-<div>
+
 
 ####  Simultaneous animations
 
-</div>
 
 The default simultaneous animations are faster and work well when
 showing value changes in simpler charts and dashboards.
@@ -43,11 +41,10 @@ showing value changes in simpler charts and dashboards.
 [![](./images/animations.gif){#animations.gif}](javascript:void(0);)\
 [Click the image above to replay the animation.]{.caption}
 
-<div>
+
 
 ####  Sequential animations
 
-</div>
 
 Sequential animations take more time but make complex changes clearer by
 presenting them step-by-step.
@@ -55,12 +52,11 @@ presenting them step-by-step.
 [![](./images/animations_sequential.gif){#animations_sequential.gif}](javascript:void(0);)\
 [Click the image above to replay the animation.]{.caption}
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/formatting_animations.htm#){.heading-item__link .print-hidden} Animate visualizations in a workbook 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Animate visualizations in a workbook 
+-------------------------------------------------------------------------------------------------------------------------
+
 
 1.  Choose [Format] \> [Animations].
 
@@ -83,12 +79,11 @@ presenting them step-by-step.
 
     ![](./images/animations_pane.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/formatting_animations.htm#){.heading-item__link .print-hidden} Reset animation settings for a workbook
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Reset animation settings for a workbook
+----------------------------------------------------------------------------------------------------------------------------
+
 
 You can reset animations to return an entire workbook to the default
 animation settings. Be aware that this turns animations off by default.
@@ -98,12 +93,11 @@ animation settings. Be aware that this turns animations off by default.
 2.  At the bottom of the [Animations] pane, click [Reset
     All].
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/formatting_animations.htm#){.heading-item__link .print-hidden} Completely disable all animations
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Completely disable all animations
+----------------------------------------------------------------------------------------------------------------------
+
 
 If you find animations distracting while viewing vizzes, you can
 completely disable them so they never play. (This isn\'t a system-wide
@@ -123,34 +117,32 @@ setting; each user needs to apply it separately.)
 [Format] \> [Animations] in authoring mode and
 adjust settings---but they will have no effect.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/formatting_animations.htm#){.heading-item__link .print-hidden} []{#Why}Why animations sometimes won\'t play
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Why animations sometimes won\'t play
+-------------------------------------------------------------------
+
 
 Animations won\'t play if a viz is server-rendered. To ensure that
 vizzes render on a client computer or mobile device, use these
 techniques:
 
 -   If you\'re a viz author, [reduce viz complexity[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/perf_visualization.htm).
+    window)]](https://help.tableau.com/current/pro/desktop/en-us/perf_visualization.htm).
 
 -   If you\'re a Tableau Server administrator, [increase the complexity
     threshold for client-side rendering[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/browser_rendering.htm).
+    window)]](https://help.tableau.com/current/server/en-us/browser_rendering.htm).
 
 **Note:** On computers with lower processing power, animations may
 appear choppy, but users can continue to interact with vizzes without
 any delays in responsiveness.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/formatting_animations.htm#){.heading-item__link .print-hidden} Unsupported browsers and features
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Unsupported browsers and features
+----------------------------------------------------------------------------------------------------------------------
+
 
 Animations are supported by all web browsers except Internet Explorer.
 

@@ -39,14 +39,13 @@ pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-chang
 -   [set-ports](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMSetPorts)
 -   [set-process](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMSetProcess)
 -   [toggle-coordination-service](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMToggleCoordination)
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMCleanupCoordination}tsm topology cleanup-coordination-service {#tsm-topology-cleanupcoordinationservice}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### tsm topology cleanup-coordination-service
+--------------------------------------------------------------------------------------
+
 
 **Note:** Beginning with version 2020.1.0, all coordination service
 ensemble commands require input for a \"y/n\" prompt confirming that a
@@ -67,19 +66,17 @@ In version 2020.1.0 and later, the
 ensemble. There is no need to run this command separately unless the
 deployment fails.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm topology cleanup-coordination-service [option] [global options]`
 
-<div>
+
 
 #### Option
 
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -88,12 +85,11 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 2700 (45 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMDeployCoordination}tsm topology deploy-coordination-service {#tsm-topology-deploycoordinationservice}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology deploy-coordination-service
+------------------------------------------------------------------------------------
+
 
 **Note:** Beginning with version 2020.1.0, all coordination service
 ensemble commands require input for a \"y/n\" prompt confirming that a
@@ -114,19 +110,17 @@ In version 2020.1.0 and later, the
 ensemble. There is no need to run the `cleanup-coordination-service`
 command separately.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm topology deploy-coordination-service --nodes <nodeID,nodeID,...> [option] [global-options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -n, \--nodes \<nodeID,nodeID,\...\>
 
@@ -145,34 +139,27 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 2700 (45 minutes).
 
-<div>
+##### tsm topology external-services storage disable
+----------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMExternalStorageDisable}tsm topology external-services storage disable {#tsm-topology-externalservices-storage-disable}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Configure Tableau Server to run File Store locally. Use this command to
 disable External File Store and move the File Store data to your Tableau
 Server.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm topology external-services storage disable [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -fsn \<nodeID, nodeID,\...\>
 
@@ -185,35 +172,27 @@ list and then replicated to other nodes.
 For more information, see [Reconfigure File
 Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_reconfigure.htm) .
 
-</div>
 
-<div>
+##### tsm topology external-services storage enable
+--------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMExternalStorageEnable}tsm topology external-services storage enable {#tsm-topology-externalservices-storage-enable}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Configure Tableau Server with External File Store. External File Store
 uses SAN or NAS to store File Store data.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm topology external-services storage enable [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -network-share
 
@@ -225,14 +204,12 @@ External File Store.
 For more information, see [Reconfigure File
 Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_reconfigure.htm) .
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#tsmExteranalServicesList}tsm topology external-services list {#tsm-topology-externalservices-list}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology external-services list
+----------------------------------------------------------------------------------
+
 
 Use the tsm topology external-service-list command to get a the service
 that is used for Tableau Server External Repository. For example, if you
@@ -243,47 +220,42 @@ These externally configured services are in use by Tableau Server:
 
 \- pgsql
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
     tsm topology external-service list [global options]
 
-<div>
+
 
 #### Option
 
-</div>
 
 There are no options for this command.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMExternalRepoDisable}tsm topology external-services repository disable -n nodeN {#tsm-topology-externalservices-repository-disable-n-noden}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology external-services repository disable -n nodeN
+-------------------------------------------------------------------------------------------------------
+
 
 Use the tsm topology external-services repository disable command to
 stop using the external repository and reconfigure the installation to
 use a local repository. This will migrate the data to a local repository
 and configure Tableau Server to use the local repository.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
     tsm topology external-services repository disable -n nodeN
 
-<div>
+
 
 #### Option
 
-</div>
 
 -n, \--node-name \<nodeID\>
 
@@ -295,15 +267,14 @@ to.
 **Important:** This does not stop or delete the RDS instance. For more
 information on how to delete an RDS instance, see [Deleting a DB
 Instance[(Link opens in a new
-window)]{.sr-only}](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_DeleteInstance.html#USER_DeleteInstance.NoSnapshot)
+window)]](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_DeleteInstance.html#USER_DeleteInstance.NoSnapshot)
 on the AWS web site.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMExternalRepoEnable}tsm topology external-services repository enable {#tsm-topology-externalservices-repository-enable}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology external-services repository enable
+--------------------------------------------------------------------------------------------
+
 
 Use the tsm topology external-services repository enable command to
 configure Tableau Server to use an external repository. This command can
@@ -313,19 +284,17 @@ running Tableau Server, it will migrate the data from the local node to
 the external repository and configure Tableau Server to use the external
 repository after the migration is complete.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
     tsm topology external-services repository enable -f <filename>.json -c <ssl certificate file>.pem
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f \<file name\>
 
@@ -343,14 +312,13 @@ You must use SSL if you are using Amazon RDS for your external
 repository. Download the .pem file and specify the .pem file for use
 with this option. For more information on how to get the .pem file, see
 [Using SSL to Encrypt a Connection to a DB Instance[(Link opens in a new
-window)]{.sr-only}](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.SSL).
+window)]](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.SSL).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#tsmExternalRepoReplaceHost}tsm topology external-services repository replace-host {#tsm-topology-externalservices-repository-replacehost}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology external-services repository replace-host
+-------------------------------------------------------------------------------------------------------
+
 
 This command updates Tableau Server configuration settings to use the
 specified external repository. Use the tsm topology external-services
@@ -375,19 +343,17 @@ This command can be used in the following scenarios:
 
  
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
     tsm topology external-services repository enable -f <filename>.json -c <ssl certificate file>.pem
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f \<file name\>
 
@@ -412,7 +378,7 @@ Instance](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/UsingWithRDS.SS
 
 For more information on how to get the .pem file, see [Using SSL to
 Encrypt a Connection to a DB Instance[(Link opens in a new
-window)]{.sr-only}](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.SSL).
+window)]](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts.General.SSL).
 
 \--ignore-prompt
 
@@ -420,12 +386,11 @@ Optional.
 
 Run this command without prompts.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMFailoverRepository}tsm topology failover-repository {#tsm-topology-failoverrepository}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology failover-repository
+----------------------------------------------------------------------------
+
 
 You can use the `tsm topology failover-repository` to manually initiate
 a repository failover from the current active repository to the second,
@@ -442,19 +407,17 @@ Repository](https://help.tableau.com/current/server/en-us/server_process_reposit
 of the repository is automatic when necessary. Use the
 failover-repository command to manually fail over the repository.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm topology failover-repository --preferred | --target <node_id> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -r, \--preferred
 
@@ -476,12 +439,11 @@ Required if -r or \--preferred is not used.
 The node id of the target node onto which failover will occur. Find the
 node id by using the `tsm topology list-nodes` command.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMDecommission}tsm topology filestore decommission
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology filestore decommission
+-------------------------------------------------------------------------
+
 
 You must use the `tsm topology filestore decommission` command to
 prepare a file store node or nodes for safe removal. This command puts
@@ -491,19 +453,17 @@ content on the specified nodes.
 If decommissioning results in a single file store node, you must use the
 `--override` option or the decommission will fail.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm topology filestore decommission  --nodes <nodeID,nodeID,...> [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -n, \--nodes \<nodeID,nodeID,\...\>
 
@@ -536,29 +496,26 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 1800 (30 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#topology-recommission}tsm topology filestore recommission
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology filestore recommission
+-------------------------------------------------------------------------------
+
 
 Use the `tsm topology filestore recommission` command to revert any
 decommissioned nodes back to read-write mode.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm topology filestore recommission  --nodes <nodeID,nodeID,...> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -n, \--nodes \<nodeID,nodeID,\...\>
 
@@ -567,31 +524,28 @@ Required.
 List of one or more nodes to recommission, specified by node ID and
 separated by commas.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMListNodes}tsm topology list-nodes {#tsm-topology-listnodes}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology list-nodes
+------------------------------------------------------------------------------------------------------------------------
+
 
 Display the nodes in the cluster and (optionally) the services on each
 node.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm topology list-nodes [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -v, \--verbose
 
@@ -603,30 +557,27 @@ node.
 
  
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMListPorts}tsm topology list-ports {#tsm-topology-listports}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology list-ports
+------------------------------------------------------------------------------------------------------------------------
+
 
 Display the ports in the cluster.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm topology list-ports [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--node-name \<nodeID\>
 
@@ -642,12 +593,11 @@ Specify the service to list ports for.
 
  
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMGetBootstrap}tsm topology nodes get-bootstrap-file {#tsm-topology-nodes-getbootstrapfile}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology nodes get-bootstrap-file
+---------------------------------------------------------------------------
+
 
 You can use the `tsm topology nodes get-bootstrap-file` command to get
 the bootstrap file that is required to add a new node to the cluster.
@@ -661,19 +611,17 @@ take additional measures to secure the bootstrap file using mechanisms
 as described in [Securing secrets for import and export
 operations](https://help.tableau.com/current/server/en-us/security_secret_storage.htm#Securing).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
     tsm topology nodes get-bootstrap-file --file <path\file>.json [global options]
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f,\--file \<file\>
 
@@ -701,12 +649,11 @@ see
 
  
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMRemoveNodes}tsm topology remove-nodes {#tsm-topology-removenodes}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology remove-nodes
+----------------------------------------------------------------------------------------------------------------------------
+
 
 Remove nodes from the cluster.
 
@@ -727,21 +674,19 @@ with a process at some point in the past. If you are removing a node on
 which you\'ve not configured any processes, then you must add a process
 on it, run `tsm pending-changes apply`, and then remove the node.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm topology remove-nodes --nodes <nodeID,nodeID,...> [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -n, \--nodes \<nodeID,nodeID,\...\>
 
@@ -752,12 +697,11 @@ separate node IDs with a comma.
 
  
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMSetNodeRole}tsm topology set-node-role {#tsm-topology-setnoderole}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology set-node-role
+---------------------------------------------------------------
+
 
 Set the Backgrounder and Extract Queries node roles. This determines the
 type of tasks that will be performed on the nodes. The following node
@@ -769,21 +713,19 @@ Roles](https://help.tableau.com/current/server/en-us/server_node_roles.htm).
 server and will require some downtime. For more information, see [tsm
 pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm topology set-node-role [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -n, \--nodes \<nodeID,nodeID,\...\>
 
@@ -832,30 +774,27 @@ are:
 -   extract-queries: The nodes selected will run as all-jobs and will
     prioritize the processing of extract queries.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMSetPorts}tsm topology set-ports {#tsm-topology-setports}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology set-ports
+----------------------------------------------------------------------------------------------------------------------
+
 
 Set the ports for a service instance.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm topology set-ports --node-name <nodeID> --port-name <port_name> --port-value <port_value> [options] [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -i, \--instance \<instance\_id\>
 
@@ -894,12 +833,11 @@ Server] when necessary.
 
  
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMSetProcess}tsm topology set-process {#tsm-topology-setprocess}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology set-process
+--------------------------------------------------------------------------------------------------------------------------
+
 
 Set the number of instances of a process on a node. If a node already
 has the specified process, the number is updated to match the specified
@@ -920,21 +858,19 @@ Changes](https://help.tableau.com/current/server/en-us/server_process_hot_topo.h
 **Note:** For a complete list of process names, see [Tableau Server
 Processes](https://help.tableau.com/current/server/en-us/processes.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm topology set-process --count <process_count> --node <nodeID> --process <process_name> [global options]
 ```
 
-<div>
+
 
 #### Options
 
-</div>
 
 -c, \--count \<process\_count\>
 
@@ -956,12 +892,11 @@ The name of the process to be set.
 
  
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} []{#TSMToggleCoordination}tsm topology toggle-coordination-service {#tsm-topology-togglecoordinationservice}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm topology toggle-coordination-service
+------------------------------------------------------------------------------------
+
 
 **Note:** Beginning with version 2020.1.0, all coordination service
 ensemble commands require input for a \"y/n\" prompt confirming that a
@@ -977,21 +912,19 @@ In version 2020.1.0 and later, the
 `tsm topology deploy-coordination-service` command also switches to the
 new ensemble. There is no need to run this command separately.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
 tsm topology toggle-coordination-service [option] [global options]
 ```
 
-<div>
+
 
 #### Option
 
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -1000,12 +933,11 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 1800 (30 minutes).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#){.heading-item__link .print-hidden} Global options
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+----------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

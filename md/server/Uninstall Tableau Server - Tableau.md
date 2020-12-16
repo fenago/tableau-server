@@ -17,12 +17,11 @@ the previous version.
 This article explains how to uninstall previous versions, after you\'ve
 upgraded to a newer version.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/uninstall_server.htm#){.heading-item__link .print-hidden} Uninstalling and completely removing Tableau Server
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Uninstalling and completely removing Tableau Server
+---------------------------------------------------------------------
+
 
 There are two primary \"uninstall\" scenarios that Tableau Server on
 Windows supports:
@@ -50,12 +49,11 @@ Windows supports:
     Computer](https://help.tableau.com/current/server/en-us/remove_tableau.htm)
 
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/uninstall_server.htm#){.heading-item__link .print-hidden} Uninstall a Tableau Server version
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Uninstall a Tableau Server version
+------------------------------------------------------------------------------------------------------------------
+
 
 When upgrading from one TSM version to another, you must leave the
 earlier version in place until you have finished the upgrade. *Then* you
@@ -96,18 +94,13 @@ To uninstall a version of Tableau Server:
 
 2.  With the Tableau Server version selected, click
     [Uninstall].
-:::
-:::
-:::
 
-<div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/uninstall_server.htm#){.heading-item__link .print-hidden} Other articles in this section
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Other articles in this section
+--------------------------------------------------------------------------------------------------------------
+
 
 -   [Remove Tableau
     Server](https://help.tableau.com/current/server/en-us/remove_tableau.htm)

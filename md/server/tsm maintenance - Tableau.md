@@ -59,14 +59,13 @@ Server] from a previously created backup.
 -   [tsm maintenance
     ziplogs](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm4ziplogs){.MCXref
     .xref}
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsm}tsm maintenance backup
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### tsm maintenance backup
+-----------------------------------------------------------------------------------------------------------------
+
 
 Creates a backup of the data managed by [Tableau
 Server]. This data includes the Tableau
@@ -79,7 +78,7 @@ Server](https://help.tableau.com/current/server/en-us/backup_restore.htm).
 External File Store. See [Backup and Restore with External File
 Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm).
 
-<div>
+
 
 **Optimizing with topology configurations:**
 
@@ -96,7 +95,6 @@ The Administration Controller is usually on the initial node, unless you
 have had an initial node failure and moved the controller to another
 node.
 
-</div>
 
 The backup file is assembled in a temporary location in the data
 directory and then written to the directory defined in the
@@ -110,19 +108,17 @@ Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.h
 process uses a temporary location in the data directory to assemble the
 backup file.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance backup --file <backup_file> [options] [global options]`
 
-<div>
+
 
 #### Options 
 
-</div>
 
 -d, \--append-date
 
@@ -187,11 +183,10 @@ Optional.
 Wait the specified amount of time for the command to finish. Default
 value is 86400 (1440 minutes).
 
-<div>
+
 
 ####  Examples
 
-</div>
 
 This example creates a backup called `ts_backup-<yyyy-mm-dd>.tsbak` in
 the \<install dir\>\\ProgramData\\Tableau\\Tableau
@@ -199,14 +194,9 @@ Server\\data\\tabsvc\\files\\backups\\ folder:
 
 `tsm maintenance backup -f ts_backup -d`
 
-<div>
+##### tsm maintenance cleanup
+----------------------------------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#cleanup}tsm maintenance cleanup
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 By default, deletes log files older than seven days, and temporary
 files. Command options can modify which files are deleted.
@@ -223,19 +213,17 @@ command on the node that is running the Administration Controller (also
 referred to as the *TSM Controller*)process. By default, the controller
 is on the initial node in the cluster.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance cleanup  [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -a, \--all
 
@@ -265,7 +253,7 @@ Clear the image cache. This cache can contain images for offline
 previews, snapshots for subscription email messages, and subscription
 pdfs, as well as any images requested from the publish rest API endpoint
 (see [rest\_api\_ref.htm[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref.htm#query_view_image)
+window)]](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref.htm#query_view_image)
 for more information).
 
 **Note:** Option added in version 2019.4
@@ -329,11 +317,10 @@ Delete all files and subdirectories in the following directories:
 
 -   `<install dir>\ProgramData\Tableau\Tableau Server\temp`
 
-<div>
+
 
 #### 
 
-</div>
 
 This example cleans up all log files older than 2 days old:
 
@@ -355,22 +342,20 @@ Running this command stops and starts some services used by [Tableau
 Server], which causes certain functionality, such
 as Recommendations, to be temporarily unavailable to your users.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
                         tsm maintenance metadata-services disable
                     
 ```
 
-<div>
+
 
 #### Option
 
-</div>
 
 \--ignore-prompt
 
@@ -378,16 +363,10 @@ Optional.
 
 Dismiss the confirmation prompt when disabling the Metadata API.
 
-</div>
 
-<div>
+##### tsm maintenance metadata-services enable
+----------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#cat_enable}tsm maintenance metadata-services enable {#tsm-maintenance-metadataservices-enable}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 **Note:** Command added in version 2019.3.
 
@@ -425,11 +404,10 @@ Catalog](https://help.tableau.com/current/server/en-us/dm_catalog_overview.htm).
                             tsm maintenance metadata-services enable
                         
 
-<div>
+
 
 #### Option
 
-</div>
 
 \--ignore-prompt
 
@@ -437,16 +415,10 @@ Optional.
 
 Dismiss the confirmation prompt when enabling the Metadata API.
 
-</div>
 
-<div>
+##### tsm maintenance metadata-services get-status
+--------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#cat_status}tsm maintenance metadata-services get-status {#tsm-maintenance-metadataservices-getstatus}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 **Note:** Command added in version 2019.3.
 
@@ -456,45 +428,36 @@ status information on Metadata Services.
 Status on Metadata Services indicates if the Metadata API Store has been
 initialized or if the Tableau Metadata API is running or not.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 ``` {space="preserve"}
                         tsm maintenance metadata-services get-status
                     
 ```
 
-</div>
+##### tsm maintenance preflight-check permissions
+---------------------------------------------------------------------------------------------------
 
-
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsmmaintenance_preflight_perms}tsm maintenance preflight-check permissions {#tsm-maintenance-preflightcheck-permissions}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 **Note:** Command added for Tableau Server on Windows in version 2020.3.
 
 Use the `tsm maintenance preflight-check permissions` command to verify
 the directory permissions.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance preflight-check permissions [options] [global options]`
 
-<div>
+
 
 #### Option
 
-</div>
 
 -d, \--data-dir \<data directory\>
 
@@ -531,15 +494,10 @@ Optional.
 
 The Run As user name to verify permissions for. If not provided, the Run
 As user is determined from the current configuration.
-:::
 
+##### tsm maintenance preflight-check ports
+---------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsmmaintenance_preflight_ports}tsm maintenance preflight-check ports {#tsm-maintenance-preflightcheck-ports}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 **Note:** Command added for Tableau Server on Windows in version 2020.3.
 
@@ -548,19 +506,17 @@ ports are available for all currently installed services. Specify a
 service and port to verify the port is available for that service, even
 if the service is not currently installed.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance preflight-check ports [options] [global options]`
 
-<div>
+
 
 #### Option
 
-</div>
 
 -a, \--tabadminagent-addresses \<hostname:port\>
 
@@ -620,33 +576,26 @@ Administration Controller. Addresses are formatted as `hostname:port`.
 Separate multiple addresses by commas if more than one is being checked.
 Use this option to see if a port is available before installing or
 changing ports.
-:::
 
-<div>
 
-<div>
+##### tsm maintenance reindex-search
+-----------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsmmaintenancereindex}tsm maintenance reindex-search {#tsm-maintenance-reindexsearch}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Use the `tsm maintenance reindex-search` command to rebuild the search
 index.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance reindex-search  [options] [global options]`
 
-<div>
+
 
 #### Option
 
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -654,33 +603,25 @@ Optional.
 
 Wait the specified amount of time for the command to finish.
 
-</div>
 
-<div>
+##### tsm maintenance reset-searchserver
+-------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsm_maint_reset_searchsvr}tsm maintenance reset-searchserver {#tsm-maintenance-resetsearchserver}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Resets the search server to a clean state, deleting search information
 and rebuilding the search index.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance reset-searchserver  [options]  [global options]`
 
-<div>
+
 
 #### Option
 
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -688,14 +629,12 @@ Optional.
 
 Wait the specified amount of time for the command to finish.
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsm3}tsm maintenance restore
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm maintenance restore
+-------------------------------------------------------------------------------------------------------------------
+
 
 Restore [Tableau Server] using the specified
 backup file. Restoring a backup file does not restore any configuration
@@ -709,19 +648,17 @@ with local authentication, but a backup from a server using Active
 Directory authentication cannot be restored to a server initialized with
 local authentication.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance restore --file <file_name> [--restart-server] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -ak, \--asset-key-file \<file\_name\>
 
@@ -731,7 +668,7 @@ earlier).
 
 Name of asset key file to restore from. The asset key file is created by
 the [`tabadmin assetkeys` command[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/v10.5/server/en-us/tabadmin_cmd.htm#assetkey).
+window)]](https://help.tableau.com/v10.5/server/en-us/tabadmin_cmd.htm#assetkey).
 The file must be in the predefined backup/restore location on the
 server.
 
@@ -787,19 +724,17 @@ case. To successfully upload files to Tableau, your Tableau Server must
 be able to communicate with the send-logs server at
 `https://report-issue.tableau.com`.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance send-logs --case <case_number> --email <contact_email> --file <path/to/file> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -c,\--case \<case\_number\>
 
@@ -825,14 +760,9 @@ Optional.
 
 Wait the specified amount of time for the command to finish.
 
-<div>
+##### tsm maintenance snapshot-backup complete
+----------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsm_snapshot_backup_complete}tsm maintenance snapshot-backup complete {#tsm-maintenance-snapshotbackup-complete}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 **Note:** Command added in version 2020.1 and only available when
 Tableau Server is configured for External File Store.
@@ -847,19 +777,17 @@ with External File Store. For more information, see [Backup and Restore
 with External File
 Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm)
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance snapshot-backup complete [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -867,16 +795,10 @@ Optional.
 
 Wait the specified amount of time for the command to finish.
 
-</div>
 
-<div>
+##### tsm maintenance snapshot-backup prepare
+--------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsm_snapshot_backup_prepare}tsm maintenance snapshot-backup prepare {#tsm-maintenance-snapshotbackup-prepare}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 **Note:** Command added in version 2020.1 and only available when
 Tableau Server is configured for External File Store.
@@ -891,19 +813,17 @@ with External File Store. For more information, see [Backup and Restore
 with External File
 Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm)
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance snapshot-backup prepare [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -911,16 +831,10 @@ Optional.
 
 Wait the specified amount of time for the command to finish.
 
-</div>
 
-<div>
+##### tsm maintenance snapshot-backup restore
+-------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsm_snapshot_restore}tsm maintenance snapshot-backup restore {#tsm-maintenance-snapshotbackup-restore}
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 **Note:** Command added in version 2020.1 and only available when
 Tableau Server is configured for External File Store.
@@ -931,19 +845,17 @@ Server.
 For more information, see [Backup and Restore with External File
 Store](https://help.tableau.com/current/server/en-us/server_external_filestore_storage_backup_restore.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance snapshot-backup restore [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -951,14 +863,12 @@ Optional.
 
 Wait the specified amount of time for the command to finish.
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsmValidateResources}tsm maintenance validate-resources {#tsm-maintenance-validateresources}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm maintenance validate-resources
+--------------------------------------------------------------------------------
+
 
 Validate workbooks and data sources for a site. Use this command before
 migrating a site, to detect issues with site resources such as workbooks
@@ -966,11 +876,10 @@ and data sources that will cause a site import to fail. Some resource
 problems can be corrected by republishing from local sources. Other
 problems might require assistance from Tableau Support.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance validate-resources --site-id <site ID> [global options]`
 
@@ -997,29 +906,26 @@ Wait the specified amount of time for the command to finish.
 
  
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} []{#tsm4ziplogs}tsm maintenance ziplogs
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm maintenance ziplogs
+--------------------------------------------------------------------------------------------------------------------------
+
 
 Use the `ziplogs `command to create an archive of [Tableau
 Server] log files.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm maintenance ziplogs [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -a, \--all
 
@@ -1043,7 +949,7 @@ Optional.
 
 Include the specified description of the archive file.
 
-<div>
+
 
 \--enddate \<mm/dd/yyyy\>
 
@@ -1055,7 +961,6 @@ not specified, up to two days of logs will be included.
 
 Added in version 2019.3
 
-</div>
 
 -f, \--file \<name\>
 
@@ -1118,7 +1023,7 @@ For more information about file paths and how to change them, see [tsm
 File
 Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
-<div>
+
 
 \--startdate \<mm/dd/yyyy\>
 
@@ -1130,7 +1035,6 @@ is not specified, up to two days of logs will be included.
 
 Added in version 2019.3
 
-</div>
 
 \--request-timeout \<timeout in seconds\>
 
@@ -1147,12 +1051,11 @@ Include netstat information.
 
  
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#){.heading-item__link .print-hidden} Global options
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+-------------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

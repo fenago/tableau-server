@@ -17,12 +17,11 @@ following requirements:
 
 ![](./images/custom_projectimage.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/custom_projectimage.htm#){.heading-item__link .print-hidden} Set a project image
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Set a project image
+------------------------------------------------------------------------------------------------------
+
 
 1.  Sign in to a site on [Tableau Server]. In the
     list of [Top-level Projects] you have access to, select

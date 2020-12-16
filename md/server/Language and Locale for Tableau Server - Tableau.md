@@ -15,7 +15,7 @@ Administrators can configure language and locale on a server-wide basis
 Settings (General and
 Customization)](https://help.tableau.com/current/server/en-us/maintenance_set.htm), and individual users can configure their own settings (see [Your
 Account Settings[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#useracct.html))
+window)]](https://help.tableau.com/current/pro/desktop/en-us/help.htm#useracct.html))
 . If a user configures their own language and locale, their settings
 override the server settings.
 
@@ -25,7 +25,7 @@ Supported Languages
 [Tableau Server] is localized into several
 languages. See the \"Internationalization\" section of the [Tableau
 Server Technical Specification[(Link opens in a new
-window)]{.sr-only}](https://www.tableau.com/products/techspecs#server)
+window)]](https://www.tableau.com/products/techspecs#server)
 page for more information.
 
 

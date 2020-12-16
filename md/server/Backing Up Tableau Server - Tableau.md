@@ -87,7 +87,7 @@ To create back up files
 3.  Save the backup files to another computer or to a portable hard
     drive.
 
-<div>
+
 
 **What if I get an access denied error when I attempt to run
 TSM commands?**

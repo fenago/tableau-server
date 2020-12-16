@@ -21,17 +21,14 @@ configure proxy servers.
  
 
 
-![](./images/road-sign-curve.png){.roadsign-img}
+![](./images/road-sign-curve.png)
 
-<div>
+Time to call your IT friend
+-----------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Time to call your IT friend
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 Unlike most of the other chapters of *[Tableau Server: Everybody\'s
-Install Guide]{.VariablesEAGuideTitle}*, where you can complete server
+Install Guide]*, where you can complete server
 configuration with only minimal aid of an IT professional, we\'ve
 written this chapter for the IT professional. We\'ve tried to describe
 the concepts in ways that we hope everyone can follow, but setting up
@@ -39,14 +36,13 @@ proxy servers involves certificate management, configuring proxy and
 gateway settings, and advanced network configuration. If you\'re not an
 IT professional and you\'ve been going at it alone so far with this
 guide, now is the time to reach out to a professional.
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} How Tableau communicates with the internet
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+How Tableau communicates with the internet
+-------------------------------------------------------------------------------------------
+
 
 Tableau Server requires outbound access to the internet for these
 scenarios:
@@ -138,12 +134,11 @@ Tableau Server can run without internet access, but in most
 organizations, the scenarios in the list require Tableau to be able to
 access the internet.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Tableau Server and proxy servers
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Tableau Server and proxy servers
+---------------------------------------------------------------------------------
+
 
 Tableau Server was designed to operate inside a protected internal
 network. Therefore, our first strong recommendation is this: do not set
@@ -169,7 +164,7 @@ Deployment](https://help.tableau.com/current/guides/everybody-install/en-us/ever
 computer that is running IIS. Additionally, if you are running antivirus
 software, you should follow the recommendations in the [Knowledge
 Base[(Link opens in a new
-window)]{.sr-only}](http://kb.tableau.com/articles/howto/improving-performance-by-using-antivirus-exclusions)
+window)]](http://kb.tableau.com/articles/howto/improving-performance-by-using-antivirus-exclusions)
 to exclude the Tableau Server directories. The procedures in this
 chapter assume that you\'ve installed Tableau Server onto a clean
 computer.
@@ -194,7 +189,7 @@ servers that are hosted on the internet. In addition, by default, the
 licensing component for Tableau products connects to the internet to
 activate our products. Unless you activate Tableau software with the
 [Offline Activation Tool[(Link opens in a new
-window)]{.sr-only}](http://www.tableau.com/support/drivers/activation),
+window)]](http://www.tableau.com/support/drivers/activation),
 all Tableau products must have access to the internet to validate their
 licenses.
 
@@ -209,11 +204,7 @@ resources](https://help.tableau.com/current/guides/everybody-install/en-us/every
 section later includes a link to more information about how to set up a
 forward proxy server.
 
-<div>
-
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Reverse proxy server
-
-</div>
+#### Reverse proxy server
 
 A reverse proxy is a server that receives requests from external
 (internet) clients and forwards them to Tableau Server. Why use a
@@ -225,11 +216,11 @@ people outside the company can get to it (in the DMZ, for those who know
 that term). This requirement can be important for organizations that are
 subject to various privacy regulations such as PCI, HIPAA, or SOX.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} An illustration of how a reverse proxy work with Tableau Server
 
-</div>
+####  An illustration of how a reverse proxy work with Tableau Server
+
+
 
 The following diagram illustrates the communication path when a client
 makes a request to Tableau Server that is configured to work with a
@@ -277,16 +268,15 @@ If you\'ll be using Kerberos authentication, you must configure Tableau
 Server for your proxy before you configure Tableau Server for Kerberos.
 
 For more information, see [Configure Kerberos[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server/en-us/help.htm#config_kerberos.htm).
+window)]](https://help.tableau.com/current/server/en-us/help.htm#config_kerberos.htm).
 Additionally, you can use SAML, OpenID Connect, or Trusted Tickets with
 a reverse proxy.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Configure Tableau Server to work with a reverse proxy server
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Configure Tableau Server to work with a reverse proxy server
+-------------------------------------------------------------------------------------------------------------
+
 
 Ok, we\'ve talked you into using a reverse proxy. Before you configure
 Tableau Server, you\'ll need to collect the following information about
@@ -389,12 +379,11 @@ and manage Tableau services.
 
     `tsm pending-changes apply`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Configure the reverse proxy server to work with Tableau Server {#configure-the-reverse-proxy-server}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Configure the reverse proxy server to work with Tableau Server
+---------------------------------------------------------------------------------------------------------------
+
 
 Enabling client access from the internet through a reverse proxy
 requires that specific message headers are preserved (or added) for
@@ -416,23 +405,22 @@ The headers that Tableau Server require are:
     running SSL at the proxy, but not on Tableau Server. As noted, we
     recommend running SSL on each hop.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Troubleshooting and notes for reverse proxies {#troubleshooting}
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+Troubleshooting and notes for reverse proxies
+----------------------------------------------------------------------------------------------
+
 
 Because there are different proxy solutions, we can\'t spell out steps
 for setting up the end-to-end configuration. However, we\'ve collected
 some tips and other information related to enabling a reverse proxy with
 Tableau Server.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Configuring headers
 
-</div>
+### Configuring headers
+
+
 
 -   The `X-FORWARDED-PROTO` headers are important for scenarios where
     HTTP or HTTPS is not maintained along each hop of the message route.
@@ -462,18 +450,16 @@ Tableau Server.
     command, such as `"203.0.113.0, 10.32.56.78"`. The entire string
     must also be enclosed in double quotation marks, as shown.
 
-<div>
 
-### [[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_client_access.htm#){.heading-item__link .print-hidden} Authentication
+### Authentication
 
-</div>
 
 -   If you\'ll be using Kerberos authentication, you must configure
     Tableau Server for your proxy before you configure Tableau Server
     for Kerberos.
 
     For more information, see [Configure Kerberos[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/help.htm#config_kerberos.htm)
+    window)]](https://help.tableau.com/current/server/en-us/help.htm#config_kerberos.htm)
     in the Tableau Server Help.
 
 -   Apache reverse proxy servers are not supported if Tableau Server is
@@ -488,18 +474,17 @@ Tableau Server.
 Continue to [Creating
 Users](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_organize_users_groups.htm).
 
-<div>
+
 Additional resource
 --------------------
 
-</div>
 
 -   [Configuring Proxies for Tableau Server[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/server/en-us/proxy.htm).
+    window)]](https://help.tableau.com/current/server/en-us/proxy.htm).
     A topic in the Tableau Server Help that provides configuration
     information for complex deployments.
 
 -   [Desktop Deployment Guide[(Link opens in a new
-    window)]{.sr-only}](https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_welcome.htm).
+    window)]](https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_welcome.htm).
     This guide provides information about how to plan, install, and
     upgrade Tableau Desktop for yourself or for multiple users.

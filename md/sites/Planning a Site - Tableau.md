@@ -22,14 +22,13 @@ are familiar with
 **Note:** This article and section apply only to self-managed Tableau
 Server deployments on-premises or in the cloud. If you use Tableau
 Online, see [Manage Content Access[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/online/en-us/permissions_section.htm "Go to Tableau Online Help (opens new browser tab)").
+window)]](https://help.tableau.com/current/online/en-us/permissions_section.htm "Go to Tableau Online Help (opens new browser tab)").
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/site_admin_planning.htm#){.heading-item__link .print-hidden} Projects {##projects}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Projects
+-------------------------------------------------------------------------------------------
+
 
 You can create projects on a site, which act as containers in which you
 can organize related content assets (such as data sources and
@@ -52,12 +51,11 @@ template, and not as a container for published content.
 For more information, see [Use Projects to Manage Content
 Access](https://help.tableau.com/current/server/en-us/projects.htm).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/site_admin_planning.htm#){.heading-item__link .print-hidden} Users and groups
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Users and groups
+---------------------------------------------------------------------------------------------------
+
 
 Any user who will publish content or access published content on a site
 must be able to sign in to the site. If the user already has an account
@@ -84,12 +82,11 @@ Sales who publish data sources. Each of these sets of users needs its
 own set of capabilities, so it makes sense to have a group for each for
 these needs.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/site_admin_planning.htm#){.heading-item__link .print-hidden} Site roles and permissions
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Site roles and permissions
+-------------------------------------------------------------------------------------------------------------
+
 
 Each user has a *site role* that determines the maximum permissions that
 they can have on the site. As part of your site planning, you need to
@@ -115,12 +112,11 @@ them. A user whose site role is **[Creator]{.Variablessiterole-author}**
 can publish a workbook to the site, but only if that user has permission
 to save and view workbooks.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/site_admin_planning.htm#){.heading-item__link .print-hidden} Extract refresh schedules
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Extract refresh schedules
+------------------------------------------------------------------------------------------------------------
+
 
 If users publish data sources or workbooks that include extracts, you
 usually want to make sure that the extracts are refreshed, so that they

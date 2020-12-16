@@ -9,19 +9,17 @@ the path to a completed registration file (using the `--file` option).
 You must use one of these two options when calling the `tsm register`
 command.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm register  --template | --file <registration-filename> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 \--file \<registration-filename\>
 
@@ -35,12 +33,11 @@ Required.
 
 Display registration filetemplate.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_register_tsm.htm#){.heading-item__link .print-hidden} Global options
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+----------------------------------------------------------------------------------------------
+
 
 -h, \--help
 

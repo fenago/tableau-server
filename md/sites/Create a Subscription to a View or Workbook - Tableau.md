@@ -8,7 +8,7 @@ Create a Subscription to a View or Workbook
 [Applies to: Tableau Online, Tableau
 Server]{.article__tags--applies-to}\
 []{.article__tags--role}
-:::
+
 
 
 Subscriptions email you an image or PDF snapshot of a view or workbook
@@ -18,14 +18,9 @@ Server or Tableau Online.
 **Note**: In Tableau Server, administrators determine whether
 subscriptions are enabled for a site.
 
-<div>
+##### Set up a subscription for yourself or others
+----------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/subscribe_user.htm#){.heading-item__link .print-hidden} []{#SubscribeYourself}Set up a subscription for yourself or others
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 When you open a view in Tableau Server or Tableau Online, if you see a
 subscription icon
@@ -88,7 +83,7 @@ appropriate site role, or if you are an administrator.
 
     -   For Tableau Online and Tableau Server with [custom schedules
         enabled[(Link opens in a new
-        window)]{.sr-only}](https://help.tableau.com/current/server-linux/en-us/schedule_enable_custom.htm),
+        window)]](https://help.tableau.com/current/server-linux/en-us/schedule_enable_custom.htm),
         click the drop-down arrow to the right of the current settings.
 
         ![](./images/subscribe_options_online_sched.png)
@@ -118,16 +113,10 @@ or workbook in Tableau Online or Tableau Server.
 
 Update subscription settings
 
-</div>
 
-<div>
+##### Update or unsubscribe from a subscription
+-------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/subscribe_user.htm#){.heading-item__link .print-hidden} []{#Unsubscribe}Update or unsubscribe from a subscription
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 You can unsubscribe from an existing subscription, or make changes to a
 subscription's format, schedule, subject, or empty view mode.
@@ -153,12 +142,11 @@ subscription's format, schedule, subject, or empty view mode.
     [Unsubscribe], or select the subscription option you\'d
     like to change.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/subscribe_user.htm#){.heading-item__link .print-hidden} Resume or delete suspended subscriptions
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Resume or delete suspended subscriptions
+----------------------------------------------------------------------------------------------------------------------
+
 
 If a subscription fails more than five times, you\'ll receive a
 notification email that your subscription has been suspended. There are
@@ -178,19 +166,18 @@ owner or administrator:
 You\'ll receive an email notification when the subscription is working
 again.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/subscribe_user.htm#){.heading-item__link .print-hidden} See also
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### See also
+--------------------------------------------------------------------------------------
+
 
 [Change Subscription Settings[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.html#useracct.html)
+window)]](https://help.tableau.com/current/pro/desktop/en-us/help.html#useracct.html)
 in the Tableau Desktop and Web Authoring Help.
 
 [Project-level administration[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/online/en-us/projects.htm#project-admin "Link opens article in a new browser tab")
+window)]](https://help.tableau.com/current/online/en-us/projects.htm#project-admin "Link opens article in a new browser tab")
 in the Tableau Online Help, to learn which site roles allow full Project
 Leader capabilities.
 

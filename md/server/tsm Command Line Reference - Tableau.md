@@ -18,19 +18,14 @@ API](https://help.tableau.com/v0.0/api/tsm_api/en-us/index.html).
 Looking for tabadmin commands for [Tableau
 Server] on Windows? See [tabadmin Commands[(Link
 opens in a new
-window)]{.sr-only}](https://help.tableau.com/v2018.1/server/en-us/tabadmin_cmd.htm "Opens topic in a new browser tab")
+window)]](https://help.tableau.com/v2018.1/server/en-us/tabadmin_cmd.htm "Opens topic in a new browser tab")
 in the 2018.1 Server help. Version 2018.1 is the last version of Tableau
 Server that supports tabadmin. Beginning with version 2018.2,
 TSM replaces tabadmin.
 
-<div>
+##### Using the tsm CLI
+----------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} []{#Using}Using the tsm CLI
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 You can run tsm commands on the initial node (the node where TSM is
 installed), or on any additional node in the cluster.
@@ -60,14 +55,12 @@ behavior.
 
     `tsm version -s https://myTableauHost:8850`
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} []{#Authenti}Authenticating with tsm CLI
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Authenticating with tsm CLI
+-----------------------------------------------------------------------------------------------------------
+
 
 Beginning in the 2019.2 release of Tableau Server, running tsm commands
 will not require you to enter a password if the following are true:
@@ -81,11 +74,10 @@ will not require you to enter a password if the following are true:
     installed and configured on the initial node in a distributed
     deployment.
 
-<div>
+
 
 ####  Logging into tsm CLI locally
 
-</div>
 
 If you are running tsm commands on the local computer with user account
 that is a member of a TSM-authorized group, then you will not need to
@@ -93,11 +85,10 @@ specify a password. In this case, just run the command, for example:
 
 `tsm version`
 
-<div>
+
 
 ####  Logging into tsm CLI remotely
 
-</div>
 
 If you are running TSM commands from a node in a cluster where the
 Tableau Server Administration Controller service is not running, then
@@ -114,12 +105,11 @@ account that is a member of a TSM-authorized group.
 After running this command, you will be prompted for a password. After
 the account has been authenticated, you can run TSM commands.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} Scripting and automating with tsm CLI
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Scripting and automating with tsm CLI
+--------------------------------------------------------------------------------------------------------
+
 
 TSM is a batch file. To run TSM commands in another batch file, use the
 `call` command. For example \"`call tsm maintenance ziplogs`\". Doing
@@ -129,29 +119,26 @@ To run automation on a Tableau Server without a password in the script
 file, run the script on the initial node and with an account in the
 proper TSM-authorized group. See the \"Authenticating\" section above.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} Viewing help content in the shell
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Viewing help content in the shell
+----------------------------------------------------------------------------------------------------
+
 
 To view minimal help content from a command line, use the `tsm help`
 category.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm help [category] [command]`
 
-<div>
+
 
 ####  Commands
 
-</div>
 
 `tsm help`
 
@@ -171,21 +158,15 @@ Show help for a specific command. For example,
 
 List all top-level commands or categories.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} Categories
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Categories
+-----------------------------------------------------------------------------
 
-<div>
 
-<div>
+##### Other articles in this section
+-------------------------------------------------------------------------------------------------
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tsm.htm#){.heading-item__link .print-hidden} Other articles in this section
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 -   [tsm
     authentication](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm)

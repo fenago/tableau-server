@@ -19,12 +19,11 @@ ready access to related views and [Tableau
 Server] search so they can easily explore
 further.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/portal_dashboard.htm#){.heading-item__link .print-hidden} Sketch out a portal design
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Sketch out a portal design
+----------------------------------------------------------------------------------------------------------
+
 
 Begin outside of Tableau, on paper or in a wireframing application.
 Consider the structure of your organization and the number of Tableau
@@ -39,12 +38,11 @@ dashboards and views?
 After you get buy-in on your design from key stakeholders and data
 consumers, you\'re ready to move on to the next phase.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/portal_dashboard.htm#){.heading-item__link .print-hidden} Gather images for logos and navigation elements
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Gather images for logos and navigation elements
+-----------------------------------------------------------------
+
 
 Start thinking about images while refining your initial mockup, and then
 gather them from libraries of clip-art or approved brand graphics, or
@@ -54,12 +52,11 @@ thumbnails of common chart types.
 
 ![](./images/portal_logo.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/portal_dashboard.htm#){.heading-item__link .print-hidden} Lay out text, images, and selected sheets on a dashboard
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Lay out text, images, and selected sheets on a dashboard
+--------------------------------------------------------------------------
+
 
 Create a workbook with a dashboard for the portal, using a [tiled
 layout](https://help.tableau.com/current/pro/desktop/en-us/dashboards_organize_floatingandtiled.html#Tiled_vs._Floating_Layouts)
@@ -74,12 +71,11 @@ Dashboard](https://help.tableau.com/current/pro/desktop/en-us/dashboards_create.
 content, include sheets based on [custom administrative
 views](https://help.tableau.com/current/server/en-us/adminview_postgres.htm).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/portal_dashboard.htm#){.heading-item__link .print-hidden} Link dashboard elements to content
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Link dashboard elements to content
+------------------------------------------------------------------------------------------------------------------
+
 
 If you have a second level of navigation in your portal, use [filter
 actions](https://help.tableau.com/current/pro/desktop/en-us/actions_filter.html)
@@ -95,12 +91,11 @@ example, `http://www.tableau.com`).
 
 ![](./images/portal_final.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/portal_dashboard.htm#){.heading-item__link .print-hidden} Publish, test, and refine your portal
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Publish, test, and refine your portal
+---------------------------------------------------------------------------------------------------------------------
+
 
 Publish the workbook to your server and distribute the dashboard URL to
 your users. Portal design, like data analysis itself, is a cyclical

@@ -24,14 +24,13 @@ TSM](https://help.tableau.com/current/server/en-us/tabadmin-to-tsm.htm).
 Looking for tabadmin commands for [Tableau
 Server] on Windows version 2018.1 and earlier?
 See [tabadmin Commands[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server/en-us/tabadmin_cmd.htm "Opens topic in a new browser tab").
+window)]](https://help.tableau.com/current/server/en-us/tabadmin_cmd.htm "Opens topic in a new browser tab").
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/tabadmin_to_tsm_cli.htm#){.heading-item__link .print-hidden} Tabadmin commands with a corresponding TSM CLI command
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Tabadmin commands with a corresponding TSM CLI command
+---------------------------------------------------------------------------
+
 
 The following table shows which tabadmin commands correspond to commands
 available in the TSM CLI.

@@ -17,14 +17,13 @@ filename.csv](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idd1b
 You can import users at the site or server level. If you import users to
 the server (not to a specific site), the users aren't assigned to a site
 and are imported as Unlicensed.
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/csvguidelines.htm#){.heading-item__link .print-hidden} CSV file format requirements
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### CSV file format requirements
+---------------------------------------------------------------------------------------------------------
+
 
 When you create the CSV file for importing users, make sure that the
 file meets the following formatting requirements:
@@ -46,12 +45,11 @@ file meets the following formatting requirements:
     For example, `user@fremont@mycompany.com` should be
     `user\0x40fremont@mycompany.com`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/csvguidelines.htm#){.heading-item__link .print-hidden} Required columns in the CSV file
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Required columns in the CSV file
+-------------------------------------------------------------------------------------------------------------
+
 
 The following values are required for each user:
 
@@ -63,12 +61,11 @@ The following values are required for each user:
     you must provide passwords for new users.
 
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/csvguidelines.htm#){.heading-item__link .print-hidden} Additional import file options
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Additional import file options
+-----------------------------------------------------------------------------------------------------------
+
 
 The CSV file can contain the following fields, in the order shown here:
 
@@ -117,13 +114,8 @@ the user name, the second as the password, the third as display name,
 and so on, regardless of the content in the columns. If you omit values
 for a field, you must still include the field's comma delimiter.
 
-<div>
-
-<div>
-
 #### Improve performance for large CSV files passed through tabcmd
 
-</div>
 
 A server administrator can enable server settings that help to improve
 performance for importing large CSV files through tabcmd commands. You
@@ -146,13 +138,11 @@ process the file. These `tsm configuration set` options apply to the
 For descriptions for these settings, see [tsm configuration set
 Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm).
 
-</div>
 
-<div>
+
 
 ####  Notes
 
-</div>
 
 -   If you are not signed in to a specific site and are importing users
     at the server level, you can assign only the Server Administrator
@@ -164,14 +154,13 @@ Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm
 
 -   If you use `tabcmd` and specify the license, but importing users
     would exceed your license limits, users are imported as Unlicensed.
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/csvguidelines.htm#){.heading-item__link .print-hidden} CSV settings and site roles {#settings_and_site_roles}
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### CSV settings and site roles
+--------------------------------------------------------------------------------------------------------
+
 
 The license level, administrator, and publishing settings for a user
 determine how the user\'s site role is set during the import process.
@@ -234,11 +223,10 @@ The following table shows how the settings are converted to site roles.
 +---------------------------+------------------------------------------+
 
 
-<div>
+
 
 ####  CSV import example for Tableau Server
 
-</div>
 
 The following example shows a CSV file that contains information for
 several users.
@@ -249,7 +237,7 @@ freds,fredpassword,Fred Suzuki,Viewer,None,no,freds\@example.com\
 alanw,alanpassword,Alan Wang,Explorer,Site,yes,alanw\@example.com\
 michellek,michellepassword,Michelle
 Kim,Creator,System,yes,michellek\@example.com
-:::
+
 
 If you import this file while managing a site, four users are added to
 that site. The `Administrator` setting for user Michelle is `System`.

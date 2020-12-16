@@ -6,14 +6,9 @@ In addition to planning your sites in Tableau, you can manage users and
 groups, manage projects and control content access, manage your site
 data, and interact with views on the web.
 
-<div>
+##### Other articles in this section
+---------------------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/manage_site.htm#){.heading-item__link .print-hidden} Other articles in this section
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 -   [What is a
     Site?](https://help.tableau.com/current/server/en-us/sites.htm)

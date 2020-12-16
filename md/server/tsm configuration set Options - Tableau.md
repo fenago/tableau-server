@@ -15,18 +15,16 @@ internally by Tableau Server do not appear in this list.
 
 **Note:** Configuration keys are case-sensitive.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm#){.heading-item__link .print-hidden} Basic Use of tsm configuration keys
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Basic Use of tsm configuration keys
+----------------------------------------------------------------------------------------------------------------------------
 
-<div>
+
+
 
  Setting a configuration key
 
-</div>
 
 `tsm configuration set -k <config.key> -v <config_value>`
 
@@ -42,22 +40,20 @@ the new value will not be used by Tableau or show up in the results of a
 `tsm pending-changes list`. For more information, see [tsm
 pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm).
 
-<div>
+
 
  Resetting a configuration key to default
 
-</div>
 
 To reset a configuration key back to its default value, use the `-d`
 option:
 
 `tsm configuration set -k <config.key> -d`
 
-<div>
+
 
  Viewing the current value of a configuration key
 
-</div>
 
 To see what a configuration key is currently set to, use the
 `configuration get` command:
@@ -83,7 +79,7 @@ to views is enabled (this option is set to \"false\").
 Default value: `true`
 
 Allows access to the [Tableau Server REST API[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/api/rest_api/en-us/help.htm#REST/rest_api.htm).
+window)]](https://help.tableau.com/current/api/rest_api/en-us/help.htm#REST/rest_api.htm).
 By default, this functionality is enabled.
 
 
@@ -131,24 +127,14 @@ do not hold up subsequent jobs if they are stalled. The setting applies
 to processes listed in `backgrounder.timeout_tasks`. 1800 seconds is 30
 minutes.
 
-<div>
-
-
-
-</div>
 
 Default value: `14400 `
 
 The number of seconds for a flow run task is canceled. 14,400 seconds is
 4 hours.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Default value: `5`
 
@@ -157,15 +143,9 @@ run job before that job is suspended. Suspending continuously failing
 jobs helps preserver backgrounder resources for other jobs. To disable
 suspension of failing background tasks, set this to `-1`.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 **Note:** Added in version 2020.3.0
 
@@ -176,13 +156,7 @@ configurable, so if you are only changing this you do not have to
 restart Tableau Server. For more information, see [Change Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `7200`
 
@@ -192,11 +166,6 @@ refresh task or subscription task. 7200 seconds = 2 hours.
 **Note:** If a background task reaches this time limit, it may continue
 to run for an additional several minutes while being canceled.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -207,11 +176,6 @@ alerts for all sites on a server, set this to `false`.
 Extract alerts can be enabled or disabled on a site basis by site
 administrators in site settings, or at the user level in user settings.
 
-<div>
-
-
-
-</div>
 
 Default value: `60000 `
 
@@ -227,11 +191,6 @@ time". A value 60,000 milliseconds (the default) indicates jobs for
 schedules starting within a 1 minute window should be classified in the
 same batch and so are ordered by type within that batch.
 
-<div>
-
-
-
-</div>
 
 Default value: `5`
 
@@ -242,11 +201,6 @@ failures. A value of `-1 `will allow notification email to continue
 indefinitely. This threshold is server-wide, so applies to all
 subscriptions defined on the server.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -256,11 +210,6 @@ caching improves subscription performance. By default image caching is
 enabled. To disable image caching for all sites on a server, set this to
 `false`.
 
-<div>
-
-
-
-</div>
 
 Default
 value: `refresh_extracts, increment_extracts, subscription_notify, single_subscription_notify, check_data_alert, run_flow, encrypt_extracts, decrypt_extracts, rekey_extracts, extract_encryption_maintenance`
@@ -271,13 +220,8 @@ combined values in `backgrounder.querylimit` and
 with commas. The default list represents all the possible values for
 this setting.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Default
 value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\backups\`{mc-conditions="Product.serverwindows"}
@@ -289,15 +233,9 @@ the` tsm maintenance send-logs` command. For more information, see [tsm
 File
 Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default
 value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\log-archives\`{mc-conditions="Product.serverwindows"}
@@ -306,15 +244,9 @@ The location in which the` tsm maintenance ziplogs` command creates the
 zipped archive. For more information, see [tsm File
 Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default
 value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\siteexports\`{mc-conditions="Product.serverwindows"}
@@ -323,15 +255,9 @@ The location in which the` tsm sites export` command creates the export
 file. For more information, see [tsm File
 Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default
 value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\siteimports\`{mc-conditions="Product.serverwindows"}
@@ -340,15 +266,9 @@ The location in which the` tsm sites import` command expects the import
 file to be located. For more information, see [tsm File
 Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 **Note:** Added in version 2020.3.0
 
@@ -359,13 +279,7 @@ configurable, so if you are only changing this you do not have to
 restart Tableau Server. For more information, see [Change Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `300000`
 
@@ -373,11 +287,6 @@ The length of time, in milliseconds, that Cluster Controller will wait
 for the Coordination Service (ZooKeeper), before determining that
 failover is required.
 
-<div>
-
-
-
-</div>
 
 Default value: `60  `
 
@@ -388,11 +297,6 @@ conditions are true.
 (The server also checks whenever extracts related to data alerts are
 refreshed.)
 
-<div>
-
-
-
-</div>
 
 Default value: `true   `
 
@@ -406,11 +310,6 @@ changed, but reducing server performance.
 (The server also checks whenever extracts related to data alerts are
 refreshed.)
 
-<div>
-
-
-
-</div>
 
 Default value: `350`
 
@@ -420,13 +319,8 @@ before alerting for a condition is suspended. When set to the default of
 threshold is server-wide, so applies to any data alert defined on the
 server.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 **Note:** Added in version 2020.3.0
 
@@ -437,37 +331,25 @@ if you are only changing this you do not have to restart Tableau Server.
 For more information, see [Change Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
-</div>
 
 
-<div>
-
-
-
-</div>
 
 Default value: `27042`
 
 Port that the data engine runs on.
-:::
-
-
-<div>
 
 
 
-</div>
 
 Default value: `9700`
 
 Port that the data server runs on.
-:::
 
-<div>
+
+
 
  DataServerRefreshMetadataPerSession
 
-</div>
 
 Default value: `false`
 
@@ -481,11 +363,6 @@ error occurred while communicating with the data source: Invalid column
 name. Statement could not be prepared.\") set this to `true`. When set
 to `true`, Tableau Server makes additional queries to update the schema.
 
-<div>
-
-
-
-</div>
 
 The default value varies based on the amount of system memory. Use the
 table below to determine your default value:
@@ -521,13 +398,8 @@ other factors.
 This option was added beginning with [Tableau
 Server]{.VariablesTabsProductServer} version: 2019.1
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Default value: `false`
 
@@ -545,15 +417,9 @@ need to enable this option.
 This option was added beginning with Tableau Server versions: 2019.1.5,
 2019.2.1.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `true`
 
@@ -562,13 +428,7 @@ Controls whether Tableau Server uses the Apache ActiveMQ service
 
 This option was added beginning with Tableau Server version: 2019.4.
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -580,13 +440,8 @@ visible on the Server Status page. **Note:** Desktop License Reporting
 must be enabled on the client (Tableau Desktop) in order for information
 to be reported to Tableau Server.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Default value: `true`
 
@@ -595,15 +450,9 @@ mechanism.
 
 This option was added beginning with Tableau Server version: 2019.4.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `true`
 
@@ -617,13 +466,7 @@ get-bootstrap-file](https://help.tableau.com/current/server/en-us/cli_topology_t
 
 This option was added beginning with Tableau Server version 2019.3.
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -631,13 +474,8 @@ Applies only to servers that use local authentication. Set to `true`to
 let users reset their passwords with a \"Forgot password\" option on the
 sign-in page.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 **Note:** Added in version 2020.3.0
 
@@ -648,13 +486,7 @@ if you are only changing this you do not have to restart Tableau Server.
 For more information, see [Change Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -662,22 +494,12 @@ The Cache-Control HTTP header specifies whether the client browser
 should cache content sent from Tableau Server. To disable caching of
 Tableau Server data on the client, set this option to `true`.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
 The HTTP Strict Transport Security (HSTS) header forces browsers to use
 HTTPS on the domain where it is enabled.
 
-<div>
-
-
-
-</div>
 
 Default value: `"max-age=31536000"`
 
@@ -685,11 +507,6 @@ By default, HSTS policy is set for one year (31536000 seconds). This
 time period specifies the amount of time in which the browser will
 access the server over HTTPS.
 
-<div>
-
-
-
-</div>
 
 Default value: `16380 `
 
@@ -707,11 +524,6 @@ before deploying into production.
 We recommend setting `tomcat.http.maxrequestsize` option to the same
 value that you set for this option.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -724,11 +536,6 @@ process is referred to as \"sniffing.\" Misinterpreting the MIME type
 can lead to security vulnerabilities. The X-Content-Type-Options HTTP
 header is set to \'nosniff\' by default with this option.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -738,13 +545,8 @@ response header overrides configurations in cases where users have
 disabled XXS protection in the browser. The X-XSS-Protection response
 header is enabled by default with this option.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 **Note:** Added in version 2020.3.0
 
@@ -755,13 +557,7 @@ you are only changing this you do not have to restart Tableau Server.
 For more information, see [Change Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: \<hostname\>
 
@@ -772,22 +568,12 @@ to reach Tableau Server. For example, if Tableau Server is reached by
 entering `tableau.example.com`, the name for gateway.public.host is
 `tableau.example.com`.
 
-<div>
-
-
-
-</div>
 
 Default value: `80 `(`443 `if SSL)
 
 Applies to proxy server environments only. The external port the proxy
 server listens on.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -798,11 +584,6 @@ data at extremely slow rates.
 **Note:** This will not eliminate the threat of such attacks, and could
 have the unintended impact of terminating slow connections.
 
-<div>
-
-
-
-</div>
 
 Default value: `header=15-20,MinRate=500 body=10,MinRate=500`
 
@@ -810,49 +591,29 @@ When enabled by the preceding option,
 `gateway.slow_post_protection.enabled`, this option sets the Apache
 httpd ReadRequestTimeout. The httpd directive is documented at [Apache
 Module mod\_reqtimeout[(Link opens in a new
-window)]{.sr-only}](https://httpd.apache.org/docs/2.4/mod/mod_reqtimeout.html).
+window)]](https://httpd.apache.org/docs/2.4/mod/mod_reqtimeout.html).
 The primary use of this option is as a defense the Slowloris attack. See
 the Wikipedia entry, [Slowloris (computer security)[(Link opens in a new
-window)]{.sr-only}](https://en.wikipedia.org/wiki/Slowloris_(computer_security)).
+window)]](https://en.wikipedia.org/wiki/Slowloris_(computer_security)).
 
-<div>
-
-
-
-</div>
 
 Default value: `7200`
 
 Longest amount of time, in seconds, that the gateway will wait for
 certain events before failing a request (7200 seconds = 2 hours).
 
-<div>
-
-
-
-</div>
 
 Default value: IP address of proxy server machine
 
 Applies to proxy server environments only. The IP address(es) or host
 name(s) of the proxy server.
 
-<div>
-
-
-
-</div>
 
 Default value: Alternate names of proxy server
 
 Applies to proxy server environments only. Any alternate host name(s)
 for the proxy server.
 
-<div>
-
-
-
-</div>
 
 Default value: `0`
 
@@ -873,11 +634,6 @@ For more information about spooling see the Memory and CPU Usage section
 in [Tableau Server Data
 Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm).
 
-<div>
-
-
-
-</div>
 
 Default value: `0`
 
@@ -900,11 +656,6 @@ For more information about spooling see the Memory and CPU Usage section
 in [Tableau Server Data
 Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm).
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -915,22 +666,12 @@ files are too large for the amount of disk space available, you can set
 it to `false` to disable logging query information. Tableau recommends
 leaving this configuration set to `true`.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
 Use this setting to log how much time each query takes and the CPU
 usage.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -940,11 +681,6 @@ You can turn this by setting the value to `true` to collect more details
 about your queries. Note, however that this will increase the size of
 your data engine log files (\\logs\\hyper).
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -955,11 +691,6 @@ The information in the logs can be useful to troubleshoot problematic
 queries. You can change the setting to `false` if you are concerned
 about the size of the logs.
 
-<div>
-
-
-
-</div>
 
 Default value: `80%`
 
@@ -970,11 +701,6 @@ indicate terabytes. For example, `hyper.memory_limit='7g'`.
 Alternatively, specify the memory limit as a percentage of the overall
 available system memory. For example, `hyper.memory_limit='90%'`.
 
-<div>
-
-
-
-</div>
 
 Default value: `80%`
 
@@ -990,11 +716,6 @@ specified as \'k\' (kilobytes), \'m\' (megabytes), \'g\' (gigabytes), or
 `hyper.memtracker_hard_reclaim_threshold='10g'`. The value should be
 larger than the `hyper.memtracker_soft_reclaim` threshold.
 
-<div>
-
-
-
-</div>
 
 Default value: `50%`
 
@@ -1016,11 +737,6 @@ gigabytes, or \'t\' to indicate terabytes. Alternatively, specify the
 value as a percentage of the overall configured memory for Hyper. For
 example, `hyper.memtracker_soft_reclaim_threshold='20%'`.
 
-<div>
-
-
-
-</div>
 
 Default value: `150%`
 
@@ -1040,11 +756,6 @@ while and you frequently see "asio-continuation-slow" messages in the
 Hyper log and long "construct-protocol" times to Hyper in the Tableau
 log, try to increase this value.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -1055,11 +766,6 @@ Hyper to be detected. In general, it is advisable to turn this setting
 on except for installations with very slow disks where it could cause
 performance regressions.
 
-<div>
-
-
-
-</div>
 
 Default value: `0` (which means unlimited)
 
@@ -1076,11 +782,6 @@ this time is running on 30 threads, the total thread time would be 3000
 seconds. The thread time of each query is reported in the Hyper log in
 the "query-end" log entries in the "total-time" field.
 
-<div>
-
-
-
-</div>
 
 Default value: `0` (which means unlimited)
 
@@ -1098,11 +799,6 @@ lowering the limit, the single big query would fail (or resort to
 spooling if spooling isn't turned off) and not have a negative impact on
 other queries.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -1113,11 +809,6 @@ on the new node. This results in better system utilization because
 extracts are only loaded into memory if there is load that justifies the
 need.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -1127,11 +818,6 @@ combination of current Hyper activity and system resource usage. Based
 on these values, the load balancer will pick the node that is most
 capable of handling an extract query.
 
-<div>
-
-
-
-</div>
 
 Default value: `100%`
 
@@ -1151,11 +837,6 @@ Engine log entry that says, "Disk limit for temporary files has been
 reached. Please free up disk space on the device. See the Hyper log for
 more information: No space left on device".
 
-<div>
-
-
-
-</div>
 
 Default value: 150%
 
@@ -1172,11 +853,6 @@ concurrent queries that can be executed. So, if you decrease this
 setting, the chance of queries needing to wait for currently running
 queries to complete increases, which may affect workbook load times.
 
-<div>
-
-
-
-</div>
 
 Default value: 100%
 
@@ -1208,13 +884,8 @@ options available in Tableau Server versions 2018.3 and earlier, and are
 deprecated in the current version. For information on the
 hyper.num\_job\_worker\_threads and hyper.num\_task\_worker\_threads,
 see [tsm configuration set Options.[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/v2018.3/server/en-us/cli_configuration-set_tsm.htm)
+window)]](https://help.tableau.com/v2018.3/server/en-us/cli_configuration-set_tsm.htm)
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -1232,11 +903,6 @@ For more information about spooling see the Memory and CPU Usage section
 in [Tableau Server Data
 Engine](https://help.tableau.com/current/server/en-us/data_engine2_intro.htm).
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -1247,35 +913,20 @@ processes to make connections through Windows Firewall. Change this to
 `false` if you want to manage all firewall rules yourself and do not
 want [Tableau Server] to add new rules.
 
-<div>
-
-
-
-</div>
 
 Default value: 128m
 
 Size of heap for Tomcat (repository and solr). This generally does not
 need to change except on advice from Tableau.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Default value: `0`
 
 Set to the duration (in seconds) that a user's login-based license
 should last before they are prompted to activate Tableau again.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -1290,11 +941,6 @@ management]{.VariablesIBA_lowercase}. You can use the
 `tsm licenses list` to see which product keys have [login-based license
 management]{.VariablesIBA_lowercase} enabled.
 
-<div>
-
-
-
-</div>
 
 Default value: `15552000`
 
@@ -1302,13 +948,7 @@ Set to the maximum duration (in seconds) that a user's login-based
 license should last before they are prompted to activate Tableau again.
 The maximum value is 15552000 seconds (180 days).
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: \"\"
 
@@ -1357,13 +997,8 @@ current list of input and output locations:\
 For more information and details about configuring allowed directories
 for flow input and output connections, see [Safe list Input and Output
 Locations[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/prep/en-us/prep_conductor_configure_network_shares.htm).
+window)]](https://help.tableau.com/current/prep/en-us/prep_conductor_configure_network_shares.htm).
 
-<div>
-
-
-
-</div>
 
 Default value: \"\"
 
@@ -1404,17 +1039,12 @@ setting:
 For more information and details about configuring allowed directories
 for flow input and output connections, see [Safe list Input and Output
 Locations[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/prep/en-us/prep_conductor_configure_network_shares.htm).
-
-<div>
-
-<div>
+window)]](https://help.tableau.com/current/prep/en-us/prep_conductor_configure_network_shares.htm).
 
 
 
 []{#metadata_timeout}metadata.query.limits.time
 
-</div>
 
 Default value: `20`
 
@@ -1433,15 +1063,9 @@ Increasing the timeout limit can also cause higher memory usage, which
 can cause issues with the interactive microservices container when
 queries run in parallel.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `2000`
 
@@ -1459,13 +1083,7 @@ messages](https://help.tableau.com/current/server/en-us/dm_catalog_enable.htm#ti
 can cause issues with the interactive microservices container when
 queries run in parallel.
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `60`
 
@@ -1473,11 +1091,6 @@ Controls the interval, in minutes, between refreshes for metrics that
 rely on live data sources. A metric refreshes when the server checks for
 new data via the metric's connected view.
 
-<div>
-
-
-
-</div>
 
 Default value: `10`
 
@@ -1486,22 +1099,12 @@ before the metric owner is warned. When set to the default of 10, a
 metric refresh must fail 10 times in a row before the owner is sent a
 notification about the failure.
 
-<div>
-
-
-
-</div>
 
 Default value: `175`
 
 Controls the number of consecutive refresh failures that must occur
 before a metric refresh is suspended.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -1511,11 +1114,6 @@ types open in the app. When set to `false`, links open in the mobile
 browser. For more information see, [Control deep linking for Tableau
 Mobile](https://help.tableau.com/current/mobile/mobile-admin/en-us/admin_mobile_links.htm).
 
-<div>
-
-
-
-</div>
 
 Default value: `30000`
 
@@ -1523,31 +1121,16 @@ The length of time, in milliseconds, that Cluster Controller will wait
 for the data engine, before determining that a connection timeout
 occurred. The default is 30,000 milliseconds (30 seconds).
 
-<div>
-
-
-
-</div>
 
 Set parallel query limit for the specified data source (connection
 class). This overrides the global limit for the data source.
 
-<div>
-
-
-
-</div>
 
 Default value: `16`
 
 Global limit for parallel queries. Default is 16 except for Amazon
 Redshift which has a default of 8.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -1556,11 +1139,6 @@ connection and a single SQL database connection. Set this option to
 `True` to force Tableau to process the join using the live database
 connection.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -1572,13 +1150,8 @@ configurations and you don\'t need cross-domain protocol transition,
 configure [Tableau Server] to use the old
 behavior by setting this to `true`.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Default value: 1
 
@@ -1608,15 +1181,9 @@ count from default to 2:
 
 `tsm configuration set -k nlp.concepts_shards_count -v 2`
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: 1
 
@@ -1643,15 +1210,9 @@ count from default to 2:
 
 `tsm configuration set -k nlp.values_shards_count -v 2`
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `enabled_by_default`
 
@@ -1666,15 +1227,9 @@ Valid options are `enabled_by_default` (the default),
 This option was added beginning with Tableau Server versions: 2019.4.5,
 2020.1.3.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `-Xmx4g –Xms64m`
 
@@ -1689,29 +1244,17 @@ default to 16 GB:
 For more information, see [Memory for non-interactive microservices
 containers](https://help.tableau.com/current/server/en-us/dm_catalog_enable.htm#Memory).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `8060`
 
 Port that PostgreSQL listens on.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Specifies the computer name of the node with the preferred repository
 installed. This value is used if the `--preferred` or `-r` option is
@@ -1720,24 +1263,17 @@ failover-repository](https://help.tableau.com/current/server/en-us/cli_topology_
 
 Example:
 
-<div>
+
 
 `tsm configuration set -k pgsql.preferred_host -v "<host_name>"`
 
 **Note:** The `host_name` is case-sensitive and must match the node name
 shown in the output of `tsm status -v`.
 
-</div>
-
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
+
 
 Default value: `8061`
 
@@ -1745,13 +1281,7 @@ Port used to verify the integrity of the PostgreSQL database. See [tsm
 maintenance
 backup](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm) for more information.
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -1761,11 +1291,6 @@ views (for Tableau Server). Recommendations are based on the popularity
 of content and on content used by other users determined to be similar
 to the current user.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -1776,22 +1301,12 @@ and this option is set to false, data sources and tables will still be
 recommended to Tableau Desktop users, but recommendations for views on
 Tableau Server will be disabled.
 
-<div>
-
-
-
-</div>
 
 Default value: `1024`
 
 Specifies the size in megabytes of the cache server external query
 cache.
 
-<div>
-
-
-
-</div>
 
 Default value: `31536000`
 
@@ -1804,11 +1319,6 @@ To remove limits set to `-1`. To disable OAuth tokens, see [Disable
 Automatic Client
 Authentication](https://help.tableau.com/current/server/en-us/devices_connected_credentials.htm).
 
-<div>
-
-
-
-</div>
 
 Default value: `1209600`
 
@@ -1816,11 +1326,6 @@ Specifies the number of seconds when idle OAuth tokens will expire. The
 OAuth tokens are used by clients for authentication to Tableau Server
 after initial sign-in. To remove limits set to `-1`.
 
-<div>
-
-
-
-</div>
 
 Default value: `24`
 
@@ -1829,11 +1334,6 @@ each user. If user sessions are expiring more quickly than you expect,
 either increase this value or set it to `-1` to entirely remove token
 limits.
 
-<div>
-
-
-
-</div>
 
 Default value: `600`
 
@@ -1842,11 +1342,6 @@ Longest allowable time, in seconds, for completing file synchronization
 configuring high availability, or moving the data engine and repository
 processes.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -1859,11 +1354,6 @@ names for schedules, set this value to `true`.
 When true, the \"schedule frequency description\" is also displayed
 after the schedule name on the schedule list page.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -1871,13 +1361,8 @@ Shows the \"schedule frequency description\" in the timezone of the user
 when true (uses the client browser timezone to calculate the \"schedule
 frequency description\").
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Added in version 2019.1.
 
@@ -1893,15 +1378,9 @@ value.
 For more information, see [Client session
 timeouts](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverClient_session_timeouts).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Added in version 2019.1.
 
@@ -1922,15 +1401,9 @@ computer, but cannot be greater than 24 GB. For more information, see
 [Search & Browse Max Heap
 Memory](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverMaxHeapMem).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Added in version 2020.1.
 
@@ -1946,15 +1419,9 @@ value.
 For more information, see [Zookeeper connection health check timeout at
 startup](https://help.tableau.com/current/server/en-us/server_process_search-n-browse.htm#searchserverZKhealth_chk_timeout).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value, in milliseconds: `100000`
 
@@ -1968,7 +1435,6 @@ timeouts](https://help.tableau.com/current/server/en-us/server_process_search-n-
 
  ServerExportCSVMaxRowsByCols
 
-</div>
 
 Added in version 2020.3.
 
@@ -1986,34 +1452,18 @@ tsm configuration set -k ServerExportCSVMaxRowsByCols -v 3000000
 tsm pending-changes apply
 ```
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
 Setting to `true` enables JMX ports for optional monitoring and
 troubleshooting.
 
-<div>
-
-
-
-</div>
 
 Default value: \<number\>
 
 Maximum number of server processes.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -2021,11 +1471,6 @@ Determines whether or not Tableau Server will attempt to dynamically
 remap ports when the default or configured ports are unavailable.
 Setting to `false` disables dynamic port remapping.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -2048,11 +1493,6 @@ circumstances, users might have a dynamic IP address, and their address
 might change during the course of the session. If so, the user has to
 sign in again.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -2060,11 +1500,6 @@ Controls whether you can get images for views with the REST API. For
 more information, see [REST API
 Reference](https://help.tableau.com/current/api/rest_api/en-us/help.htm#REST/rest_api_ref.htm#query_view_image).
 
-<div>
-
-
-
-</div>
 
 Default value: `7200`
 
@@ -2072,13 +1507,8 @@ When Tableau Server is upgraded or when a .tsbak file is restored, the
 background task rebuilds the search index. This setting, in seconds,
 controls the timeout setting for that task (7200 seconds = 120 minutes).
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Default
 value: `HIGH:MEDIUM:!aNULL:!MD5:!RC4:!3DES:!CAMELLIA:!IDEA:!SEED`
@@ -2087,18 +1517,12 @@ Specifies the cipher algorithms that are allowed for SSL.
 
 For acceptable values and formatting requirements, see
 [SSLCipherSuite[(Link opens in a new
-window)]{.sr-only}](https://httpd.apache.org/docs/current/mod/mod_ssl.html#sslciphersuite)
+window)]](https://httpd.apache.org/docs/current/mod/mod_ssl.html#sslciphersuite)
 on the Apache website.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `false`
 
@@ -2110,15 +1534,9 @@ SMTP must be configured for notifications to be sent. For details, see
 [Configure SMTP
 Setup](https://help.tableau.com/current/server/en-us/config_smtp.htm).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `20`
 
@@ -2126,15 +1544,9 @@ Warning threshold of remaining disk space, in percentage of total disk
 space. If disk space falls below this threshold, a warning notification
 is sent.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `10`
 
@@ -2142,30 +1554,18 @@ Critical threshold of remaining disk space, in percentage of total disk
 space. If disk space falls below this threshold, a critical notification
 is sent.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `60`
 
 How often, in minutes, that email notifications should be sent when disk
 space monitoring is enabled and a threshold is crossed.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `true`
 
@@ -2173,13 +1573,7 @@ Determines whether free disk space history is saved and available to
 view in Administrative Views. To disable history storage for monitoring,
 set `storage.monitoring.record_history_enabled` to `false`.
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -2187,11 +1581,6 @@ Controls whether subscriptions are configurable system-wide. See [Set Up
 a Site for
 Subscriptions](https://help.tableau.com/current/server/en-us/subscribe.htm).
 
-<div>
-
-
-
-</div>
 
 Default value: `1800`
 
@@ -2202,13 +1591,8 @@ subsequent view in the workbook is not rendered*, and the job ends in
 error. In the case of a single-view workbook, this value will never
 result in the rendering being halted due to a timeout.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Default value: `false`
 
@@ -2221,15 +1605,9 @@ SMTP must be configured for notifications to be sent. For details, see
 [Configure SMTP
 Setup](https://help.tableau.com/current/server/en-us/config_smtp.htm).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 **Note:** Added in version: 2020.1.8, 2020.2.5, 2020.3.1
 
@@ -2241,15 +1619,9 @@ Controls whether subscription HTML MIME attachments are sent as
 To allow the iOS Mail application to properly open these attachments,
 set this to `true`.
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `120`
 
@@ -2259,15 +1631,9 @@ credentials in a node bootstrap file are valid. For more information,
 see [tsm topology nodes
 get-bootstrap-file](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMGetBootstrap).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 **Note:** Added in version 2020.3.0
 
@@ -2279,13 +1645,7 @@ have to restart Tableau Server. For more information, see [Change
 Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `16380`
 
@@ -2303,33 +1663,18 @@ before deploying into production.
 We recommend setting `gateway.http.request_size_limit` option to the
 same value that you set for this option.
 
-<div>
-
-
-
-</div>
 
 Default value: `8443`
 
 SSL port for Tomcat (unused).
 
-<div>
-
-
-
-</div>
 
 Default value: `8085`
 
 Port that tomcat listens on for shutdown messages.
 
-<div>
-
-<div>
 
 
-
-</div>
 
 Default value: `info`
 
@@ -2338,15 +1683,9 @@ Container and Non-Interactive Microservice Container. For more
 information, see [Change Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `info`
 
@@ -2359,15 +1698,9 @@ processes. For more information, see [Change Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm#ChangeLoggingLevel) and [Tableau Server
 Processes](https://help.tableau.com/current/server/en-us/processes.htm).
 
-</div>
-
-<div>
-
-<div>
 
 
 
-</div>
 
 Default value: `info`
 
@@ -2377,13 +1710,7 @@ or reconfiguring a TSM or Tableau Server process. For more information,
 see [Change Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm#ChangeLoggingLevel).
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -2394,11 +1721,6 @@ and display names are updated during synchronization, set
 `vizportal.adsync.update_system_user` to `true`, and then restart the
 server.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -2409,11 +1731,6 @@ site roles are required for full project leader access, see
 [Project-level
 administration](https://help.tableau.com/current/server/en-us/projects.htm#project-admin).
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -2423,11 +1740,6 @@ default) indexing is done as each user is added or deleted. To delay the
 indexing of the site users until after the entire CSV file has been
 processed, set this to `false`.
 
-<div>
-
-
-
-</div>
 
 Default value: `info`
 
@@ -2438,11 +1750,6 @@ Set to `debug` for more information. Using the debug setting can
 significantly impact performance, so you should only use this setting
 when directed to do so by Tableau Support.
 
-<div>
-
-
-
-</div>
 
 Specifies custom client authentication method for OpenID Connect.
 
@@ -2452,11 +1759,6 @@ To configure Tableau Server to use the IdPs that require the
 An example would be when connecting to the Salesforce IDP, which
 requires this.
 
-<div>
-
-
-
-</div>
 
 Specifies the origins (sites) that are allowed access to the REST API
 endpoints on Tableau Server when `vizportal.rest_api.cors.enabled` is
@@ -2476,11 +1778,6 @@ has access to the server and can present a security risk. Do not use an
 asterisk (**\***) unless you fully understand the implications and risks
 for your site.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -2496,11 +1793,6 @@ specified with this option are allowed to make requests to the Tableau
 Server REST API. For more information, see [Enabling CORS on Tableau
 Server](https://help.tableau.com/current/api/rest_api/en-us/help.htm#REST/rest_api_concepts_fundamentals.htm#Enabling).
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -2513,13 +1805,8 @@ server results in an error message, and the workbook is blocked. Before
 you set this value to `true` review the Knowledge Base article,
 [Blocking or Allowing Insecure Scripts in Tableau Server[(Link opens in
 a new
-window)]{.sr-only}](https://kb.tableau.com/articles/issue/blocking-or-allowing-insecure-scripts-in-tableau-server).
+window)]](https://kb.tableau.com/articles/issue/blocking-or-allowing-insecure-scripts-in-tableau-server).
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -2528,11 +1815,6 @@ or `vizqlserver.browser.render_threshold_mobile` are rendered by the
 client web browser instead of by the server. See [Configure Client-Side
 Rendering](https://help.tableau.com/current/server/en-us/browser_rendering.htm) for details.
 
-<div>
-
-
-
-</div>
 
 Default value: `100`
 
@@ -2542,11 +1824,6 @@ reference lines, and annotations. Views that exceed this level of
 complexity are rendered by the server instead of in the PC\'s web
 browser.
 
-<div>
-
-
-
-</div>
 
 Default value: `60`
 
@@ -2556,11 +1833,6 @@ headers, reference lines, and annotations. Views that exceed this level
 of complexity are rendered by the server instead of in the tablet\'s web
 browser.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -2569,11 +1841,6 @@ navigates away from a view or closes their browser. The default value
 (false) keeps sessions in memory. To close VizQL sessions on leaving a
 view or closing a browser, set this to `true`.
 
-<div>
-
-
-
-</div>
 
 Default value: `5`
 
@@ -2587,11 +1854,6 @@ be loaded. The minimum value is 1. Each cache takes approximately 60 MB
 in memory (so if you set this to 10, the memory usage would be 600 MB
 (60 \* 10).
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -2602,11 +1864,6 @@ Set this to true to ignore initial SQL:
 tsm configuration set -k vizqlserver.initialsql.disabled -v true
 ```
 
-<div>
-
-
-
-</div>
 
 Default value: `info`
 
@@ -2622,11 +1879,6 @@ configurable, so if you are only changing this you do not have to
 restart Tableau Server. For more information, see [Change Logging
 Levels](https://help.tableau.com/current/server/en-us/logs_debug_level.htm).
 
-<div>
-
-
-
-</div>
 
 Default value: `5`
 
@@ -2637,43 +1889,23 @@ performance of web authoring and other viz-related operations on Tableau
 Server. We recommend tuning this value by making incremental adjustments
 over time.
 
-<div>
-
-
-
-</div>
 
 Default value: `9100`
 
 Base port for the VizQL servers.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
 When set to `true`, prevents VizQL sessions from being reused after the
 original user signs out.
 
-<div>
-
-
-
-</div>
 
 Default value: `1800`
 
 Longest allowable time for updating a view, in seconds. 1800 seconds =
 30 minutes.
 
-<div>
-
-
-
-</div>
 
 Default value: `3`
 
@@ -2683,46 +1915,26 @@ value. Auto recover functionality may impact the performance of web
 authoring and other viz-related operations on Tableau Server. We
 recommend tuning this value by making incremental adjustments over time.
 
-<div>
-
-
-
-</div>
 
 Default value: `5`
 
 Number of minutes of idle time after which a VizQL session is eligible
 to be discarded if the VizQL process starts to run out of memory.
 
-<div>
-
-
-
-</div>
 
 Default value: `30`
 
 Number of minutes of idle time after which a VizQL session is discarded.
 
-<div>
-
-
-
-</div>
 
 Default value: `1`
 
 The amount of time, in minutes, to cache images that are generated by
 the Query View Image method of the REST API. For more information, see
 the [REST API Reference[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref.htm#query_view_image)
+window)]](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref.htm#query_view_image)
 in the REST API help.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -2730,11 +1942,6 @@ Controls the display of the [Tableau Workbook] option of the
 Download menu in views. When set to `false`, the Tableau Workbook option
 is unavailable.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -2744,15 +1951,10 @@ set to false.
 **Note:** Users can override the server default by setting the
 \"showShareOptions\" JavaScript or URL parameter.
 
-<div>
-
-
-
-</div>
 
 Specifies one or more URL schemes to allow (safe list) when using [URL
 actions[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/help.htm#actions_url.html)
+window)]](https://help.tableau.com/current/pro/desktop/en-us/help.htm#actions_url.html)
 on views and dashboards. The schemes `http`, `https`, `gopher`,
 `mailto`, `news`, `sms`, `tel`, `tsc`, and `tsl` are allowed (safe
 listed) by default. This command can contain multiple comma and
@@ -2764,11 +1966,6 @@ The values you specify overwrite previous settings. Therefore, you must
 include the full list of schemes in the `set` command. (You cannot amend
 the list of schemes by running the `set` command repeatedly.)
 
-<div>
-
-
-
-</div>
 
 Default value: `1024`
 
@@ -2779,11 +1976,6 @@ functionality may impact the performance of web authoring and other
 viz-related operations on Tableau Server. We recommend tuning this value
 by making incremental adjustments over time.
 
-<div>
-
-
-
-</div>
 
 Deprecated. Use `tsm data-access web-data-connectors allow` instead.
 
@@ -2796,11 +1988,6 @@ value for this key to `false`, as shown below:
 To learn more, see [Web Data Connectors in Tableau
 Server](https://help.tableau.com/current/server/en-us/datasource_wdc.htm).
 
-<div>
-
-
-
-</div>
 
 Deprecated. Use `tsm data-access web-data-connectors add` instead.
 
@@ -2816,11 +2003,6 @@ For example to add a San Francisco Film Locations WDC to the safe list:
 To learn more, see [Web Data Connectors in Tableau
 Server](https://help.tableau.com/current/server/en-us/datasource_wdc.htm).
 
-<div>
-
-
-
-</div>
 
 Deprecated. Use `tsm data-access web-data-connectors allow` instead.
 
@@ -2829,11 +2011,6 @@ Default value: `true`
 When set to `true`, you can use `tsm` commands to manage web data
 connectors on the server.
 
-<div>
-
-
-
-</div>
 
 Default value: `mixed`
 
@@ -2851,33 +2028,18 @@ modes are:
 testing. Because connectors run custom code, running connectors that
 have not been vetted can pose a security threat.
 
-<div>
-
-
-
-</div>
 
 Default value: `183`
 
 Specifies the number of days after which historical events records are
 removed from the PostgreSQL database (the Tableau Server database).
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
 Controls whether the ownership of a workbook, data source or project can
 be changed. Other options include `false` and `adminonly`.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -2891,24 +2053,14 @@ For more information, see [Clickjack
 Protection](https://help.tableau.com/current/server/en-us/clickjack_protection.htm).
 
 
-<div>
-
-
-
-</div>
 
 Default value: value of `%USERDOMAIN%`
 
 The fully qualified domain name of the Active Directory server to use.
-:::
-
-<div>
-
-<div>
 
 
 
-</div>
+
 
 Default value: null
 
@@ -2923,7 +2075,7 @@ error, \"Domain not in whitelist (errorCode=101015).\"
 Setting the `wgserver.domain.whitelist` option is required by a fix for
 the security vulnerability, [\[Important\] ADV-2020-003: Tableau Server
 Forced Authentication[(Link opens in a new
-window)]{.sr-only}](https://community.tableau.com/s/news/a0A4T000001v3SaUAI).
+window)]](https://community.tableau.com/s/news/a0A4T000001v3SaUAI).
 As of February 2020, the fix for this vulnerability is included in all
 latest versions and maintenance releases of Tableau Server.
 
@@ -2943,23 +2095,12 @@ domain when you set the option. You can retrieve the full list of
 existing domains by running
 `tsm configuration get –k wgserver.domain.whitelist`.
 
-</div>
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
 Enforces IP client matching for trusted ticket requests.
 
-<div>
-
-
-
-</div>
 
 Default value: `true`
 
@@ -2967,11 +2108,6 @@ Controls whether Tableau Server accepts HTTP OPTIONS requests. If this
 option is set to `true`, the server returns HTTP 405 (Method Not
 Allowed) for HTTP OPTIONS requests.
 
-<div>
-
-
-
-</div>
 
 Specifies the name of the attribute in which your SAML IdP stores user
 names. By default, this is set to `username`. If the attribute name that
@@ -2980,11 +2116,6 @@ information, see [Configure Server-Wide
 SAML](https://help.tableau.com/current/server/en-us/config_saml.htm) or [Configure Site-Specific
 SAML](https://help.tableau.com/current/server/en-us/saml_site_specific.htm).
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -3006,22 +2137,12 @@ enable it explicitly. However, even if you can use this option, it
 disables Tableau Server clickjack protection for SAML, so it still
 presents a security risk.
 
-<div>
-
-
-
-</div>
 
 Default value: `3000`
 
 Specifies the maximum number of seconds, from creation, that a SAML
 assertion is usable.
 
-<div>
-
-
-
-</div>
 
 Default value: `180`
 
@@ -3029,33 +2150,18 @@ Sets the maximum number of seconds difference between Tableau Server
 time and the time of the assertion creation (based on the IdP server
 time) that still allows the message to be processed.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
 Controls whether there is a session lifetime for server sessions. Set
 this to `true`to configure a server session lifetime.
 
-<div>
-
-
-
-</div>
 
 Default value: `240`
 
 The number of minutes of idle time before a sign-in to the web
 application times out.
 
-<div>
-
-
-
-</div>
 
 Default value: `1440`
 
@@ -3064,11 +2170,6 @@ set. The default is 1440 minutes (24 hours). If
 `wgserver.session.apply_lifetime_limit` is `false` (the default) this is
 ignored.
 
-<div>
-
-
-
-</div>
 
 Default value: `false`
 
@@ -3078,11 +2179,6 @@ access views only. Setting this to `true` allows users with valid
 trusted tickets to access server resources (projects, workbooks, and so
 on) as if they had signed in using their credentials.
 
-<div>
-
-
-
-</div>
 
 Default value: `80 `(`443 `if SSL)
 
@@ -3091,21 +2187,11 @@ the term used for subsequent server nodes in the cluster).
 worker0.gateway.port is Tableau Server's external port. In a distributed
 environment, worker0 is the initial Tableau Server node.
 
-<div>
-
-
-
-</div>
 
 Default value: \<number\>
 
 Number of VizQL servers.
 
-<div>
-
-
-
-</div>
 
 Specifies the number of transactions necessary to cause the Coordination
 Service to create a snapshot of the logs. By default this value is

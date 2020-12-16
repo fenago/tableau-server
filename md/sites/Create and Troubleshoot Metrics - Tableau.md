@@ -8,7 +8,7 @@ Create and Troubleshoot Metrics
 [Applies to: Tableau Online, Tableau
 Server]{.article__tags--applies-to}\
 []{.article__tags--role}
-:::
+
 
 
 Metrics help you track changes to your data. You can quickly monitor key
@@ -119,11 +119,10 @@ project. For information about managing content on your Tableau site,
 see [Manage Web
 Items](https://help.tableau.com/current/pro/desktop/en-us/qs_content_page.htm).
 
-<div>
+
 
 #### Overwrite a metric
 
-</div>
 
 1.  Create a metric with the same name in the same project as the metric
     you want to overwrite.
@@ -136,11 +135,10 @@ When you overwrite a metric, the metric continues to appear for those
 who have added it to their favorites, and any changes made to
 permissions for the previous metric will apply to the new metric.
 
-<div>
+
 
 #### 
 
-</div>
 
 If you select a mark on a chart that doesn't support metrics, you will
 get an error message explaining why you can't create a metric. The table
@@ -219,12 +217,11 @@ below summarizes these scenarios.
 |                                   | /desktop/en-us/dates_custom.htm). |
 +-----------------------------------+-----------------------------------+
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} How metrics refresh
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### How metrics refresh
+-------------------------------------------------------------------------------------------------
+
 
 When a metric refreshes, it checks the connected view (the view the
 metric was created from) for new data. A refresh doesn't necessarily
@@ -235,12 +232,11 @@ Metrics refresh at a frequency either based on an extract's refresh
 schedule or, for live data, every 60 minutes. The time of the last
 refresh is displayed on the metric.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} []{#fix-failing-refreshes}Fix failing refreshes
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Fix failing refreshes
+---------------------------------------------------------------
+
 
 If a metric isn't able to access the connected view or its underlying
 data, the refresh will fail. If the refresh for your metric fails,
@@ -260,35 +256,32 @@ View] under Metric Details.
 
 ![](./images/metric_details.png)
 
-<div>
+
 
 ####  If the connected view is still listed
 
-</div>
 
 Open the view to investigate the cause of the failure.
 
   Evidence                                                                                                                                                            Cause                                                                                    Solution
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ----------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------
   The workbook prompts for a password or displays an error when connecting to the data source.                                                                        The password for the data source is not embedded or is no longer valid.                  The content owner or a Tableau administrator can edit the data source connection to embed the password. For more information, see [Edit Connections](https://help.tableau.com/current/online/en-us/to_connections_modify.htm).
   You can\'t view the full data, following the instructions on [View Underlying Data](https://help.tableau.com/current/pro/desktop/en-us/inspectdata_viewdata.htm).   You no longer have permission to access to the full data.                                The content owner or a Tableau administrator can change the permissions for the view. For more information, see [Permissions](https://help.tableau.com/current/online/en-us/permissions.htm).
   The measure or date dimension that defines the metric is no longer present.                                                                                         The view has been modified so the metric can\'t connect to the data needed to refresh.   The content owner or a Tableau administrator can check the revision history and restore previous versions. For more information, see [View Revision History](https://help.tableau.com/current/pro/desktop/en-us/qs_revision_history.htm#view-revision-history)
 
-<div>
+
 
 ####  If there is no connected view listed
 
-</div>
 
 The view was deleted or you no longer have permission to access the
 view. Contact your Tableau administrator for assistance.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/metrics_create.htm#){.heading-item__link .print-hidden} Resume suspended refreshes
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Resume suspended refreshes
+--------------------------------------------------------------------------------------------------------
+
 
 If a refresh fails enough times, the refresh is suspended. You'll
 receive an email notification if the refresh for your metric is

@@ -5,14 +5,9 @@ Manage Content Access
 You can manage who can access content on your site and set the
 permissions that govern content ownership.
 
-<div>
+##### Other articles in this section
+-----------------------------------------------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/permissions_section.htm#){.heading-item__link .print-hidden} Other articles in this section
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 -   [Set Web Authoring Access for a
     Site](https://help.tableau.com/current/server/en-us/web_author_enable.htm)

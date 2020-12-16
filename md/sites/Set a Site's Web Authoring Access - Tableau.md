@@ -8,7 +8,7 @@ Set a Site's Web Authoring Access and Functions
 [Applies to: Tableau Online, Tableau
 Server]{.article__tags--applies-to}\
 []{.article__tags--role}
-:::
+
 Tableau Server administrators can specify at the site level whether to
 allow users to edit published views in the web environment and configure
 other web authoring functionality.
@@ -24,14 +24,13 @@ functionality for an entire site. For more granular control over which
 users can use web editing, you can use projects, groups, and
 permissions. See [Set Web Edit, Save, and Download Access on
 Content[(Link opens in a new
-window)]{.sr-only}](https://help.tableau.com/current/server/en-us/web_author_who.htm).
+window)]](https://help.tableau.com/current/server/en-us/web_author_who.htm).
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/web_author_enable.htm#){.heading-item__link .print-hidden} Turn web authoring on or off for a site
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Turn web authoring on or off for a site
+------------------------------------------------------------------------------------------------------------------------
+
 
 1.  In a web browser, sign in to the server as an administrator and go
     to the site in which you want web authoring to be enabled. In that
@@ -51,11 +50,10 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/web_author_who
     Otherwise, the change takes effect after server session caching
     expires or the next time users sign in after signing out.
 
-<div>
+
 
 ####  Notes
 
-</div>
 
 -   When you enable web authoring, make sure that, on the appropriate
     workbooks or views, the permission rule for a user or group allows
@@ -66,12 +64,11 @@ window)]{.sr-only}](https://help.tableau.com/current/server/en-us/web_author_who
     to have authoring access until their session caches expire or they
     sign out.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/web_author_enable.htm#){.heading-item__link .print-hidden} See which sites allow web authoring
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### See which sites allow web authoring
+--------------------------------------------------------------------------------------------------------------------
+
 
 To confirm which sites allow web authoring, on the site-selection menu
 at the top, select [Manage All Sites], and then go to the
@@ -79,12 +76,11 @@ at the top, select [Manage All Sites], and then go to the
 
 ![](./images/web_author_disable3.png)
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/web_author_enable.htm#){.heading-item__link .print-hidden} Configure cross-database join options {#configure-crossdatabase-join-options}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Configure cross-database join options
+----------------------------------------------------------------------------------------------------------------------
+
 
 To improve performance for cross-database joins, users can allow Tableau
 to perform the join using the live database they are connected to
@@ -117,6 +113,6 @@ with web authoring permissions.
         source and supported database. For more information about this
         feature, see [Improve performance for cross-database joins[(Link
         opens in a new
-        window)]{.sr-only}](https://help.tableau.com/current/pro/desktop/en-us/joining_tables.htm#cross_dbase_joins_perf).
+        window)]](https://help.tableau.com/current/pro/desktop/en-us/joining_tables.htm#cross_dbase_joins_perf).
 
         ![](./images/cross_database_join_web.png)

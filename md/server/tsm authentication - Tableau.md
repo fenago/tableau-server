@@ -34,24 +34,22 @@ configure user authentication options for Tableau Server.
     -   disable
     -   enable
 -   [trusted](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#TSMTrusted)
-:::
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#TSMKerb}tsm authentication kerberos \<commands\>
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+
+##### tsm authentication kerberos \<commands\>
+----------------------------------------------------------------------------
+
 
 Enable, disable, and configure Kerberos user authentication on [Tableau
 Server]. See [Configure
 Kerberos](https://help.tableau.com/current/server/en-us/config_kerberos.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication kerberos configure --keytab-file <keytab_file.keytab> [global options]`
 
@@ -59,11 +57,10 @@ Kerberos](https://help.tableau.com/current/server/en-us/config_kerberos.htm).
 
 `tsm authentication kerberos disable [global options]`
 
-<div>
+
 
 #### Options for kerberos configure
 
-</div>
 
 -kt, \--keytab-file \<keytab\_file.keytab\>
 
@@ -71,29 +68,26 @@ Kerberos](https://help.tableau.com/current/server/en-us/config_kerberos.htm).
 
     Specifies the service .keytab file used for requests to the KDC.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#TSMAuthList}tsm authentication list
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication list
+---------------------------------------------------------------
+
 
 List the server's existing authentication-related configuration
 settings.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication list [--verbose][global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 v, \--verbose
 
@@ -101,12 +95,11 @@ Optional.
 
 Show all configured parameters.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#TSMMutualSSL}tsm authentication mutual-ssl \<commands\> {#tsm-authentication-mutualssl-commands}
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication mutual-ssl \<commands\>
+-----------------------------------------------------------------------------------
+
 
 Enable, disable, and configure mutual SSL for user authentication on
 [Tableau Server]. To learn more about mutual SSL,
@@ -118,11 +111,10 @@ external communication. For information, see [Configure SSL for External
 HTTP Traffic to and from Tableau
 Server](https://help.tableau.com/current/server/en-us/ssl_config.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication mutual-ssl configure [options] [global options]`
 
@@ -169,21 +161,19 @@ Optional.
 Specifies the location and file name for the certificate revocation list
 file. This file can be a .pem or .der file.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#TSMOIDC}tsm authentication openid \<commands\>
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication openid \<commands\>
+--------------------------------------------------------------------------
+
 
 Enable, disable, and configure OpenID Connect (OIDC) user authentication
 on [Tableau Server].
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication openid configure [options] [global options]`
 
@@ -306,23 +296,21 @@ Optional. Default: `email`
 Change this value to the IdP claim that your organization will use to
 match user names as stored in Tableau Server.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#TSMsaml}tsm authentication saml \<commands\>
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication saml \<commands\>
+------------------------------------------------------------------------
+
 
 Configure [Tableau Server] to support single-sign
 on using the SAML 2.0 standard, enable or disable SAML for a site, map
 assertion attribute names between [Tableau
 Server] and the identity provider (IdP).
 
-<div>
+
 
 ####  Available commands
 
-</div>
 
 `tsm authentication saml configure  [options] [global options]`
 
@@ -334,12 +322,11 @@ Server] and the identity provider (IdP).
 
 `tsm authentication saml map-assertions [options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#tsm-auth-saml-config}tsm authentication saml configure
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication saml configure
+----------------------------------------------------------------------------------
+
 
 Configure the SAML settings for the server. Specify the SAML certificate
 and metadata files, provide additional required information, set
@@ -351,19 +338,17 @@ disabled it, you must run this command with
 Server-Wide
 SAML](https://help.tableau.com/current/server/en-us/config_saml.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication saml configure [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -e, \--idp-entity-id \<id\>
 
@@ -463,58 +448,52 @@ Optional. Enter the URL to redirect to after users sign out of the
 server. By default this is the Tableau Server sign-in page. You can
 specify an absolute or a relative URL.
 
-<div>
+
 
 ####  Example
 
-</div>
 
 `tsm authentication saml configure --idp-entity-id https://tableau-server --idp-metadata "C:\ProgramData\Tableau\Tableau Server\data\saml\<metadata.xml>" --idp-return-url https://tableau-server --cert-file "C:\ProgramData\Tableau\Tableau Server\data\saml\<file.crt>" --key-file "C:\ProgramData\Tableau\Tableau Server\data\saml\<file.key>"`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} tsm authentication saml enable and saml disable
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication saml enable and saml disable
+-----------------------------------------------------------------------
+
 
 Enable or disable server-wide SAML authentication. In this context, all
 sites and users that you enable for SAML go through a single identity
 provider.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication saml enable  [global options]`
 
 `tsm authentication saml disable  [global options]`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} tsm authentication saml export-metadata {#tsm-authentication-saml-exportmetadata}
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication saml export-metadata
+---------------------------------------------------------------
+
 
 Export the Tableau Server .xml metadata file that you will use to
 configure the SAML IdP.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication saml export-metadata [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -f, \--file \[/path/to/file.xml\]
 
@@ -533,29 +512,26 @@ the default name if `-f` is not included. If a file specified in `-f`
 exists, and `-o` is not included, the command does not overwrite the
 existing file.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} tsm authentication saml map-assertions {#tsm-authentication-saml-mapassertions}
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication saml map-assertions
+----------------------------------------------------------------------------------------------------------------------------
+
 
 Maps attributes between the IdP and Tableau Server. Provide the name
 that the IdP uses for the attribute specified in each argument.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication saml map-assertions --user-name <user-name> [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -r, \--user-name \<user-name-attribute\>
 
@@ -574,20 +550,18 @@ Optional. The attribute in which the IdP stores the domain name.
 
 Not implemented. Do not use.
 
-<div>
+
 
 ####  Example for saml map-assertions 
 
-</div>
 
 `tsm authentication saml map-assertions --email=Email --user-name=DisplayName`
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#TSMsitesaml}tsm authentication sitesaml enable and sitesaml disable
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication sitesaml enable and sitesaml disable
+-----------------------------------------------------------------------------------------------
+
 
 Set the server to allow or disallow SAML authentication at the site
 level. Enabling site-specific SAML gives you access to the
@@ -601,24 +575,18 @@ yet configured the server to allow site-specific SAML. For more
 information, see [Configure Site-Specific
 SAML](https://help.tableau.com/current/server/en-us/saml_site_specific.htm).
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication sitesaml enable  [global options]`
 
 `tsm authentication sitesaml disable  [global options]`
 
-<div>
+##### tsm authentication sspi \<commands\>
+------------------------------------------------------------------------
 
-<div>
-
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#TSMSspi}tsm authentication sspi \<commands\>
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 This command will only work on Tableau Server on Windows. If you attempt
 to enable SSPI on Tableau Server on Linux, an error will be returned.
@@ -634,11 +602,10 @@ Do not enable SSPI if you plan to configure Tableau Server for SAML,
 trusted authentication, a load balancer, or for a proxy server. SSPI is
 not supported in these scenarios.
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication sspi disable [global options]`
 
@@ -647,31 +614,27 @@ not supported in these scenarios.
 As with all authentication commands, you must run
 `tsm pending-changes apply` after running this command.
 
-</div>
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} []{#TSMTrusted}tsm authentication trusted \<commands\>
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### tsm authentication trusted \<commands\>
+------------------------------------------------------------------------------
+
 
 Configure trusted authentication (trusted tickets) for user
 authentication on [Tableau Server].
 
-<div>
+
 
 #### Synopsis
 
-</div>
 
 `tsm authentication trusted configure [options] [global options]`
 
-<div>
+
 
 #### Options
 
-</div>
 
 -th, \--hosts \<string\>
 
@@ -703,12 +666,11 @@ Determines the number of characters in each trusted ticket. The default
 setting of 24 characters provides 144 bits of randomness. The value can
 be set to any integer between 9 and 255, inclusive.
 
-<div>
 
-[[]{.icon--med-lg .icon--arrow-up .heading-item__icon}](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm#){.heading-item__link .print-hidden} Global options
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-</div>
+##### Global options
+----------------------------------------------------------------------------------------------------
+
 
 -h, \--help
 
