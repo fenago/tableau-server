@@ -1,3 +1,5 @@
+<img align="right" src="./images/logo.png">
+
 
 
 Configure SMTP Setup
@@ -31,12 +33,8 @@ certificate validation process. For more information, see the section,
 *Configuration file reference*,in the *Use the TSM CLI* tab below.
 
 
--   [Use the TSM web
-    interface](https://help.tableau.com/current/server/en-us/config_smtp.htm#use-the-tsm-web-interface){#use-the-tsm-web-interface
-    .tabs__tab-link .is-active}
--   [Use the TSM
-    CLI](https://help.tableau.com/current/server/en-us/config_smtp.htm#use-the-tsm-cli){#use-the-tsm-cli
-    .tabs__tab-link}
+- Use the TSM web interface
+- Use the TSM CLI
 
 
 1.  Open TSM in a browser:

@@ -1,4 +1,6 @@
 
+<img align="right" src="./images/logo.png">
+
 
 Configuring Communication with the Internet
 ===========================================

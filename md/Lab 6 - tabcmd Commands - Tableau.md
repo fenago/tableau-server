@@ -1,53 +1,51 @@
+<img align="right" src="./images/logo.png">
+
 
 
 tabcmd Commands
 ===============
 
-Looking for Tableau Server on Linux? See [tabcmd Commands[(Link opens in
-a new
-window)]](https://help.tableau.com/current/server-linux/en-us/tabcmd_cmd.htm "Opens topic in a new browser tab").
+Looking for Tableau Server on Linux? See [tabcmd Commands[(Link opens in a new window)]](https://help.tableau.com/current/server-linux/en-us/tabcmd_cmd.htm "Opens topic in a new browser tab").
+
 
 You can use the following commands with the tabcmd command line tool:
 
-
-[addusers](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id1999d76f-638e-47d4-86ac-fe8e206ed364)
-(to group)\
-[createextracts](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id5a3316ed-45bb-4da4-b557-1111112d4ac8)\
-[creategroup](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idbfa546df-2be7-444f-8bb8-07978b127783)\
-[createproject](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id5a3316ed-45bb-4da4-b557-58492b2d4ac8)\
-[createsite](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id6f434e96-89d1-4aa2-a935-4c22fa1e2506)\
-[createsiteusers](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idd1b7729f-dd20-475a-96f6-17fcd2577894)\
-[createusers](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#ide42a948a-cd9c-4b73-9ef2-3a58eda2d095)\
-[decryptextracts](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#decryptextracts_tabcmd)\
-[delete *workbook-name* or
-*datasource-name*](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idfdf59712-84ed-4590-9471-541d316917a6)\
-[deleteextracts](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id5a3316ed-45bb-4da4-b557-2222222d4ac8)\
-[deletegroup](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id0d009916-bee3-4ef0-a6ac-22188c0e7f30)\
-[deleteproject](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idfdf59712-84ed-4590-9471-541d316917a6)\
-[deletesite](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id54a7f404-5d1b-452e-8273-0ab8396da641)\
-[deletesiteusers](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#deletesiteusers)\
-[deleteusers](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id6a8ef3d6-d17b-4c31-be47-7b09437eeec0)\
-[editdomain](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#editdomain)\
-[editsite](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id06d8e2e0-d7a1-4733-b0df-d1e02f66919b)\
-[encryptextracts](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#encryptextracts_tabcmd)\
-[export](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id7cb8d032-a4ff-43da-9990-15bdfe64bcd0)\
-[get
-*url*](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id7e0a0627-ad89-4135-a1c2-85b1d8472568)\
-[initialuser](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#initialuser)\
-[listdomains](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#listdomains)\
-[listsites](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idc7467cb6-6cef-49bf-9358-a3e4addd5fa0)\
-[login](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id5fba51c9-5608-4520-8ceb-2caf4846a2be)\
-[logout](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id8f512aec-57a4-4ed4-94c4-86e91ea9cc9c)\
-[publish](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#iddf805b62-18ff-4497-9245-adc6905b2084)\
-[publishsamples](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#publishsamples)\
-[reencryptextracts](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#reencryptextracts_tabcmd)\
-[refreshextracts](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id4cdb3410-1c41-4dad-b1d2-306542ac9b32)\
-[removeusers](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id5cc30cba-44b8-48b0-93d6-5707938d157a)\
-[reset\_openid\_sub](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#reset_sub)\
-[runschedule](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idd9d99c44-c9be-4191-9191-402341775a3d)\
-[set](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#idfe12acaf-ed64-4f0c-8eb8-b83c9de12382)\
-[syncgroup](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#ide6a39f29-77ff-44f6-b946-c2b56b31a2f9)\
-[version](https://help.tableau.com/current/server/en-us/tabcmd_cmd.htm#id825f5d18-529c-408a-b876-57693195bbdd)
+addusers (to group)
+createextracts
+creategroup
+createproject
+createsite
+createsiteusers
+createusers
+decryptextracts
+delete workbook-name or datasource-name
+deleteextracts
+deletegroup
+deleteproject
+deletesite
+deletesiteusers
+deleteusers
+editdomain
+editsite
+encryptextracts
+export
+get url
+initialuser
+listdomains
+listsites
+login
+logout
+publish
+publishsamples
+reencryptextracts
+refreshextracts
+removeusers
+reset_openid_sub
+runschedule
+set
+syncgroup
+upgradethumbnails
+version
 
 
 

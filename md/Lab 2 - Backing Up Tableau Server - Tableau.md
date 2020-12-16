@@ -1,3 +1,5 @@
+<img align="right" src="./images/logo.png">
+
 
 
 Backing Up Tableau Server

@@ -1,3 +1,6 @@
+<img align="right" src="./images/logo.png">
+
+
 Help Output for tableau-server-obliterate Script
 ================================================
 The following help content is the output when you run the following

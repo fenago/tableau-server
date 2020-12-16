@@ -1,4 +1,6 @@
 
+<img align="right" src="./images/logo.png">
+
 
 
 #### Tableau Server on Windows Help 

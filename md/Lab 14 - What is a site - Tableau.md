@@ -1,4 +1,6 @@
 
+<img align="right" src="./images/logo.png">
+
 
 What is a site
 ==============

@@ -1,4 +1,6 @@
 
+<img align="right" src="./images/logo.png">
+
 
 Language and Locale for Tableau Server
 ======================================

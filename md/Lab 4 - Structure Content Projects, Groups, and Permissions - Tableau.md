@@ -1,3 +1,4 @@
+<img align="right" src="./images/logo.png">
 
 
 Structure Content Projects, Groups, and Permissions

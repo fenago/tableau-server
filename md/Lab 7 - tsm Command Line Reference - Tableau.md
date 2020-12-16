@@ -1,4 +1,6 @@
 
+<img align="right" src="./images/logo.png">
+
 
 tsm Command Line Reference
 ==========================
@@ -160,66 +162,32 @@ List all top-level commands or categories.
 
 
 
-##### Categories
------------------------------------------------------------------------------
+Following commands are coverd in detail inside "tsm" directory:
 
-
-##### Other articles in this section
--------------------------------------------------------------------------------------------------
-
-
--   [tsm
-    authentication](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.htm)
--   [tsm
-    configuration](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm)
--   [tsm configuration set
-    Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm.htm)
--   [tsm
-    customize](https://help.tableau.com/current/server/en-us/cli_customize.htm)
--   [tsm
-    data-access](https://help.tableau.com/current/server/en-us/cli_data-access.htm)
--   [tsm
-    email](https://help.tableau.com/current/server/en-us/cli_email.htm)
--   [tsm
-    initialize](https://help.tableau.com/current/server/en-us/cli_initialize_tsm.htm)
--   [tsm
-    jobs](https://help.tableau.com/current/server/en-us/cli_jobs_tsm.htm)
--   [tsm
-    licenses](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm)
--   [tsm
-    login](https://help.tableau.com/current/server/en-us/cli_login.htm)
--   [tsm
-    logout](https://help.tableau.com/current/server/en-us/cli_logout.htm)
--   [tsm
-    maintenance](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm)
--   [tsm
-    pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm)
--   [tsm
-    register](https://help.tableau.com/current/server/en-us/cli_register_tsm.htm)
--   [tsm
-    reset](https://help.tableau.com/current/server/en-us/cli_reset_tsm.htm)
--   [tsm
-    restart](https://help.tableau.com/current/server/en-us/cli_restart_tsm.htm)
--   [tsm
-    security](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm)
--   [tsm
-    settings](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm)
--   [tsm
-    sites](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm)
--   [tsm
-    start](https://help.tableau.com/current/server/en-us/cli_start_tsm.htm)
--   [tsm
-    status](https://help.tableau.com/current/server/en-us/cli_status_tsm.htm)
--   [tsm
-    stop](https://help.tableau.com/current/server/en-us/cli_stop_tsm.htm)
--   [tsm
-    topology](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm)
--   [tsm
-    user-identity-store](https://help.tableau.com/current/server/en-us/cli_user-identity_tsm.htm)
--   [tsm
-    version](https://help.tableau.com/current/server/en-us/cli_version_tsm.htm)
--   [tsm File
-    Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.htm)
--   [Migrate from Tabadmin to the TSM
-    CLI](https://help.tableau.com/current/server/en-us/tabadmin_to_tsm_cli.htm)
-
+- tsm authentication
+- tsm configuration
+- tsm configuration set Options
+- tsm customize
+- tsm data-access
+- tsm email
+- tsm initialize
+- tsm jobs
+- tsm licenses
+- tsm login
+- tsm logout
+- tsm maintenance
+- tsm pending-changes
+- tsm register
+- tsm reset
+- tsm restart
+- tsm schedules
+- tsm security
+- tsm settings
+- tsm sites
+- tsm start
+- tsm status
+- tsm stop
+- tsm topology
+- tsm user-identity-store
+- tsm version
+- tsm File Paths
