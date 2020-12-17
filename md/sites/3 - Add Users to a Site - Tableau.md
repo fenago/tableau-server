@@ -15,8 +15,8 @@ have the following options for adding users:
     Directory](https://help.tableau.com/current/server/en-us/groups_create_ad.htm)
 
 -   [Import
-    Users](https://help.tableau.com/current/server/en-us/users_import.htm){.MCXref
-    .xref} via a CSV file that you create using the [CSV Import File
+    Users](https://help.tableau.com/current/server/en-us/users_import.htm)
+ via a CSV file that you create using the [CSV Import File
     Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm)
 
 
@@ -139,8 +139,8 @@ Active Directory user name format influence Tableau user management.
 
 
 -   You can also [Add Users to Tableau
-    Server](https://help.tableau.com/current/server/en-us/users_add.htm){.MCXref
-    .xref}, without site affiliation.
+    Server](https://help.tableau.com/current/server/en-us/users_add.htm)
+, without site affiliation.
 
 -   Upgrading [Tableau Server] to version 2018.1
     or later from a pre-2018.1 version, without activating user-based
@@ -149,6 +149,6 @@ Active Directory user name format influence Tableau user management.
 
     To learn more, see the section "User-based licenses" in the
     [Licensing
-    Overview](https://help.tableau.com/current/server/en-us/license_server_overview.htm#User-based){.MCXref
-    .xref} and see [Set Users' Site
+    Overview](https://help.tableau.com/current/server/en-us/license_server_overview.htm#User-based)
+ and see [Set Users' Site
     Roles](https://help.tableau.com/current/server/en-us/users_site_roles.htm)

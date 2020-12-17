@@ -4,13 +4,6 @@ Format Animations
 =================
 
 
-[Version: 2020.3]{.article__tags--version}\
-[Applies to: Tableau Desktop, Tableau Online, Tableau
-Server]{.article__tags--applies-to}\
-[]{.article__tags--role}
-
-
-
 Animate visualizations to better highlight changing patterns in your
 data, reveal spikes and outliers, and see how data points cluster and
 separate.
@@ -38,9 +31,7 @@ simultaneous or sequential. Here are examples of each type.
 The default simultaneous animations are faster and work well when
 showing value changes in simpler charts and dashboards.
 
-[![](./images/animations.gif){#animations.gif}](javascript:void(0);)\
-[Click the image above to replay the animation.]{.caption}
-
+![](./images/animations.gif)
 
 
 ####  Sequential animations
@@ -49,14 +40,10 @@ showing value changes in simpler charts and dashboards.
 Sequential animations take more time but make complex changes clearer by
 presenting them step-by-step.
 
-[![](./images/animations_sequential.gif){#animations_sequential.gif}](javascript:void(0);)\
-[Click the image above to replay the animation.]{.caption}
-
+![](./images/animations_sequential.gif)
 
 
 ##### Animate visualizations in a workbook 
--------------------------------------------------------------------------------------------------------------------------
-
 
 1.  Choose [Format] \> [Animations].
 

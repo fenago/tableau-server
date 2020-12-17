@@ -335,7 +335,7 @@ and manage Tableau services.
 
 1.  Enter the following command to set the FQDN that clients will use to
     reach Tableau Server through the proxy server, where
-    `name`{style="font-style: italic;"} is the FQDN:
+    `name` is the FQDN:
 
     `tsm configuration set -k gateway.public.host -v "name"`
 
@@ -345,7 +345,7 @@ and manage Tableau services.
     `tsm configuration set -k gateway.public.host -v "tableau.example.com"`
 
 2.  Enter the following command to set the address or the CNAME of the
-    proxy server, where `server_address`{style="font-style: italic;"} is
+    proxy server, where `server_address` is
     the IPv4 address or CNAME value:
 
     `tsm configuration set -k gateway.trusted -v "server_ip_address"`

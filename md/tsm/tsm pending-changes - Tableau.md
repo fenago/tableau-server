@@ -14,14 +14,11 @@ Secrets](https://help.tableau.com/current/server/en-us/security_secret_storage.h
 
 
 -   [tsm pending-changes
-    apply](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-apply){.MCXref
-    .xref}
+    apply](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-apply)
 -   [tsm pending-changes
-    discard](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-discard){.MCXref
-    .xref}
+    discard](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-discard)
 -   [tsm pending-changes
-    list](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-view){.MCXref
-    .xref}
+    list](https://help.tableau.com/current/server/en-us/cli_pending-changes.htm#pending-changes-view)
 
 
 

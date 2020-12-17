@@ -8,23 +8,17 @@ associated files for offline activation or deactivation.
 
 
 -   [tsm licenses
-    activate](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMActivate){.MCXref
-    .xref}
+    activate](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMActivate)
 -   [tsm licenses
-    deactivate](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMDeactivate){.MCXref
-    .xref}
+    deactivate](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMDeactivate)
 -   [tsm licenses
-    get-offline-activation-file](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMActivateFile){.MCXref
-    .xref}
+    get-offline-activation-file](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMActivateFile)
 -   [tsm licenses
-    get-offline-deactivation-file](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMDeactivateFile){.MCXref
-    .xref}
+    get-offline-deactivation-file](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMDeactivateFile)
 -   [tsm licenses
-    list](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMLicenseList){.MCXref
-    .xref}
+    list](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMLicenseList)
 -   [tsm licenses
-    refresh](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMLicenseRefresh){.MCXref
-    .xref}
+    refresh](https://help.tableau.com/current/server/en-us/cli_licenses_tsm.htm#TSMLicenseRefresh)
 
 
 

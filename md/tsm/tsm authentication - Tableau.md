@@ -648,13 +648,13 @@ each value is encapsulated in double-quotes.
 
 For example:
 
-``` {space="preserve"}
+```
 tsm authentication trusted configure -th "192.168.1.101", "192.168.1.102", "192.168.1.103" 
 ```
 
 or
 
-``` {space="preserve"}
+```
 tsm authentication trusted configure -th "webserv1", "webserv2", "webserv3" 
 ```
 

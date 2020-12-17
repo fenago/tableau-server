@@ -19,17 +19,13 @@ Site](https://help.tableau.com/current/server/en-us/sites_exportimport.htm).
 
 
 -   [tsm sites
-    export](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMExport){.MCXref
-    .xref}
+    export](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMExport)
 -   [tsm sites
-    import](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMImport){.MCXref
-    .xref}
+    import](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMImport)
 -   [tsm sites
-    import-verified](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMImportVerified){.MCXref
-    .xref}
+    import-verified](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMImportVerified)
 -   [tsm sites
-    unlock](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMUnlock){.MCXref
-    .xref}
+    unlock](https://help.tableau.com/current/server/en-us/cli_sites_tsm.htm#TSMUnlock)
 
 
 

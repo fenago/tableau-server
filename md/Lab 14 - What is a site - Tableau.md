@@ -4,6 +4,7 @@
 
 What is a site
 ==============
+
 You might be used to using the term *site* to mean "a collection of
 connected computers," or perhaps as the short form of "website." In
 Tableau-speak, we use site to mean a collection of users, groups, and
@@ -22,9 +23,8 @@ content on other sites.
 
 
 
-##### Site administrator tasks
-------------------------------------------------------------------------------------------------------------------
-
+Site administrator tasks
+-------------------------
 
 Where the Server Administrator site role gives a user unrestricted
 access to the entire [Tableau Server] deployment,
@@ -46,28 +46,21 @@ roles allow this level of access):
 
 -   Creating project hierarchies to organize the site's data sources and
     workbooks.
-
     This can include delegating project-level management to project
     leaders.
-
 -   Creating groups and assigning permissions that allow users to access
     only the content they need.
-
 -   Adding and removing users, assigning their site roles.
-
     This is allowed by default on a site; however, a server
     administrator can restrict this access to the server level only.
-
 -   Managing the site's extract and subscription schedules.
-
 -   Monitoring site activity.
 
 
 
 
-##### Steps for setting up your site
-------------------------------------------------------------------------------------------------------------------------
-
+Steps for setting up your site
+-------------------------------------
 
 The table below shows a loose sequence of steps for setting up a site,
 along with links to topics where you can get more information. You can
@@ -83,63 +76,4 @@ remaining users. You can change many site settings after your users are
 working with the site, but try to go in with the intention of minimizing
 post-production changes.
 
-+----------------------+-----------------------------------------------+
-| **Plan**             | To supplement the recommendations above this  |
-|                      | table, get an overview of how the site        |
-|                      | components work together in [Planning a       |
-|                      | Site](https://help.tableau.com/current/       |
-|                      | server/en-us/site_admin_planning.htm){.MCXref |
-|                      | .xref}.                                       |
-+----------------------+-----------------------------------------------+
-| **Configure access** | Work with the server administrator to         |
-|                      | determine how users sign in to the site, and  |
-|                      | configure the site appropriately.             |
-|                      |                                               |
-|                      | For example, if the server is configured for  |
-|                      | single sign-on using SAML, you might          |
-|                      | configure SAML authentication at the site     |
-|                      | level as well.                                |
-+----------------------+-----------------------------------------------+
-| **Create projects    | Projects help you organize content, delegate  |
-| and the permissions  | project-level content management, and manage  |
-| structure**          | permissions effectively. To get started, see  |
-|                      | [Use Projects to Manage Content               |
-|                      | Access](https://help.tableau.c                |
-|                      | om/current/server/en-us/projects.htm){.MCXref |
-|                      | .xref}.                                       |
-+----------------------+-----------------------------------------------+
-| **Add users**        | Determine the users who can sign in to the    |
-|                      | site. See [Add Users to a                     |
-|                      | Site](https://help.tableau.com/cur            |
-|                      | rent/server/en-us/sites_addusers.htm){.MCXref |
-|                      | .xref}.                                       |
-+----------------------+-----------------------------------------------+
-| **Get your data to   | After you create your projects and            |
-| [Tableau             | permissions structure, designate approved     |
-| Server]{.Var         | users for publishing and managing vetted data |
-| iablesProductName}** | sources to the appropriate projects on the    |
-|                      | site.                                         |
-|                      |                                               |
-|                      | In some organizations, people serve in        |
-|                      | multiple Tableau roles. Site administrators   |
-|                      | commonly also are data stewards. By that, we  |
-|                      | mean they create, publish, and manage the     |
-|                      | Tableau data connections. If this is you,     |
-|                      | make sure you are assigned the Site           |
-|                      | Administrator Creator site role.              |
-|                      |                                               |
-|                      | After content is published to the site, you   |
-|                      | can maintain connection information           |
-|                      | (credentials, access tokens) and refresh      |
-|                      | schedules. For more information, see [Refresh |
-|                      | Data on a                                     |
-|                      | Schedule](https://help.tableau.com/c          |
-|                      | urrent/server/en-us/schedule_add.htm){.MCXref |
-|                      | .xref}.                                       |
-+----------------------+-----------------------------------------------+
-| **Analyze site usage | Monitor usage, performance, and other         |
-| and performance**    | metrics. See [Administrative                  |
-|                      | Views](https://help.tableau.co                |
-|                      | m/current/server/en-us/adminview.htm){.MCXref |
-|                      | .xref} .                                      |
-+----------------------+-----------------------------------------------+
+![](./images/2.png)

@@ -8,64 +8,9 @@ tasks like creating regular backups or restoring [Tableau
 Server] from a previously created backup.
 
 
--   [tsm maintenance
-    backup](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm){.MCXref
-    .xref}
--   [tsm maintenance
-    cleanup](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#cleanup){.MCXref
-    .xref}
--   tsm maintenance metadata-services
-    -   [tsm maintenance metadata-services
-        disable](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#cat_disable){.MCXref
-        .xref}
-    -   [tsm maintenance metadata-services
-        enable](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#cat_enable){.MCXref
-        .xref}
-    -   [tsm maintenance metadata-services
-        get-status](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#cat_status){.MCXref
-        .xref}
--   tsm maintenance preflight-check
-    -   [tsm maintenance preflight-check
-        permissions](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsmmaintenance_preflight_perms){.MCXref
-        .xref}
-    -   [tsm maintenance preflight-check
-        ports](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsmmaintenance_preflight_ports){.MCXref
-        .xref}
--   [tsm maintenance
-    reindex-search](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsmmaintenancereindex){.MCXref
-    .xref}
--   [tsm maintenance
-    reset-searchserver](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm_maint_reset_searchsvr){.MCXref
-    .xref}
--   [tsm maintenance
-    restore](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm3){.MCXref
-    .xref}
--   [tsm maintenance
-    send-logs](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsmSendLogs){.MCXref
-    .xref}
--   tsm maintenance snapshot-backup
-    -   [tsm maintenance snapshot-backup
-        complete](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm_snapshot_backup_complete){.MCXref
-        .xref}
-    -   [tsm maintenance snapshot-backup
-        prepare](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm_snapshot_backup_prepare){.MCXref
-        .xref}
-    -   [tsm maintenance snapshot-backup
-        restore](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm_snapshot_restore){.MCXref
-        .xref}
--   [tsm maintenance
-    validate-resources](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsmValidateResources){.MCXref
-    .xref}
--   [tsm maintenance
-    ziplogs](https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm4ziplogs){.MCXref
-    .xref}
-
-
 
 
 ##### tsm maintenance backup
------------------------------------------------------------------------------------------------------------------
-
 
 Creates a backup of the data managed by [Tableau
 Server]. This data includes the Tableau
@@ -264,7 +209,7 @@ Optional.
 
 Delete log files that are older than the `retention-period`. Files in
 the subdirectories under
-`data\tabsvc\logs`{mc-conditions="Product.serverwindows"} will be
+`data\tabsvc\logs` will be
 deleted.
 
 \--log-files-retention \<\# of days\>
@@ -336,7 +281,7 @@ Disabling the Metadata API stops continuous ingestion and indexing of
 information about the content on Tableau Server, deletes the index of
 information about the content published to Tableau Server and assets
 associated with that content, and disables the ability to both query the
-Metadata API and access [Tableau Catalog]{.VariablesDM_catalog}.
+Metadata API and access [Tableau Catalog].
 
 Running this command stops and starts some services used by [Tableau
 Server], which causes certain functionality, such
@@ -347,7 +292,7 @@ as Recommendations, to be temporarily unavailable to your users.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
                         tsm maintenance metadata-services disable
                     
 ```
@@ -374,7 +319,7 @@ Use the `tsm maintenance metadata-services enable` command to enable the
 Tableau Metadata API for Tableau Server.
 
 If Tableau Server is licensed with the [Data Management
-Add-on]{.VariablesDM_sku}, enabling the Metadata API enables Tableau
+Add-on], enabling the Metadata API enables Tableau
 Catalog.
 
 When enabling the Metadata API, information about the content on
@@ -394,7 +339,7 @@ When running this command, keep the following in mind:
 -   A new index of metadata is created and replaces the previous index
     every time this command is used.
 
-For more information about the [Tableau Catalog]{.VariablesDM_catalog},
+For more information about the [Tableau Catalog],
 see, [About Tableau
 Catalog](https://help.tableau.com/current/server/en-us/dm_catalog_overview.htm).
 
@@ -433,7 +378,7 @@ initialized or if the Tableau Metadata API is running or not.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
                         tsm maintenance metadata-services get-status
                     
 ```

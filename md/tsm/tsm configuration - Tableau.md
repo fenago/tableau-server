@@ -22,14 +22,11 @@ Options](https://help.tableau.com/current/server/en-us/cli_configuration-set_tsm
 
 
 -   [tsm configuration
-    get](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#TSMGet){.MCXref
-    .xref}
+    get](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#TSMGet)
 -   [tsm configuration
-    list-dynamic-keys](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#TSMListDynamicKeys){.MCXref
-    .xref}
+    list-dynamic-keys](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#TSMListDynamicKeys)
 -   [tsm configuration
-    set](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#TSMSet){.MCXref
-    .xref}
+    set](https://help.tableau.com/current/server/en-us/cli_configuration_tsm.htm#TSMSet)
 
 
 ##### tsm configuration get

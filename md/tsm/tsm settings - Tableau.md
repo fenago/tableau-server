@@ -7,11 +7,9 @@ configuration values.
 
 
 -   [tsm settings
-    export](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#TSMExport){.MCXref
-    .xref}
+    export](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#TSMExport)
 -   [tsm settings
-    import](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#TSMSet){.MCXref
-    .xref}
+    import](https://help.tableau.com/current/server/en-us/cli_settings_tsm.htm#TSMSet)
 
 
 **Important**: The server configuration file referenced in this topic
@@ -28,8 +26,7 @@ must manage these files manually:
 -   SAML key file
 -   SAML IdP metadata file
 -   The custom certificate installed by [tsm security custom-cert
-    add](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-add){.MCXref
-    .xref}
+    add](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-add)
 -   OpenID.static.file
 -   Kerberos.keytab file
 -   LDAP Kerberos keytab file

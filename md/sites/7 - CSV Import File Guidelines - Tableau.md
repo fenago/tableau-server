@@ -166,63 +166,7 @@ The license level, administrator, and publishing settings for a user
 determine how the user\'s site role is set during the import process.
 The following table shows how the settings are converted to site roles.
 
-+---------------------------+------------------------------------------+
-| CSV settings              | Site role                                |
-+===========================+==========================================+
-| License level=(any)       | Server Administrator. This setting       |
-|                           | applies to Tableau Server only, and it   |
-| Administrator=System\     | is valid only if you are importing users |
-|                           | while managing the server (that is, not  |
-| Publisher=true            | signed in to a specific site).           |
-|                           |                                          |
-|                           | The Server Administrator site role       |
-|                           | always takes a Creator license if one is |
-|                           | available. If no Creator license is      |
-|                           | available, see [Troubleshoot             |
-|                           | Licensing](https://help.tableau.com/curr |
-|                           | ent/server/en-us/unlicensed.htm){.MCXref |
-|                           | .xref} to learn about the way Tableau    |
-|                           | Server handles this.                     |
-+---------------------------+------------------------------------------+
-| License level=Creator or  | Site Administrator Creator or Site       |
-| Explorer                  | Administrator Explorer. This setting is  |
-|                           | valid only if you are importing users    |
-| Administrator=Site        | while signed in to a specific site.      |
-|                           |                                          |
-| Publisher=true            |                                          |
-+---------------------------+------------------------------------------+
-| License level=Creator\    | Creator                                  |
-|                           |                                          |
-| Administrator=None\       |                                          |
-|                           |                                          |
-| Publisher=true            |                                          |
-+---------------------------+------------------------------------------+
-| License level=Explorer\   | Explorer (Can Publish)                   |
-|                           |                                          |
-| Administrator=None\       |                                          |
-|                           |                                          |
-| Publisher=true            |                                          |
-+---------------------------+------------------------------------------+
-| License level=Explorer\   | Explorer                                 |
-|                           |                                          |
-| Administrator=None\       |                                          |
-|                           |                                          |
-| Publisher=false           |                                          |
-+---------------------------+------------------------------------------+
-| License level=Viewer\     | Viewer                                   |
-|                           |                                          |
-| Administrator=None\       |                                          |
-|                           |                                          |
-| Publisher=false           |                                          |
-+---------------------------+------------------------------------------+
-| License level=Unlicensed\ | Unlicensed                               |
-|                           |                                          |
-| Administrator=None\       |                                          |
-|                           |                                          |
-| Publisher=false           |                                          |
-+---------------------------+------------------------------------------+
-
-
+![](./images/3.png)
 
 
 ####  CSV import example for Tableau Server

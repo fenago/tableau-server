@@ -123,12 +123,10 @@ site role allows.
     scenarios, start with the following topics:
 
     [Migrate from Core-Based to Role-Based
-    Licensing](https://help.tableau.com/current/server/en-us/licensing_migrate_from_core.htm){.MCXref
-    .xref}
+    Licensing](https://help.tableau.com/current/server/en-us/licensing_migrate_from_core.htm)
 
     [Troubleshoot
-    Licensing](https://help.tableau.com/current/server/en-us/unlicensed.htm){.MCXref
-    .xref}
+    Licensing](https://help.tableau.com/current/server/en-us/unlicensed.htm)
 
 
 
@@ -166,7 +164,7 @@ Connect to Tableau published data sources or external data, from the
 browser, Tableau Desktop, or Tableau Prep; create and publish new data
 sources; author and publish workbooks.
 
-[Site Administrator Creator]{.Variablessiterole-siteadmin-author}
+[Site Administrator Creator]
 
 \--
 
@@ -182,7 +180,7 @@ allow site administrators to manage users and assign site roles and site
 membership. By default, on Tableau Server, and always on Tableau Online,
 site administrators are allowed these capabilities.
 
-[Creator]{.Variablessiterole-author}
+[Creator]
 
 \--
 
@@ -196,7 +194,7 @@ and use interaction features on published views. Can also connect to
 data from Tableau Prep or Tableau Desktop, publish (upload/save) and
 download flows, workbooks and data sources.
 
-Site roles that use an [Explorer]{.Variablessku-explorer} license
+Site roles that use an [Explorer] license
 
 ---Users with these site roles can access the server from the browser or
 Tableau Mobile.
@@ -318,8 +316,7 @@ Users are assigned the Unlicensed role in the following circumstances:
 The following site roles allow the specified level of publishing access.
 
 -   [Server Administrator] (Tableau Server only); [Site
-    Administrator Creator]; and
-    [[Creator]{.Variablessiterole-author}] allow full
+    Administrator Creator]; and [Creator] allow full
     connecting and publishing access.
 
     This includes connecting to data and publishing new flows, new

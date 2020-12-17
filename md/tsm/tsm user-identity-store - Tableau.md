@@ -41,7 +41,7 @@ Displays identity store group mappings.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm user-identity-store get-group-mappings [global options]
 ```
 
@@ -58,7 +58,7 @@ Displays identity store user mappings.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm user-identity-store get-user-mappings [global options]
 ```
 
@@ -75,7 +75,7 @@ Lists user-identity configuration.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm user-identity-store list [options] [global options]
 ```
 
@@ -103,7 +103,7 @@ Sets identity store connection parameters.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm user-identity-store set-connection --kerbkeytab <kerbkeytab> [options] [global options]
 ```
 
@@ -190,7 +190,7 @@ implement an arbitrary or custom schema.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm user-identity-store set-group-mappings [options] [global options]
 ```
 
@@ -251,7 +251,7 @@ implement an arbitrary or custom schema.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm user-identity-store set-user-mappings --certificate <certificate> [options] [global options]
 ```
 
@@ -329,7 +329,7 @@ Validates configuration for LDAP group mapping.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm user-identity-store verify-group-mappings --verify <group_name> [global options]
 ```
 
@@ -357,7 +357,7 @@ Validates configuration for LDAP user mapping.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm user-identity-store verify-user-mappings --verify <user_name> [global options]
 ```
 

@@ -124,7 +124,7 @@ For more explanation about configuration files, entities, and keys see
 [Configuration File
 Example](https://help.tableau.com/current/server/en-us/config_file_example.htm).
 
-``` {xml:space="preserve"}
+```
  {
     "configKeys": {
      "servercrashupload.enabled": "true",

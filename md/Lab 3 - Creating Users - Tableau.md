@@ -350,8 +350,7 @@ into Tableau Server for each person who can sign in.
     mind for the user, pick [Interactor]. Make a note of the
     user names and passwords, because you'll need to distribute these
     credentials to your users when you [Open for
-    Business!](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_open_for_biz.htm){.MCXref
-    .xref}
+    Business!](https://help.tableau.com/current/guides/everybody-install/en-us/everybody_admin_open_for_biz.htm)
 
     You can also enter an email address for the user. This can be useful
     if you want to enable notifications for users, as we\'ll describe

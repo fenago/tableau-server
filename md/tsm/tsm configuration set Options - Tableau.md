@@ -224,7 +224,7 @@ this setting.
 
 
 Default
-value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\backups\`{mc-conditions="Product.serverwindows"}
+value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\backups\`
 
 The location in which the` tsm maintenance backup` command creates the
 backup. This is also the location where the backup file must be when
@@ -238,7 +238,7 @@ Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.h
 
 
 Default
-value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\log-archives\`{mc-conditions="Product.serverwindows"}
+value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\log-archives\`
 
 The location in which the` tsm maintenance ziplogs` command creates the
 zipped archive. For more information, see [tsm File
@@ -249,7 +249,7 @@ Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.h
 
 
 Default
-value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\siteexports\`{mc-conditions="Product.serverwindows"}
+value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\siteexports\`
 
 The location in which the` tsm sites export` command creates the export
 file. For more information, see [tsm File
@@ -260,7 +260,7 @@ Paths](https://help.tableau.com/current/server/en-us/cli_default_filepaths_tsm.h
 
 
 Default
-value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\siteimports\`{mc-conditions="Product.serverwindows"}
+value: `C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\siteimports\`
 
 The location in which the` tsm sites import` command expects the import
 file to be located. For more information, see [tsm File
@@ -396,7 +396,7 @@ other factors.
 -   8,000 or more data sources: 32 GB
 
 This option was added beginning with [Tableau
-Server]{.VariablesTabsProductServer} version: 2019.1
+Server] version: 2019.1
 
 
 
@@ -931,15 +931,15 @@ should last before they are prompted to activate Tableau again.
 Default value: `false`
 
 Set to true to enable [login-based license
-management]{.VariablesIBA_lowercase}. Set to false to disable
-[login-based license management]{.VariablesIBA_lowercase}.
+management]. Set to false to disable
+[login-based license management].
 
 **Note:** In order to use [login-based license
-management]{.VariablesIBA_lowercase}, you must activate a product key
+management], you must activate a product key
 that is enabled for [login-based license
-management]{.VariablesIBA_lowercase}. You can use the
+management]. You can use the
 `tsm licenses list` to see which product keys have [login-based license
-management]{.VariablesIBA_lowercase} enabled.
+management] enabled.
 
 
 Default value: `15552000`
@@ -1043,7 +1043,7 @@ window)]](https://help.tableau.com/current/prep/en-us/prep_conductor_configure_n
 
 
 
-[]{#metadata_timeout}metadata.query.limits.time
+metadata.query.limits.time
 
 
 Default value: `20`
@@ -1444,11 +1444,11 @@ Specifies the maximum number of cells of data that can be downloaded
 from View Data into a CSV file. By default, there is no limit. Specify
 the number of cells. For example to set a limit of 3 million: 
 
-``` {space="preserve"}
+```
 tsm configuration set -k ServerExportCSVMaxRowsByCols -v 3000000 
 ```
 
-``` {space="preserve"}
+```
 tsm pending-changes apply
 ```
 
@@ -1860,7 +1860,7 @@ Default value: `false`
 Specify whether to ignore initial SQL statements for all data sources.
 Set this to true to ignore initial SQL:
 
-``` {space="preserve"}
+```
 tsm configuration set -k vizqlserver.initialsql.disabled -v true
 ```
 

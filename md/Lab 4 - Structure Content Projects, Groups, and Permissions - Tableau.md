@@ -27,7 +27,7 @@ most of these guidelines for your Tableau Online site as well.
 
 
 
-[]{#groups-projects-perms-content-core}Groups, projects, and permissions: at the core of content management
+Groups, projects, and permissions: at the core of content management
 --------------------------------------------------------------------------
 
 
@@ -79,10 +79,8 @@ Access[(Link opens in a new
 window)]](https://help.tableau.com/current/server/en-us/projects.htm "Opens topic in a new browser tab").
 
 
-
-[]{#permissions-group-example}Project permissions on functional groups (example)
--------------------------------------------------------------------------------------------------------------------------------
-
+Project permissions on functional groups (example)
+--------------------------------------------------
 
 This example shows how group permissions set at the project level
 coordinate with site roles to determine who (which groups) are allowed
@@ -124,8 +122,8 @@ roles to accommodate these three user types.
 
 
 
-[]{#content-mgt-walkthrough}Walkthrough of a common content-management approach
-------------------------------------------------------------------------------------------------------------------------------
+Walkthrough of a common content-management approach
+-----------------------------------------------------
 
 
 To show you how projects and permissions work, we'll walk you through
@@ -497,9 +495,8 @@ it?
 
 
 
-[]{#view-test}View and test your work
-------------------------------------------------------------------------------------
-
+View and test your work
+------------------------------
 
 Let's check your work. The following images show what you'll see in the
 [Permissions] pane when you're done setting permissions for
@@ -537,10 +534,8 @@ that you have not granted them access to.
 
 
 
-[]{#next-level-content}Next-level content management
----------------------------------------------------------------------------------------------------
-
-
+Next-level content management
+----------------------------------
 This is the end of the walkthrough. You stuck it out til the end!
 
 Now you're ready to try this with your real world permissions scenarios.

@@ -11,64 +11,46 @@ browsers---to the repository.
 
 -   tsm security custom-cert
     -   [tsm security custom-cert
-        add](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-add){.MCXref
-        .xref}
+        add](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-add)
     -   [tsm security custom-cert
-        delete](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-delete){.MCXref
-        .xref}
+        delete](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-delete)
     -   [tsm security custom-cert
-        list](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-list){.MCXref
-        .xref}
+        list](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#custom-cert-list)
 -   tsm security external-ssl
     -   [tsm security external-ssl
-        disable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#external-ssl-disable){.MCXref
-        .xref}
+        disable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#external-ssl-disable)
     -   [tsm security external-ssl
-        enable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#external-ssl-enable){.MCXref
-        .xref}
+        enable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#external-ssl-enable)
     -   [tsm security external-ssl
-        list](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#external-ssl-list){.MCXref
-        .xref}
+        list](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#external-ssl-list)
 -   tsm security kms
     -   [tsm security kms set-mode
-        aws](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#kms-set-aws){.MCXref
-        .xref}
+        aws](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#kms-set-aws)
     -   [tsm security kms set-mode
-        local](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#kms-set-local){.MCXref
-        .xref}
+        local](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#kms-set-local)
     -   [tsm security kms
-        status](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#kms-status){.MCXref
-        .xref}
+        status](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#kms-status)
 -   tsm security maestro-rserve-ssl
     -   [tsm security maestro-rserve-ssl
-        disable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#maestro-rserve-ssl-disable){.MCXref
-        .xref}
+        disable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#maestro-rserve-ssl-disable)
     -   [tsm security maestro-rserve-ssl
-        enable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#maestro-rserve-ssl-enable){.MCXref
-        .xref}
+        enable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#maestro-rserve-ssl-enable)
 -   tsm security maestro-tabpy-ssl
     -   [tsm security maestro-tabpy-ssl
-        disable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#maestro-tabpy-ssl-disable){.MCXref
-        .xref}
+        disable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#maestro-tabpy-ssl-disable)
     -   [tsm security maestro-tabpy-ssl
-        enable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#maestro-tabpy-ssl-enable){.MCXref
-        .xref}
+        enable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#maestro-tabpy-ssl-enable)
 -   [tsm security
-    regenerate-internal-tokens](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#regenerate-tokens){.MCXref
-    .xref}
+    regenerate-internal-tokens](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#regenerate-tokens)
 -   tsm security repository-ssl
     -   [tsm security repository-ssl
-        disable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#postgres-ssl-disable){.MCXref
-        .xref}
+        disable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#postgres-ssl-disable)
     -   [tsm security repository-ssl
-        enable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#postres-ssl-enable){.MCXref
-        .xref}
+        enable](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#postres-ssl-enable)
     -   [tsm security repository-ssl
-        get-certificate-file](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#postgres-ssl-cert){.MCXref
-        .xref}
+        get-certificate-file](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#postgres-ssl-cert)
     -   [tsm security repository-ssl
-        list](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#postgres-ssl-list){.MCXref
-        .xref}
+        list](https://help.tableau.com/current/server/en-us/cli_security_tsm.htm#postgres-ssl-list)
 -   As of the 2020.2 release, to configure Rserve and TabPy analytics
     extensions, use the Tableau Server admin pages. See [Configure
     Connection with Analytics
@@ -104,7 +86,7 @@ commands](https://help.tableau.com/current/server/en-us/cli_authentication_tsm.h
 
 
 Adds a custom CA certificate to [Tableau
-Server]{.VariablesTabsProductServer}. This certificate is optionally
+Server]. This certificate is optionally
 used to establish trust for TLS communication between a SMTP server and
 Tableau Server.
 

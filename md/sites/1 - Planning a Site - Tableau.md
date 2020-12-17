@@ -106,9 +106,9 @@ sketch out a mapping of permissions to users outside of Tableau before
 you try to set this up on the server.
 
 Permissions determine what a user can do *within the context of the site
-role*. A user whose site role is **[Viewer]{.Variablessiterole-basic}**
+role*. A user whose site role is **[Viewer]**
 can never publish to the site, regardless of the permissions you grant
-them. A user whose site role is **[Creator]{.Variablessiterole-author}**
+them. A user whose site role is **[Creator]**
 can publish a workbook to the site, but only if that user has permission
 to save and view workbooks.
 

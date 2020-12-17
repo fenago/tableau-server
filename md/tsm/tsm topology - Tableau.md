@@ -19,9 +19,8 @@ pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-chang
         -   [external-services storage
             disable](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMExternalStorageDisable)
         -   [tsm topology external-services storage
-            enable](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMExternalStorageEnable){.MCXref
-            .xref}
-    -   [list](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#tsmExteranalServicesList)
+            enable](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMExternalStorageEnable)
+            -   [list](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#tsmExteranalServicesList)
     -   repository
         -   [disable](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMExternalRepoDisable)
         -   [enable](https://help.tableau.com/current/server/en-us/cli_topology_tsm.htm#TSMExternalRepoEnable)
@@ -152,7 +151,7 @@ Server.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm topology external-services storage disable [options] [global options]
 ```
 
@@ -185,7 +184,7 @@ uses SAN or NAS to store File Store data.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm topology external-services storage enable [options] [global options]
 ```
 
@@ -338,8 +337,7 @@ This command can be used in the following scenarios:
 -   Disaster recovery: Use this to connect to a new RDS instance in
     disaster recovery scenarios. For more information, see [Create a
     PostgreSQL DB Instance on AWS Relational Database Service
-    (RDS)](https://help.tableau.com/current/server/en-us/server_external_repo_configure_RDS.htm#disaster-recovery-postgreSQL_DB){.MCXref
-    .xref}
+    (RDS)](https://help.tableau.com/current/server/en-us/server_external_repo_configure_RDS.htm#disaster-recovery-postgreSQL_DB)
 
  
 
@@ -538,7 +536,7 @@ node.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm topology list-nodes [options] [global options]
 ```
 
@@ -570,7 +568,7 @@ Display the ports in the cluster.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm topology list-ports [options] [global options]
 ```
 
@@ -679,7 +677,7 @@ on it, run `tsm pending-changes apply`, and then remove the node.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm topology remove-nodes --nodes <nodeID,nodeID,...> [global options]
 ```
 
@@ -718,7 +716,7 @@ pending-changes](https://help.tableau.com/current/server/en-us/cli_pending-chang
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm topology set-node-role [options] [global options]
 ```
 
@@ -787,7 +785,7 @@ Set the ports for a service instance.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm topology set-ports --node-name <nodeID> --port-name <port_name> --port-value <port_value> [options] [global options]
 ```
 
@@ -863,7 +861,7 @@ Processes](https://help.tableau.com/current/server/en-us/processes.htm).
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm topology set-process --count <process_count> --node <nodeID> --process <process_name> [global options]
 ```
 
@@ -917,7 +915,7 @@ new ensemble. There is no need to run this command separately.
 #### Synopsis
 
 
-``` {space="preserve"}
+```
 tsm topology toggle-coordination-service [option] [global options]
 ```
 

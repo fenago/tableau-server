@@ -41,8 +41,8 @@ manage users:
     [Email], and **Password** for users after they have been
     added. If you are making many changes, you may find it easier to
     import the changes from a CSV file. For details, see [Import
-    Users](https://help.tableau.com/current/server/en-us/users_import.htm){.MCXref
-    .xref} and [CSV Import File
+    Users](https://help.tableau.com/current/server/en-us/users_import.htm)
+ and [CSV Import File
     Guidelines](https://help.tableau.com/current/server/en-us/csvguidelines.htm)
 
 

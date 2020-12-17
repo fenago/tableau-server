@@ -4,7 +4,7 @@
 Running Setup
 =============
 This chapter describes how to install Tableau Server
-[2020.3]{.VariablesVersion} on Windows and perform essential
+[2020.3] on Windows and perform essential
 configuration steps to get the server up and running. Installing the
 software is the first step to sharing and connecting to workbooks. Later
 chapters of this guide describe how to configure Tableau Server so users
@@ -15,7 +15,7 @@ opens in a new
 window)]](https://help.tableau.com/current/server/en-us/upgrade.htm).
 
 The *Everybody\'s Install Guide* is only published for the current
-version ([2020.3]{.VariablesVersion}) of Tableau Server. If you want to
+version ([2020.3]) of Tableau Server. If you want to
 install an earlier version of Tableau Server, refer to the deployment
 content for the version that you wish to install. See [Archived Help
 Content[(Link opens in a new
@@ -62,7 +62,7 @@ a few things you must do before you proceed.
 ###  Make sure you have the right version of Tableau Server software 
 
 Our recommendation is this: use the same version (for example,
-[2020.3]{.VariablesVersion}) of Tableau Desktop and Tableau Server
+[2020.3]) of Tableau Desktop and Tableau Server
 across your organization. To get the latest version of Tableau Server
 software, go to the [Customer Portal[(Link opens in a new
 window)]](http://customer.tableau.com/). When you purchase
