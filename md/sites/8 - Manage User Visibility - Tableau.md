@@ -34,6 +34,7 @@ The following is a list of site areas impacted when User Visibility is
 set to Limited. Unless noted that the feature is disabled for all users,
 only non-administrator Explorers or Viewers are impacted.
 
+<pre>
 +----------------------------------+----------------------------------+
 | Area                             | Impact                           |
 +----------------------------------+----------------------------------+
@@ -87,6 +88,8 @@ only non-administrator Explorers or Viewers are impacted.
 | Tableau Catalog (with Data       | User information not displayed   |
 | Management Add-on)               |                                  |
 +----------------------------------+----------------------------------+
+</pre>
+
 
 When User Visibility is set to Limited, Tableau Server REST API and
 Metdata API calls behave as described in the table above.

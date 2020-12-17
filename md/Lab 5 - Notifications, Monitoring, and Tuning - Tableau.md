@@ -315,6 +315,8 @@ running when you create the data collector set.
     The following table lists some performance counters that we
     recommend for tracking Tableau Server performance.
 
+
+<pre>
     +----------------------+----------------------+----------------------+
     | Category             | Performance Counters | Notes                |
     +======================+======================+======================+
@@ -373,6 +375,7 @@ running when you create the data collector set.
     |                      |                      |    `run-vizqlserver` |
     |                      |                      |     (VizQL Server)   |
     +----------------------+----------------------+----------------------+
+</pre>
 
     To select each performance counter:
 
